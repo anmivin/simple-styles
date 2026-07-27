@@ -1,0 +1,40 @@
+[
+
+    {
+        "name": "Camp",
+        "filename": "camp.png",
+        "imageUrl": "https://static.wikia.nocookie.net/aesthetics/images/7/76/Campy_moodb.png",
+        "galleryId": 3
+    },
+    {
+        "name": "Grandparentcore",
+        "filename": "grandparentcore.png",
+        "imageUrl": "https://static.wikia.nocookie.net/aesthetics/images/7/7d/Grandmacore_moodb.png",
+        "galleryId": 7
+    },
+    {
+        "name": "Honeycore",
+        "filename": "honeycore.png",
+        "imageUrl": "https://static.wikia.nocookie.net/aesthetics/images/4/47/Honeycore_moodb.png",
+        "galleryId": 8
+    },
+
+    {
+        "name": "Jojifuku",
+        "filename": "jojifuku.png",
+        "imageUrl": "https://static.wikia.nocookie.net/aesthetics/images/e/e9/Jojifuku_moodb.png"
+    },
+
+    {
+        "name": "Laborwave",
+        "filename": "laborwave.png",
+        "imageUrl": "https://static.wikia.nocookie.net/aesthetics/images/d/de/Laborwave_moodb.png"
+    },
+    {
+        "name": "Late 2000s Elementary School",
+        "filename": "late_2000s_elementary_school.png",
+        "imageUrl": "https://static.wikia.nocookie.net/aesthetics/images/c/c8/2000s_elementary_school_moodb.png"
+    },
+
+
+]

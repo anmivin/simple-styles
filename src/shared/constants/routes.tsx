@@ -1,10 +1,12 @@
 import type { ReactElement } from "react";
+import Aesthetics from '@pages/Aesthetics'
 import Beauty from "@pages/Beauty";
 import Looks from "@pages/Looks";
 import Upcycling from "@pages/Upcycling";
 import Wardrobe from "@pages/Wardrobe";
 
 export const Paths = {
+  aesthetics: "/aesthetics",
   beauty: "/beauty",
   looks: "/looks",
   upcycling: "/upcycling",
@@ -43,5 +45,12 @@ export const routes: RoutesProps[] = [
     link: Paths.upcycling,
     Component: Upcycling,
     name: "Апсайклинг",
+  },
+
+    {
+    key: "",
+    link: Paths.aesthetics,
+    Component: Aesthetics,
+    name: "Эстетики",
   },
 ];

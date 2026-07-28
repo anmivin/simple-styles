@@ -11,6 +11,15 @@ import categories from '../../categories.json';
 import images from '../../images_metadata.json';
 const Layout = ({ children }: { children: ReactNode }) => {
   const path = useLocation();
+  function sanitizeFilename(name) {
+    return name
+      .toLowerCase()
+      .replace(/\s+/g, '_') // Replace spaces with underscores
+      .replace(/[^a-z0-9_\-\.]/g, '') // Remove special characters
+      .replace(/_+/g, '_') // Replace multiple underscores
+      .replace(/^_|_$/g, ''); // Remove leading/trailing underscores
+  }
+
   const onClick = () => {
     console.log(
       all.map((ae) => {
@@ -19,7 +28,13 @@ const Layout = ({ children }: { children: ReactNode }) => {
         const flatSections = ae.sections.map((s) => {
           const [first, ...last] = s;
           for (let i = 0; i < last.length; i = i + 2) {
-            metadata[first][last[i]] = last[i + 1];
+            if (!metadata[first]) metadata[first] = {};
+            let data = last[i + 1];
+            console.log(first);
+            if (first === 'Connections') {
+              data = data.split(/(?<=[a-z])(?=[A-Z])/).map((nan) => sanitizeFilename(nan));
+            }
+            metadata[first][last[i]] = data;
           }
         });
 
@@ -29,6 +44,7 @@ const Layout = ({ children }: { children: ReactNode }) => {
         return {
           url: ae.url,
           name: ae.name,
+          id: sanitizeFilename(ae.name),
           filename: imData?.filename,
           imageUrl: imData?.imageUrl,
           description: ae.firstThreeParagraphs.join(' '),
@@ -42,7 +58,6 @@ const Layout = ({ children }: { children: ReactNode }) => {
 
   return (
     <>
-      <Button onClick={onClick}>дооо</Button>
       <Flex
         style={{
           backgroundColor: '',

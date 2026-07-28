@@ -1,64 +1,100 @@
-import { Button, Flex } from 'antd';
-import type { ReactNode } from 'react';
+import { useCallback, useMemo, type ReactNode } from 'react';
 
-import { Link } from 'react-router-dom';
-import { useLocation } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 
-import { routes } from '@shared/constants/routes';
+import { Paths, routes } from '@shared/constants/routes';
 
-import all from '../../test_results.json';
-import categories from '../../categories.json';
-import images from '../../images_metadata.json';
+import { LaptopOutlined, NotificationOutlined, UserOutlined } from '@ant-design/icons';
+import type { MenuProps } from 'antd';
+import { Breadcrumb, Layout as AntLayout, Menu } from 'antd';
+import { CategoriesView } from '@shared/constants/labels';
+import useWardrobe from '@shared/stores/wardrobe.store';
+import type { CategoryVariants } from '@shared/types';
+
+const { Header, Content, Sider } = AntLayout;
+
 const Layout = ({ children }: { children: ReactNode }) => {
-  const path = useLocation();
-  const onClick = () => {
-    console.log(
-      all.map((ae) => {
-        const imData = images.find((im) => im.name === ae.name);
-        const metadata = {};
-        const flatSections = ae.sections.map((s) => {
-          const [first, ...last] = s;
-          for (let i = 0; i < last.length; i = i + 2) {
-            metadata[first][last[i]] = last[i + 1];
-          }
-        });
+  const setItem = useWardrobe((state) => state.setCurrentType);
+  const { pathname } = useLocation();
 
-        const cats = Object.entries(categories)
-          .filter(([k, v]) => v.includes(ae.name))
-          .map(([k, v]) => k);
-        return {
-          url: ae.url,
-          name: ae.name,
-          filename: imData?.filename,
-          imageUrl: imData?.imageUrl,
-          description: ae.firstThreeParagraphs.join(' '),
-          metadata,
-          categories: cats,
-          isVisible: cats.includes('fashion_styles') || cats.includes('fashion'),
-        };
-      }),
-    );
-  };
+  const items1: MenuProps['items'] = routes.slice(0, routes.length - 1).map((route) => ({
+    key: route.key,
+    label: (
+      <Link to={route.link} key={route.link}>
+        {route.name}
+      </Link>
+    ),
+  }));
+
+  const items2: MenuProps['items'] = useMemo(() => {
+    switch (pathname) {
+      case Paths.wardrobe:
+        return Object.entries(CategoriesView).map(([key, val]) => {
+          return {
+            key,
+            /*  icon: React.createElement(icon), */
+            label: val.label,
+          };
+        });
+      case Paths.aesthetics:
+        return [
+          {
+            key: '1',
+            label: '',
+          },
+        ];
+    }
+  }, [pathname]);
+
+  const subMenuOnClick = useCallback(
+    (key: string) => {
+      switch (pathname) {
+        case Paths.wardrobe:
+          return setItem(key as CategoryVariants);
+        case Paths.aesthetics:
+          return () => {};
+      }
+    },
+    [pathname],
+  );
 
   return (
-    <>
-      <Button onClick={onClick}>дооо</Button>
-      <Flex
-        style={{
-          backgroundColor: '',
-          position: 'fixed',
-          top: '0px',
-          width: '100%',
-        }}
-      >
-        {routes.map((route) => (
-          <Link to={route.link} key={route.link}>
-            <Button color={path.pathname === route.link ? 'blue' : 'lime'}>{route.name}</Button>
-          </Link>
-        ))}
-      </Flex>
-      <Flex style={{ padding: '30px 0px' }}> {children}</Flex>
-    </>
+    <AntLayout>
+      <Header style={{ display: 'flex', alignItems: 'center' }}>
+        <Menu
+          theme="dark"
+          mode="horizontal"
+          defaultSelectedKeys={['2']}
+          items={items1}
+          style={{ flex: 1, minWidth: 0 }}
+        />
+        <Link to={Paths.profile} key={'profile'}>
+          <UserOutlined />
+        </Link>
+      </Header>
+      <AntLayout>
+        <Sider width={200}>
+          <Menu
+            mode="inline"
+            style={{ height: '100%', borderInlineEnd: 0 }}
+            items={items2}
+            onClick={(e) => subMenuOnClick(e.key)}
+          />
+        </Sider>
+        <AntLayout style={{ padding: '0 24px 24px', height: '100%' }}>
+          <Content
+            style={{
+              padding: 24,
+              margin: 0,
+              minHeight: 280,
+              borderRadius: '2px',
+            }}
+          >
+            {children}
+          </Content>
+        </AntLayout>
+      </AntLayout>
+    </AntLayout>
   );
 };
 

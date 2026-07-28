@@ -1,26 +1,25 @@
-import { Flex, Image, Tooltip, Typography } from "antd";
-import type { ItemProps } from "../shared/types";
+import { Flex, Image, Tooltip, Typography } from 'antd';
+import type { ItemProps } from '../shared/types';
+import { InfoCircleOutlined } from '@ant-design/icons';
 
 export interface ItemCardProps extends ItemProps {}
-const ItemCard = ({
-  id,
-  category,
-  subcategory,
-  url,
-  comment,
-}: ItemCardProps) => {
+const ItemCard = ({ id, category, subcategory, url, comment }: ItemCardProps) => {
   return (
     <Flex
       style={{
         padding: `8px 16px`,
-        border: "1px solid blue",
-        borderRadius: "8px",
+        border: '1px solid blue',
+        borderRadius: '8px',
       }}
       vertical
     >
       <Flex justify="space-between">
         <Typography.Text>name</Typography.Text>
-        {comment && <Tooltip title={comment}>!</Tooltip>}
+        {comment && (
+          <Tooltip title={comment}>
+            <InfoCircleOutlined />
+          </Tooltip>
+        )}
       </Flex>
       <Image
         alt="basic image"

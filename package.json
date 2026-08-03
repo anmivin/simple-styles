@@ -10,10 +10,15 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@ant-design/icons": "^6.3.2",
+    "@types/gapi": "^0.0.47",
     "antd": "^6.5.2",
+    "gapi-script": "^1.2.0",
     "react": "^19.2.6",
     "react-dom": "^19.2.6",
-    "react-router-dom": "^7.18.1"
+    "react-router-dom": "^7.18.1",
+    "styled-components": "^6.4.4",
+    "zustand": "^5.0.14"
   },
   "devDependencies": {
     "@eslint/js": "^10.0.1",

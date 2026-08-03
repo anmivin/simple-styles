@@ -2,47 +2,47 @@ import {
   Checkbox,
   Flex,
   Input,
-  Modal,
+  Drawer,
   Select,
   Typography,
   message,
   Upload,
   type CheckboxProps,
   type InputProps,
-  type ModalProps,
   type SelectProps,
   type GetProp,
   type UploadProps,
-} from "antd";
+  type DrawerProps,
+} from 'antd';
 
-import { LoadingOutlined, PlusOutlined } from "@ant-design/icons";
+import { LoadingOutlined, PlusOutlined } from '@ant-design/icons';
 
-import { ModalVariants } from "../shared/types";
-import { CategoriesView } from "../shared/constants/labels";
-import { useState } from "react";
+import { ModalVariants } from '../shared/types';
+import { CategoriesView } from '../shared/constants/labels';
+import { useState } from 'react';
 
-export interface ItemModalProps extends ModalProps {
+export interface ItemModalProps extends DrawerProps {
   mode: ModalVariants;
 }
 
-type FileType = Parameters<GetProp<UploadProps, "beforeUpload">>[0];
+type FileType = Parameters<GetProp<UploadProps, 'beforeUpload'>>[0];
 
 const getBase64 = (img: FileType, callback: (url: string) => void) => {
   const reader = new FileReader();
-  reader.addEventListener("load", () => callback(reader.result as string));
+  reader.addEventListener('load', () => callback(reader.result as string));
   reader.readAsDataURL(img);
 };
 
 const ItemModal = ({ mode, ...props }: ItemModalProps) => {
-  const onChangeCheckbox: CheckboxProps["onChange"] = (e) => {
+  const onChangeCheckbox: CheckboxProps['onChange'] = (e) => {
     console.log(`checked = ${e.target.checked}`);
   };
 
-  const onChangeSelect: SelectProps["onChange"] = (value: string) => {
+  const onChangeSelect: SelectProps['onChange'] = (value: string) => {
     console.log(`selected ${value}`);
   };
 
-  const onChangeInput: InputProps["onChange"] = (e) => {
+  const onChangeInput: InputProps['onChange'] = (e) => {
     console.log(`checked = ${e.target.value}`);
   };
 
@@ -51,23 +51,23 @@ const ItemModal = ({ mode, ...props }: ItemModalProps) => {
   const [imageUrl, setImageUrl] = useState<string>();
 
   const beforeUpload = (file: FileType) => {
-    const isJpgOrPng = file.type === "image/jpeg" || file.type === "image/png";
+    const isJpgOrPng = file.type === 'image/jpeg' || file.type === 'image/png';
     if (!isJpgOrPng) {
-      messageApi.error("You can only upload JPG/PNG file!");
+      messageApi.error('You can only upload JPG/PNG file!');
     }
     const isLt2M = file.size / 1024 / 1024 < 2;
     if (!isLt2M) {
-      messageApi.error("Image must smaller than 2MB!");
+      messageApi.error('Image must smaller than 2MB!');
     }
     return isJpgOrPng && isLt2M;
   };
 
-  const handleChange: UploadProps["onChange"] = (info) => {
-    if (info.file.status === "uploading") {
+  const handleChange: UploadProps['onChange'] = (info) => {
+    if (info.file.status === 'uploading') {
       setLoading(true);
       return;
     }
-    if (info.file.status === "done") {
+    if (info.file.status === 'done') {
       // Get this url from response in real world.
       getBase64(info.file.originFileObj as FileType, (url) => {
         setLoading(false);
@@ -77,16 +77,13 @@ const ItemModal = ({ mode, ...props }: ItemModalProps) => {
   };
 
   const uploadButton = (
-    <button style={{ border: 0, background: "none" }} type="button">
+    <button style={{ border: 0, background: 'none' }} type="button">
       {loading ? <LoadingOutlined /> : <PlusOutlined />}
     </button>
   );
 
   return (
-    <Modal
-      title={`${mode === ModalVariants.CREATE ? "Создание" : "Редактирования"} `}
-      {...props}
-    >
+    <Drawer title={`${mode === ModalVariants.CREATE ? 'Создание' : 'Редактирования'} `} mask={false} {...props}>
       {contextHolder}
 
       <Flex vertical gap={2}>
@@ -99,16 +96,7 @@ const ItemModal = ({ mode, ...props }: ItemModalProps) => {
           beforeUpload={beforeUpload}
           onChange={handleChange}
         >
-          {imageUrl ? (
-            <img
-              draggable={false}
-              src={imageUrl}
-              alt="avatar"
-              style={{ width: "100%" }}
-            />
-          ) : (
-            uploadButton
-          )}
+          {imageUrl ? <img draggable={false} src={imageUrl} alt="avatar" style={{ width: '100%' }} /> : uploadButton}
         </Upload>
         <Typography.Text>Название</Typography.Text>
         <Input onChange={onChangeInput} />
@@ -122,7 +110,7 @@ const ItemModal = ({ mode, ...props }: ItemModalProps) => {
         />
         <Checkbox onChange={onChangeCheckbox}>Не приобретено</Checkbox>
       </Flex>
-    </Modal>
+    </Drawer>
   );
 };
 

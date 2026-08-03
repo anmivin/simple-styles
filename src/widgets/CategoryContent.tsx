@@ -1,16 +1,19 @@
-import { Typography, Empty, Flex } from "antd";
-import type { ItemProps } from "../shared/types";
-import ItemCard from "../entities/ItemCard";
+import { Typography, Empty, Flex } from 'antd';
+import type { ItemProps } from '../shared/types';
+import ItemCard from '../entities/ItemCard';
+import useWardrobe from '@shared/stores/wardrobe.store';
+import { CategoriesView } from '@shared/constants/labels';
 
 export interface CategoryContentProps {
   label: string;
   items: ItemProps[];
 }
 
-const CategoryContent = ({ label, items }: CategoryContentProps) => {
+const CategoryContent = () => {
+  const { currentType, items } = useWardrobe((state) => state);
   return (
     <Flex vertical>
-      <Typography.Text>{label}</Typography.Text>
+      <Typography.Text>{CategoriesView[currentType].label}</Typography.Text>
       <Flex gap={4} wrap>
         {!items.length && <Empty />}
         {items.map((item) => (

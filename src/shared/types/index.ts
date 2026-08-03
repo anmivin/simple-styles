@@ -1,11 +1,11 @@
 export enum CategoryVariants {
-  TOP = "TOP",
-  BOTTOM = "BOTTOM",
-  OVERALL = "OVERALL",
-  SHOES = "SHOES",
-  ACCESSORY = "ACCESSORY",
-  OUTWEAR = "OUTWEAR",
-  JEWELRY = "JEWELRY",
+  TOP = 'TOP',
+  BOTTOM = 'BOTTOM',
+  OVERALL = 'OVERALL',
+  SHOES = 'SHOES',
+  ACCESSORY = 'ACCESSORY',
+  OUTWEAR = 'OUTWEAR',
+  JEWELRY = 'JEWELRY',
 }
 
 export interface CategoryProps {
@@ -25,6 +25,8 @@ export interface ItemProps {
   subcategory: SubCategoryProps;
   url: string;
   comment?: string;
+  toUpcycle?: boolean;
+  notOwned?: boolean;
 }
 
 export interface LookItemProps {
@@ -37,6 +39,6 @@ export interface LookProps {
 }
 
 export enum ModalVariants {
-  CREATE = "CREATE",
-  UPDATE = "UPDATE",
+  CREATE = 'CREATE',
+  UPDATE = 'UPDATE',
 }

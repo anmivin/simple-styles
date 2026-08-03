@@ -1,6 +1,6 @@
 import { Flex, Image, Tooltip, Typography } from 'antd';
 import type { ItemProps } from '../shared/types';
-import { InfoCircleOutlined } from '@ant-design/icons';
+import { InfoCircleOutlined, ReloadOutlined, PercentageOutlined, LockOutlined } from '@ant-design/icons';
 
 export interface ItemCardProps extends ItemProps {}
 const ItemCard = ({ id, category, subcategory, url, comment }: ItemCardProps) => {

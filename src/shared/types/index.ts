@@ -48,27 +48,37 @@ export interface AestheticProps {
   url: string;
   name: string;
   id: string;
+  imageUrl: string;
   description: string;
-  metadata: {
-    Origins: {
-      'Other names': string;
-      'Decade of origin': string;
-      'Location of origin': string;
-      'Creator(s)'?: undefined;
-      'Coined by'?: undefined;
-    };
-    'Visuals & Themes': {
-      'Key motifs': string;
-      'Key colours': string;
-      'Key values': string;
-    };
-    Connections: {
-      Relatedaesthetics: string[];
-      Overlapswith?: undefined;
-      Subgenres?: undefined;
-    };
-  };
   categories: string[];
   isVisible: boolean;
-  imageUrl?: undefined;
+  metadata: {
+    origins?: {
+      otherNames?: string[];
+      decade?: string[];
+      location?: string[];
+      creator?: string[];
+    };
+
+    visualThemes?: {
+      motifs?: string[];
+      colours?: string[];
+      values?: string[];
+    };
+    connections?: {
+      related?: string[];
+      overlaped?: string[];
+      subgenres?: string[];
+    };
+    timeline?: {
+      preceded?: string[];
+      succeeded?: string[];
+    };
+    mediaCulture?: {
+      media?: string[];
+      brands?: string[];
+      platform?: string[];
+      figures?: string[];
+    };
+  };
 }

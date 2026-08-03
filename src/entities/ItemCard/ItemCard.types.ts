@@ -1,3 +1,5 @@
 import type { ItemProps } from '@shared/types';
 
-export interface ItemCardProps extends ItemProps {}
+export interface ItemCardProps {
+  item: ItemProps;
+}

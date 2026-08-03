@@ -3,7 +3,7 @@ import type { ItemProps } from '@shared/types';
 import { create } from 'zustand';
 import { mockitems } from './mocks';
 
-interface WardrobeStoreProps {
+interface UpcyclingStoreProps {
   items: ItemProps[];
   currentType: CategoryVariants;
   setCurrentType: (props: CategoryVariants) => void;
@@ -15,7 +15,7 @@ interface WardrobeStoreProps {
   setIsModalOpened: (props: boolean) => void;
 }
 
-const useWardrobe = create<WardrobeStoreProps>((set) => ({
+const useUpcycling = create<UpcyclingStoreProps>((set) => ({
   items: mockitems[CategoryVariants.TOP],
   currentType: CategoryVariants.TOP,
   setCurrentType: (props) => {
@@ -36,4 +36,4 @@ const useWardrobe = create<WardrobeStoreProps>((set) => ({
   },
 }));
 
-export default useWardrobe;
+export default useUpcycling;

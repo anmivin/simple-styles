@@ -13,6 +13,7 @@ import {
   type GetProp,
   type UploadProps,
   type DrawerProps,
+  Modal,
 } from 'antd';
 
 import { LoadingOutlined, PlusOutlined } from '@ant-design/icons';
@@ -20,10 +21,9 @@ import { LoadingOutlined, PlusOutlined } from '@ant-design/icons';
 import { ModalVariants } from '../shared/types';
 import { CategoriesView } from '../shared/constants/labels';
 import { useState } from 'react';
+import useWardrobe from '@shared/stores/wardrobe.store';
 
-export interface ItemModalProps extends DrawerProps {
-  mode: ModalVariants;
-}
+export interface ItemModalProps {}
 
 type FileType = Parameters<GetProp<UploadProps, 'beforeUpload'>>[0];
 
@@ -33,7 +33,8 @@ const getBase64 = (img: FileType, callback: (url: string) => void) => {
   reader.readAsDataURL(img);
 };
 
-const ItemModal = ({ mode, ...props }: ItemModalProps) => {
+const ItemModal = ({}: ItemModalProps) => {
+  const { isModalOpened, setIsModalOpened, currentType, currentItem, setCurrentItem } = useWardrobe((state) => state);
   const onChangeCheckbox: CheckboxProps['onChange'] = (e) => {
     console.log(`checked = ${e.target.checked}`);
   };
@@ -83,7 +84,14 @@ const ItemModal = ({ mode, ...props }: ItemModalProps) => {
   );
 
   return (
-    <Drawer title={`${mode === ModalVariants.CREATE ? 'Создание' : 'Редактирования'} `} mask={false} {...props}>
+    <Modal
+      title={`${!currentItem ? 'Создание' : 'Редактирования'} `}
+      open={isModalOpened}
+      onCancel={() => {
+        setIsModalOpened(false);
+        setCurrentItem(null);
+      }}
+    >
       {contextHolder}
 
       <Flex vertical gap={2}>
@@ -107,10 +115,11 @@ const ItemModal = ({ mode, ...props }: ItemModalProps) => {
             value: key,
             label: val.label,
           }))}
+          defaultValue={CategoriesView[currentType]}
         />
         <Checkbox onChange={onChangeCheckbox}>Не приобретено</Checkbox>
       </Flex>
-    </Drawer>
+    </Modal>
   );
 };
 

@@ -1,20 +1,19 @@
-import { useCallback, useMemo, type ReactNode } from 'react';
+import { useCallback, useEffect, useMemo, type ReactNode } from 'react';
 
 import { Link, useLocation } from 'react-router-dom';
 
 import { Paths, routes } from '@shared/constants/routes';
 
-import { LaptopOutlined, NotificationOutlined, UserOutlined } from '@ant-design/icons';
+import { UserOutlined } from '@ant-design/icons';
 import type { MenuProps } from 'antd';
-import { Breadcrumb, Layout as AntLayout, Menu } from 'antd';
-import { CategoriesView } from '@shared/constants/labels';
-import useWardrobe from '@shared/stores/wardrobe.store';
-import type { CategoryVariants } from '@shared/types';
+import { Layout as AntLayout, Menu } from 'antd';
+
+import useNavigationStore from '@shared/stores/navigation.store';
 
 const { Header, Content, Sider } = AntLayout;
 
 const Layout = ({ children }: { children: ReactNode }) => {
-  const setItem = useWardrobe((state) => state.setCurrentType);
+  const { menuConfig, updateMenuConfig } = useNavigationStore((state) => state);
   const { pathname } = useLocation();
 
   const items1: MenuProps['items'] = routes.slice(0, routes.length - 1).map((route) => ({
@@ -26,37 +25,7 @@ const Layout = ({ children }: { children: ReactNode }) => {
     ),
   }));
 
-  const items2: MenuProps['items'] = useMemo(() => {
-    switch (pathname) {
-      case Paths.wardrobe:
-        return Object.entries(CategoriesView).map(([key, val]) => {
-          return {
-            key,
-            /*  icon: React.createElement(icon), */
-            label: val.label,
-          };
-        });
-      case Paths.aesthetics:
-        return [
-          {
-            key: '1',
-            label: '',
-          },
-        ];
-    }
-  }, [pathname]);
-
-  const subMenuOnClick = useCallback(
-    (key: string) => {
-      switch (pathname) {
-        case Paths.wardrobe:
-          return setItem(key as CategoryVariants);
-        case Paths.aesthetics:
-          return () => {};
-      }
-    },
-    [pathname],
-  );
+  useEffect(() => updateMenuConfig(pathname as Paths), [pathname]);
 
   return (
     <AntLayout>
@@ -77,8 +46,8 @@ const Layout = ({ children }: { children: ReactNode }) => {
           <Menu
             mode="inline"
             style={{ height: '100%', borderInlineEnd: 0 }}
-            items={items2}
-            onClick={(e) => subMenuOnClick(e.key)}
+            items={menuConfig.sideBarItems}
+            onClick={(e) => menuConfig.onSidebarItemClick?.(e)}
           />
         </Sider>
         <AntLayout style={{ padding: '0 24px 24px', height: '100%' }}>

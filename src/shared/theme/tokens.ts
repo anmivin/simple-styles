@@ -25,7 +25,8 @@ export const token: ThemeConfig['token'] = {
   fontFamily:
     "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji'",
   fontFamilyCode: "'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, Courier, monospace",
-  fontSize: 14,
+  //!!
+  fontSize: 18,
   lineWidth: 1,
   lineType: 'solid',
   motionEaseOutCirc: 'cubic-bezier(0.08, 0.82, 0.17, 1)',

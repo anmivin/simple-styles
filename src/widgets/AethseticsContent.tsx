@@ -1,12 +1,16 @@
-import { aesthetics } from '@shared/constants/aeth';
-import { Button, Flex } from 'antd';
+import { Flex } from 'antd';
 import AethseticCard from '@entities/AethseticCard/AethseticCard';
+import AestheticModal from '@features/AestheticModal';
+import useAesthetics from '@shared/stores/aesthetics.store';
+
 const AestheticsContent = () => {
+  const { items } = useAesthetics((state) => state);
   return (
     <Flex wrap gap={20}>
-      {aesthetics.map((ae) => (
-        <AethseticCard {...ae} />
+      {items.map((item) => (
+        <AethseticCard aesthetic={item} />
       ))}
+      <AestheticModal />
     </Flex>
   );
 };

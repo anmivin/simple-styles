@@ -5,19 +5,21 @@ import Looks from '@pages/Looks';
 import Upcycling from '@pages/Upcycling';
 import Wardrobe from '@pages/Wardrobe';
 import Profile from '@pages/Profile';
+import type { MenuProps } from 'antd';
+import { CategoriesView } from './labels';
 
-export const Paths = {
-  aesthetics: '/aesthetics',
-  beauty: '/beauty',
-  looks: '/looks',
-  profile: '/profile',
-  upcycling: '/upcycling',
-  wardrobe: '/wardrobe',
-} as const;
+export enum Paths {
+  aesthetics = '/aesthetics',
+  beauty = '/beauty',
+  looks = '/looks',
+  profile = '/profile',
+  upcycling = '/upcycling',
+  wardrobe = '/wardrobe',
+}
 
 export interface RoutesProps {
   key: string;
-  link: string;
+  link: Paths;
   Component: () => ReactElement;
   name: string;
 }
@@ -63,3 +65,17 @@ export const routes: RoutesProps[] = [
     name: 'Профиль',
   },
 ];
+
+export const SubMenu: Record<Paths, MenuProps['items']> = {
+  [Paths.aesthetics]: [],
+  [Paths.beauty]: [],
+  [Paths.looks]: [],
+  [Paths.profile]: [],
+  [Paths.upcycling]: [],
+  [Paths.wardrobe]: Object.entries(CategoriesView).map(([key, val]) => {
+    return {
+      key,
+      label: val.label,
+    };
+  }),
+};

@@ -14,6 +14,7 @@
     "@types/gapi": "^0.0.47",
     "antd": "^6.5.2",
     "gapi-script": "^1.2.0",
+    "lodash": "^4.18.1",
     "react": "^19.2.6",
     "react-dom": "^19.2.6",
     "react-router-dom": "^7.18.1",
@@ -22,6 +23,7 @@
   },
   "devDependencies": {
     "@eslint/js": "^10.0.1",
+    "@types/lodash": "^4.17.25",
     "@types/node": "^24.12.3",
     "@types/react": "^19.2.14",
     "@types/react-dom": "^19.2.3",

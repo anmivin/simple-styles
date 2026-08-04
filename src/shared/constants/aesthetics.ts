@@ -1,6 +1,4 @@
-import type { AestheticProps } from '@shared/types';
-
-export const aesthetics: AestheticProps[] = [
+export const aesthetics = [
   {
     url: 'https://aesthetics.fandom.com/wiki/2_Tone',
     name: '2 Tone',
@@ -13,7 +11,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Two-Tone', 'Ska Revival'],
-        decade: ['Late 1970s'],
+        decade: ['20th_century', '1970s'],
         location: ['Coventry', 'United Kingdom'],
       },
       visualThemes: {
@@ -41,7 +39,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Postmodern Baroque', 'Neo-Baroque', 'Plastic Baroque', 'New Baroque'],
-        decade: ['2000s'],
+        decade: ['21th_century', '2000s'],
       },
       visualThemes: {
         motifs: [
@@ -58,6 +56,7 @@ export const aesthetics: AestheticProps[] = [
       connections: {
         related: ['baroque', 'curly_girly', 'mc', 'bling', 'parisian_girly', 'vectorbloom'],
       },
+      timeline: {},
     },
   },
   {
@@ -72,7 +71,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Girly Preppy', 'Rich Girl', 'Popular Girl', 'Preppy Y2K', 'Pretty Preppy'],
-        decade: ['2000s'],
+        decade: ['21th_century', '2000s'],
       },
       visualThemes: {
         motifs: ['wealth', 'popularity', 'femininity', 'elitism'],
@@ -95,6 +94,7 @@ export const aesthetics: AestheticProps[] = [
         media: ['Clueless', 'Gossip Girl'],
         brands: ['Abercrombie & Fitch', 'American Eagle', 'Hollister', 'Pac', 'Sun'],
       },
+      timeline: {},
     },
   },
   {
@@ -108,7 +108,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['Mid-2020s (2026)'],
+        decade: ['21th_century', '2020s'],
       },
       visualThemes: {
         motifs: ['maximalism', 'animal print', 'chunky highlights', 'tuscan rustic decor'],
@@ -134,6 +134,7 @@ export const aesthetics: AestheticProps[] = [
         brands: ['(all 2000s-era) Coach', 'Dior', 'Dolce and Gabbana', 'Guess'],
         figures: ['Kimora Lee Simmons', 'early-era Kardashians'],
       },
+      timeline: {},
     },
   },
   {
@@ -146,7 +147,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ["Late 90's", "Early 2000's"],
+        decade: ['20th_century', '1990s', '21th_century', '2000s'],
         location: ['United States'],
       },
       visualThemes: {
@@ -168,6 +169,8 @@ export const aesthetics: AestheticProps[] = [
           'discreet aspirational consumption',
         ],
       },
+      connections: {},
+      timeline: {},
     },
   },
   {
@@ -181,7 +184,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['2010s'],
+        decade: ['21th_century', '2010s'],
         creator: ['Western interpretation of Kawaii and Harajuku trends'],
       },
       visualThemes: {
@@ -197,7 +200,7 @@ export const aesthetics: AestheticProps[] = [
         brands: ['Pusheen the Cat', 'Sailor Moon'],
       },
       timeline: {
-        succeeded: ['E-Girl', 'Kawaii Gamer'],
+        succeeded: ['e-girl', 'kawaii_gamer'],
       },
     },
   },
@@ -213,7 +216,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Insanitycore', 'EXEcore'],
-        decade: ['2010s'],
+        decade: ['21th_century', '2010s'],
       },
       visualThemes: {
         motifs: [
@@ -260,6 +263,7 @@ export const aesthetics: AestheticProps[] = [
           'Creepypasta',
         ],
       },
+      timeline: {},
     },
   },
   {
@@ -274,7 +278,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Retroslop/Rainbowslop (pejorative', 'primarily on Roblox)'],
-        decade: ['2020s (drawing from Late 2000s-Mid 2010s)'],
+        decade: ['21th_century', '2020s'],
       },
       visualThemes: {
         motifs: [
@@ -324,7 +328,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['2010s'],
+        decade: ['21th_century', '2010s'],
         location: ['Japan and the West'],
       },
       visualThemes: {
@@ -357,7 +361,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['2014 Summer Aesthetic', 'Summer 2016 Vibes', 'King Kylie Era', 'Tumblr Tropicana'],
-        decade: ['Early-to-Mid 2010s'],
+        decade: ['21th_century', '2010s'],
       },
       visualThemes: {
         motifs: [
@@ -390,6 +394,7 @@ export const aesthetics: AestheticProps[] = [
         media: ['G-Eazy ("Tumblr Girls', '" "Lady Killers")'],
         brands: ['Brandy Melville', 'Vineyard Vines', "Pink by Victoria's Secret"],
       },
+      timeline: {},
     },
   },
   {
@@ -404,7 +409,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Tumblr It Girl', 'Rosyblog', 'girly'],
-        decade: ['2012-2016'],
+        decade: ['21th_century', '2010s'],
         creator: ['Ariana Grande', 'Dove Cameron', 'Candice Swanepoel', 'ralu cakes', ''],
       },
       visualThemes: {
@@ -429,6 +434,7 @@ export const aesthetics: AestheticProps[] = [
           'Dior',
         ],
       },
+      timeline: {},
     },
   },
   {
@@ -443,7 +449,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Alt Kid', 'E-Kid', 'Bunny Hat Kid', 'Alt Tik', 'Tok (broader term)'],
-        decade: ['Early 2020s'],
+        decade: ['21th_century', '2020s'],
       },
       visualThemes: {
         motifs: [
@@ -500,7 +506,7 @@ export const aesthetics: AestheticProps[] = [
         brands: ['Hot Topic', 'Demonia', 'Sanrio', 'Monster Energy'],
       },
       timeline: {
-        preceded: ['E-Girl / E-Boy'],
+        preceded: ['e-girl_/ e-boy'],
       },
     },
   },
@@ -516,7 +522,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Gen Alpha Preppy', 'Tik', 'Tok Preppy', 'Sephora Kid', 'New Preppy'],
-        decade: ['2020s'],
+        decade: ['21th_century', '2020s'],
       },
       visualThemes: {
         motifs: ['smiley faces', 'lightning bolts', 'chenille patches', 'bows'],
@@ -531,7 +537,7 @@ export const aesthetics: AestheticProps[] = [
         brands: ['Lululemon', 'Drunk Elephant', 'Stanley', 'Aviator Nation', 'Roller Rabbit', 'Kendra Scott'],
       },
       timeline: {
-        preceded: ['VSCO Girl'],
+        preceded: ['vsco_girl'],
       },
     },
   },
@@ -547,7 +553,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['The American Dream', 'Mid-Century Suburbia'],
-        decade: ['1950s'],
+        decade: ['20th_century', '1950s'],
         location: ['United States'],
       },
       visualThemes: {
@@ -586,6 +592,7 @@ export const aesthetics: AestheticProps[] = [
         media: ['Leave It to Beaver', 'The Donna Reed Show', 'I Love Lucy', 'Pleasantville'],
         brands: ['Chevrolet', 'Cadillac', 'Ford', 'Coca-Cola', 'Tupperware', 'Pyrex'],
       },
+      timeline: {},
     },
   },
   {
@@ -600,7 +607,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Retro Gaming', 'Pixel Art'],
-        decade: ['1980s'],
+        decade: ['20th_century', '1980s'],
       },
       visualThemes: {
         motifs: [
@@ -626,6 +633,7 @@ export const aesthetics: AestheticProps[] = [
       mediaCulture: {
         media: ['Sprite comics'],
       },
+      timeline: {},
     },
   },
   {
@@ -641,7 +649,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Aerobics Fashion'],
-        decade: ['1980s'],
+        decade: ['20th_century', '1980s'],
       },
       visualThemes: {
         motifs: ['leotards', 'leg warmers', 'sweatbands', 'neon colors', 'high-top sneakers', 'spandex', 'bike shorts'],
@@ -654,6 +662,7 @@ export const aesthetics: AestheticProps[] = [
       mediaCulture: {
         figures: ['Jane Fonda', 'Olivia Newton-John', 'Richard Simmons'],
       },
+      timeline: {},
     },
   },
   {
@@ -668,7 +677,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['The Matrix Effect', 'Bullet Time'],
-        decade: ['1990s'],
+        decade: ['20th_century', '1990s'],
       },
       visualThemes: {
         motifs: [
@@ -733,6 +742,7 @@ export const aesthetics: AestheticProps[] = [
           'Vin Diesel.',
         ],
       },
+      timeline: {},
     },
   },
   {
@@ -746,7 +756,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['2020s'],
+        decade: ['21th_century', '2020s'],
         location: ['Hauts-de-Seine', 'France'],
       },
       visualThemes: {
@@ -768,6 +778,7 @@ export const aesthetics: AestheticProps[] = [
         platform: ['Tik', 'Tok', 'Instagram'],
         brands: ['Maybelline', 'Zara'],
       },
+      timeline: {},
     },
   },
   {
@@ -782,7 +793,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Abstract Futuristic', 'Cyber', 'Digital', 'High-Tech', 'Sci-Fi Interface', 'FUI'],
-        decade: ['c. 1990s-2000s'],
+        decade: ['20th_century', '21th_century', '1990s', '2000s'],
       },
       visualThemes: {
         motifs: [
@@ -827,6 +838,7 @@ export const aesthetics: AestheticProps[] = [
           'technology stock images',
         ],
       },
+      timeline: {},
     },
   },
   {
@@ -840,7 +852,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Acidgrafix', 'Brutalism (mistakenly)'],
-        decade: ['Late 2010s (revival); 1990s (origin)'],
+        decade: ['20th_century', '21th_century', '2010s', '1990s'],
         creator: ['David Rudnick', 'Jonathan Castro', 'GUCCIMAZE (key figures of the revival)'],
       },
       visualThemes: {
@@ -871,6 +883,7 @@ export const aesthetics: AestheticProps[] = [
           'y2k_futurism',
         ],
       },
+      timeline: {},
     },
   },
   {
@@ -884,7 +897,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Acid', 'Second Summer of Love (UK)'],
-        decade: ['1980s'],
+        decade: ['20th_century', '1980s'],
         location: ['Chicago', 'USA & United Kingdom'],
       },
       visualThemes: {
@@ -898,6 +911,7 @@ export const aesthetics: AestheticProps[] = [
       mediaCulture: {
         figures: ['Phuture', 'DJ Pierre', 'A Guy Called Gerald', 'The Haçienda (club)'],
       },
+      timeline: {},
     },
   },
   {
@@ -912,7 +926,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Korean Y2K', 'K-Grunge', 'Acubi Style'],
-        decade: ['2020s'],
+        decade: ['21th_century', '2020s'],
         location: ['South Korea'],
       },
       visualThemes: {
@@ -937,19 +951,22 @@ export const aesthetics: AestheticProps[] = [
         brands: ['Acubi Club', 'Weekday', 'Diesel', 'Adidas (Sambas)'],
         figures: ['New', 'Jeans', 'Blackpink'],
       },
+      timeline: {},
     },
   },
   {
     url: 'https://aesthetics.fandom.com/wiki/Adventurecore',
     name: 'Adventurecore',
     id: 'adventurecore',
+    imageUrl:
+      'https://static.wikia.nocookie.net/aesthetics/images/8/8b/Exploring_Yosemite_National_Park_in_the_Teva_Fall_Women%E2%80%99s_Collection.png',
     description:
       'The Adventurecore aesthetic was created on Tumblr on July 9, 2019, by the user \'advenchurre.\'[1] After its initial creation, the concept gained popularity within online communities and subsequently spread to other social media platforms such as Instagram and TikTok. The visual style of Adventurecore focuses on the beauty and mystery of the natural world. Imagery typically consists of wild, untamed landscapes, such as dense forests, misty mountains, winding dirt trails, and serene lakes. The photography often captures a specific mood, favoring overcast days, the "golden hour" before sunset, or foggy conditions to create a sense of quiet contemplation and solitude. The aesthetic avoids pristine, sunny postcard views in favor of a more grounded and slightly melancholic depiction of nature. Motifs like old maps, compasses, and journal sketches are also common, reinforcing the theme of a personal journey and discovery. Adventurecore fashion is centered on practical, durable, and comfortable clothing suitable for outdoor activities, while still maintaining a cohesive and stylish look. The aesthetic is defined by an earth-toned color palette, featuring greens, browns, and dark blues. Key garments include warm flannel shirts, cozy fleece sweaters, and durable outerwear like rain jackets. Layering is a common practice, suggesting a readiness for exploration in any weather. Bottoms are typically functional, such as cargo pants or hiking trousers, and the look is completed with sturdy hiking boots. Accessories are practical and serve a purpose, with common items including beanies, fingerless gloves, and spacious hiking backpacks or rustic canvas satchels.',
     categories: ['internet_aesthetics', 'fashion'],
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['2010s'],
+        decade: ['21th_century', '2010s'],
         creator: ['advenchurre (Tumblr)'],
       },
       visualThemes: {
@@ -971,6 +988,7 @@ export const aesthetics: AestheticProps[] = [
       mediaCulture: {
         media: ['Gravity Falls', 'Over the Garden Wall', 'The Legend of Zelda: Breath of the Wild'],
       },
+      timeline: {},
     },
   },
   {
@@ -984,7 +1002,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['1930s (original)', '1980s (modern revival)'],
+        decade: ['20th_century', '1930s', '20th_century', '1980s'],
       },
       visualThemes: {
         motifs: [
@@ -1002,12 +1020,14 @@ export const aesthetics: AestheticProps[] = [
       connections: {
         related: ['adventurecore', 'dieselpunk', 'safari_chic', 'steampunk', 'tiki', 'victorian'],
       },
+      timeline: {},
     },
   },
   {
     url: 'https://aesthetics.fandom.com/wiki/Aestheticism',
     name: 'Aestheticism',
     id: 'aestheticism',
+    imageUrl: 'https://static.wikia.nocookie.net/aesthetics/images/1/11/VenusAndAnchises.jpeg',
     description:
       "Aestheticism, or the Aesthetic Movement, is an art movement that emerged in England during the mid-19th century. It challenged prevailing Victorian traditions, extending beyond fine art to influence music, literature, interior design, and fashion. At its core was the principle of \"art for art's sake,\" prioritizing taste, beauty, and individual expression over moral and societal expectations.[1] This emphasis on creative freedom and sensuality, while embraced by its adherents, also drew ridicule from conservative Victorians. However, by rejecting art's traditional didactic role and focusing on self-expression, Aestheticism contributed to the foundations of 20th-century modern art. Rebelling against Victorian materialism and the perceived decline of craftsmanship due to industrialization, Aesthetic artists valued quality in all artistic creation, sometimes reviving pre-industrial techniques. The movement's central tenet, \"art for art's sake,\" divorced art from obligations to convey moral or socio-political messages, instead emphasizing the exploration of color, form, and composition in the pursuit of beauty. In contrast to typical Victorian decor, Aesthetic art often featured subdued colors, geometric designs, and simplified linear forms, drawing inspiration from Pre-Raphaelite painting, medieval art, and Japanese motifs. Aestheticism posited that art should permeate everyday life, encompassing not only painting, sculpture, and architecture but also decorative arts such as ceramics, metalwork, fashion, furniture, and interior design.[2] Figures like Oscar Wilde even adopted public personas reflecting Aesthetic principles. The movement found expression in painting, with artists like James McNeill Whistler and Dante Gabriel Rossetti emphasizing color harmony and sensual beauty. While no specific Aesthetic musicians emerged, music served as inspiration for painters who sought to emulate its abstract qualities. Aesthetic architecture deviated from classical traditions, incorporating diverse influences to create unique structures, as seen in Frederic Leighton's house. Designers such as Christopher Dresser and William Morris advocated for beauty and good design in everyday objects. By the 1890s, shops catered to Aesthetes, offering fashions that rejected restrictive Victorian norms in favor of looser, more artistic styles. In literature, writers like Oscar Wilde and Algernon Charles Swinburne prioritized beauty of form over moral instruction.",
     categories: ['art_movements', 'historical'],
@@ -1015,7 +1035,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Aesthetic Movement', 'The Cult of Beauty'],
-        decade: ['Late-19th century (approximately 1860s-1900s)'],
+        decade: ['19th_century'],
       },
       visualThemes: {
         motifs: [
@@ -1054,20 +1074,22 @@ export const aesthetics: AestheticProps[] = [
         ],
         brands: ['Liberty of London'],
       },
+      timeline: {},
     },
   },
   {
     url: 'https://aesthetics.fandom.com/wiki/Aesthetic_Rap',
     name: 'Aesthetic Rap',
     id: 'aesthetic_rap',
+    imageUrl: 'https://static.wikia.nocookie.net/aesthetics/images/2/2b/1nonly_-_Lovely.png',
     description:
-      'E-BoyE-GirlLo-fi ArtMeme RapTrap MetalVaporwave Visually, the genre is tied to internet youth subcultures, including the E-Girl and E-Boy aesthetics, and frequently uses nostalgic imagery from 1990s and 2000s anime. Unlike the aggressive energy found in early SoundCloud Rap, Aesthetic Rap emphasizes atmospheric and polished "vibes" specifically curated for short-form video sharing. While standard cover art in the genre might be visually hard to distinguish from E-Girl to the untrained eye, as they are the main subject matter of its lyrical content, the most distinctive examples of the Aesthetic Rap visual style are found in user-created AMVs.',
+      'Visually, the genre is tied to internet youth subcultures, including the E-Girl and E-Boy aesthetics, and frequently uses nostalgic imagery from 1990s and 2000s anime. Unlike the aggressive energy found in early SoundCloud Rap, Aesthetic Rap emphasizes atmospheric and polished "vibes" specifically curated for short-form video sharing. While standard cover art in the genre might be visually hard to distinguish from E-Girl to the untrained eye, as they are the main subject matter of its lyrical content, the most distinctive examples of the Aesthetic Rap visual style are found in user-created AMVs.',
     categories: ['internet_aesthetics', 'music_genres'],
     isVisible: true,
     metadata: {
       origins: {
         otherNames: ['Tik', 'Tok Rap', 'Whisper Rap', 'E-Boy Rap'],
-        decade: ['Early 2020s'],
+        decade: ['21th_century', '2020s'],
       },
       visualThemes: {
         motifs: [
@@ -1091,12 +1113,14 @@ export const aesthetics: AestheticProps[] = [
         platform: ['Tik', 'Tok', 'Sound', 'Cloud', 'Discord'],
         figures: ['1nonly', 'Ciscaux', 'Savage Ga$p', 'Lil Bubblegum', 'Letoa'],
       },
+      timeline: {},
     },
   },
   {
     url: 'https://aesthetics.fandom.com/wiki/Aetherpunk',
     name: 'Aetherpunk',
     id: 'aetherpunk',
+    imageUrl: 'https://static.wikia.nocookie.net/aesthetics/images/e/e6/Aetherpunk_city.jpg',
     description:
       "Aetherpunk or Arcanepunk is probably one of the most diverse punk genres. High fantasy magic creates technology more befitting of a sci-fi world, from magical sky-ships to magical powered weapons. Architecture has gilded gold, enchanted lighting, stained glass art, and ancient pagan imagery; Think Asgard from the Marvel Franchise. But, most importantly, it is a rather new genre that is similar to Solarpunk as the 'Punk' doesn't come from its dystopian social exploration nature but instead its utopian social elevation nature that looks to help people who are suffering and bring a world that is inherently good. Utopian fiction can still have negative themes such as Adventure Time's Lich which acts as the antagonist and is usually in the form of a Dark Lord like Lord of the Rings. The exact color of the so-called aether may vary between examples. In the Kaladesh Plane from Magic the Gathering, the aether has a distinct neon blue, similar to Arcane's upper-class utopian city Piltover. The Undercity, on the other hand, has a green tinge or as another wiki editor described it \"Green everywhere, just green things everywhere.\" This darker, undercity variety can also be seen in video games like Bioshock. Depending on the universe, aether may be a naturally occurring phenomenon or a scientifically harnessed one, and colors are often used to differentiate this attitude. This juxtaposition can often be used as a key story element for aetherpunk worlds. Conflict can arise between those who are in tune with natural aether, those who harness and exploit aether, and all the questions about who is able and allowed to access this fundamental, world changing resource gives rise to rebellious factions with a variety of motivations. It also commonly uses stone and gold for most structures with the emphasis being on the gold as well as large amounts of pagan imagery.",
     categories: ['genre_fiction'],
@@ -1112,6 +1136,7 @@ export const aesthetics: AestheticProps[] = [
       connections: {
         related: ['dungeonpunk', 'fantasy', 'steampunk'],
       },
+      timeline: {},
     },
   },
   {
@@ -1125,7 +1150,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['1950s-Present'],
+        decade: ['20th_century', '1950s'],
         creator: ['Sun Ra', 'Octavia Butler', 'Mark Dery'],
       },
       visualThemes: {
@@ -1148,6 +1173,7 @@ export const aesthetics: AestheticProps[] = [
       mediaCulture: {
         media: ['Black Panther', 'Sun Ra', 'Grace Jones', 'Octavia Butler', 'Samuel R. Delany'],
       },
+      timeline: {},
     },
   },
   {
@@ -1161,7 +1187,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['1970s (origins)2000s (wider popularization)'],
+        decade: ['20th_century', '1970s', '2000s'],
       },
       visualThemes: {
         motifs: [
@@ -1202,12 +1228,14 @@ export const aesthetics: AestheticProps[] = [
           'Betty Davis',
         ],
       },
+      timeline: {},
     },
   },
   {
     url: 'https://aesthetics.fandom.com/wiki/After_Hours',
     name: 'After Hours',
     id: 'after_hours',
+    imageUrl: 'https://static.wikia.nocookie.net/aesthetics/images/d/d9/Ah_corner.jpg',
     description:
       'After Hours is an aesthetic inspired by the forlorn atmosphere of empty or seemingly abandoned places that are usually bustling with people.  After Hours isn’t defined in terms of a specific artstyle or media, but instead by the imagery of various abandoned places such as empty streets, schools, and parks. However, the aesthetic is not limited to physical settings either; online settings such as abandoned blogs, empty game servers, and inactive websites can also elicit similar feelings. The concept is built on the contrast between the memories or expectations associated with a place and the current reality of it being abandoned or devoid of human presence. These feelings, which have collectively been coined as kenopsia, include a mix of nostalgia, melancholy, and a sense of surrealism. The emptiness of the abandoned space and the remains of its former vitality can create a powerful emotional response. For some, it might cause them to reflect on the passage of time, the transience of life, or the impermanence of human activities. The always-present tranquility of After Hours distinguishes it from the adjacent aesthetic of Liminal Space, which is intentionally designed to be unsettling and foreboding.[1] Several people who identify with this aesthetic like to explore such places, while others - such as graveyard shift workers - have no option but to be active during night. These night-crawlers love silence and quiet settings. Being away from everyone and everything is comforting to them.',
     categories: ['architectural_styles', 'internet_aesthetics'],
@@ -1215,7 +1243,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Kenopsia'],
-        decade: ['2010s'],
+        decade: ['21th_century', '2010s'],
         creator: ['John Koenig'],
       },
       visualThemes: {
@@ -1242,12 +1270,14 @@ export const aesthetics: AestheticProps[] = [
       mediaCulture: {
         media: ['No Players Online'],
       },
+      timeline: {},
     },
   },
   {
     url: 'https://aesthetics.fandom.com/wiki/Agejo',
     name: 'Agejo',
     id: 'agejo',
+    imageUrl: 'https://static.wikia.nocookie.net/aesthetics/images/4/4d/Agejo_Gyaru.jpg',
     description:
       'Agejo (age嬢), a term short for "Ageha Lady," is a substyle of Japanese Gyaru fashion that emerged in the mid-2000s. The aesthetic is heavily inspired by Japanese hostess culture and is defined by its focus on glamour, sexuality, and hyper-femininity. Agejo clothing and makeup are designed to be provocative and revealing while still maintaining a polished and sophisticated appearance. This style\'s origin is tied to the magazine Koakuma Ageha, which was popular among young women, particularly those working in the Japanese hostess and adult entertainment industries. Agejo is generally adopted by older members of the gyaru community due to its mature and refined nature. While it shares some visual elements with Hime Gyaru, which appeared around a year later, Agejo places a stronger emphasis on overt sex appeal rather than the princess-like elegance of Hime Gyaru. Agejo first emerged in the mid-2000s, with its origins directly linked to the Japanese magazine Koakuma Ageha. The magazine started as a special edition of Nuts Magazine in October 2005 but became a standalone publication in October 2006 due to high demand. Koakuma Ageha was specifically targeted at young women, including those who worked in the hostess and adult entertainment industries, and it popularized the Agejo aesthetic.',
     categories: [],
@@ -1255,7 +1285,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Ageha Lady'],
-        decade: ['Mid 2000s'],
+        decade: ['21th_century', '2000s'],
         location: ['Shibuya', 'Tokyo', 'Japan'],
         creator: ['Koakuma Ageha Magazine'],
       },
@@ -1280,12 +1310,14 @@ export const aesthetics: AestheticProps[] = [
         media: ['Koakuma Ageha Magazine', 'Popteen Magazine', 'Egg Magazine'],
         brands: ['Da', 'Tu', 'Ra', 'MARS', 'Golds Infinity'],
       },
+      timeline: {},
     },
   },
   {
     url: 'https://aesthetics.fandom.com/wiki/Aggrotech',
     name: 'Aggrotech',
     id: 'aggrotech',
+    imageUrl: 'https://static.wikia.nocookie.net/aesthetics/images/b/b6/R-38537-1262519072.jpg',
     description:
       'CyberpunkElectronic Body MusicIndustrialPost-Apocalyptic Aggrotech (also known as Hellektro in Europe) is a harsh derivative genre of dark electro and an evolution of Electronic Body Music (EBM) that emerged in the mid-to-late 1990s. Along with EBM and Futurepop, it became one of the defining genres of the Cybergoth subculture in the mid-to-late 2000s,[1] so its aesthetics overlap significantly with neon-industrial styles. However, Aggrotech is distinguished by a uniquely more aggressive and violent visual aesthetic, often favoring disturbing, apocalyptic, and militaristic imagery over generic club aesthetics, especially on album art and artist presentation. The genre is characterized as an aggressive evolution of Electronic Body Music (EBM), merging harsh 4/4 beats and fast tempos with influences from Techno, Trance, and Power Noise. The name is a combination of "aggressive" and "techno" (or technology) and was coined by the San Francisco industrial club "Aggrotech" in 1990.',
     categories: ['music_genres', 'fashion'],
@@ -1293,7 +1325,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Harsh EBM', 'Terror EBM', 'Hellektro', 'Endzeit Elektro'],
-        decade: ['Late 1990s'],
+        decade: ['20th_century', '1990s'],
         location: ['Germany', 'Belgium', 'North America'],
       },
       visualThemes: {
@@ -1316,7 +1348,7 @@ export const aesthetics: AestheticProps[] = [
         figures: ['Hocico', 'Suicide Commando', 'Funker Vogt'],
       },
       timeline: {
-        preceded: ['Electronic Body Music'],
+        preceded: ['electronic_body music'],
       },
     },
   },
@@ -1333,7 +1365,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Ah Lian (Feminine)', 'Lala Zai (Cantonese equivalent)'],
-        decade: ['1990s'],
+        decade: ['20th_century', '1990s'],
         location: ['Singapore & Malaysia'],
       },
       visualThemes: {
@@ -1358,12 +1390,14 @@ export const aesthetics: AestheticProps[] = [
       mediaCulture: {
         media: ['Phua Chu Kang Pte Ltd (Sitcom)', 'Army Daze (Film)'],
       },
+      timeline: {},
     },
   },
   {
     url: 'https://aesthetics.fandom.com/wiki/Akibapop',
     name: 'Akibapop',
     id: 'akibapop',
+    imageUrl: 'https://static.wikia.nocookie.net/aesthetics/images/a/a6/Artworks-000294082800-upbhg2-t240x240.jpg',
     description:
       'Denpa songs are characterized by their fast tempo, quirky lyrics, repetitive chants, and onomatopoeia. They often feature high-pitched vocals, nonsensical lyrics, and a chaotic, "off-kilter" production style. The lyrics frequently touch on otaku themes and explore topics like delusion, telepathy, and insanity, echoing the values of the literary genre of the same name. The genre\'s most prominent subgenre is Moe-Denpa (もえー電波), or "Moe Song" (萌えソング), which incorporates cutesy, "moe" aesthetics and exaggeratedly cute high-pitched vocals. This style was solidified in the early 2000s by artists like Under17 and MOSAIC.WAV, who referred to their music as Akiba-Pop. Denpa music is deeply intertwined the doujin and otaku subcultures. Releases are often distributed at conventions like Comiket and M3, and many songs parody or rearrange music from anime or video games like Touhou Project. The genre has also gained wider recognition overseas through its inclusion in popular Japanese rhythm games like Beatmania, the BEMANI series, and Sound Voltex. The slang term "denpa" (電波), meaning "radio wave," initially emerged in the early 1990s in Japan. It was used to describe individuals who were perceived as eccentric or out of touch with reality, often associated with the otaku subculture. This term gained a darker connotation after the 1981 Fukagawa Street Murders, where the perpetrator, Kawamata Gunji, attributed his actions to years of "electronic harassment" from radio waves.[2]',
     categories: ['music_genres', 'subcultures'],
@@ -1371,7 +1405,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Denpa song', 'A-Pop', 'Moe-Denpa', 'Moe song'],
-        decade: ['Early 2000s'],
+        decade: ['21th_century', '2000s'],
         creator: ['Under17', 'MOSAIC.WAV', 'IOSYS', 'Nanahira'],
       },
       visualThemes: {
@@ -1393,6 +1427,7 @@ export const aesthetics: AestheticProps[] = [
           'Yunyun Syndrome!? Rhythm Psychosis)',
         ],
       },
+      timeline: {},
     },
   },
   {
@@ -1407,7 +1442,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Alienwave'],
-        decade: ['1990s'],
+        decade: ['20th_century', '1990s'],
       },
       visualThemes: {
         motifs: ['Aliens', 'outer space', 'UFOs'],
@@ -1425,6 +1460,7 @@ export const aesthetics: AestheticProps[] = [
           'y2k_futurism',
         ],
       },
+      timeline: {},
     },
   },
   {
@@ -1438,7 +1474,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['2020s'],
+        decade: ['21th_century', '2020s'],
         creator: ['Aliyah Bah (aliyahsinterlude)'],
       },
       visualThemes: {
@@ -1459,12 +1495,14 @@ export const aesthetics: AestheticProps[] = [
         platform: ['Tik', 'Tok'],
         brands: ['Demonia (footwear)'],
       },
+      timeline: {},
     },
   },
   {
     url: 'https://aesthetics.fandom.com/wiki/Amekaji',
     name: 'Amekaji',
     id: 'amekaji',
+    imageUrl: 'https://static.wikia.nocookie.net/aesthetics/images/4/44/Amekaji_Girls.png',
     description:
       'Amekaji (アメカジ), a portmanteau of "American casual," is a substyle of Japanese Gyaru fashion that was popular during the late 1990s and early 2000s. The aesthetic is an energetic and exaggerated interpretation of American West Coast streetwear, drawing heavily from surf, skate, and hip-hop culture. The look is defined by its use of bright, bold colors, extensive layering, and a focus on prominent brand logos. A typical Amekaji outfit might consist of an oversized hoodie, a puffer vest, flared pants or a mini skirt, and Ugg-style boots. The style was popularized by brands like COCOLULU and ALBA ROSA and was heavily featured in Gyaru magazines like egg. Like other Gyaru substyles, the clothing is complemented by tanned skin, dramatic makeup, and styled, often bleached, hair. Amekaji gyaru was popular during late 1990s and early 2000s. This substyle is inspired by the "American Casual". The term "Amekaji" was first used in Japan in the 60s for men’s fashion from American vintage, preppy, and workwear styles. Amekaji (アメカジ) is a shortening of the words "American" and "casual." During the mid-2000s, the style started to emerge, gaining popularity by the late 2000s. Amekaji is generally considered a part of various short-lived substyles of Gyaru, but this style has been revived by gaijin (non-Japanese) gyarus.',
     categories: ['subcultures'],
@@ -1472,7 +1510,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['American Casual'],
-        decade: ['Late 1990s–2000s'],
+        decade: ['20th_century', '21th_century', '1990s', '2000s'],
         location: ['Japan (primarily Shibuya', 'Tokyo)'],
       },
       visualThemes: {
@@ -1502,12 +1540,14 @@ export const aesthetics: AestheticProps[] = [
         media: ['Magazines (egg', 'Ranzuki)'],
         brands: ['COCOLULU', 'ROXY', 'ALBA ROSA', 'Billabong'],
       },
+      timeline: {},
     },
   },
   {
     url: 'https://aesthetics.fandom.com/wiki/American_Kitsch',
     name: 'American Kitsch',
     id: 'american_kitsch',
+    imageUrl: 'https://static.wikia.nocookie.net/aesthetics/images/1/12/We_Can_Do_It%21.jpg',
     description:
       'American Kitsch is an aesthetic style that was prevalent in the United States in magazine covers, movie posters, billboards, advertisements, and propaganda from the 1920s to the 1960s. The most famous illustrator of this style is Norman Rockwell; he created magazine covers for the The Saturday Evening Post for nearly five decades. His illustrations captured the essence of American life, often depicting heartwarming scenes of everyday moments in America. Frances Tipton Hunter was another illustrator who used a style similar to Norman Rockwell. She worked for the The Saturday Evening Post and many other magazines between the 1920s and 1950s. The aesthetic is characterized by its cartoonish yet realistic depictions of people, often with a touch of exaggeration and humor. 50s Suburbia is the most common aesthetic depicted. One of the distinguishing features of this style is its use of vivid and bright colors, which are heavily influenced by the vibrant fashion trends of the 1950s.',
     categories: ['architectural_styles', 'design_aesthetics', 'historical'],
@@ -1515,7 +1555,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['1950s Commercial Illustrations'],
-        decade: ['1920s'],
+        decade: ['20th_century', '1920s'],
         creator: ['Norman Rockwell'],
       },
       connections: {
@@ -1530,12 +1570,14 @@ export const aesthetics: AestheticProps[] = [
           'vintage_americana',
         ],
       },
+      timeline: {},
     },
   },
   {
     url: 'https://aesthetics.fandom.com/wiki/American_Pioneers',
     name: 'American Pioneers',
     id: 'american_pioneers',
+    imageUrl: 'https://static.wikia.nocookie.net/aesthetics/images/e/ea/Little_house_on_the_prairie.jpg',
     description:
       'American Pioneers refers to the settlers that colonized the western portion what is now known as the United States of America in the 19th century. For the most part these people were white, and either Americans from the East Coast or European immigrants. (After the American Civil War, a significant population of Black pioneers known as the Exodusters existed but their motivations and experiences were somewhat different from white pioneers. They were not part of the image of the American Pioneer that existed in the 19th Century and little attention is given to them in both historical fiction and American History lessons.) Pioneers were motivated by Manifest Destiny, a concept within American culture that claims that God has ordered the American people to make the nation occupied from the Atlantic to the Pacific. Violence towards Native Americans was considered a necessary evil in the pursuit of this goal. The visual tropes associated with pioneer life are distinctive and familiar to Americans. They are inspired by the travel equipment and landscape along the routes west. Much of the allure of this is the ruggedness and self-sufficiency of the people in contrast to the wild, untamed nature of their surroundings.',
     categories: ['historical', 'lifestyle'],
@@ -1553,7 +1595,7 @@ export const aesthetics: AestheticProps[] = [
         overlaped: ['victorian'],
       },
       timeline: {
-        succeeded: ['Western'],
+        succeeded: ['western'],
       },
     },
   },
@@ -1568,7 +1610,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['November 1621'],
+        decade: ['17th_century'],
         creator: ['Pilgrims at Plymouth Rock'],
       },
       visualThemes: {
@@ -1582,6 +1624,7 @@ export const aesthetics: AestheticProps[] = [
       mediaCulture: {
         media: ['A Charlie Brown Thanksgiving'],
       },
+      timeline: {},
     },
   },
   {
@@ -1596,7 +1639,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['VHS Horror'],
-        decade: ['Mid-to-Late 2010s'],
+        decade: ['21th_century', '2010s'],
         creator: ['Kris Straub (popularizer and genre codifier)'],
       },
       visualThemes: {
@@ -1624,19 +1667,21 @@ export const aesthetics: AestheticProps[] = [
       mediaCulture: {
         media: ['The Mandela Catalogue', 'Gemini Home Entertainment', 'Local 58 TV'],
       },
+      timeline: {},
     },
   },
   {
     url: 'https://aesthetics.fandom.com/wiki/Anarcho-Punk',
     name: 'Anarcho-Punk',
     id: 'anarcho-punk',
+    imageUrl: 'https://static.wikia.nocookie.net/aesthetics/images/4/43/Anarchopunk.jpg',
     description:
       'Anarcho-Punk is one of the main subcultures within the punk movement, defined by a shared ideology of anarchism and a commitment to direct political action. Emerging in the late 1970s in the United Kingdom, the movement was pioneered by bands like Crass, who combined aggressive punk rock with explicitly anarchist and pacifist messaging. The subculture is characterized by a strong Do-It-Yourself (DIY) ethos, which manifests in self-published zines, independent record labels, and a distinct fashion style that often involves modifying clothing with hand-painted slogans, patches, and political symbols. Visually, the aesthetic is typically stark and utilitarian, favoring a black-and-white or black-and-red color palette to emphasize its serious political intent, setting it apart from the more colorful and nihilistic stylings of other punk factions. Punk ✖ Anarcho-Punk ✖ Crustpunk ✖ Horror Punk ✖ Psychobilly ✖ Riot Grrrl ✖ Queercore ✖ Skate Punk ✖ Skinhead ✖ Straight Edge',
     categories: ['music_genres', 'subcultures'],
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['Late 1970s'],
+        decade: ['20th_century', '1970s'],
         location: ['United Kingdom'],
         creator: ['Crass (pioneering band)'],
       },
@@ -1667,6 +1712,7 @@ export const aesthetics: AestheticProps[] = [
         platform: ['Zines', 'independent record labels', 'protests', 'squats'],
         figures: ['Crass', 'Subhumans', 'Conflict', 'Discharge'],
       },
+      timeline: {},
     },
   },
   {
@@ -1680,7 +1726,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['3150 BC─30 BC'],
+        decade: ['bc'],
       },
       visualThemes: {
         motifs: ['Pyramids', 'mummies', 'sand', 'gold', 'tomb artwork', 'winged solar disc'],
@@ -1689,6 +1735,7 @@ export const aesthetics: AestheticProps[] = [
       connections: {
         related: ['hellenic', 'art_deco', 'egyptian_revival'],
       },
+      timeline: {},
     },
   },
   {
@@ -1703,7 +1750,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Cherubcore'],
-        decade: ['Late 2010s'],
+        decade: ['21th_century', '2010s'],
       },
       visualThemes: {
         motifs: ['Angels', 'cherubs', 'wings', 'halos', 'doves', 'soft clouds', 'sunbeams', 'glitter'],
@@ -1727,12 +1774,14 @@ export const aesthetics: AestheticProps[] = [
         platform: ['Tumblr', 'Pinterest', 'Tik', 'Tok'],
         media: ['Wings of Desire (1987)'],
       },
+      timeline: {},
     },
   },
   {
     url: 'https://aesthetics.fandom.com/wiki/Anglo_Gothic',
     name: 'Anglo Gothic',
     id: 'anglo_gothic',
+    imageUrl: 'https://static.wikia.nocookie.net/aesthetics/images/3/3c/Anglo_goth2.jpg',
     description:
       "Anglo Gothic is an aesthetic based on the atmosphere of dingy suburban English areas with an emphasis on overcast skies, drizzling rain, council estates, grime, the colour blue, and melancholy. Works that fall under this category tend to explore the themes of class, industrialism, and feature English staples such as cheap tea and biscuits. Other common themes are the hardships of labour occupations such as coal or steel mining and factory work that are common among those in the working class in England. A lot of Anglo Gothic media is influenced by the boom in council estates being built in the 1960s in England, hence a lot of imagery being evocative of that time. The term 'Anglo Gothic' was coined by Tumblr user demixian in 2020; however, this style for aesthetic is represented back in the '90s.",
     categories: ['architectural_styles', 'music'],
@@ -1740,7 +1789,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Dark Anglo'],
-        decade: ['1990s'],
+        decade: ['20th_century', '1990s'],
       },
       visualThemes: {
         motifs: ['Drizzling rain', 'overcast skies', 'cheap tea and biscuits', 'melancholy', 'council estates'],
@@ -1765,6 +1814,7 @@ export const aesthetics: AestheticProps[] = [
       mediaCulture: {
         media: ['BGMedia', 'Grime music', 'Arctic Monkeys', 'The Full Monty'],
       },
+      timeline: {},
     },
   },
   {
@@ -1779,7 +1829,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Angura'],
-        decade: ['1960s (theatre)'],
+        decade: ['20th_century', '1960s'],
       },
       visualThemes: {
         motifs: [
@@ -1809,12 +1859,14 @@ export const aesthetics: AestheticProps[] = [
       mediaCulture: {
         media: ["Terayama Shuji's work", "Furuya Usamaru's Litchi Hikari Club (Manga)", "Yokoo Tadanori's posters"],
       },
+      timeline: {},
     },
   },
   {
     url: 'https://aesthetics.fandom.com/wiki/Animecore',
     name: 'Animecore',
     id: 'animecore',
+    imageUrl: 'https://static.wikia.nocookie.net/aesthetics/images/9/97/A635b6a3d1f58351ce089ef6ede78e7d.jpg',
     description:
       'This page is about a specific aesthetic with nostalgic themes for the art style of 2000s anime. For other aesthetics that incorporate anime and manga imagery, see the anime category. Animecore is an internet aesthetic that romanticizes and expresses nostalgia for the otaku and weeb fan cultures of the 1990s to early 2000s. It is not about anime as a medium, but rather the culture surrounding it during that specific era. The aesthetic is defined by a focus on the consumption and display of anime-related media and merchandise, particularly featuring cute, or moe, female characters from early-to-mid 2000s series. It originated in the 2010s on online communities like 4chan and later spread to platforms like TikTok, where a new generation of users idealized an anime fan culture they had not directly experienced. Animecore draws its primary inspiration from the early anime fandom, especially in the West. The online anime fandom of the late 1990s and early 2000s was defined by a culture of amateur, fan-run websites, often hosted on free services like Tripod and GeoCities. These sites served as dedicated hubs for specific interests before the rise of centralized social media. Examples from the era include local community pages like the Riverview High Anime Club website, series-specific fansites such as Elenor City (for The Dirty Pair) and Tenchi Muyo Universe, and international fan projects like the Russian GuiltyGear.ru Project. Long-running portals like FantasyAnime.com also provided encyclopedic resources for anime-styled video games, with each series often having its own uniquely designed section. These websites are key examples of the Old Web design ethos, featuring simple HTML layouts and fan-made graphics.',
     categories: ['internet_aesthetics', 'fashion'],
@@ -1822,7 +1874,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Otakucore'],
-        decade: ['1990s (Origins)2010s (Aesthetic)'],
+        decade: ['20th_century', '21th_century', '1990s', '2010s'],
       },
       visualThemes: {
         motifs: [
@@ -1858,6 +1910,7 @@ export const aesthetics: AestheticProps[] = [
       mediaCulture: {
         media: ['Lucky Star', 'Azumanga Daioh', 'the Touhou Project series', 'Vocaloid'],
       },
+      timeline: {},
     },
   },
   {
@@ -1871,7 +1924,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['Mid-1980s'],
+        decade: ['20th_century', '1980s'],
         location: ['Antwerp', 'Belgium'],
         creator: [
           'Ann Demeulemeester',
@@ -1908,19 +1961,21 @@ export const aesthetics: AestheticProps[] = [
       mediaCulture: {
         platform: ['High-fashion runways', 'London Trade Shows'],
       },
+      timeline: {},
     },
   },
   {
     url: 'https://aesthetics.fandom.com/wiki/Appalachian_Gothic',
     name: 'Appalachian Gothic',
     id: 'appalachian_gothic',
+    imageUrl: 'https://static.wikia.nocookie.net/aesthetics/images/0/0e/Railroad_Trestle_Bridge_in_Virginia.jpg',
     description:
       'From Native Americans to African Americans to European settlers, the Appalachians were and still are home to many different ethnic groups. The Europeans (mainly Scottish or Irish) first came in the 1700s and 1800s[1] and are responsible for the origin of the "hillbilly" stereotype of "wild, reclusive mountain men"[1]. German settlers, whose descendants are now called Pennsylvania Dutch, also came to Appalachia at this time, introducing apple butter, sauerkraut, and the chinked-corner cabins that are still popular today. Scandinavian immigrants also contributed to these log cabin houses[1]. With these settlers came the pioneer spirit[1] that is still prevalent in Appalachia today in the form of a sense of independence and adventure that is committed to searching out better things.',
     categories: [],
     isVisible: true,
     metadata: {
       origins: {
-        decade: ["1700's"],
+        decade: ['18th_century', '1700s'],
       },
       visualThemes: {
         motifs: ['Forested mountains', 'supernatural occurences', 'small mountain towns'],
@@ -1942,6 +1997,7 @@ export const aesthetics: AestheticProps[] = [
           'dark_naturalism',
         ],
       },
+      timeline: {},
     },
   },
   {
@@ -1956,7 +2012,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['After-ski'],
-        decade: ['1950s'],
+        decade: ['20th_century', '1950s'],
         location: ['The European Alps (France', 'Austria', 'Switzerland)'],
       },
       visualThemes: {
@@ -1979,19 +2035,21 @@ export const aesthetics: AestheticProps[] = [
       mediaCulture: {
         platform: ['Lifestyle blogs', 'Instagram'],
       },
+      timeline: {},
     },
   },
   {
     url: 'https://aesthetics.fandom.com/wiki/Arabian_Nights',
     name: 'Arabian Nights',
     id: 'arabian_nights',
+    imageUrl: 'https://static.wikia.nocookie.net/aesthetics/images/7/78/SmartSelect_20230810-001935_Chrome.jpg',
     description:
       "The aesthetic is a modern, user-driven phenomenon that reclaims and recontextualizes imagery often associated with Western Orientalism. While the name derives from a Western cultural product, the trend itself is largely practiced by individuals from the cultures being represented, who use it to express patriotism and pride. The Arabian Nights aesthetic is typically a transition video. A video often begins with a creator in everyday, Western-style clothing in a low-quality or pixelated shot. When the beat of the song drops, the video transitions to a high-definition clip of the same person now dressed in elaborate, traditional, or culturally-inspired attire. These videos often feature stunning desert landscapes, traditional architecture, and showcases of regional food and sports, such as equestrianism. The trend has been particularly popular among creators in the UAE, who have used it to represent the country's lifestyle, traditional dress, and distinct makeup styles, bridging their cultural heritage with a global platform.[1]",
     categories: ['internet_aesthetics', 'fashion'],
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['2020s'],
+        decade: ['21th_century', '2020s'],
       },
       visualThemes: {
         motifs: [
@@ -2011,19 +2069,21 @@ export const aesthetics: AestheticProps[] = [
         platform: ['Tik', 'Tok'],
         media: ['Aladdin (1992)'],
       },
+      timeline: {},
     },
   },
   {
     url: 'https://aesthetics.fandom.com/wiki/Arabfunny',
     name: 'Arabfunny',
     id: 'arabfunny',
+    imageUrl: 'https://static.wikia.nocookie.net/aesthetics/images/b/b6/D542fwie9t231.png',
     description:
       'The aesthetic relies heavily on sensory overload, utilizing fast-paced editing, loud audio distortion, and a chaotic clutter of visual elements to create nonsensical humor. While it experienced a massive surge in popularity between 2019 and 2020, the trend has largely receded from the mainstream internet consciousness. Despite its decline, its editing style has influenced later surrealist aesthetics, such as Yabujincore. The r/Arabfunny subreddit was created on November 26, 2018.[1] The style was initially developed as a satirization of "boomer-esque" videos and low-quality chain messages that circulated in online Arab circles during the early 2000s, such as the "Hamood Habibi" animation or Crazy Frog videos.[2] Early iterations borrowed the ironic "shitposting" sensibilities of communities like r/OkBuddyRet*rd and r/DeepFriedMemes, applying them to Middle Eastern contexts. The subreddit entered a "Golden Age" of growth in late 2019, amassing over 210,000 subscribers by July 2020.[1] As the subculture grew, it began to suffer from internal moderation disputes and a perceived decline in quality as the userbase shifted from Arab users parodying their own culture to Western users mimicking the aesthetic without understanding the cultural nuances. This friction led to the creation of spinoff communities, such as r/WorldFunnies, which attempted to apply the chaotic editing style to non-Arab contexts.',
     categories: ['internet_aesthetics', 'memes'],
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['Late 2010s'],
+        decade: ['21th_century', '2010s'],
         creator: ['u/Ibrajew (subreddit founder)'],
       },
       visualThemes: {
@@ -2051,8 +2111,8 @@ export const aesthetics: AestheticProps[] = [
         brands: ['Nokia', 'Samsung (associated with low-quality ringtones/camera quality)'],
       },
       timeline: {
-        preceded: ['Major League Gaming', 'Deep Fried Meme'],
-        succeeded: ['Yabujincore'],
+        preceded: ['major_league gaming', 'deep_fried meme'],
+        succeeded: ['yabujincore'],
       },
     },
   },
@@ -2068,7 +2128,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Early 80s Arcade'],
-        decade: ['1980s'],
+        decade: ['20th_century', '1980s'],
       },
       visualThemes: {
         motifs: [
@@ -2088,6 +2148,7 @@ export const aesthetics: AestheticProps[] = [
       connections: {
         related: ['8-bit', 'glitch_art', 'kidcore', 'mallgoth', 'synthwave', 'vaporwave', 'webcore'],
       },
+      timeline: {},
     },
   },
   {
@@ -2102,7 +2163,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Gothic Aristocrat'],
-        decade: ['Mid-1990s'],
+        decade: ['20th_century', '1990s'],
       },
       visualThemes: {
         motifs: [
@@ -2133,6 +2194,7 @@ export const aesthetics: AestheticProps[] = [
       mediaCulture: {
         brands: ['Atelier Boz', 'Marble', 'Moi-même-Moitié'],
       },
+      timeline: {},
     },
   },
   {
@@ -2166,12 +2228,15 @@ export const aesthetics: AestheticProps[] = [
       mediaCulture: {
         media: ['Lust for Life'],
       },
+      origins: {},
+      timeline: {},
     },
   },
   {
     url: 'https://aesthetics.fandom.com/wiki/Artcore',
     name: 'Artcore',
     id: 'artcore',
+    imageUrl: 'https://static.wikia.nocookie.net/aesthetics/images/3/35/VividTheory.jpg',
     description:
       'The conceptual origins of Artcore can be traced to the Japanese rhythm game series BEMANI. In the late 1990s and early 2000s, producer dj TAKA released tracks under the alias DJ Amuro, which he described as "Renaissance Hardcore." These songs combined high-tempo electronic beats with instruments like harpsichords and violins, creating a sound reminiscent of Baroque and Renaissance music (often fictionalized). The genre began to coalesce into a distinct style with the work of producer Onoken. His 2002 track "felys" is widely considered by the genre\'s fanbase to be the first true Artcore song. It established Artcore\'s core template of progressive piano melodies layered over fast, intricate drum and bass rhythms.[1] The term "Artcore" was first officially used in the game Beatmania IIDX to describe the 2006 track "Narcissus At Oasis" by Ryu☆.[2] From there, the genre flourished within the Dōjin scene and through its continued presence in rhythm games. Labels like Diverse System became important hubs for Artcore producers, and the style began to spread internationally in the early 2010s through the internet, finding a small but dedicated global fanbase.',
     categories: ['music_genres', 'subcultures'],
@@ -2179,7 +2244,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Japanese Artcore', 'Renaissance Hardcore'],
-        decade: ['Early 2000s'],
+        decade: ['21th_century', '2000s'],
         location: ['Japan'],
       },
       visualThemes: {
@@ -2200,6 +2265,7 @@ export const aesthetics: AestheticProps[] = [
       mediaCulture: {
         media: ['Arcaea', 'Cytus II', 'CHUNITHM', 'KALPA', 'Maimai DX', 'O.N.G.E.K.I.'],
       },
+      timeline: {},
     },
   },
   {
@@ -2213,7 +2279,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['1910s–1930s'],
+        decade: ['20th_century', '1910s', '1920s', '1930s'],
         location: ['Paris', 'France'],
       },
       visualThemes: {
@@ -2258,8 +2324,8 @@ export const aesthetics: AestheticProps[] = [
         ],
       },
       timeline: {
-        preceded: ['Art Nouveau'],
-        succeeded: ['Streamline Moderne'],
+        preceded: ['art_nouveau'],
+        succeeded: ['streamline_moderne'],
       },
     },
   },
@@ -2274,7 +2340,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Poor Art', 'Impoverished Art'],
-        decade: ['Late 1960s'],
+        decade: ['20th_century', '1960s'],
         location: ['Italy'],
       },
       visualThemes: {
@@ -2306,6 +2372,7 @@ export const aesthetics: AestheticProps[] = [
       connections: {
         related: ['dau_al_set', 'industrial_decay', 'minimalism', 'nouveau_ralisme'],
       },
+      timeline: {},
     },
   },
   {
@@ -2320,7 +2387,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Art Heaux', 'Art Ho'],
-        decade: ['Mid-2010s'],
+        decade: ['21th_century', '2010s'],
         location: ['USA'],
       },
       visualThemes: {
@@ -2350,6 +2417,7 @@ export const aesthetics: AestheticProps[] = [
         brands: ['Fjällräven (Kånken)', 'Dr. Martens', 'Vans', 'Polaroid'],
         figures: ['Amandla Stenberg', 'Rian Phin', 'Jenelle Lewis (aka Mars)', 'Babeo Baggins (aka Evil)'],
       },
+      timeline: {},
     },
   },
   {
@@ -2366,7 +2434,7 @@ export const aesthetics: AestheticProps[] = [
         otherNames: [
           'Modern Style (Britain)Glasgow Style (Scotland)Jugendstil (Germany)Stile Liberty (Italy)Modernismo (Spain)Modernisme (Catalonia)Wiener Jugendstil or Secessionsstil (Austro-Hungary)Nieuwe Kunst (the Netherlands)Arte Nova (Portugal)Arta 1900 (Romania)Tiffany Style (US)',
         ],
-        decade: ['1890s–1910s'],
+        decade: ['19th_century', '20th_century', '1890s', '1900s', '1910s'],
         location: ['Western Europe'],
       },
       visualThemes: {
@@ -2416,8 +2484,8 @@ export const aesthetics: AestheticProps[] = [
         ],
       },
       timeline: {
-        preceded: ['Arts and Crafts', 'Aestheticism'],
-        succeeded: ['Art Deco', 'Modernism'],
+        preceded: ['arts_and crafts', 'aestheticism'],
+        succeeded: ['art_deco', 'modernism'],
       },
     },
   },
@@ -2431,7 +2499,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['1880s - 1920s'],
+        decade: ['19th_century', '20th_century', '1880s', '1890s', '1900s', '1910s', '1920s'],
         location: ['United Kingdom'],
         creator: ['William Morris', 'John Ruskin (ideological founder)'],
       },
@@ -2472,8 +2540,8 @@ export const aesthetics: AestheticProps[] = [
         figures: ['William Morris', 'John Ruskin', 'Charles Robert Ashbee', 'Charles Voysey', 'Gustav Stickley'],
       },
       timeline: {
-        preceded: ['Gothic Revival', 'Pre-Raphaelite'],
-        succeeded: ['Art Nouveau', 'Modernism'],
+        preceded: ['gothic_revival', 'pre-raphaelite'],
+        succeeded: ['art_nouveau', 'modernism'],
       },
     },
   },
@@ -2488,7 +2556,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Art hors-les-normes', 'art en marge', 'art cru', 'création franche'],
-        decade: ['1970s'],
+        decade: ['20th_century', '1970s'],
         creator: ['Alain Bourbonnais', 'Michel Ragon', 'Suzanne Pagé', 'Michel Thévoz'],
       },
       visualThemes: {
@@ -2516,6 +2584,7 @@ export const aesthetics: AestheticProps[] = [
       mediaCulture: {
         brands: ['La Fabuloserie', 'Musée de la Création Franche', 'Halle Saint-Pierre'],
       },
+      timeline: {},
     },
   },
   {
@@ -2529,7 +2598,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['ABG', 'Asian Baby Gangster'],
-        decade: ['1990s'],
+        decade: ['20th_century', '1990s'],
         location: ['New York City & California', 'United States'],
       },
       visualThemes: {
@@ -2540,6 +2609,7 @@ export const aesthetics: AestheticProps[] = [
       connections: {
         related: ['baddie', 'femme_fatale', 'sukeban'],
       },
+      timeline: {},
     },
   },
   {
@@ -2553,7 +2623,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Atomic Age Modern'],
-        decade: ['1940s'],
+        decade: ['20th_century', '1940s'],
       },
       visualThemes: {
         motifs: [
@@ -2585,8 +2655,8 @@ export const aesthetics: AestheticProps[] = [
         figures: ['Charles and Ray Eames', 'George Nelson', 'Eero Saarinen', 'Pierre Cardin', 'John Lautner'],
       },
       timeline: {
-        preceded: ['Streamline Moderne'],
-        succeeded: ['Corporate Hippie'],
+        preceded: ['streamline_moderne'],
+        succeeded: ['corporate_hippie'],
       },
     },
   },
@@ -2601,7 +2671,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Raypunk'],
-        decade: ['1950s'],
+        decade: ['20th_century', '1950s'],
       },
       visualThemes: {
         motifs: ['Nuclear-based power', 'space travel', 'hover technology', 'bright colours'],
@@ -2625,6 +2695,7 @@ export const aesthetics: AestheticProps[] = [
       mediaCulture: {
         media: ['Futurama and Red Dwarf'],
       },
+      timeline: {},
     },
   },
   {
@@ -2637,7 +2708,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['1980s'],
+        decade: ['20th_century', '1980s'],
         location: ['Australia'],
       },
       visualThemes: {
@@ -2685,6 +2756,7 @@ export const aesthetics: AestheticProps[] = [
           'Emma Mullholland',
         ],
       },
+      timeline: {},
     },
   },
   {
@@ -2697,7 +2769,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Austere-Urbane'],
-        decade: ['2010s'],
+        decade: ['21th_century', '2010s'],
       },
       visualThemes: {
         motifs: ['Serif fonts', ''],
@@ -2707,6 +2779,7 @@ export const aesthetics: AestheticProps[] = [
       connections: {
         related: ['corporate_memphis', 'frasurbane'],
       },
+      timeline: {},
     },
   },
   {
@@ -2720,7 +2793,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Romanticized Autumn', 'Fallcore', 'Cozy Autumn'],
-        decade: ['2010s'],
+        decade: ['21th_century', '2010s'],
       },
       visualThemes: {
         motifs: [
@@ -2750,6 +2823,7 @@ export const aesthetics: AestheticProps[] = [
       mediaCulture: {
         figures: ['Rory Gilmore (Gilmore Girls)', 'Sally Albright (When Harry Met Sally)'],
       },
+      timeline: {},
     },
   },
   {
@@ -2763,7 +2837,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['2020s'],
+        decade: ['21th_century', '2020s'],
       },
       visualThemes: {
         motifs: ['Deconstruction', 'asymmetry', 'layering', 'neutral tones', 'cut-outs', 'unconventional silhouettes'],
@@ -2787,7 +2861,7 @@ export const aesthetics: AestheticProps[] = [
         brands: ['Nensi Dojaka', 'DIDU', 'Auné', 'Ottolinger', 'Oriens', 'Ai Mei Li', 'Mugler'],
       },
       timeline: {
-        preceded: ['Subversive Basics'],
+        preceded: ['subversive_basics'],
       },
     },
   },
@@ -2802,7 +2876,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['2020s'],
+        decade: ['21th_century', '2020s'],
       },
       visualThemes: {
         motifs: ['Checkerboard', 'wavy lines', 'pastel patterns', 'curved shapes'],
@@ -2827,6 +2901,7 @@ export const aesthetics: AestheticProps[] = [
       mediaCulture: {
         brands: ['Lisa Says Gah', 'House of Sunny', 'Paloma Wool'],
       },
+      timeline: {},
     },
   },
   {
@@ -2840,7 +2915,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Avant Garde Prefuse'],
-        decade: ['2000s'],
+        decade: ['21th_century', '2000s'],
       },
       visualThemes: {
         motifs: [
@@ -2882,6 +2957,7 @@ export const aesthetics: AestheticProps[] = [
       mediaCulture: {
         media: ['Noods', "Let's Go! Prefuse", '"CHECK it" eras of Cartoon Network'],
       },
+      timeline: {},
     },
   },
   {
@@ -2895,7 +2971,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['2010s'],
+        decade: ['21th_century', '2010s'],
       },
       visualThemes: {
         motifs: [
@@ -2919,7 +2995,7 @@ export const aesthetics: AestheticProps[] = [
         brands: ['Sanrio', 'Care Bears', 'Fisher-Price (as visual inspiration)'],
       },
       timeline: {
-        preceded: ['Kidcore'],
+        preceded: ['kidcore'],
       },
     },
   },
@@ -2936,7 +3012,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Babydoll', 'Little Princess'],
-        decade: ['2010s'],
+        decade: ['21th_century', '2010s'],
       },
       visualThemes: {
         motifs: [
@@ -2967,6 +3043,7 @@ export const aesthetics: AestheticProps[] = [
       mediaCulture: {
         figures: ['Melanie Martinez'],
       },
+      timeline: {},
     },
   },
   {
@@ -2981,7 +3058,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Beauty Guru'],
-        decade: ['2010s'],
+        decade: ['21th_century', '2010s'],
       },
       visualThemes: {
         motifs: ['Bold makeup and fashion'],
@@ -3005,6 +3082,7 @@ export const aesthetics: AestheticProps[] = [
       mediaCulture: {
         brands: ['Fashion Nova', 'Forever 21', 'Adidas'],
       },
+      timeline: {},
     },
   },
   {
@@ -3018,7 +3096,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Makinero', 'Bakalaero', 'Ruta Destroy', 'Rutero', 'Pastillero'],
-        decade: ['1980s (Late) – 2000s (Early)'],
+        decade: ['20th_century', '21th_century', '1980s', '1990s', '2000s'],
         location: ['Valencia', 'Spain'],
       },
       visualThemes: {
@@ -3067,8 +3145,8 @@ export const aesthetics: AestheticProps[] = [
         ],
       },
       timeline: {
-        preceded: ['Movida Valenciana', 'Post-Punk', 'EBM'],
-        succeeded: ['Cani', 'Pokero'],
+        preceded: ['movida_valenciana', 'post-punk', 'ebm'],
+        succeeded: ['cani', 'pokero'],
       },
     },
   },
@@ -3083,7 +3161,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Ibiza Club Aesthetic', 'Balearica'],
-        decade: ['Late-1980s'],
+        decade: ['20th_century', '1980s'],
         location: ['Ibiza', 'Balearic Islands', 'Spain'],
       },
       visualThemes: {
@@ -3102,6 +3180,7 @@ export const aesthetics: AestheticProps[] = [
       connections: {
         related: ['acid_house', 'bohemian', 'hippie', 'psychedelia', 'new_beat'],
       },
+      timeline: {},
     },
   },
   {
@@ -3114,7 +3193,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['15th Century'],
+        decade: ['15th_century'],
         location: ['Italy (formalized in France)'],
       },
       visualThemes: {
@@ -3150,6 +3229,7 @@ export const aesthetics: AestheticProps[] = [
         media: ['The Red Shoes (1948)', 'Black Swan (2010)', 'Suspiria (1977)', 'An American in Paris (1951)'],
         figures: ['George Balanchine', 'Mikhail Baryshnikov', 'Anna Pavlova', 'Marie Taglioni', 'Vaslav Nijinsky'],
       },
+      timeline: {},
     },
   },
   {
@@ -3163,7 +3243,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['2020s'],
+        decade: ['21th_century', '2020s'],
       },
       visualThemes: {
         motifs: ['Ballet-inspired fashion'],
@@ -3183,12 +3263,14 @@ export const aesthetics: AestheticProps[] = [
           'wonyoungism',
         ],
       },
+      timeline: {},
     },
   },
   {
     url: 'https://aesthetics.fandom.com/wiki/Ballroom_Culture',
     name: 'Ballroom Culture',
     id: 'ballroom_culture',
+    imageUrl: 'https://static.wikia.nocookie.net/aesthetics/images/3/39/P073nnzl-696x442-1.jpg',
     description:
       'Ballroom Culture is an underground subculture predominantly created by and for African American and Latino LGBTQ+ individuals, originating in New York City. It is a social and competitive space where participants, known as "walkers," compete for trophies, prizes, and recognition at events called "balls." These events blend elements of performance, dance, lip-syncing, and modeling. Historically, ballroom culture provided a vital safe haven and surrogate family structure for queer people of color who were often marginalized or ostracized by their biological families and broader society. The culture is fundamentally rooted in necessity and defiance, evolving from earlier masquerade balls held in the late 19th century where queer individuals openly challenged laws prohibiting cross-dressing. Ballroom has consistently reflected and commented on themes of race, class, and gender, allowing participants to embody aspirational identities and find community. Its unique vernacular, dance styles (most notably voguing), and fashion have significantly influenced mainstream popular culture, from music to television, while maintaining its underground community and distinct purpose.[1] The Ballroom scene developed a unique and expressive lexicon, much of which has since permeated broader LGBTQ+ culture and, in some instances, mainstream vernacular. These terms are integral to the identity, communication, and performance within the community.',
     categories: ['music', 'performance_art', 'subcultures', 'fashion'],
@@ -3196,7 +3278,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Ball Culture', 'Drag Ball Culture', 'House-Ballroom Community'],
-        decade: ['Late 19th Century (formal balls); 1960s/1970s (modern house system)'],
+        decade: ['20th_century', '1960s', '1970s'],
         location: ['New York City', 'United States'],
         creator: ['African American and Latino LGBTQ+ individuals'],
       },
@@ -3241,6 +3323,7 @@ export const aesthetics: AestheticProps[] = [
         brands: ['High fashion labels (often emulated or referenced)', 'sportswear brands'],
         figures: ['Crystal La', 'Beija', 'Pepper La', 'Beija', 'Willi Ninja', 'Dorian Corey', 'Angie Xtravaganza'],
       },
+      timeline: {},
     },
   },
   {
@@ -3253,7 +3336,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['1900s'],
+        decade: ['20th_century', '1900s'],
       },
       visualThemes: {
         colours: ['Black'],
@@ -3262,6 +3345,7 @@ export const aesthetics: AestheticProps[] = [
       connections: {
         related: ['yanki', 'taisho_roman_opposite'],
       },
+      timeline: {},
     },
   },
   {
@@ -3274,7 +3358,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['Late 2010s'],
+        decade: ['21th_century', '2010s'],
       },
       visualThemes: {
         motifs: [
@@ -3295,7 +3379,7 @@ export const aesthetics: AestheticProps[] = [
         figures: ['Haircuts for Men', 'Macroblank', 'Modest by Default'],
       },
       timeline: {
-        preceded: ['Vaporwave'],
+        preceded: ['vaporwave'],
       },
     },
   },
@@ -3310,7 +3394,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['2020s (with roots in early 2000s Mc', 'Bling fashion)'],
+        decade: ['21th_century', '2020s'],
       },
       visualThemes: {
         colours: ['Holographic', 'hot pink', 'lavender', 'pastel pink', 'violet'],
@@ -3336,6 +3420,7 @@ export const aesthetics: AestheticProps[] = [
           'Dolce & Gabbana',
         ],
       },
+      timeline: {},
     },
   },
   {
@@ -3349,7 +3434,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Tavernwave'],
-        decade: ['2020s'],
+        decade: ['21th_century', '2020s'],
         creator: ['Cornelius Link'],
       },
       visualThemes: {
@@ -3380,6 +3465,7 @@ export const aesthetics: AestheticProps[] = [
         media: ['The Witcher (Jaskier)', 'Dungeons & Dragons (Bard class)', 'medieval fantasy literature and media'],
         figures: ['Cornelius Link', "Hildegard von Blingin'", 'Beedle the Bardcore', 'Stanley Yong'],
       },
+      timeline: {},
     },
   },
   {
@@ -3394,7 +3480,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Barroco'],
-        decade: ['c. 1600 - 1750'],
+        decade: ['17th_century', '18th_century'],
         location: ['Rome', 'Italy'],
         creator: ['Caravaggio', 'Gian Lorenzo Bernini', 'Francesco Borromini'],
       },
@@ -3451,8 +3537,8 @@ export const aesthetics: AestheticProps[] = [
         ],
       },
       timeline: {
-        preceded: ['Mannerism', 'Italian Renaissance'],
-        succeeded: ['Rococo', 'Neoclassicism'],
+        preceded: ['mannerism', 'italian_renaissance'],
+        succeeded: ['rococo', 'neoclassicism'],
       },
     },
   },
@@ -3467,7 +3553,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Euskal Rock Erradikala', 'Rock Radikal Vasco', 'RRV'],
-        decade: ['1980s'],
+        decade: ['20th_century', '1980s'],
         location: ['Basque Country', 'Spain'],
       },
       visualThemes: {
@@ -3491,7 +3577,7 @@ export const aesthetics: AestheticProps[] = [
         figures: ['Kortatu', 'Eskorbuto', 'La Polla Records', 'RIP'],
       },
       timeline: {
-        preceded: ['Punk'],
+        preceded: ['punk'],
       },
     },
   },
@@ -3506,7 +3592,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Badboycore', 'Feralcore', 'Mischiefcore'],
-        decade: ['Late 2010s'],
+        decade: ['21th_century', '2010s'],
         creator: ['Unknown'],
       },
       visualThemes: {
@@ -3550,6 +3636,7 @@ export const aesthetics: AestheticProps[] = [
         platform: ['Reddit', 'Tumblr', 'Newgrounds', 'You', 'Tube', 'Novelty Shirt Websites'],
         brands: ["It's Happy Bunny", 'David & Goliath (precursors)', 'Shirts That Go Hard (core vendor)'],
       },
+      timeline: {},
     },
   },
   {
@@ -3563,7 +3650,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Staatliches Bauhaus'],
-        decade: ['1919 - 1933'],
+        decade: ['20th_century', '1920s', '1930s'],
         location: ['Weimar', 'Germany'],
         creator: ['Walter Gropius'],
       },
@@ -3614,8 +3701,8 @@ export const aesthetics: AestheticProps[] = [
         ],
       },
       timeline: {
-        preceded: ['Arts and Crafts', 'De Stijl'],
-        succeeded: ['International Style', 'Mid-Century Modern'],
+        preceded: ['arts_and crafts', 'de_stijl'],
+        succeeded: ['international_style', 'mid-century_modern'],
       },
     },
   },
@@ -3630,7 +3717,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Breaking', 'Break-Boy/Girl'],
-        decade: ['1970s'],
+        decade: ['20th_century', '1970s'],
         location: ['The Bronx', 'New York City'],
         creator: ['DJ Kool Herc', 'Afrika Bambaataa', 'Grandmaster Flash', 'Rock Steady Crew'],
       },
@@ -3660,6 +3747,7 @@ export const aesthetics: AestheticProps[] = [
       mediaCulture: {
         media: ['Wild Style (1983)', 'Beat Street (1984)', 'Flashdance (1983)', 'The Freshest Kids (2002)'],
       },
+      timeline: {},
     },
   },
   {
@@ -3684,6 +3772,7 @@ export const aesthetics: AestheticProps[] = [
       mediaCulture: {
         platform: ['Tik', 'Tok', 'Instagram'],
       },
+      timeline: {},
     },
   },
   {
@@ -3697,7 +3786,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['Late 1950s'],
+        decade: ['20th_century', '1950s'],
         creator: ['Herb Caen (coined)'],
       },
       visualThemes: {
@@ -3723,6 +3812,7 @@ export const aesthetics: AestheticProps[] = [
       connections: {
         related: ['bohemian', 'dark_academia', 'hippie', 'hipster', 'post-punk', 'psychedelia', 'rude_boy'],
       },
+      timeline: {},
     },
   },
   {
@@ -3736,7 +3826,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Popcorn', 'Oldies Popcorn'],
-        decade: ['Late 1960s'],
+        decade: ['20th_century', '1960s'],
         location: ['Antwerp and East Flanders', 'Belgium (De Oude Hoeve in Vrasene)'],
         creator: ['Local DJs (Gilbert Govaert', 'Freddy Cousaert) and dance enthusiasts'],
       },
@@ -3760,6 +3850,7 @@ export const aesthetics: AestheticProps[] = [
         platform: ['Clubs and Dance Halls (The Popcorn', 'The Groove)'],
         media: ['The Sound of Belgium (2012 Documentary)'],
       },
+      timeline: {},
     },
   },
   {
@@ -3774,7 +3865,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Berghain Aesthetic', 'Berlin Clubwear'],
-        decade: ['Late-1980s', 'Early-1990s'],
+        decade: ['20th_century', '1980s', '20th_century', '1990s'],
         location: ['Berlin', 'Germany'],
       },
       visualThemes: {
@@ -3805,6 +3896,7 @@ export const aesthetics: AestheticProps[] = [
         brands: ['Lueder', 'Ottolinger', 'Gmb', 'H', 'Maximilian Gedra', 'No Faith Studios', 'Rick Owens'],
         figures: ['Sven Marquardt'],
       },
+      timeline: {},
     },
   },
   {
@@ -3817,7 +3909,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['1810s'],
+        decade: ['19th_century', '1810s'],
         location: ['German Confederation', 'Austrian Empire'],
       },
       visualThemes: {
@@ -3835,6 +3927,7 @@ export const aesthetics: AestheticProps[] = [
       connections: {
         related: ['classicism', 'empire_style', 'neoclassicism', 'romanticism'],
       },
+      timeline: {},
     },
   },
   {
@@ -3848,7 +3941,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Motorbiker', 'Outlaw Biker'],
-        decade: ['1950s'],
+        decade: ['20th_century', '1950s'],
       },
       visualThemes: {
         motifs: ['Leather', 'smoking', 'revving', 'violence', 'sex', 'motorcycles'],
@@ -3868,6 +3961,7 @@ export const aesthetics: AestheticProps[] = [
           'surfer',
         ],
       },
+      timeline: {},
     },
   },
   {
@@ -3881,7 +3975,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Yankees', 'Kinshasa Cowboys', 'Billism'],
-        decade: ['Late 1950s'],
+        decade: ['20th_century', '1950s'],
         location: ['Léopoldville', 'Belgian Congo (now Kinshasa', 'DRC)'],
       },
       visualThemes: {
@@ -3904,6 +3998,7 @@ export const aesthetics: AestheticProps[] = [
       mediaCulture: {
         media: ['Pony Express (1953)', 'Western films'],
       },
+      timeline: {},
     },
   },
   {
@@ -3917,7 +4012,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Bimbo Feminism', 'Slutcore'],
-        decade: ['Early 2020s'],
+        decade: ['21th_century', '2020s'],
       },
       visualThemes: {
         motifs: [
@@ -3959,7 +4054,7 @@ export const aesthetics: AestheticProps[] = [
         figures: ['Ayesha Erotica', 'Chrissy Chlapecka', 'Bimini Bon-Boulash', 'Paris Hilton (as a historical icon)'],
       },
       timeline: {
-        preceded: ['Mc', 'Bling'],
+        preceded: ['mc', 'bling'],
       },
     },
   },
@@ -3992,6 +4087,8 @@ export const aesthetics: AestheticProps[] = [
         media: ['Resident Evil', 'Parasite Eve', 'Akira', 'Neon Genesis Evangelion', 'Elfen Lied', 'Stranger Things'],
         figures: ['Hans Rudolf Giger'],
       },
+      origins: {},
+      timeline: {},
     },
   },
   {
@@ -4063,6 +4160,7 @@ export const aesthetics: AestheticProps[] = [
           'Sports brands',
         ],
       },
+      timeline: {},
     },
   },
   {
@@ -4076,7 +4174,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Trve Kvlt (aesthetic)'],
-        decade: ['1980s (First Wave)', '1990s (Second Wave)'],
+        decade: ['20th_century', '1980s', '20th_century', '1990s'],
         location: ['England', 'Scandinavia'],
         creator: ['Venom', 'Bathory'],
       },
@@ -4091,8 +4189,8 @@ export const aesthetics: AestheticProps[] = [
         figures: ['Per Yngve "Dead" Ohlin', 'Øystein "Euronymous" Aarseth', 'Varg "Count Grishnackh" Vikernes'],
       },
       timeline: {
-        preceded: ['Thrash Metal'],
-        succeeded: ['War Metal', 'Dungeon Synth'],
+        preceded: ['thrash_metal'],
+        succeeded: ['war_metal', 'dungeon_synth'],
       },
     },
   },
@@ -4107,7 +4205,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['mushbuhcore'],
-        decade: ['2010s'],
+        decade: ['21th_century', '2010s'],
       },
       visualThemes: {
         motifs: ['3D shapes'],
@@ -4115,6 +4213,7 @@ export const aesthetics: AestheticProps[] = [
       connections: {
         related: ['claymorphism', 'neo-y2ksilicon_dreams'],
       },
+      timeline: {},
     },
   },
   {
@@ -4128,7 +4227,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Blog House', 'Bloghaus', 'Dirty Electro House', 'Filthy Electro House'],
-        decade: ['2000s'],
+        decade: ['21th_century', '2000s'],
       },
       visualThemes: {
         motifs: ['American Apparel', 'shutter shades', 'neon tones'],
@@ -4149,6 +4248,7 @@ export const aesthetics: AestheticProps[] = [
           'vectordelia',
         ],
       },
+      timeline: {},
     },
   },
   {
@@ -4172,7 +4272,7 @@ export const aesthetics: AestheticProps[] = [
           'Blogbient',
           'Hypnagogic Tape Ambient-Drone',
         ],
-        decade: ['2000s'],
+        decade: ['21th_century', '2000s'],
         location: ['United States'],
         creator: ['James Ferraro'],
       },
@@ -4183,6 +4283,7 @@ export const aesthetics: AestheticProps[] = [
       connections: {
         related: ['surrealism', 'diy_punk', 'dada', 'xpiritualism', 'draincore', 'weirdcore', 'vaporwave'],
       },
+      timeline: {},
     },
   },
   {
@@ -4196,7 +4297,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Ladcore'],
-        decade: ['2020s'],
+        decade: ['21th_century', '2020s'],
         location: ['United Kingdom (inspiration)'],
       },
       visualThemes: {
@@ -4230,6 +4331,7 @@ export const aesthetics: AestheticProps[] = [
         ],
         brands: ['Adidas', 'Nike', 'Kappa', 'Balenciaga', "Levi's"],
       },
+      timeline: {},
     },
   },
   {
@@ -4243,7 +4345,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['2020s'],
+        decade: ['21th_century', '2020s'],
       },
       visualThemes: {
         motifs: [
@@ -4266,6 +4368,7 @@ export const aesthetics: AestheticProps[] = [
         brands: ['Adidas', 'Miu Miu', 'Nike', 'Diesel', 'Balenciaga', 'Free People', 'Baum und Pferdgarten'],
         figures: ['Bella Hadid', 'Ruby Lyn'],
       },
+      timeline: {},
     },
   },
   {
@@ -4280,7 +4383,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Flowercore', 'Floral Aesthetic'],
-        decade: ['Late 2010s'],
+        decade: ['21th_century', '2010s'],
       },
       visualThemes: {
         motifs: [
@@ -4307,6 +4410,7 @@ export const aesthetics: AestheticProps[] = [
       connections: {
         related: ['cottagecore', 'gardencore', 'grandmacore', 'naturecore', 'romantic_academia'],
       },
+      timeline: {},
     },
   },
   {
@@ -4319,7 +4423,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['2020s'],
+        decade: ['21th_century', '2020s'],
       },
       visualThemes: {
         motifs: [
@@ -4338,6 +4442,7 @@ export const aesthetics: AestheticProps[] = [
       connections: {
         related: ['art_hoe', 'clean_girl', 'coastal_grandmother', 'strawberry_girl', 'tomato_girl'],
       },
+      timeline: {},
     },
   },
   {
@@ -4367,6 +4472,8 @@ export const aesthetics: AestheticProps[] = [
           'raygun_gothic',
         ],
       },
+      origins: {},
+      timeline: {},
     },
   },
   {
@@ -4380,7 +4487,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Bobby Sox Girls', 'Teen Tycoons', 'Swoonatra Fans', 'Frank Sinatra Fangirls'],
-        decade: ['1940s'],
+        decade: ['20th_century', '1940s'],
         location: ['United States'],
       },
       visualThemes: {
@@ -4410,6 +4517,7 @@ export const aesthetics: AestheticProps[] = [
         media: ['The Bachelor and the Bobby-Soxer (1947 Film)', 'Seventeen Magazine (launched 1944)'],
         figures: ['Frank Sinatra (Teen Idol)', 'Shirley Temple (stereotypical portrayal)'],
       },
+      timeline: {},
     },
   },
   {
@@ -4424,7 +4532,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Bodycon', 'Bodykon', 'One-Line Body Con', 'Otachidai Gyaru'],
-        decade: ['Mid-1980s to early-1990s'],
+        decade: ['20th_century', '1980s', '1990s'],
         location: ['Osaka', 'Japan'],
       },
       visualThemes: {
@@ -4465,7 +4573,7 @@ export const aesthetics: AestheticProps[] = [
         figures: ['Ai Iijima', 'Chisato Moritaka', 'Kumiko Araki', 'Natsuki Okamoto'],
       },
       timeline: {
-        succeeded: ['Gyaru', 'Kogal', 'Ganguro'],
+        succeeded: ['gyaru', 'kogal', 'ganguro'],
       },
     },
   },
@@ -4479,11 +4587,12 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['1980’s'],
+        decade: ['20th_century', '1980s'],
       },
       connections: {
         related: ['chav_uk'],
       },
+      timeline: {},
     },
   },
   {
@@ -4498,7 +4607,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Bohemianism', 'Boho'],
-        decade: ['19th Century'],
+        decade: ['19th_century'],
         location: ['Paris', 'France'],
       },
       visualThemes: {
@@ -4531,8 +4640,8 @@ export const aesthetics: AestheticProps[] = [
         figures: ['Henri Murger', 'The Pre-Raphaelite Brotherhood', 'Janis Joplin', 'Stevie Nicks'],
       },
       timeline: {
-        preceded: ['Romanticism'],
-        succeeded: ['Beatnik', 'Hippie'],
+        preceded: ['romanticism'],
+        succeeded: ['beatnik', 'hippie'],
       },
     },
   },
@@ -4547,7 +4656,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['Early 2000s'],
+        decade: ['21th_century', '2000s'],
       },
       visualThemes: {
         motifs: [
@@ -4571,7 +4680,7 @@ export const aesthetics: AestheticProps[] = [
         figures: ['Sienna Miller', 'Kate Moss', 'Mary-Kate and Ashley Olsen', 'Nicole Richie', 'Rachel Zoe (stylist)'],
       },
       timeline: {
-        preceded: ['Bohemian', 'Hippie'],
+        preceded: ['bohemian', 'hippie'],
       },
     },
   },
@@ -4593,6 +4702,8 @@ export const aesthetics: AestheticProps[] = [
       connections: {
         related: ['cani', 'chav', 'cocalar', 'dizelai', 'dresiarz', 'gopnik', 'racaille', 'talahon'],
       },
+      origins: {},
+      timeline: {},
     },
   },
   {
@@ -4607,7 +4718,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['BCBG', 'Bécebège', 'Parisian Chic'],
-        decade: ['Late 1970s - 1980s'],
+        decade: ['20th_century', '1970s', '1980s'],
         location: ['Paris', 'France'],
       },
       visualThemes: {
@@ -4638,6 +4749,7 @@ export const aesthetics: AestheticProps[] = [
         brands: ['Hermès', 'Chanel', 'Charvet', 'Loro Piana', 'Burberry', 'Weston', 'Goyard'],
         figures: ['Catherine Deneuve', 'Inès de La Fressange', 'Charlotte Gainsbourg'],
       },
+      timeline: {},
     },
   },
   {
@@ -4670,6 +4782,7 @@ export const aesthetics: AestheticProps[] = [
           'succubus_chic',
         ],
       },
+      timeline: {},
     },
   },
   {
@@ -4684,11 +4797,12 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Kaminarizoku'],
-        decade: ["1950's"],
+        decade: ['20th_century', '1950s'],
       },
       connections: {
         related: ['yanki', 'sukeban'],
       },
+      timeline: {},
     },
   },
   {
@@ -4702,7 +4816,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Marok', 'Hellbangers', 'Metal Cowboys'],
-        decade: ['1990s – Early 2000s'],
+        decade: ['20th_century', '21th_century', '1990s', '2000s'],
         location: ['Botswana'],
       },
       visualThemes: {
@@ -4734,7 +4848,7 @@ export const aesthetics: AestheticProps[] = [
         media: ["Frank Marshall's photography project", 'Overthrust (Band)'],
       },
       timeline: {
-        preceded: ['Metalheads (global)'],
+        preceded: ['metalheads_(global)'],
       },
     },
   },
@@ -4812,6 +4926,7 @@ export const aesthetics: AestheticProps[] = [
           'Paco Rabanne',
         ],
       },
+      timeline: {},
     },
   },
   {
@@ -4826,7 +4941,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Brat Girl', 'Brat Girl Summer'],
-        decade: ['2020s'],
+        decade: ['21th_century', '2020s'],
       },
       visualThemes: {
         motifs: [
@@ -4847,6 +4962,7 @@ export const aesthetics: AestheticProps[] = [
         platform: ['Tik', 'Tok', 'Twitter (X)'],
         figures: ['Charli XCX', 'Julia Fox', 'Kamala Harris (as a meme)'],
       },
+      timeline: {},
     },
   },
   {
@@ -4860,7 +4976,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Rock Bravú'],
-        decade: ['1990s'],
+        decade: ['20th_century', '1990s'],
         location: ['Galicia', 'Spain'],
         creator: ['Os Diplomáticos de Monte-Alto', 'Os Rastreros (pioneering bands)'],
       },
@@ -4891,6 +5007,7 @@ export const aesthetics: AestheticProps[] = [
         media: ['Bravú (magazine)', 'Xabarín Club (TV program)', 'Selección Xa! (compilation album)'],
         figures: ['Xurxo Souto'],
       },
+      timeline: {},
     },
   },
   {
@@ -4903,7 +5020,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['2020s'],
+        decade: ['21th_century', '2020s'],
         location: ['Brazil / Internet (Tik', 'Tok)'],
       },
       visualThemes: {
@@ -4928,7 +5045,7 @@ export const aesthetics: AestheticProps[] = [
         figures: ['Hailey Bieber', 'Emily Ratajkowski', 'Anitta', 'Alex Consani', 'Bruno Mars'],
       },
       timeline: {
-        preceded: ['Blokecore'],
+        preceded: ['blokecore'],
       },
     },
   },
@@ -4943,7 +5060,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['2000s'],
+        decade: ['21th_century', '2000s'],
       },
       visualThemes: {
         motifs: ['Wavy hair', 'sun-kissed skin', 'lingerie', 'fashion shows', "Victoria's Secret Wings"],
@@ -4956,6 +5073,7 @@ export const aesthetics: AestheticProps[] = [
       mediaCulture: {
         brands: ["Victoria's Secret"],
       },
+      timeline: {},
     },
   },
   {
@@ -4969,7 +5087,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Carnaval Brasileiro'],
-        decade: ['1800s'],
+        decade: ['19th_century', '1800s'],
       },
       visualThemes: {
         motifs: ['Parades', 'revelry', 'samba', 'joy', 'costumes'],
@@ -4979,6 +5097,7 @@ export const aesthetics: AestheticProps[] = [
       connections: {
         related: ['brazilian_bombshell', 'mandrake', 'manguebeat', 'venetian_carnival', 'easter'],
       },
+      timeline: {},
     },
   },
   {
@@ -4992,7 +5111,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Funk MTGAggressive Funk', 'Funk Automotivo', 'Funk Bruxaria'],
-        decade: ['Late 2010s'],
+        decade: ['21th_century', '2010s'],
         location: ['Brazil / Internet'],
       },
       visualThemes: {
@@ -5013,6 +5132,7 @@ export const aesthetics: AestheticProps[] = [
       mediaCulture: {
         platform: ['Sound', 'Cloud', 'You', 'Tube', 'Tik', 'Tok'],
       },
+      timeline: {},
     },
   },
   {
@@ -5025,7 +5145,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['2000s'],
+        decade: ['21th_century', '2000s'],
       },
       visualThemes: {
         motifs: [
@@ -5052,6 +5172,7 @@ export const aesthetics: AestheticProps[] = [
           'y2k_futurism',
         ],
       },
+      timeline: {},
     },
   },
   {
@@ -5065,7 +5186,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['British Pop'],
-        decade: ['Early 1990s'],
+        decade: ['20th_century', '1990s'],
         location: ['United Kingdom'],
         creator: ['Bands like Blur', 'Oasis', 'Suede', 'and Pulp'],
       },
@@ -5097,6 +5218,7 @@ export const aesthetics: AestheticProps[] = [
       mediaCulture: {
         platform: ['Music videos', 'magazines (NME', 'Select', 'Loaded)'],
       },
+      timeline: {},
     },
   },
   {
@@ -5116,7 +5238,7 @@ export const aesthetics: AestheticProps[] = [
           'rural noble culture',
           'etc.',
         ],
-        decade: ['Practices from Medieval times', 'visuals from Victorian era'],
+        decade: ['19th_century'],
         location: ['British Isles'],
       },
       visualThemes: {
@@ -5151,6 +5273,7 @@ export const aesthetics: AestheticProps[] = [
         brands: ['Barbour', 'Hunter', 'Burberry', 'Holland Cooper', 'Cordings', 'Dubarry'],
         figures: ['Charles IIIDavid Beckham', 'Edward VIII'],
       },
+      timeline: {},
     },
   },
   {
@@ -5195,6 +5318,7 @@ export const aesthetics: AestheticProps[] = [
           'Von Dutch',
         ],
       },
+      timeline: {},
     },
   },
   {
@@ -5209,7 +5333,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['So', 'Cal Barbie'],
-        decade: ['Mid-2000s'],
+        decade: ['21th_century', '2000s'],
         location: ['Southern California', 'USA'],
       },
       visualThemes: {
@@ -5254,6 +5378,7 @@ export const aesthetics: AestheticProps[] = [
         ],
         figures: ['Kesha', 'contestants from Rock of Love'],
       },
+      timeline: {},
     },
   },
   {
@@ -5267,7 +5392,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Chinese Bronze Age', 'Pre‑Qin Period'],
-        decade: ['c. 2070–221 BCE'],
+        decade: ['bc'],
         location: ['China'],
       },
       visualThemes: {
@@ -5275,8 +5400,9 @@ export const aesthetics: AestheticProps[] = [
         colours: ['Patina', 'gold'],
       },
       timeline: {
-        succeeded: ['Qin and Han Dynasties'],
+        succeeded: ['qin_and han dynasties'],
       },
+      connections: {},
     },
   },
   {
@@ -5290,7 +5416,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['American Dubstep'],
-        decade: ['2010s'],
+        decade: ['21th_century', '2010s'],
         location: ['North America (United States & Canada)'],
         creator: ['Rusko (pioneer)', 'Skrillex', 'Excision'],
       },
@@ -5324,6 +5450,7 @@ export const aesthetics: AestheticProps[] = [
         media: ['Call of Duty (Montages)', 'Transformers (film series)', 'Borderlands'],
         brands: ['Monster Energy', 'Mountain Dew', 'Razer', 'OWSLA', 'Rottun Recordings', 'UKF'],
       },
+      timeline: {},
     },
   },
   {
@@ -5337,7 +5464,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Brutalist Architecture', 'New Brutalism (initially)'],
-        decade: ['1950s-1970s'],
+        decade: ['20th_century', '1950s', '1960s', '1970s'],
       },
       visualThemes: {
         motifs: ['Exposed materials', 'unfinished concrete', 'minimalist compositions', 'geometry'],
@@ -5365,6 +5492,7 @@ export const aesthetics: AestheticProps[] = [
       mediaCulture: {
         media: ['The Brutalist (2024)'],
       },
+      timeline: {},
     },
   },
   {
@@ -5379,7 +5507,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['6-ring binder', 'Korean Diary'],
-        decade: ['2020'],
+        decade: ['21th_century', '2020s'],
       },
       visualThemes: {
         motifs: ['binders', 'stickers', 'glitter', 'sparkles', 'photocards', 'keychains', 'beads', 'stationary'],
@@ -5391,6 +5519,7 @@ export const aesthetics: AestheticProps[] = [
       mediaCulture: {
         brands: ['THENCE'],
       },
+      timeline: {},
     },
   },
   {
@@ -5403,7 +5532,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['1990s'],
+        decade: ['20th_century', '1990s'],
       },
       visualThemes: {
         motifs: ['Silk', 'Excessive makeup', 'blown out looks'],
@@ -5421,6 +5550,7 @@ export const aesthetics: AestheticProps[] = [
           'mod',
         ],
       },
+      timeline: {},
     },
   },
   {
@@ -5443,7 +5573,7 @@ export const aesthetics: AestheticProps[] = [
           'Bling Baddie',
           'Sexy Barbiecore',
         ],
-        decade: ['2000s'],
+        decade: ['21th_century', '2000s'],
       },
       visualThemes: {
         motifs: [
@@ -5476,6 +5606,7 @@ export const aesthetics: AestheticProps[] = [
       mediaCulture: {
         media: ['Barbie', 'Bratz'],
       },
+      timeline: {},
     },
   },
   {
@@ -5489,7 +5620,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Mc', 'Bling Revival', 'Nu-Mcbling', 'Neo-Mcbling'],
-        decade: ['Late 2010s'],
+        decade: ['21th_century', '2010s'],
       },
       visualThemes: {
         motifs: [
@@ -5521,7 +5652,7 @@ export const aesthetics: AestheticProps[] = [
         figures: ['SOPHIE', 'Charli XCX', 'Hannah Diamond', 'Kim Petras', 'Slayyyter', 'Ayesha Erotica'],
       },
       timeline: {
-        preceded: ['Mc', 'Bling'],
+        preceded: ['mc', 'bling'],
       },
     },
   },
@@ -5536,7 +5667,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Candy Coquette', 'Candy Girl', 'Cotton Candy Girl', 'Bimbette', 'Coquette Bimbo'],
-        decade: ['2010s'],
+        decade: ['21th_century', '2010s'],
         creator: ['Unknown'],
       },
       visualThemes: {
@@ -5560,6 +5691,7 @@ export const aesthetics: AestheticProps[] = [
       mediaCulture: {
         brands: ['Barbie', 'Sanrio'],
       },
+      timeline: {},
     },
   },
   {
@@ -5573,7 +5705,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Bubblegum Eurodance'],
-        decade: ['1990s'],
+        decade: ['20th_century', '1990s'],
         location: ['Scandinavia (Denmark', 'Sweden', 'Norway) & Italy'],
         creator: ['Whigfield', 'Me & My', 'Aqua'],
       },
@@ -5612,6 +5744,7 @@ export const aesthetics: AestheticProps[] = [
           'Bubblegum Dancer (forum)',
         ],
       },
+      timeline: {},
     },
   },
   {
@@ -5626,7 +5759,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Buchona (feminine)'],
-        decade: ['2000s'],
+        decade: ['21th_century', '2000s'],
         location: ['Sinaloa', 'Mexico'],
       },
       visualThemes: {
@@ -5658,6 +5791,7 @@ export const aesthetics: AestheticProps[] = [
       mediaCulture: {
         brands: ['Gucci', 'Versace', 'Louis Vuitton', 'Dolce & Gabbana', 'Burberry', 'Ed Hardy'],
       },
+      timeline: {},
     },
   },
   {
@@ -5671,7 +5805,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['1970s', 'possibly earlier'],
+        decade: ['20th_century', '1970s'],
       },
       visualThemes: {
         motifs: ['Rodeos', 'plaid', 'western imagery with a feminine twist'],
@@ -5689,6 +5823,7 @@ export const aesthetics: AestheticProps[] = [
           'trailer_park_princess',
         ],
       },
+      timeline: {},
     },
   },
   {
@@ -5703,7 +5838,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Buffalo'],
-        decade: ['1980s'],
+        decade: ['20th_century', '1980s'],
         location: ['London', 'United Kingdom'],
         creator: ['Ray Petri'],
       },
@@ -5737,6 +5872,7 @@ export const aesthetics: AestheticProps[] = [
           'Barry Kamen',
         ],
       },
+      timeline: {},
     },
   },
   {
@@ -5750,7 +5886,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['17th Century'],
+        decade: ['17th_century'],
       },
       visualThemes: {
         colours: ['Red', 'black', 'white', 'yellow'],
@@ -5774,6 +5910,7 @@ export const aesthetics: AestheticProps[] = [
           'victorian',
         ],
       },
+      timeline: {},
     },
   },
   {
@@ -5787,7 +5924,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Busukawa', 'Ugly Cute', 'Kimokawaii'],
-        decade: ['2000s'],
+        decade: ['21th_century', '2000s'],
       },
       visualThemes: {
         colours: ['Primary and pastel colors'],
@@ -5795,6 +5932,7 @@ export const aesthetics: AestheticProps[] = [
       connections: {
         related: ['kawaii', 'gurokawa', 'internet_awesomesauce', 'weirdcore', 'wholesome_meme'],
       },
+      timeline: {},
     },
   },
   {
@@ -5808,7 +5946,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Byzantine Art'],
-        decade: ['4th century CE'],
+        decade: ['4th_century'],
       },
       visualThemes: {
         motifs: ['Christ Pantocrator', 'Virgin and Child', 'saints', 'angels', 'emperors', 'domes', 'mosaics', 'icons'],
@@ -5825,6 +5963,7 @@ export const aesthetics: AestheticProps[] = [
       connections: {
         related: ['classicism', 'gothic_art_influencemedieval', 'romanesque', 'russian_orthodox_art', 'visigothic_art'],
       },
+      timeline: {},
     },
   },
   {
@@ -5837,7 +5976,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['Early 2020s'],
+        decade: ['21th_century', '2020s'],
       },
       visualThemes: {
         motifs: ['Cabins', 'forests', 'campfires', 'flannels', 'hiking', 'baking', 'hot drinks'],
@@ -5872,6 +6011,7 @@ export const aesthetics: AestheticProps[] = [
           'naturecore',
         ],
       },
+      timeline: {},
     },
   },
   {
@@ -5884,7 +6024,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['2020s'],
+        decade: ['21th_century', '2020s'],
         location: ['Brazil / Internet (Tik', 'Tok)'],
       },
       visualThemes: {
@@ -5907,6 +6047,7 @@ export const aesthetics: AestheticProps[] = [
       mediaCulture: {
         brands: ['FARM Rio', 'Mabô Rio'],
       },
+      timeline: {},
     },
   },
   {
@@ -5921,7 +6062,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Cagòla (Occitan)'],
-        decade: ['1980s'],
+        decade: ['20th_century', '1980s'],
       },
       visualThemes: {
         colours: ['Light purpleish pinks', 'mallow', 'deep red'],
@@ -5930,6 +6071,7 @@ export const aesthetics: AestheticProps[] = [
       connections: {
         related: ['chav', 'chonga', 'choni', 'cocalar', 'gyaru', 'mc', 'bling', 'racaille', 'raxet'],
       },
+      timeline: {},
     },
   },
   {
@@ -5942,7 +6084,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['2010s'],
+        decade: ['21th_century', '2010s'],
       },
       visualThemes: {
         motifs: ['Campfires', 'stargazing', 'hiking', 'trees', 'tents', 'campsites'],
@@ -5951,6 +6093,7 @@ export const aesthetics: AestheticProps[] = [
       connections: {
         related: ['cabincore', 'adventurecore', 'comfycozy', 'naturecore', 'natural_philosophy', 'earthcore'],
       },
+      timeline: {},
     },
   },
   {
@@ -5963,7 +6106,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['c. Late 2000s (term coined in 2020)'],
+        decade: ['21th_century', '2000s'],
       },
       visualThemes: {
         motifs: [
@@ -5996,6 +6139,7 @@ export const aesthetics: AestheticProps[] = [
         platform: ['Tik', 'Tok', 'Pinterest', 'Instagram'],
         figures: ['Katy Perry', 'Kyary Pamyu Pamyu'],
       },
+      timeline: {},
     },
   },
   {
@@ -6017,6 +6161,7 @@ export const aesthetics: AestheticProps[] = [
       connections: {
         related: ['candycore'],
       },
+      timeline: {},
     },
   },
   {
@@ -6030,7 +6175,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['1990s'],
+        decade: ['20th_century', '1990s'],
         location: ['Andalusia', 'Spain'],
       },
       visualThemes: {
@@ -6041,6 +6186,7 @@ export const aesthetics: AestheticProps[] = [
       connections: {
         related: ['chav', 'choni_female_counterpartmdlrpokero', 'racaille', 'reggaetonero'],
       },
+      timeline: {},
     },
   },
   {
@@ -6067,6 +6213,8 @@ export const aesthetics: AestheticProps[] = [
       connections: {
         related: ['gorecore', 'horror', 'meatcore', 'yandere'],
       },
+      origins: {},
+      timeline: {},
     },
   },
   {
@@ -6080,7 +6228,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Realistic Cartoon', 'Caricature'],
-        decade: ['1800s'],
+        decade: ['19th_century', '1800s'],
       },
       visualThemes: {
         motifs: ['Exaggerated facial features', 'distortion of reality.'],
@@ -6098,6 +6246,7 @@ export const aesthetics: AestheticProps[] = [
           'urbancore',
         ],
       },
+      timeline: {},
     },
   },
   {
@@ -6111,7 +6260,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['90s Classroom Art'],
-        decade: ['1970s (established 1976)'],
+        decade: ['20th_century', '1970s'],
         location: ['Ohio', 'United States'],
         creator: ['Patti Carson and Janet Dellosa'],
       },
@@ -6122,6 +6271,7 @@ export const aesthetics: AestheticProps[] = [
       connections: {
         related: ['global_village_coffeehouse', 'kidcore', 'nostalgiacore', 'preschool_pop'],
       },
+      timeline: {},
     },
   },
   {
@@ -6142,6 +6292,8 @@ export const aesthetics: AestheticProps[] = [
       connections: {
         related: ['boujee', 'funfair_kitsch', 'mc', 'bling', 'synthwave', 'vacation_dadcore', 'vintage'],
       },
+      origins: {},
+      timeline: {},
     },
   },
   {
@@ -6156,7 +6308,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Formicapunk'],
-        decade: ['1970s'],
+        decade: ['20th_century', '1970s'],
       },
       visualThemes: {
         motifs: ['Cassettes', 'CRT monitors', 'Microfiche readers', 'third generation computers'],
@@ -6185,8 +6337,8 @@ export const aesthetics: AestheticProps[] = [
         ],
       },
       timeline: {
-        preceded: ['Supergraphic Ultramodern'],
-        succeeded: ['Y2K Futurism'],
+        preceded: ['supergraphic_ultramodern'],
+        succeeded: ['y2k_futurism'],
       },
     },
   },
@@ -6201,7 +6353,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Dressers', 'Perry Boys', 'Trendies', 'Scallies'],
-        decade: ['Late 1970s-Early 1980s'],
+        decade: ['20th_century', '1970s', '1980s'],
         location: ['United Kingdom'],
       },
       visualThemes: {
@@ -6245,7 +6397,7 @@ export const aesthetics: AestheticProps[] = [
         ],
       },
       timeline: {
-        preceded: ['Mod', 'Skinhead'],
+        preceded: ['mod', 'skinhead'],
       },
     },
   },
@@ -6260,7 +6412,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Religious Horror', 'Exorcist Horror', 'Demonic Horror'],
-        decade: ['1970s'],
+        decade: ['20th_century', '1970s'],
       },
       visualThemes: {
         motifs: [
@@ -6295,6 +6447,7 @@ export const aesthetics: AestheticProps[] = [
       mediaCulture: {
         media: ["Rosemary's Baby (1968)", 'The Exorcist (1973)', 'The Nun (2018)', 'The Omen (1976)'],
       },
+      timeline: {},
     },
   },
   {
@@ -6308,7 +6461,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Religious Kitsch (misnormer)'],
-        decade: ['20th Century'],
+        decade: ['20th_century'],
       },
       visualThemes: {
         motifs: [
@@ -6325,6 +6478,7 @@ export const aesthetics: AestheticProps[] = [
       connections: {
         related: ['americana', 'kitsch', 'pop_art', 'tradcath_coquette', 'vintage'],
       },
+      timeline: {},
     },
   },
   {
@@ -6339,7 +6493,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Latina Fairy', 'Mexican Fairy'],
-        decade: ['2020s'],
+        decade: ['21th_century', '2020s'],
       },
       visualThemes: {
         motifs: [
@@ -6360,6 +6514,7 @@ export const aesthetics: AestheticProps[] = [
       mediaCulture: {
         brands: ['Mirror Palais (Collection III)', 'Dior (Cruise 2024)'],
       },
+      timeline: {},
     },
   },
   {
@@ -6374,7 +6529,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Cayestyle', 'Pija'],
-        decade: ['Late 2010s'],
+        decade: ['21th_century', '2010s'],
         location: ['Spain / Internet (Tik', 'Tok)'],
       },
       visualThemes: {
@@ -6406,6 +6561,7 @@ export const aesthetics: AestheticProps[] = [
         media: ['Spanish influencers (e.g.', 'María Pombo)'],
         brands: ['Renatta & Go.', 'Zadig Et Voltaire', 'Scalpers', 'ZARA', 'Mango'],
       },
+      timeline: {},
     },
   },
   {
@@ -6419,7 +6575,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Celtic Twilight', 'Irish Literary Revival'],
-        decade: ['Late 19th Century'],
+        decade: ['19th_century'],
         location: ['Ireland'],
       },
       visualThemes: {
@@ -6441,7 +6597,7 @@ export const aesthetics: AestheticProps[] = [
         figures: ['W. B. Yeats', 'Lady Gregory', 'John Millington Synge', 'Æ (George William Russell)', 'John Duncan'],
       },
       timeline: {
-        preceded: ['Romanticism', 'Pre-Raphaelite'],
+        preceded: ['romanticism', 'pre-raphaelite'],
       },
     },
   },
@@ -6455,7 +6611,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['Late 2010s'],
+        decade: ['21th_century', '2010s'],
         creator: ['willow-o-the-wisp (now-deactivated Tumblr user)'],
       },
       visualThemes: {
@@ -6474,6 +6630,7 @@ export const aesthetics: AestheticProps[] = [
       connections: {
         related: ['cryptidcore', 'ethereal', 'fairycore', 'goblincore', 'liminal_space', 'naturecore'],
       },
+      timeline: {},
     },
   },
   {
@@ -6488,7 +6645,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Chaos Academia'],
-        decade: ['2010s'],
+        decade: ['21th_century', '2010s'],
       },
       visualThemes: {
         motifs: [
@@ -6508,6 +6665,7 @@ export const aesthetics: AestheticProps[] = [
       mediaCulture: {
         media: ['To Kill a Mockingbird', 'Naked Lunch'],
       },
+      timeline: {},
     },
   },
   {
@@ -6522,7 +6680,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Chavvy', 'Chavette', 'Charver'],
-        decade: ['Late 1990s–Early 2000s'],
+        decade: ['20th_century', '21th_century', '1990s', '2000s'],
         location: ['United Kingdom'],
       },
       visualThemes: {
@@ -6546,7 +6704,7 @@ export const aesthetics: AestheticProps[] = [
         brands: ['Nike', 'Adidas', 'Reebok', 'Burberry (specifically its check pattern)', 'Stone Island'],
       },
       timeline: {
-        succeeded: ['Roadman'],
+        succeeded: ['roadman'],
       },
     },
   },
@@ -6561,7 +6719,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Chernobyl Stalker'],
-        decade: ['1990s'],
+        decade: ['20th_century', '1990s'],
       },
       visualThemes: {
         motifs: ['Gas masks', 'Soviet-era relics', 'eerie atmosphere', 'illegal photography'],
@@ -6574,6 +6732,7 @@ export const aesthetics: AestheticProps[] = [
       mediaCulture: {
         media: ['Roadside Picnic'],
       },
+      timeline: {},
     },
   },
   {
@@ -6596,7 +6755,7 @@ export const aesthetics: AestheticProps[] = [
           'Cherry Baby',
           'Cherry Bomb',
         ],
-        decade: ['2010s'],
+        decade: ['21th_century', '2010s'],
         creator: ['Samiyah', 'JE55ICAFANT', 'YUNGSADISTIC', '& Milfie'],
       },
       visualThemes: {
@@ -6623,6 +6782,7 @@ export const aesthetics: AestheticProps[] = [
           'tomato_girl_summer',
         ],
       },
+      timeline: {},
     },
   },
   {
@@ -6635,7 +6795,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['Early 2010s'],
+        decade: ['21th_century', '2010s'],
         location: ['South Side', 'Chicago', 'USA'],
       },
       visualThemes: {
@@ -6656,6 +6816,7 @@ export const aesthetics: AestheticProps[] = [
       mediaCulture: {
         media: ['You', 'Tube (DGainz', 'A Zae)', 'World', 'Star', 'Hip', 'Hop'],
       },
+      timeline: {},
     },
   },
   {
@@ -6669,7 +6830,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Andean Tropical Cumbia'],
-        decade: ['Mid-1970s (Music)1980s (Art)'],
+        decade: ['20th_century', '1970s', '1980s'],
       },
       visualThemes: {
         motifs: [
@@ -6698,6 +6859,7 @@ export const aesthetics: AestheticProps[] = [
         media: ['Chicha music (Andean Tropical Cumbia)', 'street art', 'posters', 'flyers', 'album covers'],
         brands: ['Discos Horóscopo (influential record label)'],
       },
+      timeline: {},
     },
   },
   {
@@ -6734,6 +6896,7 @@ export const aesthetics: AestheticProps[] = [
           'yuppie',
         ],
       },
+      timeline: {},
     },
   },
   {
@@ -6747,7 +6910,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Minsu Horror'],
-        decade: ['1990s (flim)2020s (video game)'],
+        decade: ['20th_century', '21th_century', '1990s', '2020s'],
         location: ['China'],
       },
       visualThemes: {
@@ -6760,6 +6923,7 @@ export const aesthetics: AestheticProps[] = [
       mediaCulture: {
         media: ['Paper Bride series'],
       },
+      timeline: {},
     },
   },
   {
@@ -6772,7 +6936,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['2020s'],
+        decade: ['21th_century', '2020s'],
         location: ['China'],
       },
       visualThemes: {
@@ -6790,6 +6954,7 @@ export const aesthetics: AestheticProps[] = [
       mediaCulture: {
         platform: ['Bilibili', 'Douyin', 'Rednote'],
       },
+      timeline: {},
     },
   },
   {
@@ -6804,7 +6969,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Chunjie', 'Spring Festival'],
-        decade: ['Ancient times (at least 1000 BC)'],
+        decade: ['bc'],
         location: ['China'],
         creator: ['Chinese culture'],
       },
@@ -6819,6 +6984,7 @@ export const aesthetics: AestheticProps[] = [
       mediaCulture: {
         media: ['The Spring Festival Gala'],
       },
+      timeline: {},
     },
   },
   {
@@ -6831,7 +6997,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['17th–18th centuries'],
+        decade: ['17th_century', '18th_century'],
         location: ['Europe (primarily France)'],
       },
       visualThemes: {
@@ -6856,8 +7022,8 @@ export const aesthetics: AestheticProps[] = [
         figures: ['François Boucher', 'Jean-Baptiste Pillement', 'Thomas Chippendale'],
       },
       timeline: {
-        preceded: ['Baroque'],
-        succeeded: ['Neoclassicism'],
+        preceded: ['baroque'],
+        succeeded: ['neoclassicism'],
       },
     },
   },
@@ -6873,7 +7039,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Neapolitan Girl', 'Chocolatecore'],
-        decade: ['2000s (term coined in the 2020s)'],
+        decade: ['21th_century', '2000s'],
       },
       visualThemes: {
         motifs: [
@@ -6907,7 +7073,7 @@ export const aesthetics: AestheticProps[] = [
         brands: ['Angelic Pretty', 'Q-pot', 'Emily Temple Cute'],
       },
       timeline: {
-        preceded: ['Sweet Lolita', 'Heisei Retro'],
+        preceded: ['sweet_lolita', 'heisei_retro'],
       },
     },
   },
@@ -6922,7 +7088,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['1930s'],
+        decade: ['20th_century', '1930s'],
       },
       visualThemes: {
         colours: ['Black', 'Grey', 'White', 'Brown', 'Blue'],
@@ -6931,6 +7097,7 @@ export const aesthetics: AestheticProps[] = [
       connections: {
         related: ['baddie', 'chicha', 'cholombiano', 'chonga', 'gangsta_rap', 'hip-hop', 'pachuco'],
       },
+      timeline: {},
     },
   },
   {
@@ -6944,7 +7111,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Kolombia', 'Punks Tropicalizados'],
-        decade: ['Late 1990s'],
+        decade: ['20th_century', '1990s'],
         location: ['Independencia and Loma Larga neighborhoods', 'Monterrey', 'Nuevo León', 'Mexico'],
       },
       visualThemes: {
@@ -6980,7 +7147,7 @@ export const aesthetics: AestheticProps[] = [
         media: ["I'm No Longer Here (Ya no estoy aquí) (2019 Film)"],
       },
       timeline: {
-        preceded: ['Cholo'],
+        preceded: ['cholo'],
       },
     },
   },
@@ -6995,7 +7162,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['1980s-2000s'],
+        decade: ['20th_century', '21th_century', '1980s', '1990s', '2000s'],
         location: ['Miami', 'Florida'],
       },
       visualThemes: {
@@ -7006,6 +7173,7 @@ export const aesthetics: AestheticProps[] = [
       connections: {
         related: ['bimbocore', 'cholo', 'choni', 'gangsta_rap', 'hip-hop', 'mc', 'bling'],
       },
+      timeline: {},
     },
   },
   {
@@ -7019,7 +7187,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['1990s'],
+        decade: ['20th_century', '1990s'],
         location: ['Spain'],
       },
       visualThemes: {
@@ -7039,7 +7207,7 @@ export const aesthetics: AestheticProps[] = [
         related: ['baddie', 'cani_male_counterpartchav', 'chonga', 'mc', 'bling', 'motomami', 'pokero', 'raxet'],
       },
       timeline: {
-        succeeded: ['Raxet'],
+        succeeded: ['raxet'],
       },
     },
   },
@@ -7054,7 +7222,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['CGA'],
-        decade: ['Late 2010s'],
+        decade: ['21th_century', '2010s'],
       },
       visualThemes: {
         motifs: ['Pumpkin spice lattes', 'chunky knit scarves', 'pumpkin patches', 'falling leaves', 'UGG boots'],
@@ -7067,6 +7235,7 @@ export const aesthetics: AestheticProps[] = [
       mediaCulture: {
         figures: ['Caitlin Covington', 'Emily Gemma'],
       },
+      timeline: {},
     },
   },
   {
@@ -7098,6 +7267,7 @@ export const aesthetics: AestheticProps[] = [
       connections: {
         related: ['winter'],
       },
+      timeline: {},
     },
   },
   {
@@ -7111,7 +7281,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Y2K Chromecore'],
-        decade: ['Late 90s/2000s'],
+        decade: ['20th_century', '21th_century', '1990s', '2000s'],
       },
       visualThemes: {
         motifs: ['Metallic and chrome textures', 'molded curves and shapes'],
@@ -7124,6 +7294,7 @@ export const aesthetics: AestheticProps[] = [
         media: ['Jetix'],
         brands: ['Sony', 'Motorola', 'Samsung', 'Nintendo', 'Nikon', 'Nokia', 'Sanyo', 'Do', 'Co', 'Mo', 'LG'],
       },
+      timeline: {},
     },
   },
   {
@@ -7137,11 +7308,12 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['Early 2020'],
+        decade: ['21th_century', '2020s'],
       },
       connections: {
         related: ['asian_baby_girl', 'coquette'],
       },
+      timeline: {},
     },
   },
   {
@@ -7155,7 +7327,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Zhonghua niang', 'Japanese-Sino Feng (日式中华风)'],
-        decade: ['1990s (as character trope)'],
+        decade: ['20th_century', '1990s'],
         location: ['Japan'],
       },
       visualThemes: {
@@ -7167,6 +7339,7 @@ export const aesthetics: AestheticProps[] = [
       mediaCulture: {
         figures: ['Chun-Li (Street Fighter series)', 'Shampoo (Ranma ½)'],
       },
+      timeline: {},
     },
   },
   {
@@ -7185,6 +7358,8 @@ export const aesthetics: AestheticProps[] = [
       connections: {
         related: ['vanilla_girl_coquette', 'stargirl', 'downtown_girl'],
       },
+      origins: {},
+      timeline: {},
     },
   },
   {
@@ -7198,7 +7373,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['mid-1970s'],
+        decade: ['20th_century', '1970s'],
       },
       visualThemes: {
         motifs: ['Cities', 'modernist architecture', 'vintage cars', 'oceans/beaches', 'random English words'],
@@ -7221,6 +7396,7 @@ export const aesthetics: AestheticProps[] = [
       mediaCulture: {
         media: ['"Plastic Love"'],
       },
+      timeline: {},
     },
   },
   {
@@ -7234,7 +7410,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Greco-Roman'],
-        decade: ['5th century BCE (Original Period)'],
+        decade: ['bc'],
         location: ['Ancient Greece & Rome'],
       },
       visualThemes: {
@@ -7258,6 +7434,7 @@ export const aesthetics: AestheticProps[] = [
       connections: {
         related: ['academic_art', 'baroque', 'hellenic', 'italian_renaissance', 'neoclassicism', 'roman_empire'],
       },
+      timeline: {},
     },
   },
   {
@@ -7273,6 +7450,8 @@ export const aesthetics: AestheticProps[] = [
       connections: {
         related: ['lolita', 'mori_kei', 'prairie', 'victorian'],
       },
+      origins: {},
+      timeline: {},
     },
   },
   {
@@ -7285,7 +7464,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['2020s'],
+        decade: ['21th_century', '2020s'],
       },
       visualThemes: {
         motifs: [
@@ -7304,7 +7483,7 @@ export const aesthetics: AestheticProps[] = [
         related: ['corporate_memphis', 'glassmorphism', 'neumorphism', 'minimalism', 'skeuomorphism'],
       },
       timeline: {
-        preceded: ['Flat Design', 'Corporate Memphis', 'Neumorphism'],
+        preceded: ['flat_design', 'corporate_memphis', 'neumorphism'],
       },
     },
   },
@@ -7320,7 +7499,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Safetycore', 'Hygienicore', 'Safety Goth', 'Showercore', 'Antibacterial'],
-        decade: ['2010s'],
+        decade: ['21th_century', '2010s'],
         creator: ['Safety Corp (Redeem Pettaway)'],
       },
       visualThemes: {
@@ -7364,6 +7543,7 @@ export const aesthetics: AestheticProps[] = [
       mediaCulture: {
         brands: ['Windex', 'Neutrogena', 'Tide', 'Dawn', 'Purell', 'Sanrio', 'Mr. Bubble', 'Colgate', 'Johnson’s'],
       },
+      timeline: {},
     },
   },
   {
@@ -7376,7 +7556,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['2020s'],
+        decade: ['21th_century', '2020s'],
       },
       visualThemes: {
         motifs: [
@@ -7407,8 +7587,8 @@ export const aesthetics: AestheticProps[] = [
         ],
       },
       timeline: {
-        preceded: ['That Girl'],
-        succeeded: ['Vanilla Girl'],
+        preceded: ['that_girl'],
+        succeeded: ['vanilla_girl'],
       },
     },
   },
@@ -7423,7 +7603,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Machinepunk'],
-        decade: ['Renaissance inspiration (14th–17th centuries)'],
+        decade: ['14th_century', '15th_century', '16th_century', '17th_century'],
       },
       visualThemes: {
         motifs: [
@@ -7444,6 +7624,7 @@ export const aesthetics: AestheticProps[] = [
         media: ["Assassin's Creed II (video game)", 'Dishonored 2 (video game)', 'Hugo (film)'],
         figures: ['Leonardo da Vinci'],
       },
+      timeline: {},
     },
   },
   {
@@ -7456,7 +7637,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['2010s (peak: 2019–2022)'],
+        decade: ['21th_century', '2010s', '2020s'],
       },
       visualThemes: {
         motifs: [
@@ -7474,6 +7655,7 @@ export const aesthetics: AestheticProps[] = [
       connections: {
         related: ['angelcore', 'dreamcore', 'ethereal', 'lo-fi_art', 'softie', 'weirdcore'],
       },
+      timeline: {},
     },
   },
   {
@@ -7486,7 +7668,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['Late 1990s–Early 2000s'],
+        decade: ['20th_century', '21th_century', '1990s', '2000s'],
       },
       visualThemes: {
         motifs: [
@@ -7517,6 +7699,7 @@ export const aesthetics: AestheticProps[] = [
       mediaCulture: {
         brands: ['Kamio Japan', 'Q-Lia', 'Mind Wave', 'San-X', 'Crux'],
       },
+      timeline: {},
     },
   },
   {
@@ -7531,7 +7714,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Circuscore', 'Clownpunk'],
-        decade: ['1860s / 2010s'],
+        decade: ['20th_century', '21th_century', '1860s', '2010s'],
         creator: [
           'Initial Origin: ancient Greek and Roman theatre',
           'Modern Origin: newworldego',
@@ -7550,6 +7733,7 @@ export const aesthetics: AestheticProps[] = [
       mediaCulture: {
         media: ['Popee The Performer', 'Homestuck'],
       },
+      timeline: {},
     },
   },
   {
@@ -7563,7 +7747,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['Late 1980s'],
+        decade: ['20th_century', '1980s'],
         location: ['New York City', 'USA'],
         creator: ['Michael Alig', 'James St. James'],
       },
@@ -7584,6 +7768,7 @@ export const aesthetics: AestheticProps[] = [
       mediaCulture: {
         media: ['Party Monster: The Shockumentary (1998)', 'Party Monster (2003 film)'],
       },
+      timeline: {},
     },
   },
   {
@@ -7596,7 +7781,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['2020s'],
+        decade: ['21th_century', '2020s'],
       },
       visualThemes: {
         motifs: [
@@ -7614,6 +7799,7 @@ export const aesthetics: AestheticProps[] = [
       connections: {
         related: ['cacareco_girl', 'cottagecore', 'goblincore', 'grandmacore', 'maximalism'],
       },
+      timeline: {},
     },
   },
   {
@@ -7627,7 +7813,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['2020s'],
+        decade: ['21th_century', '2020s'],
       },
       visualThemes: {
         motifs: ['Seashells', 'cowgirl hats', 'the beach'],
@@ -7643,6 +7829,7 @@ export const aesthetics: AestheticProps[] = [
           'tomato_girl_summer',
         ],
       },
+      timeline: {},
     },
   },
   {
@@ -7657,7 +7844,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Coastal Granddaughter'],
-        decade: ['2022'],
+        decade: ['21th_century', '2020s'],
       },
       visualThemes: {
         motifs: [
@@ -7688,12 +7875,14 @@ export const aesthetics: AestheticProps[] = [
         brands: ['Eileen Fisher', 'J.Crew', 'Everlane', 'Tory Burch'],
         figures: ['Diane Keaton', 'Ina Garten', 'Nancy Meyers', 'Meryl Streep'],
       },
+      timeline: {},
     },
   },
   {
     url: 'https://aesthetics.fandom.com/wiki/Coastal_Style',
     name: 'Coastal Style',
     id: 'coastal_style',
+    imageUrl: 'https://static.wikia.nocookie.net/aesthetics/images/7/72/51baa11e3bb20056e24ee1acdb4a1b3f.jpg',
     description:
       'The style is characterized by a color palette of blues, whites, and light neutrals, often incorporating natural materials like light wood, woven fibers (such as rattan, wicker, and jute), and linen. Walls may feature white paint or textured finishes like polished concrete, with occasional accents of blue. Flooring often utilizes light-colored wood or concrete, supplemented by natural fiber rugs. Ceilings may display wooden beams painted white or in natural wood tones. Furniture in Coastal Style typically includes light-colored wood pieces, sometimes with a driftwood-like finish, and white or blue upholstery. Woven natural fibers are common in seating and decorative items. Windows may be dressed with sheer white curtains, and fabrics often feature stripes or nautical patterns. Wood is a prevalent material, used for furniture and flooring, while metal is used sparingly for accents. Retailers such as Maisons du Monde, Kave Home, Decoclico, Casa, and La Redoute offer collections featuring Coastal Style furniture and decor. These collections include items for various rooms, such as living rooms with white wood media units and linen sofas, dining rooms with round wood tables and rattan chairs, and bedrooms with light wood furniture and blue or white linens. Bathroom decor may include rustic vanities and woven storage baskets.',
     categories: ['design_aesthetics'],
@@ -7701,7 +7890,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Marine Style', 'Beach House', 'Style Bord de Mer (French)'],
-        decade: ['Early 20th Century'],
+        decade: ['20th_century'],
       },
       visualThemes: {
         motifs: ['Natural materials', 'light wood', 'woven fibers', 'nautical elements'],
@@ -7721,6 +7910,7 @@ export const aesthetics: AestheticProps[] = [
           'tropical',
         ],
       },
+      timeline: {},
     },
   },
   {
@@ -7734,7 +7924,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Kòkalo (in Romani)'],
-        decade: ['Late 1990s'],
+        decade: ['20th_century', '1990s'],
       },
       visualThemes: {
         motifs: [
@@ -7756,6 +7946,7 @@ export const aesthetics: AestheticProps[] = [
       mediaCulture: {
         brands: ['Adidas', 'Nike'],
       },
+      timeline: {},
     },
   },
   {
@@ -7770,7 +7961,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Beach Bunny', 'Beach Coquette', 'Coconut Dream', 'Malibu Barbie'],
-        decade: ['2020s'],
+        decade: ['21th_century', '2020s'],
       },
       visualThemes: {
         motifs: ['Beaches', 'touristy boardwalk shops', 'bikinis'],
@@ -7800,8 +7991,8 @@ export const aesthetics: AestheticProps[] = [
         brands: ['Billabong', "Claire's", 'Delia*s', 'Roxy'],
       },
       timeline: {
-        preceded: ['Surf Crush'],
-        succeeded: ['Tropicalcore'],
+        preceded: ['surf_crush'],
+        succeeded: ['tropicalcore'],
       },
     },
   },
@@ -7816,7 +8007,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['1999 with the rise of the Third Wave of Coffee'],
+        decade: ['20th_century', '1990s'],
       },
       visualThemes: {
         motifs: ['Cafés', 'coffee', 'books', 'espresso machine', 'people working', 'cameras', 'latte art'],
@@ -7837,6 +8028,7 @@ export const aesthetics: AestheticProps[] = [
       mediaCulture: {
         brands: ['Local third wave coffee shops', 'Starbucks'],
       },
+      timeline: {},
     },
   },
   {
@@ -7851,7 +8043,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Che Chic', 'Chekist Chic', 'Commie Chic'],
-        decade: ['Mid-1970s'],
+        decade: ['20th_century', '1970s'],
       },
       visualThemes: {
         motifs: [
@@ -7878,6 +8070,7 @@ export const aesthetics: AestheticProps[] = [
       mediaCulture: {
         brands: ['Gosha Rubchinskiy', 'Vetements'],
       },
+      timeline: {},
     },
   },
   {
@@ -7891,7 +8084,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Russian Constructivism'],
-        decade: ['1910s - 1920s'],
+        decade: ['20th_century', '1910s', '1920s'],
         location: ['Soviet Russia'],
         creator: ['Vladimir Tatlin', 'Alexander Rodchenko'],
       },
@@ -7941,8 +8134,8 @@ export const aesthetics: AestheticProps[] = [
         ],
       },
       timeline: {
-        preceded: ['Russian Futurism', 'Suprematism'],
-        succeeded: ['Socialist Realism', 'International Typographic Style'],
+        preceded: ['russian_futurism', 'suprematism'],
+        succeeded: ['socialist_realism', 'international_typographic style'],
       },
     },
   },
@@ -7956,7 +8149,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['1990s'],
+        decade: ['20th_century', '1990s'],
       },
       visualThemes: {
         motifs: ['British imagery', 'celebration of British youth culture', 'Britpop', 'tabloids'],
@@ -7981,6 +8174,7 @@ export const aesthetics: AestheticProps[] = [
           'skinhead',
         ],
       },
+      timeline: {},
     },
   },
   {
@@ -7991,7 +8185,11 @@ export const aesthetics: AestheticProps[] = [
       'Coquette is a feminine aesthetic that encompasses similar feminine sub-aesthetics, generally associated with Lana Del Rey and popular among teenage girls. This page serves as an index for the various sub-aesthetics that can be categorized under Coquette, providing brief explanations and a gallery. The aesthetic evolved from a mid-2010s Tumblr community centered on the persona of the Nymphet—a sexually precocious young girl who seduces older men, as portrayed by the unreliable narrator in Vladimir Nabokov\'s Lolita.[1] The name was subsequently changed to "coquette" to circumvent bans on the term "Nymphet" on many social media platforms. "Coquette" is a French word referring to an attractive, flirtatious young woman (distinct from "little girl"), and this Nymphet influence differentiates newer Coquette subtypes from other similar girly aesthetics. It is important to note that the majority of those identifying with the Nymphet persona do not support the sexualization of young girls; instead, their focus is often on age gaps and themes of "daddy issues." However, due to mass-tagging and the prevalence of the Nymphet community on Tumblr, many photos unrelated to the novel or film\'s aesthetic were tagged under "Coquette."',
     categories: [],
     isVisible: true,
-    metadata: {},
+    metadata: {
+      connections: {},
+      origins: {},
+      timeline: {},
+    },
   },
   {
     url: 'https://aesthetics.fandom.com/wiki/Colorful_Pop',
@@ -8003,7 +8201,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['2010s'],
+        decade: ['21th_century', '2010s'],
         location: ['Japan'],
       },
       visualThemes: {
@@ -8034,6 +8232,7 @@ export const aesthetics: AestheticProps[] = [
           'J-Core album art',
         ],
       },
+      timeline: {},
     },
   },
   {
@@ -8048,7 +8247,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Corporatecore', 'Corporate Chic'],
-        decade: ['Late 2023'],
+        decade: ['21th_century', '2020s'],
       },
       visualThemes: {
         motifs: ['Exaggerated tailoring', 'mixture of office and casual wear', 'minimal and modernist design'],
@@ -8070,6 +8269,7 @@ export const aesthetics: AestheticProps[] = [
           'yuppie',
         ],
       },
+      timeline: {},
     },
   },
   {
@@ -8084,7 +8284,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Corpgoth'],
-        decade: ['1990s'],
+        decade: ['20th_century', '1990s'],
       },
       visualThemes: {
         motifs: [
@@ -8105,6 +8305,7 @@ export const aesthetics: AestheticProps[] = [
       mediaCulture: {
         brands: ['Dr. Martens', 'Hot Topic'],
       },
+      timeline: {},
     },
   },
   {
@@ -8118,7 +8319,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Grunge™', 'Neugrunge'],
-        decade: ['1990s'],
+        decade: ['20th_century', '1990s'],
       },
       visualThemes: {
         motifs: [
@@ -8176,8 +8377,8 @@ export const aesthetics: AestheticProps[] = [
         ],
       },
       timeline: {
-        preceded: ['Memphis Design', 'Rad Dog/Neon Surf Shack', 'Early Cyber'],
-        succeeded: ['Frutiger Aero', 'Vectordelia', 'Mc', 'Bling', 'Ur', 'Bling'],
+        preceded: ['memphis_design', 'rad_dog/neon surf shack', 'early_cyber'],
+        succeeded: ['frutiger_aero', 'vectordelia', 'mc', 'bling', 'ur', 'bling'],
       },
     },
   },
@@ -8192,7 +8393,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Capitalist Hippie', 'Corporate Psychedelia', 'Psychsploitation', 'Hippie Exploitation'],
-        decade: ['1960s'],
+        decade: ['20th_century', '1960s'],
       },
       visualThemes: {
         motifs: ['distorted or warped visuals', 'themes of love', 'bright colors', 'abstract flourishes and shapes'],
@@ -8213,8 +8414,8 @@ export const aesthetics: AestheticProps[] = [
         ],
       },
       timeline: {
-        preceded: ['Psychedelia', 'Pop Art', 'Atomic Age'],
-        succeeded: ['Earth Tones'],
+        preceded: ['psychedelia', 'pop_art', 'atomic_age'],
+        succeeded: ['earth_tones'],
       },
     },
   },
@@ -8229,7 +8430,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Alegria', 'Big Tech Art Style', 'Blob Web', 'Globohomo', 'Humans of Flat'],
-        decade: ['Late 2010s'],
+        decade: ['21th_century', '2010s'],
       },
       visualThemes: {
         motifs: [
@@ -8247,7 +8448,7 @@ export const aesthetics: AestheticProps[] = [
         related: ['claymorphism', 'flat_design', 'minimalism', 'neubrutalism', 'memphis_design_namesake'],
       },
       timeline: {
-        succeeded: ['Claymorphism', 'Glassmorphism'],
+        succeeded: ['claymorphism', 'glassmorphism'],
       },
     },
   },
@@ -8262,7 +8463,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Costumisme (Catalan)Costumismo (Galician)Kostunbrismo (Basque)'],
-        decade: ['19th century'],
+        decade: ['19th_century'],
         location: ['Spain'],
       },
       visualThemes: {
@@ -8280,6 +8481,7 @@ export const aesthetics: AestheticProps[] = [
       connections: {
         related: ['impressionism', 'majismo', 'realism', 'renovador_movement', 'romanticism', 'spanish_golden_age'],
       },
+      timeline: {},
     },
   },
   {
@@ -8294,7 +8496,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Farmcore', 'Countrycore'],
-        decade: ['2010s (inspired by the 19th century)'],
+        decade: ['21th_century', '2010s'],
       },
       visualThemes: {
         motifs: [
@@ -8352,6 +8554,7 @@ export const aesthetics: AestheticProps[] = [
           'Animal Crossing (video game)',
         ],
       },
+      timeline: {},
     },
   },
   {
@@ -8366,7 +8569,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Cottagegore', 'Dark Cottagecore'],
-        decade: ['Early 2020s'],
+        decade: ['21th_century', '2020s'],
       },
       visualThemes: {
         motifs: [
@@ -8406,7 +8609,7 @@ export const aesthetics: AestheticProps[] = [
         media: ['Over the Garden Wall', 'The Witch (2015)', 'music by Dead Can Dance'],
       },
       timeline: {
-        preceded: ['Cottagecore'],
+        preceded: ['cottagecore'],
       },
     },
   },
@@ -8440,7 +8643,7 @@ export const aesthetics: AestheticProps[] = [
         ],
       },
       timeline: {
-        succeeded: ['Cuntry'],
+        succeeded: ['cuntry'],
       },
     },
   },
@@ -8455,7 +8658,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Comfycore'],
-        decade: ['Late 2010s'],
+        decade: ['21th_century', '2010s'],
       },
       visualThemes: {
         motifs: [
@@ -8483,6 +8686,7 @@ export const aesthetics: AestheticProps[] = [
           'winter_aesthetic',
         ],
       },
+      timeline: {},
     },
   },
   {
@@ -8495,7 +8699,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['2020s'],
+        decade: ['21th_century', '2020s'],
       },
       visualThemes: {
         motifs: [
@@ -8519,6 +8723,7 @@ export const aesthetics: AestheticProps[] = [
         media: ['Stardew Valley', 'Animal Crossing', 'Unpacking', 'Spiritfarer', 'Wylde Flowers'],
         brands: ['IKEA', 'Keychron', 'Logitech (Aurora Collection)', 'Divoom', 'Pusheen'],
       },
+      timeline: {},
     },
   },
   {
@@ -8531,7 +8736,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['Late 2010s'],
+        decade: ['21th_century', '2010s'],
       },
       visualThemes: {
         motifs: ['Patchwork', 'quilting', 'crochet', 'chunky knits', 'embroidery', 'beading', 'macramé', 'tie-dye'],
@@ -8541,6 +8746,7 @@ export const aesthetics: AestheticProps[] = [
       connections: {
         related: ['boho-chic', 'cottagecore', 'grandmacore', 'pearlcore', 'whimsicraft'],
       },
+      timeline: {},
     },
   },
   {
@@ -8554,7 +8760,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Corvidcore'],
-        decade: ['Unknown'],
+        decade: ['unknown'],
         creator: ['Tumblr'],
       },
       visualThemes: {
@@ -8564,6 +8770,7 @@ export const aesthetics: AestheticProps[] = [
       connections: {
         related: ['cottagecore', 'cryptidcore', 'dragoncore', 'goblincore', 'naturecore', 'pirate', 'vulture_culture'],
       },
+      timeline: {},
     },
   },
   {
@@ -8578,12 +8785,13 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Crust', 'Stretchcore'],
-        decade: ['Early 1980’s'],
+        decade: ['20th_century', '1980s'],
         creator: ['Hellbastard'],
       },
       connections: {
         related: ['gutter_punk', 'punk', 'grunge'],
       },
+      timeline: {},
     },
   },
   {
@@ -8597,7 +8805,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['2010s'],
+        decade: ['21th_century', '2010s'],
       },
       visualThemes: {
         motifs: ['Cryptids', 'urban legends', 'abandoned buildings', 'dark forests'],
@@ -8628,6 +8836,7 @@ export const aesthetics: AestheticProps[] = [
           'The Adventure Zone: Amnesty',
         ],
       },
+      timeline: {},
     },
   },
   {
@@ -8640,7 +8849,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['1900s - 1910s'],
+        decade: ['20th_century', '1900s', '1910s'],
         location: ['Paris', 'France'],
         creator: ['Pablo Picasso', 'Georges Braque'],
       },
@@ -8675,8 +8884,8 @@ export const aesthetics: AestheticProps[] = [
         figures: ['Pablo Picasso. Georges Braque', 'Juan Gris', 'Jean Metzinger', 'Fernand Léger'],
       },
       timeline: {
-        preceded: ['Post-Impressionism'],
-        succeeded: ['Futurism', 'Orphism', 'Constructivism', 'Suprematism'],
+        preceded: ['post-impressionism'],
+        succeeded: ['futurism', 'orphism', 'constructivism', 'suprematism'],
       },
     },
   },
@@ -8691,7 +8900,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['2010s'],
+        decade: ['21th_century', '2010s'],
       },
       visualThemes: {
         motifs: ['Vintage layers'],
@@ -8715,6 +8924,7 @@ export const aesthetics: AestheticProps[] = [
       mediaCulture: {
         brands: ['The Virgin Mary'],
       },
+      timeline: {},
     },
   },
   {
@@ -8728,7 +8938,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Negros Cumbieros', 'Negros Villeros', 'Villeros'],
-        decade: ['Late 1990s – Early 2000s'],
+        decade: ['20th_century', '21th_century', '1990s', '2000s'],
         location: ['Buenos Aires', 'Argentina (Villas de Emergencia)'],
       },
       visualThemes: {
@@ -8756,6 +8966,7 @@ export const aesthetics: AestheticProps[] = [
         media: ['Tumberos (TV Series)', 'El Bonaerense (Film)'],
         figures: ['Pablo Lescano (Founder of Damas Gratis)'],
       },
+      timeline: {},
     },
   },
   {
@@ -8769,7 +8980,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Libby Lu Kid', 'Tween Diva'],
-        decade: ['1990s'],
+        decade: ['20th_century', '1990s'],
       },
       visualThemes: {
         motifs: ['Ornate', 'playful', 'frilly designs', 'pop culture references', '"Diva" motifs'],
@@ -8793,6 +9004,7 @@ export const aesthetics: AestheticProps[] = [
       mediaCulture: {
         brands: ['Barbie', 'Polly Pocket', 'Bratz'],
       },
+      timeline: {},
     },
   },
   {
@@ -8806,7 +9018,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Cutegore', 'Kawaii Kei (Western Tik', 'Tok term for the non-gory variant)'],
-        decade: ['2020s'],
+        decade: ['21th_century', '2020s'],
         creator: ['@vo1dchan'],
       },
       visualThemes: {
@@ -8840,6 +9052,7 @@ export const aesthetics: AestheticProps[] = [
       mediaCulture: {
         brands: ['Sanrio', 'Mezzo Piano', 'Angel Blue', 'Daisy Lovers'],
       },
+      timeline: {},
     },
   },
   {
@@ -8852,7 +9065,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['2020s'],
+        decade: ['21th_century', '2020s'],
       },
       visualThemes: {
         motifs: [
@@ -8881,7 +9094,7 @@ export const aesthetics: AestheticProps[] = [
         figures: ['Rei Ayanami', 'Hatsune Miku', 'Hello Kitty'],
       },
       timeline: {
-        preceded: ['Y2K Futurism'],
+        preceded: ['y2k_futurism'],
       },
     },
   },
@@ -8896,7 +9109,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Cyberdelic'],
-        decade: ['1980s'],
+        decade: ['20th_century', '1980s'],
       },
       visualThemes: {
         motifs: [
@@ -8930,6 +9143,7 @@ export const aesthetics: AestheticProps[] = [
       mediaCulture: {
         media: ['Hackers', 'The Lawnmower Man', 'LSD: Dream Emulator', 'Worlds.com'],
       },
+      timeline: {},
     },
   },
   {
@@ -8943,7 +9157,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['Mid-2020s'],
+        decade: ['21th_century', '2020s'],
       },
       visualThemes: {
         motifs: [
@@ -8968,6 +9182,7 @@ export const aesthetics: AestheticProps[] = [
           'xpiritualism',
         ],
       },
+      timeline: {},
     },
   },
   {
@@ -8981,7 +9196,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Frutiger Angelic', 'Digital Angel', 'Internet Angel'],
-        decade: ['2020s'],
+        decade: ['21th_century', '2020s'],
       },
       visualThemes: {
         motifs: [
@@ -9034,6 +9249,7 @@ export const aesthetics: AestheticProps[] = [
         platform: ['Pinterest', 'Tumblr'],
         media: ['Neon Genesis Evangelion', 'Chobits', 'Serial Experiments Lain', "Angel's Egg"],
       },
+      timeline: {},
     },
   },
   {
@@ -9047,7 +9263,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['2010s'],
+        decade: ['21th_century', '2010s'],
         creator: ['Ruth Laveau'],
       },
       visualThemes: {
@@ -9084,6 +9300,7 @@ export const aesthetics: AestheticProps[] = [
           'y2k_futurism',
         ],
       },
+      timeline: {},
     },
   },
   {
@@ -9097,7 +9314,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['Late 1990s'],
+        decade: ['20th_century', '1990s'],
       },
       visualThemes: {
         motifs: [
@@ -9119,7 +9336,7 @@ export const aesthetics: AestheticProps[] = [
         brands: ['Cyberdog', 'Demonia'],
       },
       timeline: {
-        preceded: ['Rivethead', 'Rave', 'Goth'],
+        preceded: ['rivethead', 'rave', 'goth'],
       },
     },
   },
@@ -9135,7 +9352,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Y2K Grunge', 'Military Y2K'],
-        decade: ['2020s'],
+        decade: ['21th_century', '2020s'],
       },
       visualThemes: {
         motifs: [
@@ -9181,6 +9398,7 @@ export const aesthetics: AestheticProps[] = [
         media: ['Serial Experiments Lain', '90s/2000s alternative music', 'urban photography'],
         brands: ['Fruits'],
       },
+      timeline: {},
     },
   },
   {
@@ -9194,7 +9412,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Cyberbougie'],
-        decade: ['2010s'],
+        decade: ['21th_century', '2010s'],
       },
       visualThemes: {
         motifs: ['Bento grids', 'grotesque or sans serif fonts', 'black backgrounds', 'gradients'],
@@ -9203,6 +9421,7 @@ export const aesthetics: AestheticProps[] = [
       connections: {
         related: ['flat_design', 'glassmorphism', 'international_typographic_style', 'minimalism'],
       },
+      timeline: {},
     },
   },
   {
@@ -9217,7 +9436,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Cyber'],
-        decade: ['1990s'],
+        decade: ['20th_century', '1990s'],
       },
       visualThemes: {
         motifs: ['Retro-futurism'],
@@ -9241,6 +9460,7 @@ export const aesthetics: AestheticProps[] = [
           'y2k_futurism',
         ],
       },
+      timeline: {},
     },
   },
   {
@@ -9254,7 +9474,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Post-Cyberpunk'],
-        decade: ['1960s (core ideas)2000s'],
+        decade: ['20th_century', '21th_century', '1960s', '2000s'],
         creator: ['Stanisław Lem'],
       },
       visualThemes: {
@@ -9280,6 +9500,7 @@ export const aesthetics: AestheticProps[] = [
           'y2k_futurism',
         ],
       },
+      timeline: {},
     },
   },
   {
@@ -9293,7 +9514,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['1980s'],
+        decade: ['20th_century', '1980s'],
         location: ['North America and Japan'],
         creator: ['William Gibson', 'Ridley Scott', 'Syd Mead', 'Katsuhiro Otomo'],
       },
@@ -9363,6 +9584,7 @@ export const aesthetics: AestheticProps[] = [
         ],
         figures: ['Rick Deckard', 'Major Motoko Kusanagi', 'Neo', 'Case', 'Johnny Silverhand'],
       },
+      timeline: {},
     },
   },
   {
@@ -9376,7 +9598,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Neo-Tribal', 'Gen Z Tribal'],
-        decade: ['Late 2010s'],
+        decade: ['21th_century', '2010s'],
         creator: ['Emerged from the Berlin club scene; popularized by artists such as Aingelblood and Pradagoth.'],
       },
       visualThemes: {
@@ -9407,6 +9629,7 @@ export const aesthetics: AestheticProps[] = [
           'y3k',
         ],
       },
+      timeline: {},
     },
   },
   {
@@ -9420,7 +9643,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Dress Up Doll', 'Dress Up Girl', 'Dollz', 'Dollzcore', 'Chicaloca', 'Fashionista', 'Y2K Doll'],
-        decade: ['2000s-2010s'],
+        decade: ['21th_century', '2000s', '2010s'],
       },
       visualThemes: {
         motifs: ['Femininity', 'nostalgia', 'youth'],
@@ -9465,6 +9688,7 @@ export const aesthetics: AestheticProps[] = [
           'Chanel',
         ],
       },
+      timeline: {},
     },
   },
   {
@@ -9477,7 +9701,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['2010s'],
+        decade: ['21th_century', '2010s'],
         creator: ['Gabriella Hileman', 'May Waver', 'Violet Forest'],
       },
       visualThemes: {
@@ -9549,8 +9773,8 @@ export const aesthetics: AestheticProps[] = [
         ],
       },
       timeline: {
-        preceded: ['Cyberpunk', 'Twee'],
-        succeeded: ['Kawaii Gamer (influenced)'],
+        preceded: ['cyberpunk', 'twee'],
+        succeeded: ['kawaii_gamer (influenced)'],
       },
     },
   },
@@ -9565,7 +9789,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Cubo-Expressionism'],
-        decade: ['1910s'],
+        decade: ['20th_century', '1910s'],
         location: ['Prague', 'Bohemia (now Czech Republic)'],
       },
       visualThemes: {
@@ -9580,7 +9804,7 @@ export const aesthetics: AestheticProps[] = [
         figures: ['Pavel Janák', 'Josef Gočár', 'Josef Chochol', 'Vlastislav Hofman', 'Otto Gutfreund'],
       },
       timeline: {
-        preceded: ['Art Nouveau'],
+        preceded: ['art_nouveau'],
       },
     },
   },
@@ -9595,7 +9819,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Dada'],
-        decade: ['1910s (c. 1916–1924)'],
+        decade: ['20th_century', '1910s'],
         location: ['Zurich', 'Switzerland'],
       },
       visualThemes: {
@@ -9644,8 +9868,8 @@ export const aesthetics: AestheticProps[] = [
         ],
       },
       timeline: {
-        preceded: ['Futurism', 'Cubism'],
-        succeeded: ['Surrealism'],
+        preceded: ['futurism', 'cubism'],
+        succeeded: ['surrealism'],
       },
     },
   },
@@ -9660,7 +9884,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Divorced Dadcore', 'Adam Sandler Style'],
-        decade: ['Late 2010s'],
+        decade: ['21th_century', '2010s'],
         creator: ['Demna (Balenciaga)'],
       },
       visualThemes: {
@@ -9686,7 +9910,7 @@ export const aesthetics: AestheticProps[] = [
         figures: ['Adam Sandler', 'Barack Obama', 'Larry David', 'Demna'],
       },
       timeline: {
-        preceded: ['Normcore'],
+        preceded: ['normcore'],
       },
     },
   },
@@ -9702,7 +9926,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Dandyism'],
-        decade: ['Late 18th & 19th Centuries'],
+        decade: ['18th_century', '19th_century'],
         location: ['Britain & France'],
       },
       visualThemes: {
@@ -9733,7 +9957,7 @@ export const aesthetics: AestheticProps[] = [
         figures: ['Beau Brummell', 'Lord Byron', 'Charles Baudelaire', 'Oscar Wilde', 'Joris-Karl Huysmans'],
       },
       timeline: {
-        preceded: ['Macaroni (fashion)'],
+        preceded: ['macaroni_(fashion)'],
       },
     },
   },
@@ -9748,7 +9972,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Den Danske Guldalder'],
-        decade: ['Early 19th century (c. 1801-1864)'],
+        decade: ['19th_century'],
         location: ['Denmark'],
         creator: [
           'Christoffer Wilhelm Eckersberg',
@@ -9779,6 +10003,7 @@ export const aesthetics: AestheticProps[] = [
       connections: {
         related: ['dutch_golden_age_influencerealism', 'romanticism', 'neoclassicism'],
       },
+      timeline: {},
     },
   },
   {
@@ -9792,7 +10017,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['2020s'],
+        decade: ['21th_century', '2020s'],
       },
       visualThemes: {
         motifs: ['Novelty candles', 'potted plants', 'motivational posters'],
@@ -9801,6 +10026,7 @@ export const aesthetics: AestheticProps[] = [
       connections: {
         related: ['avant_basic', 'cottagecore', 'plant_mom', 'dopamine', 'scandinavian_design'],
       },
+      timeline: {},
     },
   },
   {
@@ -9814,7 +10040,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['Mid-2010s (peak popularity in the early 2020s)'],
+        decade: ['21th_century', '2010s', '2020s'],
       },
       visualThemes: {
         motifs: [
@@ -9854,7 +10080,7 @@ export const aesthetics: AestheticProps[] = [
         media: ['The Secret History', 'Dead Poets Society', 'Kill Your Darlings', 'Harry Potter'],
       },
       timeline: {
-        preceded: ['Gothic', 'Preppy'],
+        preceded: ['gothic', 'preppy'],
       },
     },
   },
@@ -9869,7 +10095,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Mata Nero', 'Frutiger Ego'],
-        decade: ['2000s'],
+        decade: ['21th_century', '2000s'],
       },
       visualThemes: {
         motifs: [
@@ -9897,6 +10123,7 @@ export const aesthetics: AestheticProps[] = [
       mediaCulture: {
         brands: ['Microsoft', 'Sony', 'Apple', 'Alienware', 'Pontiac', '5 Gum'],
       },
+      timeline: {},
     },
   },
   {
@@ -9911,7 +10138,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Punk Cabaret', 'Cabaret Noir', 'Glam Cabaret', 'Brechtian Punk Cabaret'],
-        decade: ['1990s (with roots in the 1970s)'],
+        decade: ['20th_century', '1990s'],
         location: ['Western and Central Europe'],
         creator: ['The Tiger Lillies (codified sound)', 'The Dresden Dolls (popularized genre)'],
       },
@@ -9971,6 +10198,7 @@ export const aesthetics: AestheticProps[] = [
           'Danny Elfman',
         ],
       },
+      timeline: {},
     },
   },
   {
@@ -9984,7 +10212,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Dark Carnival', 'Haunted Circus', 'Creepy Clown'],
-        decade: ['1980s (via horror media)'],
+        decade: ['20th_century', '1980s'],
       },
       visualThemes: {
         motifs: [
@@ -10014,6 +10242,7 @@ export const aesthetics: AestheticProps[] = [
           'The Night Circus (2011)',
         ],
       },
+      timeline: {},
     },
   },
   {
@@ -10028,7 +10257,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Fantasy Horror'],
-        decade: ['1970s (coined)'],
+        decade: ['20th_century', '1970s'],
       },
       visualThemes: {
         motifs: [
@@ -10065,6 +10294,7 @@ export const aesthetics: AestheticProps[] = [
           'Legend',
         ],
       },
+      timeline: {},
     },
   },
   {
@@ -10079,7 +10309,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Dark and Sweet Girly', 'Dark Girly Kei', 'Sweet Girly', 'Sweet Girly Kei'],
-        decade: ['2019'],
+        decade: ['21th_century', '2010s'],
         location: ['Japan'],
       },
       visualThemes: {
@@ -10096,7 +10326,7 @@ export const aesthetics: AestheticProps[] = [
         brands: ['Liz Lisa', 'Secret Honey', 'MA*RS', 'Dear My Love'],
       },
       timeline: {
-        preceded: ['Himekaji', 'Larme Kei'],
+        preceded: ['himekaji', 'larme_kei'],
       },
     },
   },
@@ -10111,7 +10341,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['2020s'],
+        decade: ['21th_century', '2020s'],
         creator: ['dipdyedgrey (Tumblr)'],
       },
       visualThemes: {
@@ -10133,6 +10363,7 @@ export const aesthetics: AestheticProps[] = [
       mediaCulture: {
         platform: ['Tumblr'],
       },
+      timeline: {},
     },
   },
   {
@@ -10147,7 +10378,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Lighthousecore', 'Sailorcore'],
-        decade: ['2020s'],
+        decade: ['21th_century', '2020s'],
       },
       visualThemes: {
         motifs: [
@@ -10196,6 +10427,7 @@ export const aesthetics: AestheticProps[] = [
           'Mamma Mia (2008)',
         ],
       },
+      timeline: {},
     },
   },
   {
@@ -10210,7 +10442,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Dark American Lolita', 'Dark Coquette', 'Vamp Coquette'],
-        decade: ['2010s'],
+        decade: ['21th_century', '2010s'],
         creator: ['Vladimir Nabokov'],
       },
       visualThemes: {
@@ -10233,6 +10465,7 @@ export const aesthetics: AestheticProps[] = [
       mediaCulture: {
         media: ['Lolita (1997', '1962)'],
       },
+      timeline: {},
     },
   },
   {
@@ -10245,7 +10478,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['18th century'],
+        decade: ['18th_century'],
       },
       visualThemes: {
         motifs: ['Nature', 'the supernatural', 'occultism', 'demons', 'ghosts'],
@@ -10258,6 +10491,7 @@ export const aesthetics: AestheticProps[] = [
         media: ['Frankenstein by Mary Shelley'],
         figures: ['Edgar Allan Poe', 'Emily Dickinson', 'Nathaniel Hawkthorne'],
       },
+      timeline: {},
     },
   },
   {
@@ -10271,7 +10505,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Dark Synthwave', 'Dreadwave', 'Slasher Synth'],
-        decade: ['Early 2010s'],
+        decade: ['21th_century', '2010s'],
         location: ['Europe (primarily France)', 'United States'],
         creator: ['Perturbator', 'Carpenter Brut', 'Mega Drive'],
       },
@@ -10295,6 +10529,7 @@ export const aesthetics: AestheticProps[] = [
       mediaCulture: {
         media: ['Hotline Miami (video game)', 'John Carpenter films'],
       },
+      timeline: {},
     },
   },
   {
@@ -10308,7 +10543,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Blackpill', 'Lookism', 'Tik', 'Tok', 'Tekk'],
-        decade: ['2020s'],
+        decade: ['21th_century', '2020s'],
       },
       visualThemes: {
         motifs: [
@@ -10346,6 +10581,7 @@ export const aesthetics: AestheticProps[] = [
         platform: ['Tik', 'Tok', 'You', 'Tube Shorts', 'Instagram Reels'],
         media: ['American Psycho', 'Nightcrawler', 'The Wolf of Wall Street', 'Peaky Blinders', 'The Idol'],
       },
+      timeline: {},
     },
   },
   {
@@ -10358,7 +10594,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['c. 1948–1951'],
+        decade: ['20th_century', '1940s', '1950s'],
         location: ['Barcelona', 'Catalonia', 'Spain'],
         creator: ['Joan Brossa', 'Antoni Tàpies', 'Joan Ponç', 'Arnau Puig', 'Modest Cuixart', 'Joan-Josep Tharrats'],
       },
@@ -10391,8 +10627,8 @@ export const aesthetics: AestheticProps[] = [
         figures: ['Joan Brossa', 'Antoni Tàpies', 'Joan Ponç', 'Modest Cuixart', 'Juan-Eduardo Cirlot'],
       },
       timeline: {
-        preceded: ['Surrealism'],
-        succeeded: ['Art Informel'],
+        preceded: ['surrealism'],
+        succeeded: ['art_informel'],
       },
     },
   },
@@ -10429,6 +10665,7 @@ export const aesthetics: AestheticProps[] = [
       connections: {
         related: ['autumn_aesthetic', 'halloween_aesthetic'],
       },
+      timeline: {},
     },
   },
   {
@@ -10443,7 +10680,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['zxc ghoul'],
-        decade: ['2010s'],
+        decade: ['21th_century', '2010s'],
         location: ['Ukraine', 'Russia', 'Belarus'],
         creator: ['ALOHADANCE'],
       },
@@ -10457,6 +10694,7 @@ export const aesthetics: AestheticProps[] = [
       mediaCulture: {
         media: ['Dota 2', 'Tokyo Ghoul'],
       },
+      timeline: {},
     },
   },
   {
@@ -10468,7 +10706,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['1980s'],
+        decade: ['20th_century', '1980s'],
         creator: ['Possessed'],
       },
       visualThemes: {
@@ -10477,6 +10715,7 @@ export const aesthetics: AestheticProps[] = [
       connections: {
         related: ['metal', 'black_metal', 'gorecore', 'horror'],
       },
+      timeline: {},
     },
   },
   {
@@ -10490,7 +10729,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['Late 1970s'],
+        decade: ['20th_century', '1970s'],
         location: ['United States (Los Angeles)', 'United Kingdom (London', 'Yorkshire)'],
       },
       visualThemes: {
@@ -10517,6 +10756,7 @@ export const aesthetics: AestheticProps[] = [
           'New Wave Theatre (TV show)',
         ],
       },
+      timeline: {},
     },
   },
   {
@@ -10530,7 +10770,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Decadent Movement'],
-        decade: ['Late-19th century'],
+        decade: ['19th_century'],
       },
       visualThemes: {
         motifs: [
@@ -10561,6 +10801,7 @@ export const aesthetics: AestheticProps[] = [
         media: ['Against Nature', 'The Picture of Dorian Gray', 'Salomé (Wilde)', 'The Yellow Book', 'À rebours'],
         figures: ['Oscar Wilde'],
       },
+      timeline: {},
     },
   },
   {
@@ -10574,7 +10815,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ["80's Art Deco Revival", 'Deco Revival', 'Streamline Moderne Revival'],
-        decade: ['1980s'],
+        decade: ['20th_century', '1980s'],
       },
       connections: {
         related: ['art_deco', 'decoplex', 'disco_deco', 'memphis_lite', 'streamline_moderne'],
@@ -10582,6 +10823,7 @@ export const aesthetics: AestheticProps[] = [
       mediaCulture: {
         figures: ['Patrick Nagel'],
       },
+      timeline: {},
     },
   },
   {
@@ -10595,7 +10837,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Deconstructivist Architecture'],
-        decade: ['Late 1980s'],
+        decade: ['20th_century', '1980s'],
         location: ['International (Catalyzed in New York', '1988)'],
       },
       visualThemes: {
@@ -10624,8 +10866,8 @@ export const aesthetics: AestheticProps[] = [
         figures: ['Frank Gehry', 'Zaha Hadid', 'Rem Koolhaas'],
       },
       timeline: {
-        preceded: ['Modernism'],
-        succeeded: ['Parametricism'],
+        preceded: ['modernism'],
+        succeeded: ['parametricism'],
       },
     },
   },
@@ -10669,6 +10911,7 @@ export const aesthetics: AestheticProps[] = [
           'My Life as a Teenage Robot',
         ],
       },
+      timeline: {},
     },
   },
   {
@@ -10683,7 +10926,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Decora Kei'],
-        decade: ['Late 1990s'],
+        decade: ['20th_century', '1990s'],
         creator: ['Tomoe Shinohara'],
       },
       visualThemes: {
@@ -10733,6 +10976,7 @@ export const aesthetics: AestheticProps[] = [
       mediaCulture: {
         platform: ['Harajuku (street style)', 'Instagram', 'Tumblr'],
       },
+      timeline: {},
     },
   },
   {
@@ -10746,7 +10990,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Deepfried', 'Nuked Memes'],
-        decade: ['2010s'],
+        decade: ['21th_century', '2010s'],
         creator: [
           'Tumblr user paparoachscarsmp3 (coined term); Popularized by Black Twitter and r/Deep',
           'Fried',
@@ -10776,6 +11020,7 @@ export const aesthetics: AestheticProps[] = [
           'tnzelcore',
         ],
       },
+      timeline: {},
     },
   },
   {
@@ -10787,9 +11032,11 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['1975'],
+        decade: ['20th_century', '1970s'],
         creator: ['Toei'],
       },
+      connections: {},
+      timeline: {},
     },
   },
   {
@@ -10804,7 +11051,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Pinkcore', 'Softette'],
-        decade: ['2010s'],
+        decade: ['21th_century', '2010s'],
       },
       visualThemes: {
         motifs: [
@@ -10848,6 +11095,7 @@ export const aesthetics: AestheticProps[] = [
         platform: ['Tumblr'],
         media: ['poofties'],
       },
+      timeline: {},
     },
   },
   {
@@ -10861,7 +11109,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Demo-making', 'Sceners (adherents)'],
-        decade: ['1980s'],
+        decade: ['20th_century', '1980s'],
         location: ['Europe (Global Subculture)'],
       },
       visualThemes: {
@@ -10891,6 +11139,7 @@ export const aesthetics: AestheticProps[] = [
       mediaCulture: {
         platform: ['Personal Computers (Amiga', 'Atari ST', 'Modern PC/Windows)'],
       },
+      timeline: {},
     },
   },
   {
@@ -10903,7 +11152,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['1990s'],
+        decade: ['20th_century', '1990s'],
         creator: [
           'SCA-Ji',
           'Tanaka Romeo',
@@ -10952,6 +11201,7 @@ export const aesthetics: AestheticProps[] = [
           'NEEDY STREAMER OVERLOAD',
         ],
       },
+      timeline: {},
     },
   },
   {
@@ -10965,7 +11215,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Neoplasticism'],
-        decade: ['1917 - 1931'],
+        decade: ['20th_century', '1910s', '1920s', '1930s'],
         location: ['Leiden', 'Netherlands'],
         creator: ['Theo van Doesburg', 'Piet Mondrian', 'Gerrit Rietveld'],
       },
@@ -10997,8 +11247,8 @@ export const aesthetics: AestheticProps[] = [
         figures: ['Theo van Doesburg', 'Piet Mondrian', 'Gerrit Rietveld', 'Bart van der Leck', 'Vilmos Huszár'],
       },
       timeline: {
-        preceded: ['Cubism', 'Suprematism'],
-        succeeded: ['International Typographic Style', 'Concrete Art'],
+        preceded: ['cubism', 'suprematism'],
+        succeeded: ['international_typographic style', 'concrete_art'],
       },
     },
   },
@@ -11013,7 +11263,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Demoncore'],
-        decade: ['2010s'],
+        decade: ['21th_century', '2010s'],
       },
       visualThemes: {
         motifs: [
@@ -11046,6 +11296,7 @@ export const aesthetics: AestheticProps[] = [
       mediaCulture: {
         brands: ['Hot Topic', 'Punk Design- Devil Collection', 'Gothic Lamb', 'EMP Online', 'Berthhaux'],
       },
+      timeline: {},
     },
   },
   {
@@ -11058,7 +11309,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['2000s (term coinage)'],
+        decade: ['21th_century', '2000s'],
       },
       visualThemes: {
         motifs: [
@@ -11113,8 +11364,8 @@ export const aesthetics: AestheticProps[] = [
         figures: ['Philip K. Dick', 'Hayao Miyazaki', 'Lewis Pollak', 'Jakub Różalski', 'Kow Yokoyama'],
       },
       timeline: {
-        preceded: ['Steampunk'],
-        succeeded: ['Atompunk', 'Raygun Gothic'],
+        preceded: ['steampunk'],
+        succeeded: ['atompunk', 'raygun_gothic'],
       },
     },
   },
@@ -11129,7 +11380,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Internet Horror', 'Flash Horror'],
-        decade: ['Early 2000s'],
+        decade: ['21th_century', '2000s'],
       },
       visualThemes: {
         motifs: [
@@ -11150,7 +11401,7 @@ export const aesthetics: AestheticProps[] = [
         figures: ['David Firth', 'Alex Hall (Jadusable)'],
       },
       timeline: {
-        preceded: ['Analog Horror'],
+        preceded: ['analog_horror'],
       },
     },
   },
@@ -11165,7 +11416,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['1950s'],
+        decade: ['20th_century', '1950s'],
       },
       visualThemes: {
         colours: ['Any colors.'],
@@ -11184,6 +11435,7 @@ export const aesthetics: AestheticProps[] = [
           'vintage_americana',
         ],
       },
+      timeline: {},
     },
   },
   {
@@ -11196,7 +11448,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['13th-7th centuries BC'],
+        decade: ['bc'],
         creator: ['Cult of Dionysus'],
       },
       visualThemes: {
@@ -11207,6 +11459,7 @@ export const aesthetics: AestheticProps[] = [
       connections: {
         related: ['classicism', 'cuddle_party', 'devilcore', 'hellenic', 'lovecore', 'mc', 'bling'],
       },
+      timeline: {},
     },
   },
   {
@@ -11220,7 +11473,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['1970s'],
+        decade: ['20th_century', '1970s'],
         location: ['New York City and Philadelphia', 'U.S.'],
       },
       visualThemes: {
@@ -11256,8 +11509,8 @@ export const aesthetics: AestheticProps[] = [
         media: ['Saturday Night Fever', "Thank God It's Friday"],
       },
       timeline: {
-        preceded: ['Funk'],
-        succeeded: ['New Wave'],
+        preceded: ['funk'],
+        succeeded: ['new_wave'],
       },
     },
   },
@@ -11272,11 +11525,12 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Psyche-Deco'],
-        decade: ['1960s'],
+        decade: ['20th_century', '1960s'],
       },
       connections: {
         related: ['art_deco', 'deco-luxe', 'psychedelia'],
       },
+      timeline: {},
     },
   },
   {
@@ -11290,7 +11544,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Polo Disco', 'Sidewalk Music', 'Backyard Music'],
-        decade: ['Late 1980s'],
+        decade: ['20th_century', '1980s'],
         location: ['Poland'],
       },
       visualThemes: {
@@ -11308,6 +11562,7 @@ export const aesthetics: AestheticProps[] = [
       connections: {
         related: ['disco', 'dresiarz', 'italo_disco', 'graynacore', 'vectordelia'],
       },
+      timeline: {},
     },
   },
   {
@@ -11320,7 +11575,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['2020s (with roots in earlier art movements)'],
+        decade: ['21th_century', '2020s'],
       },
       visualThemes: {
         motifs: [
@@ -11377,6 +11632,7 @@ export const aesthetics: AestheticProps[] = [
           'Arsi "Hakita" Patala',
         ],
       },
+      timeline: {},
     },
   },
   {
@@ -11389,7 +11645,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Punk Zine', 'Xerox Punk', 'Messthetics', 'DIY'],
-        decade: ['1970s'],
+        decade: ['20th_century', '1970s'],
         location: ['United Kingdom'],
         creator: ['Jamie Reid', 'Vivienne Westwood', 'Linder Sterling'],
       },
@@ -11414,7 +11670,7 @@ export const aesthetics: AestheticProps[] = [
         figures: ['Vivienne Westwood'],
       },
       timeline: {
-        preceded: ['Punk'],
+        preceded: ['punk'],
       },
     },
   },
@@ -11430,7 +11686,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Dizelaš (singular)'],
-        decade: ['1990s'],
+        decade: ['20th_century', '1990s'],
         location: ['Serbia (primarily Belgrade)'],
       },
       visualThemes: {
@@ -11452,6 +11708,7 @@ export const aesthetics: AestheticProps[] = [
         media: ['Turbo-folk and Eurodance music'],
         brands: ['Diesel', 'Nike', 'Reebok', 'Kappa'],
       },
+      timeline: {},
     },
   },
   {
@@ -11465,7 +11722,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Dokukawa', 'Neon Gore'],
-        decade: ['2010s'],
+        decade: ['21th_century', '2010s'],
         creator: ['Miruki'],
       },
       visualThemes: {
@@ -11474,6 +11731,7 @@ export const aesthetics: AestheticProps[] = [
       connections: {
         related: ['animecore', 'colorful_pop', 'gurokawa', 'medicalcore', 'pastel_gore', 'superflat', 'yami_kawaii'],
       },
+      timeline: {},
     },
   },
   {
@@ -11486,7 +11744,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['1990s'],
+        decade: ['20th_century', '1990s'],
       },
       visualThemes: {
         motifs: ['Infomercials', 'pop up ads', 'dollar store packaging'],
@@ -11509,6 +11767,7 @@ export const aesthetics: AestheticProps[] = [
       mediaCulture: {
         media: ['Windows Destruction'],
       },
+      timeline: {},
     },
   },
   {
@@ -11522,7 +11781,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['2010s'],
+        decade: ['21th_century', '2010s'],
       },
       visualThemes: {
         motifs: ['ball-jointed dolls', 'porcelain dolls'],
@@ -11540,6 +11799,7 @@ export const aesthetics: AestheticProps[] = [
           'morute',
         ],
       },
+      timeline: {},
     },
   },
   {
@@ -11553,7 +11813,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['2010s'],
+        decade: ['21th_century', '2010s'],
       },
       visualThemes: {
         motifs: ['Florals', 'lip gloss', 'perfume', 'nail polish', 'ribbons', 'lacy fashion'],
@@ -11586,6 +11846,7 @@ export const aesthetics: AestheticProps[] = [
           'wonyoungism',
         ],
       },
+      timeline: {},
     },
   },
   {
@@ -11600,7 +11861,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Dolly Style', '60s Dolly'],
-        decade: ['Mid-1960s'],
+        decade: ['20th_century', '1960s'],
         location: ['London', 'England'],
       },
       visualThemes: {
@@ -11624,7 +11885,7 @@ export const aesthetics: AestheticProps[] = [
         figures: ['Twiggy', 'Pattie Boyd', 'Jean Shrimpton', 'Mia Farrow'],
       },
       timeline: {
-        preceded: ['Mod'],
+        preceded: ['mod'],
       },
     },
   },
@@ -11639,7 +11900,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Antique Kei'],
-        decade: ['2010s'],
+        decade: ['21th_century', '2010s'],
         creator: ['Hitomi Nomura'],
       },
       visualThemes: {
@@ -11653,6 +11914,7 @@ export const aesthetics: AestheticProps[] = [
         media: ["The Brother's Grimm and Hans Christian Anderson books"],
         brands: ['Grimoire'],
       },
+      timeline: {},
     },
   },
   {
@@ -11666,7 +11928,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Doomerwave'],
-        decade: ['Late 2010s (as a meme and aesthetic)'],
+        decade: ['21th_century', '2010s'],
         creator: ["4chan's /r9k/ board (Wojak character)"],
       },
       visualThemes: {
@@ -11699,6 +11961,7 @@ export const aesthetics: AestheticProps[] = [
         media: ['Joker (2019)', 'Taxi Driver (1976)', 'music by Molchat Doma and Kino'],
         figures: ['The Doomer (Wojak character)'],
       },
+      timeline: {},
     },
   },
   {
@@ -11713,7 +11976,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ["多巴胺风 (Duōbā'àn Fēng)"],
-        decade: ['Early 2020s'],
+        decade: ['21th_century', '2020s'],
         location: ['China'],
       },
       visualThemes: {
@@ -11724,6 +11987,7 @@ export const aesthetics: AestheticProps[] = [
       connections: {
         related: ['decora', 'gen_z_maximalism', 'indie_kid', 'kidcore', 'lulicore', 'maillard_style'],
       },
+      timeline: {},
     },
   },
   {
@@ -11737,7 +12001,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Poly', 'Sunk'],
-        decade: ['2000s'],
+        decade: ['21th_century', '2000s'],
       },
       visualThemes: {
         motifs: [
@@ -11777,6 +12041,7 @@ export const aesthetics: AestheticProps[] = [
       mediaCulture: {
         brands: ['Walkman', 'Sony Ericsson', 'Microsoft Office', 'Xbox LIVE', 'Orange Theory'],
       },
+      timeline: {},
     },
   },
   {
@@ -11791,7 +12056,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['NYC Girl'],
-        decade: ['1970s-2000s'],
+        decade: ['20th_century', '1970s', '1980s', '21th_century', '1990s', '2000s'],
       },
       visualThemes: {
         motifs: ['Books', 'coffee', 'tea', 'music'],
@@ -11802,7 +12067,7 @@ export const aesthetics: AestheticProps[] = [
         overlaped: ['coquette'],
       },
       timeline: {
-        preceded: ['Hipster', 'Dark Academia'],
+        preceded: ['hipster', 'dark_academia'],
       },
     },
   },
@@ -11816,7 +12081,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['2010s'],
+        decade: ['21th_century', '2010s'],
         creator: ['Popularized by Tumblr'],
       },
       visualThemes: {
@@ -11843,6 +12108,7 @@ export const aesthetics: AestheticProps[] = [
           'The Wings of Fire books',
         ],
       },
+      timeline: {},
     },
   },
   {
@@ -11855,7 +12121,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['Late 2010s–Early 2020s'],
+        decade: ['21th_century', '2010s', '2020s'],
         creator: ['Drain Gang fan communities on Tumblr/Tik', 'Tok/Sound', 'Cloud'],
       },
       visualThemes: {
@@ -11888,6 +12154,7 @@ export const aesthetics: AestheticProps[] = [
       mediaCulture: {
         platform: ['Tik', 'Tok', 'Tumblr', 'Sound', 'Cloud'],
       },
+      timeline: {},
     },
   },
   {
@@ -11901,7 +12168,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['Late 2010s-Early 2020s'],
+        decade: ['21th_century', '2010s', '2020s'],
         creator: ['Emerged from several creators', 'primarily @gbrltvrst on Tumblr'],
       },
       visualThemes: {
@@ -11945,8 +12212,8 @@ export const aesthetics: AestheticProps[] = [
         platform: ['Tik', 'Tok'],
       },
       timeline: {
-        preceded: ['Traumacore'],
-        succeeded: ['Nostalgiacore'],
+        preceded: ['traumacore'],
+        succeeded: ['nostalgiacore'],
       },
     },
   },
@@ -11961,7 +12228,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Dream Music'],
-        decade: ['Mid-2010s'],
+        decade: ['21th_century', '2010s'],
         location: ['United Kingdom'],
         creator: ['2814 (HKE and t e l e p a t h テレパシー能力者)'],
       },
@@ -11985,7 +12252,7 @@ export const aesthetics: AestheticProps[] = [
         platform: ['Bandcamp', 'Sound', 'Cloud'],
       },
       timeline: {
-        preceded: ['Vaporwave'],
+        preceded: ['vaporwave'],
       },
     },
   },
@@ -12000,7 +12267,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Female Gaze'],
-        decade: ['2010s'],
+        decade: ['21th_century', '2010s'],
         creator: ['Rookie Magazine and Petra Collins'],
       },
       visualThemes: {
@@ -12015,6 +12282,7 @@ export const aesthetics: AestheticProps[] = [
         media: ['The Virgin Suicides'],
         figures: ['Petra Collins'],
       },
+      timeline: {},
     },
   },
   {
@@ -12029,7 +12297,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Dres', 'Dresy'],
-        decade: ['Late 1980s–1990s'],
+        decade: ['20th_century', '1980s', '1990s'],
         location: ['Poland'],
       },
       visualThemes: {
@@ -12050,6 +12318,7 @@ export const aesthetics: AestheticProps[] = [
       mediaCulture: {
         brands: ['Nike', 'Adidas', 'Puma'],
       },
+      timeline: {},
     },
   },
   {
@@ -12063,7 +12332,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Drift', 'Drift House', 'Phonk House', 'Driftcore', 'Phonkcore', 'Phonk (erroneously)'],
-        decade: ['Late 2010s'],
+        decade: ['21th_century', '2010s'],
         location: ['Russia'],
         creator: ['Kaito Shoma', 'Pharmacist and Ghostface Playa'],
       },
@@ -12083,7 +12352,7 @@ export const aesthetics: AestheticProps[] = [
         figures: ['DVRST', 'Ghostface Playa', 'Pharmacist', 'Dxrk ダー', 'Kordhell'],
       },
       timeline: {
-        preceded: ['Phonk'],
+        preceded: ['phonk'],
       },
     },
   },
@@ -12098,7 +12367,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Magepunk'],
-        decade: ['1990s'],
+        decade: ['20th_century', '1990s'],
       },
       visualThemes: {
         motifs: [
@@ -12114,6 +12383,7 @@ export const aesthetics: AestheticProps[] = [
       connections: {
         related: ['cyberpunk', 'dark_fantasy', 'dieselpunk', 'fantasy', 'steampunk'],
       },
+      timeline: {},
     },
   },
   {
@@ -12126,7 +12396,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['Late 2010s'],
+        decade: ['21th_century', '2010s'],
         location: ['Kharkiv', 'Ukraine / Internet'],
         creator: ['DJ Sacred (Alex Yatsun)'],
       },
@@ -12151,6 +12421,7 @@ export const aesthetics: AestheticProps[] = [
         platform: ['Sound', 'Cloud', 'Bandcamp'],
         media: ['Video games (e.g.', 'Dwarf Fortress', 'Morrowind)', 'Role-playing games'],
       },
+      timeline: {},
     },
   },
   {
@@ -12164,7 +12435,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Dark Dungeon Music', 'Medieval Ambient'],
-        decade: ['Early 1990s'],
+        decade: ['20th_century', '1990s'],
         location: ['Norway (initial prominent scene)'],
         creator: ['Mortiis', 'Burzum (early proponents)'],
       },
@@ -12190,8 +12461,8 @@ export const aesthetics: AestheticProps[] = [
         media: ["The Lord of the Rings (J.R.R. Tolkien's works)", 'Dungeons & Dragons (tabletop RPG)'],
       },
       timeline: {
-        preceded: ['Black Metal'],
-        succeeded: ['Keller Synth'],
+        preceded: ['black_metal'],
+        succeeded: ['keller_synth'],
       },
     },
   },
@@ -12206,7 +12477,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Dunhuang (style)'],
-        decade: ['4th century'],
+        decade: ['4th_century'],
       },
       visualThemes: {
         motifs: ['Feitian', 'zaojing', 'Buddhas', 'Bodhisattvas', 'narrative mural', 'landscape'],
@@ -12216,6 +12487,7 @@ export const aesthetics: AestheticProps[] = [
       connections: {
         related: ['guochao', 'wei_and_jin_dynasties', 'tang_dynasty', 'song_dynasty', 'yuan_dynasty'],
       },
+      timeline: {},
     },
   },
   {
@@ -12229,7 +12501,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['De Gouden Eeuw'],
-        decade: ['c. 1600 - 1700'],
+        decade: ['17th_century'],
         location: ['Dutch Republic (Netherlands)'],
       },
       visualThemes: {
@@ -12275,7 +12547,7 @@ export const aesthetics: AestheticProps[] = [
         ],
       },
       timeline: {
-        preceded: ['Northern Renaissance', 'Mannerism'],
+        preceded: ['northern_renaissance', 'mannerism'],
       },
     },
   },
@@ -12289,7 +12561,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['1970s/1980s'],
+        decade: ['20th_century', '1970s', '1980s'],
       },
       visualThemes: {
         motifs: ['Pixelization', 'thermography', 'fractals', 'visual distortions'],
@@ -12323,7 +12595,7 @@ export const aesthetics: AestheticProps[] = [
         figures: ['April Greiman'],
       },
       timeline: {
-        succeeded: ['Corporate Gen-X Cyber'],
+        succeeded: ['corporate_gen-x cyber'],
       },
     },
   },
@@ -12338,7 +12610,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Fall Tones'],
-        decade: ['1970s'],
+        decade: ['20th_century', '1970s'],
       },
       visualThemes: {
         motifs: ['Soft colors', 'rounded shapes'],
@@ -12357,8 +12629,8 @@ export const aesthetics: AestheticProps[] = [
         overlaped: ['cassette_futurism', 'pacific_punk_wave', 'supergraphic_ultramodern'],
       },
       timeline: {
-        preceded: ['Corporate Hippie', 'Mid-Century Modern', 'Space Age', 'Googie', 'Raygun Gothic'],
-        succeeded: ['Memphis Lite', 'Laser Grid'],
+        preceded: ['corporate_hippie', 'mid-century_modern', 'space_age', 'googie', 'raygun_gothic'],
+        succeeded: ['memphis_lite', 'laser_grid'],
       },
     },
   },
@@ -12374,7 +12646,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Black Girl Boho'],
-        decade: ['2020s'],
+        decade: ['21th_century', '2020s'],
       },
       visualThemes: {
         motifs: ['Pan-African and earthy colors', 'Egyptian symbols', 'beads'],
@@ -12405,6 +12677,7 @@ export const aesthetics: AestheticProps[] = [
         platform: ['Tik', 'Tok'],
         figures: ['Ava Tetteh-Ocloo', 'Erykah Badu', 'Lauryn Hill', 'Lisa Bonet', 'India.Arie'],
       },
+      timeline: {},
     },
   },
   {
@@ -12418,7 +12691,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Resurrection Sunday', 'Holy Sunday', 'Passover'],
-        decade: ['1st century325 (standarized by Council of Nicaea)'],
+        decade: ['1st_century'],
       },
       visualThemes: {
         motifs: ['Chickens', 'bunnies', 'easter eggs', 'baskets', 'lambs[note 1]', ''],
@@ -12428,6 +12701,7 @@ export const aesthetics: AestheticProps[] = [
       connections: {
         related: ['christmas', 'halloween', 'saint_patricks_day', 'spring'],
       },
+      timeline: {},
     },
   },
   {
@@ -12442,7 +12716,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Electronic Boy'],
-        decade: ['Late 2010s'],
+        decade: ['21th_century', '2010s'],
       },
       visualThemes: {
         motifs: ['Chains', 'padlocks', 'middle-part hair', 'black nail polish', 'layered clothing', 'silver jewelry'],
@@ -12454,6 +12728,7 @@ export const aesthetics: AestheticProps[] = [
       mediaCulture: {
         platform: ['Tik', 'Tok'],
       },
+      timeline: {},
     },
   },
   {
@@ -12468,7 +12743,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Grandpacore'],
-        decade: ['2020s'],
+        decade: ['21th_century', '2020s'],
       },
       visualThemes: {
         motifs: ['Oversized topcoats', 'cardigans', 'high-waisted trousers', 'sensible footwear'],
@@ -12478,6 +12753,7 @@ export const aesthetics: AestheticProps[] = [
       connections: {
         related: ['avant-garde', 'blokecore', 'coastal_grandmother', 'dark_academia', 'grandparentcore', 'normcore'],
       },
+      timeline: {},
     },
   },
   {
@@ -12491,7 +12767,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Eco-Rustic'],
-        decade: ['Late 1980s'],
+        decade: ['20th_century', '1980s'],
       },
       visualThemes: {
         motifs: ['Twigs', 'raffia straw', 'linens', 'wood', 'exposed surfaces', 'textured walls'],
@@ -12501,6 +12777,7 @@ export const aesthetics: AestheticProps[] = [
       connections: {
         related: ['frasurbane', 'global_village_coffeehouse', 'rustic', 'shabby_chic', 'tuscan_rustic', 'zen-x'],
       },
+      timeline: {},
     },
   },
   {
@@ -12513,7 +12790,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['1901-1910'],
+        decade: ['20th_century', '1900s', '1910s'],
         location: ['United Kingdom (global influence)'],
       },
       visualThemes: {
@@ -12554,8 +12831,8 @@ export const aesthetics: AestheticProps[] = [
         figures: ['King Edward VII', 'Queen Alexandra'],
       },
       timeline: {
-        preceded: ['Victorian'],
-        succeeded: ['Art Deco', 'Roaring Twenties'],
+        preceded: ['victorian'],
+        succeeded: ['art_deco', 'roaring_twenties'],
       },
     },
   },
@@ -12572,7 +12849,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Electronic Girl'],
-        decade: ['Late 2010s'],
+        decade: ['21th_century', '2010s'],
       },
       visualThemes: {
         motifs: [
@@ -12615,7 +12892,7 @@ export const aesthetics: AestheticProps[] = [
         figures: ['Belle Delphine', 'Doja Cat (in certain music videos)'],
       },
       timeline: {
-        preceded: ['2010s Bright Kawaii', 'Scene', 'Sadgirl'],
+        preceded: ['2010s_bright kawaii', 'scene', 'sadgirl'],
       },
     },
   },
@@ -12629,7 +12906,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Devo-core'],
-        decade: ['2010s'],
+        decade: ['21th_century', '2010s'],
         location: ['United States'],
         creator: ['The Coneheads'],
       },
@@ -12639,6 +12916,7 @@ export const aesthetics: AestheticProps[] = [
       connections: {
         related: ['diy_punk', 'tnzelcore'],
       },
+      timeline: {},
     },
   },
   {
@@ -12651,7 +12929,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['1820s'],
+        decade: ['19th_century', '1820s'],
       },
       visualThemes: {
         motifs: ['pylon gateways', 'battered walls', 'cavetto cornices', 'obelisks'],
@@ -12660,6 +12938,7 @@ export const aesthetics: AestheticProps[] = [
       connections: {
         related: ['ancient_egypt'],
       },
+      timeline: {},
     },
   },
   {
@@ -12673,7 +12952,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Synthcore', 'Retro-Electro', 'Tech Pop', 'Nouveau Disco'],
-        decade: ['Late 1990s–Early 2000s'],
+        decade: ['20th_century', '21th_century', '1990s', '2000s'],
         location: ['New York', 'Detroit', 'Berlin'],
       },
       visualThemes: {
@@ -12705,8 +12984,8 @@ export const aesthetics: AestheticProps[] = [
         figures: ['Miss Kittin & The Hacker', 'Fischerspooner', 'Peaches', 'I-F', 'DJ Hell'],
       },
       timeline: {
-        preceded: ['Techno', 'New Wave'],
-        succeeded: ['Bloghouse', 'Recession Pop'],
+        preceded: ['techno', 'new_wave'],
+        succeeded: ['bloghouse', 'recession_pop'],
       },
     },
   },
@@ -12721,7 +13000,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['EBM', 'Body Music', 'Körpermusik'],
-        decade: ['Late 1970s / Early 1980s'],
+        decade: ['20th_century', '1970s', '1980s'],
         location: ['Düsseldorf (Germany) & Brussels (Belgium)'],
       },
       visualThemes: {
@@ -12755,8 +13034,8 @@ export const aesthetics: AestheticProps[] = [
         figures: ['Gabi Delgado-López', 'Robert Görl', 'Daniel Bressanutti', 'Douglas Mc', 'Carthy', 'Jürgen Engler'],
       },
       timeline: {
-        preceded: ['Industrial', 'Punk', 'Krautrock'],
-        succeeded: ['Techno', 'New Beat', 'Aggrotech', 'Futurepop'],
+        preceded: ['industrial', 'punk', 'krautrock'],
+        succeeded: ['techno', 'new_beat', 'aggrotech', 'futurepop'],
       },
     },
   },
@@ -12771,7 +13050,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Swing House', 'Boom Swing'],
-        decade: ['Early 1990s (origins)Late 2000s (Popularization)'],
+        decade: ['20th_century', '21th_century', '1990s', '2000s'],
       },
       visualThemes: {
         motifs: ['Rubber Hose revival', '1920s speakeasies', 'robots', 'anthropomorphic characters', 'neon signage'],
@@ -12785,6 +13064,7 @@ export const aesthetics: AestheticProps[] = [
         media: ['Bendy and the Ink Machine', 'Cuphead', "Mirror's Edge"],
         brands: ['Freshly Squeezed', 'Wagram'],
       },
+      timeline: {},
     },
   },
   {
@@ -12799,7 +13079,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Emotional Hardcore'],
-        decade: ['1980s (First Wave)1990s (Second Wave)2000s (Third Wave/Mainstream Subculture)'],
+        decade: ['20th_century', '21th_century', '1980s', '1990s', '2000s'],
         location: ['Washington', 'D.C.', 'USA'],
       },
       visualThemes: {
@@ -12836,7 +13116,7 @@ export const aesthetics: AestheticProps[] = [
         figures: ['My Chemical Romance', 'Fall Out Boy', 'Paramore', 'Taking Back Sunday', 'Dashboard Confessional'],
       },
       timeline: {
-        preceded: ['Hardcore Punk'],
+        preceded: ['hardcore_punk'],
       },
     },
   },
@@ -12851,7 +13131,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Emo Hip-Hop', 'Sad Rap', 'Emo Trap', 'Depressed Rap', 'Bop-Punk'],
-        decade: ['2010s'],
+        decade: ['21th_century', '2010s'],
         creator: ['Bones', 'Lil Peep', 'XXXTentacion'],
       },
       visualThemes: {
@@ -12879,6 +13159,7 @@ export const aesthetics: AestheticProps[] = [
         media: ['Sound', 'Cloud'],
         brands: ['Thrasher', 'FTP (Fuck The Population)', 'Anti Social Social Club', 'Vlone'],
       },
+      timeline: {},
     },
   },
   {
@@ -12892,7 +13173,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Style Empire'],
-        decade: ['1800s'],
+        decade: ['19th_century', '1800s'],
         location: ['Paris', 'France'],
       },
       visualThemes: {
@@ -12926,7 +13207,7 @@ export const aesthetics: AestheticProps[] = [
         figures: ['Napoleon Bonaparte', 'Charles Percier (architect)', 'Pierre François Léonard Fontaine (architect)'],
       },
       timeline: {
-        preceded: ['Directoire Style'],
+        preceded: ['directoire_style'],
       },
     },
   },
@@ -12941,7 +13222,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['E-punk', 'Losercore', 'Internet punk', 'Bedroom punk'],
-        decade: ['Late 2010s'],
+        decade: ['21th_century', '2010s'],
       },
       visualThemes: {
         motifs: [
@@ -12979,6 +13260,7 @@ export const aesthetics: AestheticProps[] = [
       mediaCulture: {
         figures: ['Negative XP', 'Gezebelle Gaburgably', 'Fried by Fluoride'],
       },
+      timeline: {},
     },
   },
   {
@@ -13007,6 +13289,8 @@ export const aesthetics: AestheticProps[] = [
       mediaCulture: {
         media: ['The Saddle Club'],
       },
+      origins: {},
+      timeline: {},
     },
   },
   {
@@ -13020,7 +13304,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['2005'],
+        decade: ['21th_century', '2000s'],
         creator: ['Kumi Kōda'],
       },
       visualThemes: {
@@ -13032,6 +13316,7 @@ export const aesthetics: AestheticProps[] = [
       mediaCulture: {
         media: ["Ecchi or R-18 Girls' Love/Yuri manga"],
       },
+      timeline: {},
     },
   },
   {
@@ -13045,7 +13330,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Adlay'],
-        decade: ['Late 1990s–2000s'],
+        decade: ['20th_century', '21th_century', '1990s', '2000s'],
         location: ['Australia (primarily Sydney)'],
       },
       visualThemes: {
@@ -13066,6 +13351,7 @@ export const aesthetics: AestheticProps[] = [
       mediaCulture: {
         brands: ['Nike (especially Air Max Plus/TNs). Tommy Hilfiger', 'Ralph Lauren', 'Nautica', 'Gucci', 'Lacoste='],
       },
+      timeline: {},
     },
   },
   {
@@ -13080,7 +13366,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['2010s-2020s'],
+        decade: ['21th_century', '2010s', '2020s'],
       },
       visualThemes: {
         colours: ['Green', 'pink', 'white', 'and blue'],
@@ -13107,6 +13393,7 @@ export const aesthetics: AestheticProps[] = [
       mediaCulture: {
         media: ['Disney', 'Barbie'],
       },
+      timeline: {},
     },
   },
   {
@@ -13121,7 +13408,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Ethnic Chic'],
-        decade: ['1960s'],
+        decade: ['20th_century', '1960s'],
       },
       visualThemes: {
         motifs: ['Global textiles', 'handcrafted objects', 'natural materials', 'cultural patterns'],
@@ -13131,6 +13418,7 @@ export const aesthetics: AestheticProps[] = [
       connections: {
         related: ['art_hoe', 'bohemian', 'earth_tones', 'hippie', 'rustic', 'safari_chic'],
       },
+      timeline: {},
     },
   },
   {
@@ -13145,7 +13433,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['2010s'],
+        decade: ['21th_century', '2010s'],
         location: ['Europe (primarily the German Wave Gotik Treffen scene)'],
       },
       visualThemes: {
@@ -13167,6 +13455,7 @@ export const aesthetics: AestheticProps[] = [
         platform: ['Instagram'],
         figures: ['Aurora Neraneve (pioneer)'],
       },
+      timeline: {},
     },
   },
   {
@@ -13180,7 +13469,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Euphoria Aesthetic', 'Euphoriacore'],
-        decade: ['Late 2010s'],
+        decade: ['21th_century', '2010s'],
       },
       visualThemes: {
         motifs: [
@@ -13203,6 +13492,7 @@ export const aesthetics: AestheticProps[] = [
         media: ['Euphoria (television show)'],
         brands: ['I.AM.GIA', 'Miu Miu', 'Frankies Bikinis'],
       },
+      timeline: {},
     },
   },
   {
@@ -13215,7 +13505,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['1900s-1920s'],
+        decade: ['20th_century', '1900s', '1910s', '1920s'],
         location: ['Germany'],
         creator: ['Die Brücke (The Bridge)', 'Der Blaue Reiter (The Blue Rider)'],
       },
@@ -13265,8 +13555,8 @@ export const aesthetics: AestheticProps[] = [
         ],
       },
       timeline: {
-        preceded: ['Post-Impressionism', 'Symbolism'],
-        succeeded: ['New Objectivity', 'Abstract Expressionism'],
+        preceded: ['post-impressionism', 'symbolism'],
+        succeeded: ['new_objectivity', 'abstract_expressionism'],
       },
     },
   },
@@ -13280,7 +13570,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['1980s'],
+        decade: ['20th_century', '1980s'],
       },
       connections: {
         related: [
@@ -13313,7 +13603,7 @@ export const aesthetics: AestheticProps[] = [
         ],
       },
       timeline: {
-        succeeded: ['Y2K Futurism'],
+        succeeded: ['y2k_futurism'],
       },
     },
   },
@@ -13328,7 +13618,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Fairground Arts', 'Arts Forains (French)'],
-        decade: ['Mid-19th century (peak: Belle Époque', '1880–1914)'],
+        decade: ['19th_century', '20th_century', '1880s', '1890s', '1900s', '1910s'],
         location: ['Western Europe (France', 'Belgium', 'Germany', 'United Kingdom)'],
       },
       visualThemes: {
@@ -13354,7 +13644,7 @@ export const aesthetics: AestheticProps[] = [
         brands: ['Musée des Arts Forains (Paris)'],
       },
       timeline: {
-        succeeded: ['Funfair Kitsch'],
+        succeeded: ['funfair_kitsch'],
       },
     },
   },
@@ -13370,7 +13660,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Faecore', 'Faerycore', 'Faeriecore'],
-        decade: ['2020s'],
+        decade: ['21th_century', '2020s'],
       },
       visualThemes: {
         motifs: [
@@ -13405,6 +13695,7 @@ export const aesthetics: AestheticProps[] = [
       mediaCulture: {
         brands: ['Selkie', 'Lirika Matoshi'],
       },
+      timeline: {},
     },
   },
   {
@@ -13419,7 +13710,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Grunge Fairycore', 'Grunge Fairy'],
-        decade: ['Early 2020s'],
+        decade: ['21th_century', '2020s'],
       },
       visualThemes: {
         motifs: ['Dark clothing', 'moss', 'crystals', 'fairies', 'forests'],
@@ -13457,8 +13748,8 @@ export const aesthetics: AestheticProps[] = [
         figures: ['Florence Welch', 'Beabadoobee', 'Holly Black', 'Stevie Nicks', 'Katie Jane Garside', 'The Pixies'],
       },
       timeline: {
-        preceded: ['Goblincore', 'Grunge', 'Cottagecore', 'Mori Kei', 'Fairycore', 'Kinderwhore'],
-        succeeded: ['Fairy Hippie', 'Elf Punk', 'Japanese Horror Game Protagonist Fashion'],
+        preceded: ['goblincore', 'grunge', 'cottagecore', 'mori_kei', 'fairycore', 'kinderwhore'],
+        succeeded: ['fairy_hippie', 'elf_punk', 'japanese_horror game protagonist fashion'],
       },
     },
   },
@@ -13474,7 +13765,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Fancy'],
-        decade: ['1980s'],
+        decade: ['20th_century', '1980s'],
       },
       visualThemes: {
         motifs: [
@@ -13505,6 +13796,7 @@ export const aesthetics: AestheticProps[] = [
           'uchuu_kei',
         ],
       },
+      timeline: {},
     },
   },
   {
@@ -13518,7 +13810,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Dark Angelcore'],
-        decade: ['2020s'],
+        decade: ['21th_century', '2020s'],
       },
       visualThemes: {
         motifs: [
@@ -13541,7 +13833,7 @@ export const aesthetics: AestheticProps[] = [
         figures: ["Lucifer (in John Milton's Paradise Lost)"],
       },
       timeline: {
-        preceded: ['Angelcore'],
+        preceded: ['angelcore'],
       },
     },
   },
@@ -13573,6 +13865,8 @@ export const aesthetics: AestheticProps[] = [
       mediaCulture: {
         media: ['Lord of The Rings', 'The Chronicles of Narnia', 'Dungeons and Dragons'],
       },
+      origins: {},
+      timeline: {},
     },
   },
   {
@@ -13586,7 +13880,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Medieval Y2K'],
-        decade: ['1990s'],
+        decade: ['20th_century', '1990s'],
       },
       visualThemes: {
         motifs: [
@@ -13630,6 +13924,7 @@ export const aesthetics: AestheticProps[] = [
         ],
         brands: ['Anna Sui  Betsey Johnson   Jean Paul Gautier   Versace'],
       },
+      timeline: {},
     },
   },
   {
@@ -13649,6 +13944,8 @@ export const aesthetics: AestheticProps[] = [
       connections: {
         related: ['mad_scientist', 'nightcore_aestheticscience_academia', 'spacecore', 'wizardcore'],
       },
+      origins: {},
+      timeline: {},
     },
   },
   {
@@ -13663,7 +13960,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Country Coquette', 'Farm Girl', 'Farmer Girl'],
-        decade: ['Late 2010s-early 2020s'],
+        decade: ['21th_century', '2010s', '2020s'],
       },
       visualThemes: {
         motifs: ['Rural America', 'female sexuality'],
@@ -13684,6 +13981,7 @@ export const aesthetics: AestheticProps[] = [
       mediaCulture: {
         media: ['X (2022)Pearl (2022)'],
       },
+      timeline: {},
     },
   },
   {
@@ -13697,7 +13995,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Fashionxcore', 'FXC'],
-        decade: ['Early 2000s'],
+        decade: ['21th_century', '2000s'],
       },
       visualThemes: {
         motifs: [
@@ -13722,6 +14020,7 @@ export const aesthetics: AestheticProps[] = [
       mediaCulture: {
         brands: ['Atticus', 'Drop Dead', 'Vans', 'Converse'],
       },
+      timeline: {},
     },
   },
   {
@@ -13735,7 +14034,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Les Fauves (The Wild Beasts)'],
-        decade: ['1900s'],
+        decade: ['20th_century', '1900s'],
         location: ['Paris', 'France'],
         creator: ['Henri Matisse', 'André Derain'],
       },
@@ -13761,8 +14060,8 @@ export const aesthetics: AestheticProps[] = [
         figures: ['Henri Matisse', 'André Derain', 'Maurice de Vlaminck', 'Raoul Dufy', 'Georges Braque'],
       },
       timeline: {
-        preceded: ['Post-Impressionism', 'Symbolism'],
-        succeeded: ['Cubism', 'Expressionism'],
+        preceded: ['post-impressionism', 'symbolism'],
+        succeeded: ['cubism', 'expressionism'],
       },
     },
   },
@@ -13777,7 +14076,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Canibalismo Urbanístico', 'Maltrato da Paisaxe'],
-        decade: ['1960s'],
+        decade: ['20th_century', '1960s'],
         location: ['Galicia', 'Spain'],
       },
       visualThemes: {
@@ -13795,6 +14094,7 @@ export const aesthetics: AestheticProps[] = [
       connections: {
         related: ['brutalism', 'doomer_some_social_media_interpretationsindustrial_decay'],
       },
+      timeline: {},
     },
   },
   {
@@ -13808,7 +14108,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Female Horror Game Protagonist', 'Grunge Coquette', 'Horror Coquette'],
-        decade: ['2023'],
+        decade: ['21th_century', '2020s'],
       },
       visualThemes: {
         colours: ['White', 'cream', 'black', 'red', 'gray'],
@@ -13830,6 +14130,7 @@ export const aesthetics: AestheticProps[] = [
         media: ['Fatal Frame', 'Silent Hill'],
         brands: ['Axes Femme', 'Cop Copine'],
       },
+      timeline: {},
     },
   },
   {
@@ -13843,7 +14144,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Feminine Boy', 'Tomgirl', 'Girlyboy', 'Roseboy (controversial)'],
-        decade: ['1990s (term)Late 2010s - Early 2020s (modern aesthetic)'],
+        decade: ['20th_century', '21th_century', '1990s', '2010s', '2020s'],
       },
       visualThemes: {
         motifs: [
@@ -13867,6 +14168,7 @@ export const aesthetics: AestheticProps[] = [
       connections: {
         related: ['alt_kid', 'e-girl', 'kawaii', 'maid', 'soft_boy', 'tomboy_counterpart'],
       },
+      timeline: {},
     },
   },
   {
@@ -13880,7 +14182,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Lainpilled', 'Hikikomoricore', 'Hikicore', 'Hikkicore'],
-        decade: ['Early 2020s'],
+        decade: ['21th_century', '2020s'],
       },
       visualThemes: {
         motifs: [
@@ -13904,6 +14206,7 @@ export const aesthetics: AestheticProps[] = [
       mediaCulture: {
         media: ['Serial Experiments Lain', 'Wata', 'Mote', 'Neon Genesis Evangelion', 'Azumanga Daioh', 'Cowboy Bebop'],
       },
+      timeline: {},
     },
   },
   {
@@ -13918,7 +14221,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Seductress', 'Vixen', 'Temptress', 'Vamp', 'Siren', 'Enchantress', 'Charmer', 'Dark Feminine'],
-        decade: ['1940s'],
+        decade: ['20th_century', '1940s'],
         creator: ['Film Noir industry'],
       },
       visualThemes: {
@@ -13941,6 +14244,7 @@ export const aesthetics: AestheticProps[] = [
           'pin-up',
         ],
       },
+      timeline: {},
     },
   },
   {
@@ -13953,7 +14257,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['1990s'],
+        decade: ['20th_century', '1990s'],
       },
       visualThemes: {
         motifs: [
@@ -13978,6 +14282,7 @@ export const aesthetics: AestheticProps[] = [
         platform: ['Goth clubs', 'fetish events'],
         brands: ['Demonia', 'Pleaser', 'Lip Service'],
       },
+      timeline: {},
     },
   },
   {
@@ -13991,7 +14296,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Narrative Figuration'],
-        decade: ['1960s'],
+        decade: ['20th_century', '1960s'],
         location: ['France'],
         creator: ['Eduardo Arroyo', 'Rancillac', 'Télémaque'],
       },
@@ -14013,6 +14318,7 @@ export const aesthetics: AestheticProps[] = [
       connections: {
         related: ['new_figuration', 'nouveau_ralisme', 'pop_art', 'social_realism', 'urbancore'],
       },
+      timeline: {},
     },
   },
   {
@@ -14027,7 +14333,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Melodrama (obsolete)'],
-        decade: ['1930s'],
+        decade: ['20th_century', '1930s'],
       },
       visualThemes: {
         motifs: ['Violence', 'sex', 'mystery'],
@@ -14046,6 +14352,7 @@ export const aesthetics: AestheticProps[] = [
           'wartime_austerity',
         ],
       },
+      timeline: {},
     },
   },
   {
@@ -14059,7 +14366,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Fishermancore', 'Sardinecore'],
-        decade: ['2020s'],
+        decade: ['21th_century', '2020s'],
       },
       visualThemes: {
         motifs: [
@@ -14107,7 +14414,7 @@ export const aesthetics: AestheticProps[] = [
         figures: ['Gwyneth Paltrow', 'Katie Holmes'],
       },
       timeline: {
-        preceded: ['Coastal Grandmother'],
+        preceded: ['coastal_grandmother'],
       },
     },
   },
@@ -14121,7 +14428,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['1990s (term)', '2000s (aesthetic peak)'],
+        decade: ['20th_century', '1990s', '21th_century', '2000s'],
         location: ['Sweden'],
       },
       visualThemes: {
@@ -14143,6 +14450,7 @@ export const aesthetics: AestheticProps[] = [
         brands: ['Björn Borg', 'Svea', 'Wesc', 'Lacoste', 'Canada Goose', 'Idominsalva'],
         figures: ['Kissie (early blogging era)', 'Paow'],
       },
+      timeline: {},
     },
   },
   {
@@ -14156,7 +14464,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Pinganilla', 'Roto', 'Chipamogli (slang)'],
-        decade: ['1990s'],
+        decade: ['20th_century', '1990s'],
         location: ['Chile'],
       },
       visualThemes: {
@@ -14180,6 +14488,7 @@ export const aesthetics: AestheticProps[] = [
         brands: ['Nike (specifically Jordans/Dunks)', 'Adidas', 'Lacoste', 'Oakley'],
         figures: ['Dash & Cangri', 'Junior Playboy', 'various Urban/Trap artists'],
       },
+      timeline: {},
     },
   },
   {
@@ -14192,7 +14501,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['Late 18th century (modern-day form)'],
+        decade: ['18th_century'],
         location: ['Andalusia', 'Spain'],
         creator: ['Andalusian cultural tradition', 'with significant Romani contributions.'],
       },
@@ -14207,6 +14516,7 @@ export const aesthetics: AestheticProps[] = [
       mediaCulture: {
         media: ["Carlos Saura's Flamenco trilogy (Bodas de Sangre", 'Carmen', 'El Amor Brujo)', 'Flamenco', 'Flamenco'],
       },
+      timeline: {},
     },
   },
   {
@@ -14219,7 +14529,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['1920s'],
+        decade: ['20th_century', '1920s'],
       },
       visualThemes: {
         colours: ['Black', 'beige', 'brown', 'and white mixed with Deco brights in violet', 'jade and metallics'],
@@ -14238,6 +14548,7 @@ export const aesthetics: AestheticProps[] = [
           'weimar_cabaret',
         ],
       },
+      timeline: {},
     },
   },
   {
@@ -14251,7 +14562,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Vector Minimalism'],
-        decade: ['2010s'],
+        decade: ['21th_century', '2010s'],
       },
       visualThemes: {
         motifs: ['Current technology', 'visual organization and cleanliness', 'simplistic design'],
@@ -14273,13 +14584,13 @@ export const aesthetics: AestheticProps[] = [
       },
       timeline: {
         preceded: [
-          'Frutiger Aero',
-          'International Typographic Style',
-          'Vectordelia',
-          'Four Colors',
-          'Bright Tertiaries',
+          'frutiger_aero',
+          'international_typographic style',
+          'vectordelia',
+          'four_colors',
+          'bright_tertiaries',
         ],
-        succeeded: ['Glassmorphism', 'Claymorphism', 'Neumorphism'],
+        succeeded: ['glassmorphism', 'claymorphism', 'neumorphism'],
       },
     },
   },
@@ -14300,7 +14611,7 @@ export const aesthetics: AestheticProps[] = [
           'Early American Cartoon Aesthetic',
           'Golden Age of Animation',
         ],
-        decade: ['1920s–1930s'],
+        decade: ['20th_century', '1920s', '1930s'],
         location: ['United States (specifically Fleischer Studios', 'based in New York City)'],
         creator: ['Max Fleischer', 'Dave Fleischer', 'Grim Natwick', 'Ub Iwerks'],
       },
@@ -14329,6 +14640,7 @@ export const aesthetics: AestheticProps[] = [
         brands: ['Fleischer Studios', 'Paramount Pictures', 'Disney'],
         figures: ['Betty Boop', 'Popeye', 'Koko the Clown', 'Bimbo', 'Mickey Mouse'],
       },
+      timeline: {},
     },
   },
   {
@@ -14341,7 +14653,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['Mid-to-late 2000s'],
+        decade: ['21th_century', '2000s'],
         location: ['Argentina'],
       },
       visualThemes: {
@@ -14363,6 +14675,7 @@ export const aesthetics: AestheticProps[] = [
         brands: ['Converse', 'Vans'],
         figures: ['Agustina "Cumbio" Vivero'],
       },
+      timeline: {},
     },
   },
   {
@@ -14376,7 +14689,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Flower Children', 'Flower Hippie'],
-        decade: ['1960s'],
+        decade: ['20th_century', '1960s'],
         location: ['United States'],
         creator: ['Allen Ginsberg'],
       },
@@ -14402,8 +14715,8 @@ export const aesthetics: AestheticProps[] = [
         ],
       },
       timeline: {
-        preceded: ['Beatnik'],
-        succeeded: ['Hippie'],
+        preceded: ['beatnik'],
+        succeeded: ['hippie'],
       },
     },
   },
@@ -14418,7 +14731,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Rural Horror'],
-        decade: ['1970s'],
+        decade: ['20th_century', '1970s'],
       },
       visualThemes: {
         motifs: [
@@ -14451,6 +14764,7 @@ export const aesthetics: AestheticProps[] = [
       mediaCulture: {
         media: ['The Wicker Man', 'Witchfinder General', "The Blood on Satan's Claw", 'Midsommar'],
       },
+      timeline: {},
     },
   },
   {
@@ -14463,7 +14777,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['2000s/2020s'],
+        decade: ['21th_century', '2000s', '2020s'],
         creator: ['u/williamsaguaro2002'],
       },
       visualThemes: {
@@ -14498,6 +14812,7 @@ export const aesthetics: AestheticProps[] = [
       mediaCulture: {
         brands: ['Apple', 'Disney', 'Microsoft', 'Chinese knockoffs of established brands'],
       },
+      timeline: {},
     },
   },
   {
@@ -14510,7 +14825,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['1970s'],
+        decade: ['20th_century', '1970s'],
         creator: ['Patrick Fitzgerald'],
       },
       visualThemes: {
@@ -14521,6 +14836,7 @@ export const aesthetics: AestheticProps[] = [
       connections: {
         related: ['crustpunk', 'punk', 'forestpunk', 'gutter_punk', 'hippie', 'hipster', 'goblincore'],
       },
+      timeline: {},
     },
   },
   {
@@ -14533,7 +14849,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['2010s'],
+        decade: ['21th_century', '2010s'],
       },
       visualThemes: {
         motifs: [
@@ -14574,6 +14890,7 @@ export const aesthetics: AestheticProps[] = [
           'northerness',
         ],
       },
+      timeline: {},
     },
   },
   {
@@ -14586,7 +14903,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['2000s'],
+        decade: ['21th_century', '2000s'],
       },
       visualThemes: {
         colours: ['Electric lime', 'sky blue', 'hot pink', 'neon orange (Primary)Others (Accents)'],
@@ -14614,6 +14931,7 @@ export const aesthetics: AestheticProps[] = [
         media: ['i', 'Pod promotional poster'],
         brands: ['Apple', 'Sony', 'Nintendo', 'Most Japanese consumer brands'],
       },
+      timeline: {},
     },
   },
   {
@@ -14627,7 +14945,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ["90's Urbane"],
-        decade: ['1990s'],
+        decade: ['20th_century', '1990s'],
       },
       visualThemes: {
         colours: [
@@ -14661,6 +14979,7 @@ export const aesthetics: AestheticProps[] = [
           'vaporwave',
         ],
       },
+      timeline: {},
     },
   },
   {
@@ -14674,7 +14993,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Dishevelled English Woman'],
-        decade: ['2020s (drawing inspiration from the early 2000s)'],
+        decade: ['21th_century', '2020s'],
         location: ['United Kingdom (inspiration)Australia (term coinage)'],
       },
       visualThemes: {
@@ -14723,6 +15042,7 @@ export const aesthetics: AestheticProps[] = [
         platform: ['Tik', 'Tok'],
         media: ["Bridget Jones's Diary", 'Love Actually', 'The Holiday'],
       },
+      timeline: {},
     },
   },
   {
@@ -14737,7 +15057,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['French Chic', 'Parisian Chic'],
-        decade: ['1950s'],
+        decade: ['20th_century', '1950s'],
         location: ['France (specifically Paris)'],
       },
       visualThemes: {
@@ -14763,6 +15083,7 @@ export const aesthetics: AestheticProps[] = [
       connections: {
         related: ['bon_chic_bon_genre', 'chic_modernist', 'french_new_wave', 'y-y'],
       },
+      timeline: {},
     },
   },
   {
@@ -14776,7 +15097,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['late 2010s'],
+        decade: ['21th_century', '2010s'],
       },
       visualThemes: {
         motifs: ['Vintage French architecture', 'roses', 'girly fashion'],
@@ -14789,6 +15110,7 @@ export const aesthetics: AestheticProps[] = [
         media: ['Emily in Paris'],
         brands: ['Epine'],
       },
+      timeline: {},
     },
   },
   {
@@ -14802,7 +15124,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Nouvelle Vague'],
-        decade: ['Late 1950s'],
+        decade: ['20th_century', '1950s'],
         location: ['France'],
       },
       visualThemes: {
@@ -14813,6 +15135,7 @@ export const aesthetics: AestheticProps[] = [
       connections: {
         related: ['film_noir', 'italian_neorealism', 'mod', 'modernism', 'post-punk', 'realism', 'y-y'],
       },
+      timeline: {},
     },
   },
   {
@@ -14826,7 +15149,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['French Country', 'French Eclectic'],
-        decade: ['17th-18th Century'],
+        decade: ['17th_century', '18th_century'],
         location: ['Provincial France'],
       },
       visualThemes: {
@@ -14837,6 +15160,7 @@ export const aesthetics: AestheticProps[] = [
       connections: {
         related: ['cottagecore', 'country', 'gustavian'],
       },
+      timeline: {},
     },
   },
   {
@@ -14850,7 +15174,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Frutiger Evil', 'Frutiger Hell'],
-        decade: ['2024'],
+        decade: ['21th_century', '2020s'],
         location: ['The internet', 'more especifically', 'in r/Frutiger', 'Aero'],
         creator: ['u/Sarasinapellido'],
       },
@@ -14871,6 +15195,7 @@ export const aesthetics: AestheticProps[] = [
         platform: ['Reddit', 'r/Frutevil', 'Aero'],
         figures: ['David Dees'],
       },
+      timeline: {},
     },
   },
   {
@@ -14885,7 +15210,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Web 2.0 Gloss'],
-        decade: ['2000s'],
+        decade: ['21th_century', '2000s'],
         creator: ['Asadal Design', 'Microsoft', 'Apple'],
       },
       visualThemes: {
@@ -14949,8 +15274,8 @@ export const aesthetics: AestheticProps[] = [
         ],
       },
       timeline: {
-        preceded: ['Y2K Futurism', 'Gen X Soft Club', 'Utopian Scholastic'],
-        succeeded: ['Flat Design', 'Corporate Memphis', 'Hexatron'],
+        preceded: ['y2k_futurism', 'gen_x soft club', 'utopian_scholastic'],
+        succeeded: ['flat_design', 'corporate_memphis', 'hexatron'],
       },
     },
   },
@@ -14964,7 +15289,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['Mid 2000s-Mid 2010s'],
+        decade: ['21th_century', '2000s', '2010s'],
       },
       visualThemes: {
         motifs: [
@@ -14995,6 +15320,7 @@ export const aesthetics: AestheticProps[] = [
         media: ['WALL-E (2008)The Lorax (2012)'],
         brands: ['Various cleaning brands'],
       },
+      timeline: {},
     },
   },
   {
@@ -15008,7 +15334,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Carnival Ride Art'],
-        decade: ['1970s onwards'],
+        decade: ['20th_century', '1970s'],
         location: ['Polesine District', 'Veneto', 'Italy (exported worldwide)'],
         creator: ['Fabbri Group', 'Zamperla', 'Bertazzon (major manufacturers from Italy)'],
       },
@@ -15040,7 +15366,7 @@ export const aesthetics: AestheticProps[] = [
         brands: ['Fabbri', 'Zamperla', 'SBF Visa', 'Barbieri'],
       },
       timeline: {
-        preceded: ['Fairground Baroque'],
+        preceded: ['fairground_baroque'],
       },
     },
   },
@@ -15055,7 +15381,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Funky', 'Groovy'],
-        decade: ['1960s'],
+        decade: ['20th_century', '1960s'],
         location: ['United States (African-American communities)'],
       },
       visualThemes: {
@@ -15114,8 +15440,8 @@ export const aesthetics: AestheticProps[] = [
         ],
       },
       timeline: {
-        preceded: ['Rhythm and Blues', 'Soul', 'Psychedelia'],
-        succeeded: ['Disco', 'Hip-Hop (influenced)'],
+        preceded: ['rhythm_and blues', 'soul', 'psychedelia'],
+        succeeded: ['disco', 'hip-hop_(influenced)'],
       },
     },
   },
@@ -15129,7 +15455,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['1980s'],
+        decade: ['20th_century', '1980s'],
       },
       visualThemes: {
         motifs: ['Anthropomorphic animals and fursuits'],
@@ -15139,6 +15465,7 @@ export const aesthetics: AestheticProps[] = [
       connections: {
         related: ['kidcore', 'neko', 'pastel_gore', 'puppygirl', 'raver', 'scene'],
       },
+      timeline: {},
     },
   },
   {
@@ -15152,7 +15479,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Vaporboogie'],
-        decade: ['2010s'],
+        decade: ['21th_century', '2010s'],
         creator: ['Saint Pepsi', 'Macross 82-99', 'Yung Bae'],
       },
       visualThemes: {
@@ -15175,8 +15502,8 @@ export const aesthetics: AestheticProps[] = [
         media: ['Urusei Yatsura', 'Sailor Moon', 'Kimagure Orange Road', 'Interstella 5555'],
       },
       timeline: {
-        preceded: ['Vaporwave', 'French House', 'City Pop'],
-        succeeded: ['Kawaii Future Bass'],
+        preceded: ['vaporwave', 'french_house', 'city_pop'],
+        succeeded: ['kawaii_future bass'],
       },
     },
   },
@@ -15191,7 +15518,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Italian Futurism'],
-        decade: ['1909 - 1944'],
+        decade: ['20th_century', '1910s', '1920s', '1930s', '1940s'],
         location: ['Italy'],
         creator: ['Filippo Tommaso Marinetti'],
       },
@@ -15216,8 +15543,8 @@ export const aesthetics: AestheticProps[] = [
         figures: ['Filippo Tommaso Marinetti', 'Umberto Boccioni', 'Giacomo Balla', 'Carlo Carrà', 'Luigi Russolo'],
       },
       timeline: {
-        preceded: ['Divisionism', 'Cubism'],
-        succeeded: ['Art Deco', 'Surrealism', 'Dadaism'],
+        preceded: ['divisionism', 'cubism'],
+        succeeded: ['art_deco', 'surrealism', 'dadaism'],
       },
     },
   },
@@ -15232,7 +15559,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Gabba', 'Gabbercultuur'],
-        decade: ['Early 1990s'],
+        decade: ['20th_century', '1990s'],
         location: ['Rotterdam', 'Netherlands'],
       },
       visualThemes: {
@@ -15261,7 +15588,7 @@ export const aesthetics: AestheticProps[] = [
         figures: ['DJ Paul Elstak', 'Rotterdam Termination Source'],
       },
       timeline: {
-        preceded: ['New Beat', 'Acid House'],
+        preceded: ['new_beat', 'acid_house'],
       },
     },
   },
@@ -15275,7 +15602,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['Early 2010s'],
+        decade: ['21th_century', '2010s'],
       },
       visualThemes: {
         motifs: [
@@ -15308,8 +15635,8 @@ export const aesthetics: AestheticProps[] = [
         platform: ['Tumblr', 'Instagram'],
       },
       timeline: {
-        preceded: ['Hipster'],
-        succeeded: ['Unicorncore'],
+        preceded: ['hipster'],
+        succeeded: ['unicorncore'],
       },
     },
   },
@@ -15323,7 +15650,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['Mid-1990s'],
+        decade: ['20th_century', '1990s'],
         location: ['Shibuya', 'Tokyo', 'Japan'],
       },
       visualThemes: {
@@ -15348,8 +15675,8 @@ export const aesthetics: AestheticProps[] = [
         figures: ['Buriteri (first Ganguro model)'],
       },
       timeline: {
-        preceded: ['Kogal'],
-        succeeded: ['Manba'],
+        preceded: ['kogal'],
+        succeeded: ['manba'],
       },
     },
   },
@@ -15364,7 +15691,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['La Garçonne'],
-        decade: ['1920s'],
+        decade: ['20th_century', '1920s'],
         location: ['Paris', 'France'],
       },
       visualThemes: {
@@ -15392,6 +15719,7 @@ export const aesthetics: AestheticProps[] = [
       mediaCulture: {
         brands: ['Coco Chanel'],
       },
+      timeline: {},
     },
   },
   {
@@ -15404,7 +15732,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['Mid 2000s'],
+        decade: ['21th_century', '2000s'],
       },
       visualThemes: {
         motifs: [
@@ -15443,6 +15771,7 @@ export const aesthetics: AestheticProps[] = [
           '2010)',
         ],
       },
+      timeline: {},
     },
   },
   {
@@ -15454,7 +15783,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['1960s'],
+        decade: ['20th_century', '1960s'],
       },
       visualThemes: {
         motifs: [
@@ -15471,6 +15800,7 @@ export const aesthetics: AestheticProps[] = [
       mediaCulture: {
         figures: ['Herb Lubalin'],
       },
+      timeline: {},
     },
   },
   {
@@ -15484,7 +15814,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Gaúcho (in Brazil)'],
-        decade: ['18th Century'],
+        decade: ['18th_century'],
         location: ['The Pampas (Argentina', 'Uruguay', 'Southern Brazil)'],
       },
       visualThemes: {
@@ -15506,6 +15836,7 @@ export const aesthetics: AestheticProps[] = [
       mediaCulture: {
         figures: ['Martín Fierro (literary hero)'],
       },
+      timeline: {},
     },
   },
   {
@@ -15518,7 +15849,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['Mid-2000s'],
+        decade: ['21th_century', '2000s'],
       },
       visualThemes: {
         motifs: [
@@ -15539,7 +15870,7 @@ export const aesthetics: AestheticProps[] = [
         figures: ['Seth Cohen (The O.C.)', 'Jenna Lyons'],
       },
       timeline: {
-        preceded: ['Indie Sleaze'],
+        preceded: ['indie_sleaze'],
       },
     },
   },
@@ -15554,7 +15885,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Genderless Fashion (ジェンダーレス系)'],
-        decade: ['2010s'],
+        decade: ['21th_century', '2010s'],
         location: ['Harajuku', 'Tokyo', 'Japan'],
       },
       visualThemes: {
@@ -15575,6 +15906,7 @@ export const aesthetics: AestheticProps[] = [
       mediaCulture: {
         figures: ['Toman', 'Genking', 'Kondo Yohdi', 'Yutaro', 'Ryucheru'],
       },
+      timeline: {},
     },
   },
   {
@@ -15588,7 +15920,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['GXSC'],
-        decade: ['1990s'],
+        decade: ['20th_century', '1990s'],
       },
       visualThemes: {
         motifs: [
@@ -15640,6 +15972,7 @@ export const aesthetics: AestheticProps[] = [
       mediaCulture: {
         brands: ['Ninja Tune'],
       },
+      timeline: {},
     },
   },
   {
@@ -15653,7 +15986,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Dopamine Decor'],
-        decade: ['2020s'],
+        decade: ['21th_century', '2020s'],
         creator: ['N/A'],
       },
       visualThemes: {
@@ -15677,6 +16010,7 @@ export const aesthetics: AestheticProps[] = [
         media: ['Tik', 'Tok', 'Pinterest', 'Possible Studio Ghibli movies'],
         brands: ['Hot Topic', 'Forever 21'],
       },
+      timeline: {},
     },
   },
   {
@@ -15688,7 +16022,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['2010s'],
+        decade: ['21th_century', '2010s'],
       },
       visualThemes: {
         colours: ['Green', 'blue', 'white'],
@@ -15700,7 +16034,7 @@ export const aesthetics: AestheticProps[] = [
         figures: ['George Carton', 'Doss'],
       },
       timeline: {
-        preceded: ['Gen X Soft Club'],
+        preceded: ['gen_x soft club'],
       },
     },
   },
@@ -15714,7 +16048,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['Early 2010s'],
+        decade: ['21th_century', '2010s'],
         location: ['Tumblr'],
       },
       visualThemes: {
@@ -15739,8 +16073,8 @@ export const aesthetics: AestheticProps[] = [
         overlaped: ['avantropop', 'recession_pop', 'genericana', 'live_laugh_love'],
       },
       timeline: {
-        preceded: ['Boho-Chic', 'Hipness Purgatory', 'Millennium Orientalism'],
-        succeeded: ['Austurbane', 'Flat Design', 'Paperback Chic', 'Vaporwave'],
+        preceded: ['boho-chic', 'hipness_purgatory', 'millennium_orientalism'],
+        succeeded: ['austurbane', 'flat_design', 'paperback_chic', 'vaporwave'],
       },
     },
   },
@@ -15754,7 +16088,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['2010s'],
+        decade: ['21th_century', '2010s'],
       },
       visualThemes: {
         motifs: [
@@ -15785,6 +16119,7 @@ export const aesthetics: AestheticProps[] = [
       mediaCulture: {
         media: ['Corpse Party', 'Tokyo Ghoul', 'Deadman Wonderland'],
       },
+      timeline: {},
     },
   },
   {
@@ -15797,7 +16132,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['1890s'],
+        decade: ['19th_century', '1890s'],
         location: ['United States'],
         creator: ['Charles Dana Gibson'],
       },
@@ -15820,8 +16155,8 @@ export const aesthetics: AestheticProps[] = [
         figures: ['Camille Clifford', 'Evelyn Nesbit', 'Irene Langhorne Gibson'],
       },
       timeline: {
-        preceded: ['Victorian'],
-        succeeded: ['Flapper'],
+        preceded: ['victorian'],
+        succeeded: ['flapper'],
       },
     },
   },
@@ -15835,7 +16170,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['Early 1990s (initial elements)Late 2000s (formalization)'],
+        decade: ['20th_century', '21th_century', '1990s', '2000s'],
         creator: [
           'Lee Jung-hyun for being the blueprint for 2NE1 and Girl Crush2NE1 attributed for coining',
           'establishing and popularization',
@@ -15878,7 +16213,7 @@ export const aesthetics: AestheticProps[] = [
         media: ['Music videos by groups like 2NE1', 'BLACKPINK', 'EVERGLOW', '(G)I-DLE', 'MAMAMOO'],
       },
       timeline: {
-        preceded: ['Lee Jung-hyun'],
+        preceded: ['lee_jung-hyun'],
       },
     },
   },
@@ -15893,7 +16228,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Slumber Party', 'Pajama Party'],
-        decade: ['1950s'],
+        decade: ['20th_century', '1950s'],
       },
       visualThemes: {
         motifs: ['Bedrooms', 'self-care', 'junk food'],
@@ -15903,6 +16238,7 @@ export const aesthetics: AestheticProps[] = [
       connections: {
         related: ['basic_girl', 'coquette', 'tweencore'],
       },
+      timeline: {},
     },
   },
   {
@@ -15916,7 +16252,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Gaari Kei'],
-        decade: ['1990'],
+        decade: ['20th_century', '1990s'],
       },
       visualThemes: {
         motifs: ['Femininity', 'frills', 'light colors', 'flowers', 'bows'],
@@ -15937,6 +16273,7 @@ export const aesthetics: AestheticProps[] = [
           'soft_girl',
         ],
       },
+      timeline: {},
     },
   },
   {
@@ -15949,7 +16286,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['2010s'],
+        decade: ['21th_century', '2010s'],
         location: ['France'],
         creator: ['Florent Deloison'],
       },
@@ -16002,6 +16339,7 @@ export const aesthetics: AestheticProps[] = [
           'Citroën',
         ],
       },
+      timeline: {},
     },
   },
   {
@@ -16014,7 +16352,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['1970-1976'],
+        decade: ['20th_century', '1970s'],
         creator: ['Marc Bolan of T. Rex'],
       },
       visualThemes: {
@@ -16039,8 +16377,8 @@ export const aesthetics: AestheticProps[] = [
         ],
       },
       timeline: {
-        preceded: ['Peacock Revolution', 'Hippie'],
-        succeeded: ['Punk', 'Disco', 'New Romantic', 'Glam Metal'],
+        preceded: ['peacock_revolution', 'hippie'],
+        succeeded: ['punk', 'disco', 'new_romantic', 'glam_metal'],
       },
     },
   },
@@ -16055,7 +16393,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Glasgow School'],
-        decade: ['1890s-1910s'],
+        decade: ['19th_century', '20th_century', '1890s', '1900s', '1910s'],
         location: ['Glasgow', 'Scotland'],
         creator: [
           'Charles Rennie Mackintosh. Margaret Macdonald Mackintosh',
@@ -16086,6 +16424,7 @@ export const aesthetics: AestheticProps[] = [
           'symbolism',
         ],
       },
+      timeline: {},
     },
   },
   {
@@ -16099,7 +16438,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Frosted Glass', 'Acrylic Material'],
-        decade: ['2020s'],
+        decade: ['21th_century', '2020s'],
       },
       visualThemes: {
         motifs: ['Translucency', 'background blur', 'frosted glass texture', 'light borders', 'vivid backgrounds'],
@@ -16114,7 +16453,7 @@ export const aesthetics: AestheticProps[] = [
         media: ['mac', 'OS Tahoe', 'Windows 11', 'i', 'OS 26'],
       },
       timeline: {
-        preceded: ['Flat Design'],
+        preceded: ['flat_design'],
       },
     },
   },
@@ -16129,7 +16468,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Glitch', 'Datamoshing', 'Databending'],
-        decade: ['Mid-20th century (precursors); 1990s-2000s (as a distinct art movement)'],
+        decade: ['20th_century', '21th_century', '1990s', '2000s'],
       },
       visualThemes: {
         motifs: [
@@ -16163,6 +16502,7 @@ export const aesthetics: AestheticProps[] = [
       mediaCulture: {
         figures: ['Len Lye', 'Nam June Paik', 'Cory Arcangel', 'Rosa Menkman'],
       },
+      timeline: {},
     },
   },
   {
@@ -16176,7 +16516,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Sewercore', 'Laincore', 'Dreambreak'],
-        decade: ['Late 2010s'],
+        decade: ['21th_century', '2010s'],
       },
       visualThemes: {
         motifs: [
@@ -16208,7 +16548,7 @@ export const aesthetics: AestheticProps[] = [
         figures: ['Sewerslvt', 'Machine Girl', 'Goreshit', 'Rory in Early 20s'],
       },
       timeline: {
-        preceded: ['Lolicore'],
+        preceded: ['lolicore'],
       },
     },
   },
@@ -16223,7 +16563,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Eyestraincore'],
-        decade: ['2020s'],
+        decade: ['21th_century', '2020s'],
       },
       visualThemes: {
         colours: ['Neon colors', 'bright contrasting colors'],
@@ -16244,6 +16584,7 @@ export const aesthetics: AestheticProps[] = [
           'vaporwave',
         ],
       },
+      timeline: {},
     },
   },
   {
@@ -16262,7 +16603,7 @@ export const aesthetics: AestheticProps[] = [
           'Millennium Global Village',
           "Millennium-Era Urbane-Sophistication 'World Vibes' Aesthetic",
         ],
-        decade: ['1980s'],
+        decade: ['20th_century', '1980s'],
         location: ['United States'],
       },
       visualThemes: {
@@ -16305,7 +16646,7 @@ export const aesthetics: AestheticProps[] = [
         brands: ['Starbucks', 'Panera Bread', 'Barnes & Noble', 'Borders'],
       },
       timeline: {
-        succeeded: ['Mission School'],
+        succeeded: ['mission_school'],
       },
     },
   },
@@ -16336,6 +16677,8 @@ export const aesthetics: AestheticProps[] = [
           'vulture_culture',
         ],
       },
+      origins: {},
+      timeline: {},
     },
   },
   {
@@ -16350,7 +16693,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Gremlincore', 'Greedcore', 'Gobblecore'],
-        decade: ['2020s'],
+        decade: ['21th_century', '2020s'],
       },
       visualThemes: {
         motifs: [
@@ -16395,6 +16738,7 @@ export const aesthetics: AestheticProps[] = [
         media: ['Studio Ghibli films', 'The Spiderwick Chronicles'],
         brands: ['Studio Ghibli'],
       },
+      timeline: {},
     },
   },
   {
@@ -16408,7 +16752,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Country House Mystery'],
-        decade: ['1920s'],
+        decade: ['20th_century', '1920s'],
       },
       visualThemes: {
         motifs: ['Suspense', 'violence', 'gentry', 'elegance'],
@@ -16419,6 +16763,7 @@ export const aesthetics: AestheticProps[] = [
       mediaCulture: {
         media: ['And Then There Were None by Agatha Christie'],
       },
+      timeline: {},
     },
   },
   {
@@ -16432,7 +16777,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Googie Architecture', 'Populuxe', 'Doo Wop'],
-        decade: ['Late 1940s'],
+        decade: ['20th_century', '1940s'],
         location: ['Southern California', 'United States'],
       },
       visualThemes: {
@@ -16460,8 +16805,8 @@ export const aesthetics: AestheticProps[] = [
         ],
       },
       timeline: {
-        preceded: ['Streamline Moderne'],
-        succeeded: ['Diner Kitsch', 'Googie Kitsch'],
+        preceded: ['streamline_moderne'],
+        succeeded: ['diner_kitsch', 'googie_kitsch'],
       },
     },
   },
@@ -16475,7 +16820,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['late 1970s'],
+        decade: ['20th_century', '1970s'],
       },
       visualThemes: {
         motifs: ['colorful George Nelson clocks', 'boomerang tables'],
@@ -16484,6 +16829,7 @@ export const aesthetics: AestheticProps[] = [
         related: ['diner_kitsch_pacific_punk_wave_y2kwacky_pomo', 'retrofuturism_raygun_gothic'],
         overlaped: ['diner_kitsch'],
       },
+      timeline: {},
     },
   },
   {
@@ -16508,7 +16854,7 @@ export const aesthetics: AestheticProps[] = [
           'Starshie (Literally the elder',
           'older or the management)',
         ],
-        decade: ['Late 1980s–1990s'],
+        decade: ['20th_century', '1980s', '1990s'],
         location: ['Russia & Post-Soviet States'],
       },
       visualThemes: {
@@ -16529,6 +16875,7 @@ export const aesthetics: AestheticProps[] = [
       mediaCulture: {
         brands: ['Adidas', 'Puma', 'Nike'],
       },
+      timeline: {},
     },
   },
   {
@@ -16574,6 +16921,7 @@ export const aesthetics: AestheticProps[] = [
       mediaCulture: {
         media: ['Happy Tree Friends', 'Pretty Blood', 'Mortal Kombat', 'People Playground', 'Gorebox'],
       },
+      timeline: {},
     },
   },
   {
@@ -16587,7 +16935,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Chaoscore', 'AGC Style', 'Live', 'Leakcore'],
-        decade: ['2020s'],
+        decade: ['21th_century', '2020s'],
         creator: ['Popularized by Ken Carson and creative director Nick Spiders; pioneered by Yabujin and nana825763'],
       },
       visualThemes: {
@@ -16612,6 +16960,7 @@ export const aesthetics: AestheticProps[] = [
         platform: ['Instagram', 'Tik', 'Tok'],
         figures: ['Ken Carson', 'Nick Spiders', 'Yabujin', 'nana825763'],
       },
+      timeline: {},
     },
   },
   {
@@ -16624,7 +16973,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['2010s'],
+        decade: ['21th_century', '2010s'],
       },
       visualThemes: {
         motifs: [
@@ -16679,7 +17028,7 @@ export const aesthetics: AestheticProps[] = [
         figures: ['Frank Ocean', 'A$AP Rocky (for popularization among celebrities)'],
       },
       timeline: {
-        preceded: ['Normcore'],
+        preceded: ['normcore'],
       },
     },
   },
@@ -16695,7 +17044,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Batcaver', 'Positive Punk (historically)', 'Grufti (German)'],
-        decade: ['Late 1970s'],
+        decade: ['20th_century', '1970s'],
         location: ['United Kingdom (primarily London and Leeds)'],
       },
       visualThemes: {
@@ -16757,7 +17106,7 @@ export const aesthetics: AestheticProps[] = [
         figures: ['Siouxsie Sioux', 'Robert Smith', 'Peter Murphy', 'Andrew Eldritch', 'Dave Vanian', 'Rozz Williams'],
       },
       timeline: {
-        preceded: ['Post-Punk', 'Glam Rock'],
+        preceded: ['post-punk', 'glam_rock'],
       },
     },
   },
@@ -16773,7 +17122,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Hellbilly', 'Dark Pin-up'],
-        decade: ['Late 1970s (musical roots)1990s (aesthetic)'],
+        decade: ['20th_century', '1970s', '1990s'],
       },
       visualThemes: {
         motifs: [
@@ -16797,7 +17146,7 @@ export const aesthetics: AestheticProps[] = [
         figures: ['Vampira', 'Elvira', 'Mistress of the Dark', 'Bettie Page'],
       },
       timeline: {
-        preceded: ['Goth', 'Rockabilly'],
+        preceded: ['goth', 'rockabilly'],
       },
     },
   },
@@ -16813,7 +17162,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Gothicism', 'Gothic Fiction', 'Gothic Horror'],
-        decade: ['Late 18th century (c. 1764)'],
+        decade: ['18th_century'],
         location: ['Great Britain'],
         creator: ['Horace Walpole'],
       },
@@ -16862,7 +17211,7 @@ export const aesthetics: AestheticProps[] = [
         ],
       },
       timeline: {
-        preceded: ['Romanticism'],
+        preceded: ['romanticism'],
       },
     },
   },
@@ -16877,7 +17226,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Opus Francigenum (original term)'],
-        decade: ['Late 12th century'],
+        decade: ['12th_century'],
         location: ['Northern France (before spread accross Europe)'],
         creator: ['Suger of Saint-Denis (pioneering figure)'],
       },
@@ -16915,6 +17264,7 @@ export const aesthetics: AestheticProps[] = [
           'byzantine',
         ],
       },
+      timeline: {},
     },
   },
   {
@@ -16928,7 +17278,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Dark Fusion Belly Dance', 'Tribal Goth'],
-        decade: ['1990s'],
+        decade: ['20th_century', '1990s'],
         location: ['United States'],
       },
       visualThemes: {
@@ -16949,6 +17299,7 @@ export const aesthetics: AestheticProps[] = [
       connections: {
         related: ['ethnogoth', 'goth', 'hippie_goth', 'steampunk'],
       },
+      timeline: {},
     },
   },
   {
@@ -16961,7 +17312,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['1990s'],
+        decade: ['20th_century', '1990s'],
         location: ['Japan'],
         creator: ['Mana'],
       },
@@ -16989,7 +17340,7 @@ export const aesthetics: AestheticProps[] = [
         figures: ['Mana', 'Arika Takarano'],
       },
       timeline: {
-        preceded: ['Goth', 'Visual Kei'],
+        preceded: ['goth', 'visual_kei'],
       },
     },
   },
@@ -17004,7 +17355,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['J-Punk'],
-        decade: ['late 1990s'],
+        decade: ['20th_century', '1990s'],
         location: ['Japan'],
       },
       visualThemes: {
@@ -17013,6 +17364,7 @@ export const aesthetics: AestheticProps[] = [
       connections: {
         related: ['animecore', 'emo', 'glitter_graphics', 'goth', 'peepspunk', 'visual_kei'],
       },
+      timeline: {},
     },
   },
   {
@@ -17026,7 +17378,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Graffiti-Urban Pop'],
-        decade: ['1980s'],
+        decade: ['20th_century', '1980s'],
       },
       visualThemes: {
         motifs: [
@@ -17086,15 +17438,15 @@ export const aesthetics: AestheticProps[] = [
         ],
       },
       timeline: {
-        preceded: ['New Wave Pacific Punk Wave', 'Supergraphic Ultramodern'],
+        preceded: ['new_wave pacific punk wave', 'supergraphic_ultramodern'],
         succeeded: [
-          'Grunge',
-          'Corporate Grunge',
-          'Jumbled Font',
-          'Global Village Coffeehouse',
-          'Jiggy Era',
-          'Ur',
-          'Bling',
+          'grunge',
+          'corporate_grunge',
+          'jumbled_font',
+          'global_village coffeehouse',
+          'jiggy_era',
+          'ur',
+          'bling',
         ],
       },
     },
@@ -17138,6 +17490,8 @@ export const aesthetics: AestheticProps[] = [
           'Sherlock Holmes Stories',
         ],
       },
+      origins: {},
+      timeline: {},
     },
   },
   {
@@ -17151,7 +17505,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Granny Chic', 'New Traditionalist'],
-        decade: ['Late 2010s'],
+        decade: ['21th_century', '2010s'],
       },
       visualThemes: {
         motifs: [
@@ -17174,7 +17528,7 @@ export const aesthetics: AestheticProps[] = [
         brands: ['Laura Ashley', 'Schumacher', 'Sister Parish'],
       },
       timeline: {
-        preceded: ['Minimalism'],
+        preceded: ['minimalism'],
       },
     },
   },
@@ -17189,7 +17543,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Granola Girl', 'Granola Guy', 'Crunchy'],
-        decade: ['2010s'],
+        decade: ['21th_century', '2010s'],
       },
       visualThemes: {
         motifs: [
@@ -17221,7 +17575,7 @@ export const aesthetics: AestheticProps[] = [
         brands: ['Patagonia', 'The North Face', 'Birkenstock', 'Chaco', 'Teva', 'Kånken', 'Nalgene'],
       },
       timeline: {
-        preceded: ['Hippie'],
+        preceded: ['hippie'],
       },
     },
   },
@@ -17235,7 +17589,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['2010s'],
+        decade: ['21th_century', '2010s'],
         location: ['Poland'],
       },
       visualThemes: {
@@ -17255,6 +17609,7 @@ export const aesthetics: AestheticProps[] = [
       connections: {
         related: ['disco_polo', 'glitter_graphics', 'live_laugh_love', 'old_web'],
       },
+      timeline: {},
     },
   },
   {
@@ -17267,7 +17622,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['1950s'],
+        decade: ['20th_century', '1950s'],
       },
       visualThemes: {
         motifs: [
@@ -17305,6 +17660,7 @@ export const aesthetics: AestheticProps[] = [
       mediaCulture: {
         media: ['Cry-Baby', 'Grease', 'The Outsiders'],
       },
+      timeline: {},
     },
   },
   {
@@ -17325,7 +17681,7 @@ export const aesthetics: AestheticProps[] = [
           'Nature Academia',
           'Natural Academia',
         ],
-        decade: ['2020s'],
+        decade: ['21th_century', '2020s'],
       },
       visualThemes: {
         motifs: ['Books', 'skulls', 'fossils', 'ink and quill'],
@@ -17343,6 +17699,7 @@ export const aesthetics: AestheticProps[] = [
           'vulture_culture',
         ],
       },
+      timeline: {},
     },
   },
   {
@@ -17356,7 +17713,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Zombie Effect'],
-        decade: ['Mid-2010s'],
+        decade: ['21th_century', '2010s'],
         creator: ['Richie Velasquez (deladeso)'],
       },
       visualThemes: {
@@ -17376,6 +17733,7 @@ export const aesthetics: AestheticProps[] = [
       mediaCulture: {
         platform: ['Instagram', 'Tumblr', 'Pics', 'Art'],
       },
+      timeline: {},
     },
   },
   {
@@ -17389,7 +17747,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Pulp', 'Splatter'],
-        decade: ['1970s'],
+        decade: ['20th_century', '1970s'],
         creator: ['Melvin Van Peebles', 'Others'],
       },
       visualThemes: {
@@ -17400,6 +17758,7 @@ export const aesthetics: AestheticProps[] = [
       connections: {
         related: ['gangsta_rap', 'horror', 'ur', 'bling', 'vintage'],
       },
+      timeline: {},
     },
   },
   {
@@ -17413,7 +17772,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Grocery Girl', 'Grocerycore'],
-        decade: ['2020s'],
+        decade: ['21th_century', '2020s'],
         creator: ['Kaarin Joy'],
       },
       visualThemes: {
@@ -17445,6 +17804,7 @@ export const aesthetics: AestheticProps[] = [
           'whimsigothic',
         ],
       },
+      timeline: {},
     },
   },
   {
@@ -17457,7 +17817,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['1980s'],
+        decade: ['20th_century', '1980s'],
       },
       visualThemes: {
         motifs: [
@@ -17529,6 +17889,7 @@ export const aesthetics: AestheticProps[] = [
           'Fran Drescher',
         ],
       },
+      timeline: {},
     },
   },
   {
@@ -17543,7 +17904,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Seattle Sound'],
-        decade: ['1980s'],
+        decade: ['20th_century', '1980s'],
         location: ['Seattle', 'Washington', 'USA'],
       },
       visualThemes: {
@@ -17577,8 +17938,8 @@ export const aesthetics: AestheticProps[] = [
         figures: ['Kurt Cobain', 'Eddie Vedder', 'Chris Cornell', 'Layne Staley', 'Courtney Love'],
       },
       timeline: {
-        preceded: ['Glam Metal', 'Punk'],
-        succeeded: ['Post-Grunge', 'Nu-Metal', 'Nu-Grunge'],
+        preceded: ['glam_metal', 'punk'],
+        succeeded: ['post-grunge', 'nu-metal', 'nu-grunge'],
       },
     },
   },
@@ -17593,7 +17954,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Guidette (feminine)', 'Cugine', 'Goomba'],
-        decade: ['1970s'],
+        decade: ['20th_century', '1970s'],
         location: ['East Coast', 'United States (primarily New York', 'New Jersey)'],
       },
       visualThemes: {
@@ -17637,6 +17998,7 @@ export const aesthetics: AestheticProps[] = [
           'post-grunge_maximalism',
         ],
       },
+      timeline: {},
     },
   },
   {
@@ -17649,7 +18011,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['2008'],
+        decade: ['21th_century', '2000s'],
         location: ['The Middle East Gulf Area'],
         creator: ['Sophia Al Maria'],
       },
@@ -17660,6 +18022,7 @@ export const aesthetics: AestheticProps[] = [
       connections: {
         related: ['afrofuturism', 'futurism', 'indigenous_futurisms'],
       },
+      timeline: {},
     },
   },
   {
@@ -17674,7 +18037,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Chinese fashion trend', 'National trend'],
-        decade: ['2018'],
+        decade: ['21th_century', '2010s'],
         location: ['China'],
       },
       visualThemes: {
@@ -17711,6 +18074,7 @@ export const aesthetics: AestheticProps[] = [
         ],
         figures: ['Li Jiaqi (livestreamer)', 'Li Ziqi (You', 'Tuber)'],
       },
+      timeline: {},
     },
   },
   {
@@ -17724,7 +18088,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Grotesque Cute', 'Creepy Cute'],
-        decade: ['2000s'],
+        decade: ['21th_century', '2000s'],
       },
       visualThemes: {
         motifs: ['Horror', 'monsters', 'blood', 'eyeballs'],
@@ -17745,6 +18109,7 @@ export const aesthetics: AestheticProps[] = [
           'yami_kawaii',
         ],
       },
+      timeline: {},
     },
   },
   {
@@ -17758,7 +18123,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Swedish Neoclassicism'],
-        decade: ['Late 18th century (c. 1772-1809)'],
+        decade: ['18th_century'],
         location: ['Sweden'],
         creator: ['King Gustav III (as patron)'],
       },
@@ -17778,7 +18143,7 @@ export const aesthetics: AestheticProps[] = [
         related: ['neoclassicism', 'french_provincial_style', 'rococo', 'shabby_chic'],
       },
       timeline: {
-        preceded: ['Rococo'],
+        preceded: ['rococo'],
       },
     },
   },
@@ -17802,7 +18167,7 @@ export const aesthetics: AestheticProps[] = [
           'Punk-à-chien (France)',
           'Perroflauta (Spain)',
         ],
-        decade: ['1970s–1980s'],
+        decade: ['20th_century', '1970s', '1980s'],
         location: ['International (primarily North America and Western Europe)'],
       },
       visualThemes: {
@@ -17823,6 +18188,7 @@ export const aesthetics: AestheticProps[] = [
       mediaCulture: {
         media: ['The Decline of Western Civilization III (1998 film)'],
       },
+      timeline: {},
     },
   },
   {
@@ -17837,7 +18203,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Gal'],
-        decade: ['Mid-1990s'],
+        decade: ['20th_century', '1990s'],
         location: ['Shibuya', 'Tokyo', 'Japan'],
       },
       visualThemes: {
@@ -17860,7 +18226,7 @@ export const aesthetics: AestheticProps[] = [
         ],
       },
       timeline: {
-        preceded: ['Bodikon'],
+        preceded: ['bodikon'],
       },
     },
   },
@@ -17875,7 +18241,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['ギャル男'],
-        decade: ['Late 1990s'],
+        decade: ['20th_century', '1990s'],
         location: ['Shibuya', 'Tokyo', 'Japan'],
       },
       visualThemes: {
@@ -17895,6 +18261,7 @@ export const aesthetics: AestheticProps[] = [
       mediaCulture: {
         brands: ['Vanquish', 'Jack Rose', 'Varosh', 'Diavlo', 'Roi Franc', 'Gennaro'],
       },
+      timeline: {},
     },
   },
   {
@@ -17907,7 +18274,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['1990s'],
+        decade: ['20th_century', '1990s'],
       },
       visualThemes: {
         motifs: ['Computers', 'Terminals'],
@@ -17917,6 +18284,7 @@ export const aesthetics: AestheticProps[] = [
       connections: {
         related: ['abstract_tech', 'cyberpunk', 'glitch_art', 'net.art', 'techwear', 'webcore'],
       },
+      timeline: {},
     },
   },
   {
@@ -17930,7 +18298,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Glam Metal', 'Pop Metal', 'Sleaze Rock'],
-        decade: ["Late 70's-early 80's"],
+        decade: ['20th_century', '1970s', '1980s'],
       },
       visualThemes: {
         motifs: [
@@ -17960,6 +18328,7 @@ export const aesthetics: AestheticProps[] = [
       mediaCulture: {
         media: ['Jem and The Holograms (1985)The Dirt (2019)'],
       },
+      timeline: {},
     },
   },
   {
@@ -17973,7 +18342,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Half-Strong', 'Rowdys'],
-        decade: ['Mid-1950s'],
+        decade: ['20th_century', '1950s'],
         location: ['West Germany and German-speaking Europe'],
       },
       visualThemes: {
@@ -18009,6 +18378,7 @@ export const aesthetics: AestheticProps[] = [
           '1953)',
         ],
       },
+      timeline: {},
     },
   },
   {
@@ -18023,7 +18393,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Night Of Witches', '31/10', 'Trick-Or-Treat', 'Spookycore', 'All-Hallows Eve'],
-        decade: ['Celtic Antiquity (Origins)Late 19th Century (Modern)'],
+        decade: ['19th_century'],
       },
       visualThemes: {
         motifs: [
@@ -18059,6 +18429,7 @@ export const aesthetics: AestheticProps[] = [
       mediaCulture: {
         brands: ['Strange CVLT', 'The Halloween Shirt Company', 'Die With Your Boots ON', 'Miniso', 'Hot Topic'],
       },
+      timeline: {},
     },
   },
   {
@@ -18069,7 +18440,11 @@ export const aesthetics: AestheticProps[] = [
       'Hallyu (한류), also known as the Korean Wave, is an aesthetic heavily centered around South Korean popular culture; especially Korean pop music (commonly referred to as "K-Pop") and Korean drama shows (commonly referred to as "K-Dramas"). It often centers around boy bands made up of Kkonminam (flower boys), who are are pretty, androgynous young men whose style is influenced by shoujo and bishounen and is catered towards the female-gaze. They typically have perfectly styled/dyed hair, light makeup, small jewelry (usually a singular earring), and wear variations upon suit stylings. Visually, it also takes influence from J-Pop (particularly artists such as Gakct).',
     categories: [],
     isVisible: true,
-    metadata: {},
+    metadata: {
+      connections: {},
+      origins: {},
+      timeline: {},
+    },
   },
   {
     url: 'https://aesthetics.fandom.com/wiki/Hadeko',
@@ -18081,7 +18456,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['2000'],
+        decade: ['21th_century', '2000s'],
         location: ['Amerikamura', 'Osaka'],
       },
       visualThemes: {
@@ -18094,6 +18469,7 @@ export const aesthetics: AestheticProps[] = [
       mediaCulture: {
         brands: ['6%DOKIDOKI'],
       },
+      timeline: {},
     },
   },
   {
@@ -18107,7 +18483,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Commercial Trance', 'Dancecore'],
-        decade: ['2000s'],
+        decade: ['21th_century', '2000s'],
         location: ['Germany / Internet'],
       },
       visualThemes: {
@@ -18143,6 +18519,7 @@ export const aesthetics: AestheticProps[] = [
         platform: ['You', 'Tube', 'Facebook', 'Technobase.fm'],
         brands: ['Clubland'],
       },
+      timeline: {},
     },
   },
   {
@@ -18156,7 +18533,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Han-Western Eclectic'],
-        decade: ['2010s'],
+        decade: ['21th_century', '2010s'],
       },
       visualThemes: {
         motifs: ['Hanfu', 'lace', 'parasols', 'Western accessories'],
@@ -18164,6 +18541,7 @@ export const aesthetics: AestheticProps[] = [
       connections: {
         related: ['lolita', 'guochao', 'zhonghua-feng_lolita', 'neo-chinese_style', 'ming_dynasty', 'taisho_roman'],
       },
+      timeline: {},
     },
   },
   {
@@ -18177,7 +18555,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Happy Rock', 'Banda Colorida', 'Happy Punk'],
-        decade: ['Late 2000s–Early 2010s'],
+        decade: ['21th_century', '2000s', '2010s'],
         location: ['Brazil'],
       },
       visualThemes: {
@@ -18198,7 +18576,7 @@ export const aesthetics: AestheticProps[] = [
         figures: ['Restart', 'Cine', 'Replace', 'Hori'],
       },
       timeline: {
-        preceded: ['Emo'],
+        preceded: ['emo'],
       },
     },
   },
@@ -18213,7 +18591,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Harajuku Style', 'Japanese Street Fashion', 'Shibuya Fashion (Mistakenly)'],
-        decade: ['1970s'],
+        decade: ['20th_century', '1970s'],
       },
       connections: {
         related: [
@@ -18235,6 +18613,7 @@ export const aesthetics: AestheticProps[] = [
           'yami_kawaii',
         ],
       },
+      timeline: {},
     },
   },
   {
@@ -18248,7 +18627,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Butcher House Aesthetic', 'Rural Horrorcore', 'Sematarycore'],
-        decade: ['Late 2010s'],
+        decade: ['21th_century', '2010s'],
         location: ['Northern California (Placer County / The Foothills)'],
         creator: ['Sematary', 'Ghost Mountain'],
       },
@@ -18287,7 +18666,7 @@ export const aesthetics: AestheticProps[] = [
         figures: ['Sematary', 'Ghost Mountain', 'Hackle', 'Buckshot', 'Turnabout'],
       },
       timeline: {
-        preceded: ['Witch House', 'Cloud Rap'],
+        preceded: ['witch_house', 'cloud_rap'],
       },
     },
   },
@@ -18302,7 +18681,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Spectral Studies', 'Lost Future'],
-        decade: ['2000s (music/aesthetic movement)'],
+        decade: ['21th_century', '2000s'],
         creator: [
           'Mark Fisher and Simon Reynolds (critics',
           'defining the genre); Ghost Box',
@@ -18341,6 +18720,7 @@ export const aesthetics: AestheticProps[] = [
       mediaCulture: {
         media: ['Scarfolk Council', "The Caretaker's Everywhere at the End of Time"],
       },
+      timeline: {},
     },
   },
   {
@@ -18353,7 +18733,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['1850s'],
+        decade: ['19th_century', '1850s'],
         location: ['Paris', 'France'],
       },
       visualThemes: {
@@ -18363,6 +18743,7 @@ export const aesthetics: AestheticProps[] = [
       connections: {
         related: ['pink_parisian'],
       },
+      timeline: {},
     },
   },
   {
@@ -18376,7 +18757,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['Early 2010s'],
+        decade: ['21th_century', '2010s'],
       },
       visualThemes: {
         motifs: [
@@ -18398,6 +18779,7 @@ export const aesthetics: AestheticProps[] = [
         platform: ['Facebook', 'Tumblr'],
         brands: ['Nike', 'Adidas', 'Puma', 'Under Armour', 'Y-3'],
       },
+      timeline: {},
     },
   },
   {
@@ -18411,7 +18793,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Soft Edits', 'Wholesome Edits'],
-        decade: ['Late 2010s'],
+        decade: ['21th_century', '2010s'],
         creator: ['Stan Twitter / K-Pop Fandoms'],
       },
       visualThemes: {
@@ -18433,6 +18815,7 @@ export const aesthetics: AestheticProps[] = [
       mediaCulture: {
         media: ['Snapchat', 'Pics', 'Art', 'Wattpad', 'Twitter', '"Mine" by Bazzi'],
       },
+      timeline: {},
     },
   },
   {
@@ -18446,7 +18829,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Hedi Bro', 'Haute Indie Sleaze'],
-        decade: ['Early 2000s (original)', '2020s (revival)'],
+        decade: ['21th_century', '2000s', '21th_century', '2020s'],
         location: ['Rooted in Paris/London fashion houses and indie rock'],
         creator: ['Hedi Slimane (designer', 'originator of the silhouette) and 2000s indie rock figures'],
       },
@@ -18480,6 +18863,7 @@ export const aesthetics: AestheticProps[] = [
           'Celine)',
         ],
       },
+      timeline: {},
     },
   },
   {
@@ -18493,7 +18877,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['2020s'],
+        decade: ['21th_century', '2020s'],
       },
       visualThemes: {
         motifs: ['Japanese pop culture and fashion from 1989-2019'],
@@ -18514,6 +18898,7 @@ export const aesthetics: AestheticProps[] = [
           'amekaji',
         ],
       },
+      timeline: {},
     },
   },
   {
@@ -18527,11 +18912,12 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['1920s'],
+        decade: ['20th_century', '1920s'],
       },
       connections: {
         related: ['old_money', 'golden_age_of_detective_fiction'],
       },
+      timeline: {},
     },
   },
   {
@@ -18582,6 +18968,7 @@ export const aesthetics: AestheticProps[] = [
           'witchcore',
         ],
       },
+      timeline: {},
     },
   },
   {
@@ -18595,7 +18982,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Gotka', 'Gotyushka'],
-        decade: ['Late 1990s – Early 2000s'],
+        decade: ['20th_century', '21th_century', '1990s', '2000s'],
         location: ['Russia'],
         creator: ['Russian fanbase of the band HIM (His Infernal Majesty)'],
       },
@@ -18621,6 +19008,7 @@ export const aesthetics: AestheticProps[] = [
       mediaCulture: {
         platform: ['Vkontakte (VK)', 'Live', 'Journal'],
       },
+      timeline: {},
     },
   },
   {
@@ -18634,7 +19022,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Propaganda Graphic Design'],
-        decade: ['1920s-1930s (Peak)'],
+        decade: ['20th_century', '1920s', '1930s'],
       },
       visualThemes: {
         motifs: [
@@ -18665,6 +19053,7 @@ export const aesthetics: AestheticProps[] = [
       mediaCulture: {
         media: ['Propaganda posters'],
       },
+      timeline: {},
     },
   },
   {
@@ -18677,7 +19066,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['Early 1990s'],
+        decade: ['20th_century', '1990s'],
         creator: ['Gia Carangi', 'Kate Moss'],
       },
       visualThemes: {
@@ -18701,6 +19090,7 @@ export const aesthetics: AestheticProps[] = [
       mediaCulture: {
         media: ["Calvin Klein's Obsession campaign"],
       },
+      timeline: {},
     },
   },
   {
@@ -18713,7 +19103,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['2000s'],
+        decade: ['21th_century', '2000s'],
       },
       visualThemes: {
         motifs: [
@@ -18757,6 +19147,7 @@ export const aesthetics: AestheticProps[] = [
         media: ['Tron:Legacy'],
         brands: ['ESET', 'Crytek', 'OXX', 'NVIDIA'],
       },
+      timeline: {},
     },
   },
   {
@@ -18770,7 +19161,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Surge', 'Hexxed', 'Hex'],
-        decade: ['Late 2010s'],
+        decade: ['21th_century', '2010s'],
         creator: ['Hexcastcrew'],
       },
       visualThemes: {
@@ -18803,6 +19194,7 @@ export const aesthetics: AestheticProps[] = [
       mediaCulture: {
         platform: ['Sound', 'Cloud'],
       },
+      timeline: {},
     },
   },
   {
@@ -18816,7 +19208,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['1980s'],
+        decade: ['20th_century', '1980s'],
       },
       visualThemes: {
         motifs: ['Pep rally posters', 'gymnasiums', 'dance decorations', 'lockers', 'notebooks', 'binders'],
@@ -18835,6 +19227,7 @@ export const aesthetics: AestheticProps[] = [
       mediaCulture: {
         media: ['Mean Girls (2004)', 'High School Musical franchise', 'Clueless (1995)'],
       },
+      timeline: {},
     },
   },
   {
@@ -18848,7 +19241,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Princess Gal'],
-        decade: ['Late 2000s to Early 2010s'],
+        decade: ['21th_century', '2000s', '2010s'],
         location: ['Shibuya', 'Tokyo', 'Japan'],
       },
       visualThemes: {
@@ -18874,6 +19267,7 @@ export const aesthetics: AestheticProps[] = [
         media: ['Ageha Magazine', 'Kilala Magazine'],
         brands: ['Jesus Diamante', 'Liz Lisa', 'La Parfait', 'Princess Melody'],
       },
+      timeline: {},
     },
   },
   {
@@ -18888,7 +19282,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Casual princess'],
-        decade: ['2008-2012'],
+        decade: ['21th_century', '2000s', '2010s'],
         creator: ["Himegyaru's"],
       },
       visualThemes: {
@@ -18907,7 +19301,7 @@ export const aesthetics: AestheticProps[] = [
         figures: ['Kanayan'],
       },
       timeline: {
-        succeeded: ['Shoujo Girl', 'Dark and Sweet Girly'],
+        succeeded: ['shoujo_girl', 'dark_and sweet girly'],
       },
     },
   },
@@ -18923,6 +19317,8 @@ export const aesthetics: AestheticProps[] = [
       connections: {
         related: ['classic_lolita', 'hime_gyaru', 'lolita', 'princesscore', 'queencore', 'royalcore', 'sweet_lolita'],
       },
+      origins: {},
+      timeline: {},
     },
   },
   {
@@ -18936,7 +19332,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Rap'],
-        decade: ['1970s'],
+        decade: ['20th_century', '1970s'],
         creator: ['DJ Kool Herc', 'Afrika Bambaataa', 'Grandmaster Flash (pioneers)'],
       },
       visualThemes: {
@@ -18991,6 +19387,7 @@ export const aesthetics: AestheticProps[] = [
           'Baby Phat',
         ],
       },
+      timeline: {},
     },
   },
   {
@@ -19004,7 +19401,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Twee Hipsterdom'],
-        decade: ['2000s'],
+        decade: ['21th_century', '2000s'],
       },
       visualThemes: {
         motifs: ['Loose drawings', 'common objects'],
@@ -19028,6 +19425,7 @@ export const aesthetics: AestheticProps[] = [
           'bling',
         ],
       },
+      timeline: {},
     },
   },
   {
@@ -19042,7 +19440,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Hippy', 'Flower Child'],
-        decade: ['Mid-1960s–Early 1970s'],
+        decade: ['20th_century', '1960s', '1970s'],
         location: ['United States (primarily San Francisco)'],
       },
       visualThemes: {
@@ -19089,8 +19487,8 @@ export const aesthetics: AestheticProps[] = [
         figures: ['Janis Joplin', 'Jimi Hendrix', 'The Beatles', 'the Grateful Dead', 'Joni Mitchell'],
       },
       timeline: {
-        preceded: ['Beatnik', 'Mod, Peacock Revolution (UK)'],
-        succeeded: ['Punk', 'Disco', 'Metalhead'],
+        preceded: ['beatnik', 'mod,_peacock revolution (uk)'],
+        succeeded: ['punk', 'disco', 'metalhead'],
       },
     },
   },
@@ -19105,7 +19503,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Boho Goth', 'Bohemian Goth', 'Gypsy Goth'],
-        decade: ['1980s'],
+        decade: ['20th_century', '1980s'],
       },
       visualThemes: {
         motifs: ['Stars', 'moons', 'sunbursts', 'lace', 'Celtic symbols', 'tie dye', 'botanical patterns'],
@@ -19136,7 +19534,7 @@ export const aesthetics: AestheticProps[] = [
         figures: ['Stevie Nicks', 'Florence Welch', 'Lisa Bonet'],
       },
       timeline: {
-        preceded: ['Goth', 'Hippie'],
+        preceded: ['goth', 'hippie'],
       },
     },
   },
@@ -19151,7 +19549,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['1940s90s-2000s (Repopularization)'],
+        decade: ['20th_century', '21th_century', '1940s', '1990s', '2000s'],
       },
       visualThemes: {
         motifs: ['Vintage', 'bikes', 'music'],
@@ -19203,8 +19601,8 @@ export const aesthetics: AestheticProps[] = [
         brands: ['Pabst Blue Ribbon', 'American Apparel', 'Whole Foods', 'Sub Pop'],
       },
       timeline: {
-        preceded: ['Beatnik', 'Hippie', 'Mission School'],
-        succeeded: ['Downtown Girl', 'Whimsy Twee'],
+        preceded: ['beatnik', 'hippie', 'mission_school'],
+        succeeded: ['downtown_girl', 'whimsy_twee'],
       },
     },
   },
@@ -19219,7 +19617,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Regency Moderne'],
-        decade: ['1920s─1950s'],
+        decade: ['20th_century', '1920s', '1930s', '1940s', '1950s'],
         location: ['Southern California', 'United States'],
         creator: ['Dorothy Draper', 'William Haines', 'John Elgin Woolf'],
       },
@@ -19231,6 +19629,7 @@ export const aesthetics: AestheticProps[] = [
       connections: {
         related: ['art_deco', 'maximalism', 'mid-century_modern', 'old_hollywood', 'regency'],
       },
+      timeline: {},
     },
   },
   {
@@ -19243,7 +19642,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['2020s'],
+        decade: ['21th_century', '2020s'],
       },
       visualThemes: {
         motifs: [
@@ -19258,6 +19657,7 @@ export const aesthetics: AestheticProps[] = [
       connections: {
         related: ['corecore', 'frutiger_aero', 'nostalgiacore'],
       },
+      timeline: {},
     },
   },
   {
@@ -19270,7 +19670,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['Ancient folklore; Late 18th century (as a distinct literary genre)'],
+        decade: ['18th_century'],
       },
       visualThemes: {
         motifs: [
@@ -19325,7 +19725,7 @@ export const aesthetics: AestheticProps[] = [
         ],
       },
       timeline: {
-        preceded: ['Gothic'],
+        preceded: ['gothic'],
       },
     },
   },
@@ -19340,7 +19740,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Shock Rap', 'Psycho Rap', 'Horror Hip Hop', 'Death Rap'],
-        decade: ['Late 1980s – Early 1990s'],
+        decade: ['20th_century', '1980s', '1990s'],
         location: ['United States (Memphis', 'Detroit', 'Houston)'],
         creator: ['Geto Boys', 'Gravediggaz', 'Esham'],
       },
@@ -19363,6 +19763,7 @@ export const aesthetics: AestheticProps[] = [
         media: ['Slasher Films', 'Splatter Films', 'The Fear (1995 Film)'],
         figures: ['Insane Clown Posse (ICP)', 'Necro', 'Brotha Lynch Hung', 'Gravediggaz'],
       },
+      timeline: {},
     },
   },
   {
@@ -19376,7 +19777,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ["Fiendcore (referencing The Misfits' Fiend Skull)"],
-        decade: ['Late 1970s / Early 1980s'],
+        decade: ['20th_century', '1970s', '1980s'],
         location: ['United States'],
       },
       visualThemes: {
@@ -19427,8 +19828,8 @@ export const aesthetics: AestheticProps[] = [
         figures: ['The Misfits'],
       },
       timeline: {
-        preceded: ['Punk', "Rock 'n' Roll", 'Goth'],
-        succeeded: ['Psychobilly', 'Deathrock'],
+        preceded: ['punk', "rock_'n' roll", 'goth'],
+        succeeded: ['psychobilly', 'deathrock'],
       },
     },
   },
@@ -19442,7 +19843,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['Late 2010s'],
+        decade: ['21th_century', '2010s'],
       },
       visualThemes: {
         motifs: [
@@ -19465,6 +19866,7 @@ export const aesthetics: AestheticProps[] = [
         media: ["Adam Ray's Rosa character"],
         brands: ["Flamin' Hot Cheetos", 'Takis', 'Thrasher', 'Vans'],
       },
+      timeline: {},
     },
   },
   {
@@ -19478,7 +19880,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Hot Rodding', 'Hot Rod Culture'],
-        decade: ['1930s (gained popularity post-WWII)'],
+        decade: ['20th_century', '1930s'],
         location: ['Southern California', 'United States'],
         creator: ['Early automotive enthusiasts and returning WWII veterans'],
       },
@@ -19511,6 +19913,7 @@ export const aesthetics: AestheticProps[] = [
       mediaCulture: {
         platform: ['Dry lake beds', 'drag strips', 'car shows', 'Hot Rod Magazine'],
       },
+      timeline: {},
     },
   },
   {
@@ -19529,6 +19932,7 @@ export const aesthetics: AestheticProps[] = [
       connections: {
         related: ['shamate', 'ah_beng'],
       },
+      timeline: {},
     },
   },
   {
@@ -19541,7 +19945,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['c. 1800s (dates back to the Middle Ages)'],
+        decade: ['19th_century', '1800s'],
       },
       visualThemes: {
         motifs: ['Candles', 'warm drinks', 'gatherings', 'natural materials'],
@@ -19564,6 +19968,7 @@ export const aesthetics: AestheticProps[] = [
       mediaCulture: {
         media: ['"The Little Book of Hygge" by Meik Wiking'],
       },
+      timeline: {},
     },
   },
   {
@@ -19578,7 +19983,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Hype Beast', 'Drip Fashion'],
-        decade: ['Mid-2000s (peak popularity in the late 2010s)'],
+        decade: ['21th_century', '2000s', '2010s'],
         creator: ["Kevin Ma (as founder of Hypebeas' platform)"],
       },
       visualThemes: {
@@ -19592,6 +19997,7 @@ export const aesthetics: AestheticProps[] = [
         platform: ['Instagram', 'online resale markets (Stock', 'X', 'GOAT)'],
         brands: ['Supreme', 'Off-White', 'BAPE', 'Palace', 'Yeezy', 'Anti Social Social Club'],
       },
+      timeline: {},
     },
   },
   {
@@ -19605,7 +20011,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Save Europe', 'Neo-Nazi Tik', 'Tok', 'Schizowave', 'Agartha Edits'],
-        decade: ['2020s'],
+        decade: ['21th_century', '2020s'],
         creator: ['Emerged from 4chan and gaming communities (e.g.', 'The New Order mod community)'],
       },
       visualThemes: {
@@ -19632,7 +20038,7 @@ export const aesthetics: AestheticProps[] = [
         platform: ['4chan', 'Discord', 'Tik', 'Tok'],
       },
       timeline: {
-        preceded: ['Fashwave'],
+        preceded: ['fashwave'],
       },
     },
   },
@@ -19647,7 +20053,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Coldrave'],
-        decade: ['2010s'],
+        decade: ['21th_century', '2010s'],
         creator: ['Drrty Pharms'],
       },
       visualThemes: {
@@ -19668,6 +20074,7 @@ export const aesthetics: AestheticProps[] = [
           'y2k_futurism',
         ],
       },
+      timeline: {},
     },
   },
   {
@@ -19681,7 +20088,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['1870s - 1880s'],
+        decade: ['19th_century', '1870s', '1880s'],
         location: ['Paris', 'France'],
         creator: ['Claude Monet', 'Edgar Degas', 'Pierre-Auguste Renoir', 'Camille Pissarro'],
       },
@@ -19716,8 +20123,8 @@ export const aesthetics: AestheticProps[] = [
         ],
       },
       timeline: {
-        preceded: ['Realism', 'Barbizon School'],
-        succeeded: ['Post-Impressionism', 'Neo-Impressionism'],
+        preceded: ['realism', 'barbizon_school'],
+        succeeded: ['post-impressionism', 'neo-impressionism'],
       },
     },
   },
@@ -19732,7 +20139,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Muscadins (for men)'],
-        decade: ['1790s (1795-1799)'],
+        decade: ['18th_century', '1790s'],
         location: ['Paris', 'France'],
       },
       visualThemes: {
@@ -19776,8 +20183,8 @@ export const aesthetics: AestheticProps[] = [
         figures: ['Thérésa Tallien', 'Joséphine de Beauharnais', 'Juliette Récamier', 'Fortunée Hamelin'],
       },
       timeline: {
-        preceded: ['French Revolution (Jacobin austerity)Carmagnole Style'],
-        succeeded: ['Empire Style'],
+        preceded: ['french_revolution (jacobin austerity)carmagnole style'],
+        succeeded: ['empire_style'],
       },
     },
   },
@@ -19792,7 +20199,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Vintage Indie', 'Indie Grunge'],
-        decade: ['1980s'],
+        decade: ['20th_century', '1980s'],
       },
       visualThemes: {
         motifs: ['Records and CDs', 'books', 'muted color palette', 'moody atmosphere', 'Polaroids', 'poetry'],
@@ -19822,6 +20229,7 @@ export const aesthetics: AestheticProps[] = [
           'vaporwave',
         ],
       },
+      timeline: {},
     },
   },
   {
@@ -19833,7 +20241,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['Mid-2000s'],
+        decade: ['21th_century', '2000s'],
       },
       visualThemes: {
         colours: ['Brown and muted colors'],
@@ -19841,6 +20249,7 @@ export const aesthetics: AestheticProps[] = [
       connections: {
         related: ['hipness_purgatory', 'indie', 'kidcore', 'skeuomorphism', 'whimsicraft'],
       },
+      timeline: {},
     },
   },
   {
@@ -19854,7 +20263,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['New Indie', 'Tik', 'Tok Indie'],
-        decade: ['Early 2020s'],
+        decade: ['21th_century', '2020s'],
       },
       visualThemes: {
         motifs: [
@@ -19910,6 +20319,7 @@ export const aesthetics: AestheticProps[] = [
         media: ['Coming-of-age films (often associated with A24 productions)'],
         brands: ['Princess Polly', 'Brandy Melville', 'American Eagle', 'Vans', 'Doc Martens', 'thrift stores'],
       },
+      timeline: {},
     },
   },
   {
@@ -19924,7 +20334,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Indie Über-Sleaze (original term)', 'Hipster (colloquial)', 'Post-Underground'],
-        decade: ['Mid-to-late 2000s'],
+        decade: ['21th_century', '2000s'],
         location: ['New York (Lower East Side)', 'London (Shoreditch)', 'Los Angeles (Silver Lake)'],
       },
       visualThemes: {
@@ -19988,8 +20398,8 @@ export const aesthetics: AestheticProps[] = [
         ],
       },
       timeline: {
-        preceded: ['Mc', 'Bling', 'Electroclash'],
-        succeeded: ['Soft Grunge2014 Tumblr'],
+        preceded: ['mc', 'bling', 'electroclash'],
+        succeeded: ['soft_grunge2014 tumblr'],
       },
     },
   },
@@ -20003,7 +20413,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['2000s-Present'],
+        decade: ['21th_century', '2000s'],
       },
       visualThemes: {
         motifs: ['Decolonization', 'technology', 'Indigenous knowledge', 'alternative futures'],
@@ -20016,6 +20426,7 @@ export const aesthetics: AestheticProps[] = [
       mediaCulture: {
         media: ['Walking the Clouds anthology', 'Biidaaban: First Light'],
       },
+      timeline: {},
     },
   },
   {
@@ -20028,7 +20439,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['1970s'],
+        decade: ['20th_century', '1970s'],
         location: ['United Kingdom'],
         creator: ['Throbbing Gristle and Monte Cazazza'],
       },
@@ -20086,8 +20497,8 @@ export const aesthetics: AestheticProps[] = [
         ],
       },
       timeline: {
-        preceded: ['Avant-garde music', 'Punk', 'Krautrock'],
-        succeeded: ['Post-Industrial (e.g.', 'EBM', 'Industrial Rock', 'Industrial Metal', 'Power Noise', 'Neofolk)'],
+        preceded: ['avant-garde_music', 'punk', 'krautrock'],
+        succeeded: ['post-industrial_(e.g.', 'ebm', 'industrial_rock', 'industrial_metal', 'power_noise', 'neofolk)'],
       },
     },
   },
@@ -20135,6 +20546,7 @@ export const aesthetics: AestheticProps[] = [
           'soft_apocalypse',
         ],
       },
+      timeline: {},
     },
   },
   {
@@ -20147,7 +20559,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['Late 1970s–Late 1990s'],
+        decade: ['20th_century', '1970s', '1980s', '1990s'],
       },
       visualThemes: {
         motifs: [
@@ -20178,6 +20590,7 @@ export const aesthetics: AestheticProps[] = [
       mediaCulture: {
         media: ['Final Doom (Video Game)', 'Baroque (Video Game)'],
       },
+      timeline: {},
     },
   },
   {
@@ -20204,6 +20617,7 @@ export const aesthetics: AestheticProps[] = [
       mediaCulture: {
         figures: ['Wu Shanming'],
       },
+      timeline: {},
     },
   },
   {
@@ -20217,7 +20631,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['ITS', 'Swiss Style', 'Schweizer Typografie (German)'],
-        decade: ['1930s-1960s'],
+        decade: ['20th_century', '1930s', '1940s', '1950s', '1960s'],
       },
       visualThemes: {
         motifs: [
@@ -20243,6 +20657,7 @@ export const aesthetics: AestheticProps[] = [
           'suprematism',
         ],
       },
+      timeline: {},
     },
   },
   {
@@ -20256,7 +20671,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['Late 2000s'],
+        decade: ['21th_century', '2000s'],
       },
       visualThemes: {
         motifs: [
@@ -20288,8 +20703,8 @@ export const aesthetics: AestheticProps[] = [
         platform: ['Tumblr', 'You', 'Tube', 'Deviant', 'Art'],
       },
       timeline: {
-        preceded: ['Indiecraft'],
-        succeeded: ['2010s Meme Maximalism'],
+        preceded: ['indiecraft'],
+        succeeded: ['2010s_meme maximalism'],
       },
     },
   },
@@ -20306,7 +20721,7 @@ export const aesthetics: AestheticProps[] = [
         otherNames: [
           'Itasha (Cars)Itansha (Motorbikes)Itachari(Bicycles)Itabasu (Bus)Itatorakku (Trucks)Itadensha (Trains)Itabags (Bags)',
         ],
-        decade: ['2000s'],
+        decade: ['21th_century', '2000s'],
       },
       visualThemes: {
         motifs: [
@@ -20321,6 +20736,7 @@ export const aesthetics: AestheticProps[] = [
       connections: {
         related: ['animecore', 'cyberpunk', 'racing', 'sextrance', 'weeaboo', 'wota'],
       },
+      timeline: {},
     },
   },
   {
@@ -20334,7 +20750,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Renascimento'],
-        decade: ['14th-16th Centuries'],
+        decade: ['14th_century', '15th_century', '16th_century'],
         location: ['Italian Peninsula'],
       },
       visualThemes: {
@@ -20351,7 +20767,7 @@ export const aesthetics: AestheticProps[] = [
         figures: ['Leonardo da Vinci', 'Michelangelo', 'Raphael', 'Titian'],
       },
       timeline: {
-        succeeded: ['Baroque'],
+        succeeded: ['baroque'],
       },
     },
   },
@@ -20365,7 +20781,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['Late 1970s'],
+        decade: ['20th_century', '1970s'],
         location: ['Italy'],
       },
       visualThemes: {
@@ -20398,8 +20814,8 @@ export const aesthetics: AestheticProps[] = [
         figures: ['Gazebo', 'Sabrina Salerno', 'Ryan Paris', 'Kano'],
       },
       timeline: {
-        preceded: ['Disco'],
-        succeeded: ['Eurobeat'],
+        preceded: ['disco'],
+        succeeded: ['eurobeat'],
       },
     },
   },
@@ -20413,7 +20829,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['2010s'],
+        decade: ['21th_century', '2010s'],
       },
       visualThemes: {
         motifs: ['Natural materials', 'wood', 'bamboo', 'asymmetry', 'imperfection'],
@@ -20432,6 +20848,7 @@ export const aesthetics: AestheticProps[] = [
           'wabi-sabi',
         ],
       },
+      timeline: {},
     },
   },
   {
@@ -20445,7 +20862,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Ametora (American Traditional)', 'Japanese Preppy', 'J-Preppy'],
-        decade: ['1960s'],
+        decade: ['20th_century', '1960s'],
         location: ['Japan'],
         creator: ['Kensuke Ishizu'],
       },
@@ -20476,6 +20893,7 @@ export const aesthetics: AestheticProps[] = [
         brands: ['VAN Jacket', 'Beams Plus', 'United Arrows', 'Kamakura Shirts'],
         figures: ['Kensuke Ishizu', 'Teruyoshi Hayashida', 'Toshiyuki Kurosu', 'Shiro Aoya'],
       },
+      timeline: {},
     },
   },
   {
@@ -20489,7 +20907,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Japonism'],
-        decade: ['Mid-19th century'],
+        decade: ['19th_century'],
         location: ['Europe and America'],
       },
       visualThemes: {
@@ -20530,8 +20948,8 @@ export const aesthetics: AestheticProps[] = [
         ],
       },
       timeline: {
-        preceded: ['Orientalism', 'Chinoiserie'],
-        succeeded: ['Art Nouveau', 'Modernism', 'Symbolism', 'Post-Impressionism', 'Primitivism'],
+        preceded: ['orientalism', 'chinoiserie'],
+        succeeded: ['art_nouveau', 'modernism', 'symbolism', 'post-impressionism', 'primitivism'],
       },
     },
   },
@@ -20545,7 +20963,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['Late 2000s to Early 2010s'],
+        decade: ['21th_century', '2000s', '2010s'],
         location: ['Philippines'],
       },
       connections: {
@@ -20568,8 +20986,8 @@ export const aesthetics: AestheticProps[] = [
         brands: ['Nokia', 'Cherry Mobile (Flare A2', 'Flare J1', 'B100)', 'my', 'Phone (my', 'A1 Lite', 'My25)'],
       },
       timeline: {
-        preceded: ['Jologs'],
-        succeeded: ['Hypebeast', 'Geng-geng'],
+        preceded: ['jologs'],
+        succeeded: ['hypebeast', 'geng-geng'],
       },
     },
   },
@@ -20588,6 +21006,7 @@ export const aesthetics: AestheticProps[] = [
       connections: {
         related: ['maid', 'mizuiro'],
       },
+      timeline: {},
     },
   },
   {
@@ -20609,6 +21028,7 @@ export const aesthetics: AestheticProps[] = [
       connections: {
         related: ['romantic_chinese_village', 'neo-chinese_style'],
       },
+      timeline: {},
     },
   },
   {
@@ -20622,7 +21042,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Goeng-si fiction'],
-        decade: ['1980s'],
+        decade: ['20th_century', '1980s'],
         location: ['China'],
       },
       visualThemes: {
@@ -20635,7 +21055,7 @@ export const aesthetics: AestheticProps[] = [
         figures: ['Master Kau'],
       },
       timeline: {
-        succeeded: ['Chinese Folk Horror'],
+        succeeded: ['chinese_folk horror'],
       },
     },
   },
@@ -20650,7 +21070,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Shiny Suit Era'],
-        decade: ['Late 1990s'],
+        decade: ['20th_century', '1990s'],
         location: ['New York City / Los Angeles'],
       },
       visualThemes: {
@@ -20680,6 +21100,7 @@ export const aesthetics: AestheticProps[] = [
       mediaCulture: {
         figures: ['Sean "Diddy" Combs', 'Mase', 'Missy Elliott', 'Hype Williams', 'Will Smith', 'Busta Rhymes'],
       },
+      timeline: {},
     },
   },
   {
@@ -20693,14 +21114,14 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['サブカル (Sabukaru)', 'Subculture Jirai'],
-        decade: ['2010-2020'],
+        decade: ['21th_century', '2010s', '2020s'],
         location: ['Kabukicho District', 'Tokyo'],
       },
       connections: {
         related: ['animecore', 'blingeecore', 'emo', 'goth', 'peepspunk', 'visual_kei', 'mizuiro', 'yabi'],
       },
       timeline: {
-        preceded: ['<Jirai Kei', 'Goth Punk'],
+        preceded: ['<jirai_kei', 'goth_punk'],
       },
     },
   },
@@ -20716,7 +21137,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Jirai Onna', 'Jirai Joshi', 'Landmine Girl'],
-        decade: ['2020s'],
+        decade: ['21th_century', '2020s'],
         location: ['Kabukichō', 'Tokyo', 'Japan'],
       },
       visualThemes: {
@@ -20788,7 +21209,7 @@ export const aesthetics: AestheticProps[] = [
         ],
       },
       timeline: {
-        preceded: ['Girly Kei', 'Yami Kawaii', 'Goth Punk', 'Mizuiro'],
+        preceded: ['girly_kei', 'yami_kawaii', 'goth_punk', 'mizuiro'],
       },
     },
   },
@@ -20804,7 +21225,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Athlete', 'Sportsman'],
-        decade: ['1950s'],
+        decade: ['20th_century', '1950s'],
         location: ['United States'],
         creator: ['N/A (evolved from sports culture)'],
       },
@@ -20817,6 +21238,7 @@ export const aesthetics: AestheticProps[] = [
         related: ['preppy', 'straight_edge'],
         overlaped: ['preppy'],
       },
+      timeline: {},
     },
   },
   {
@@ -20830,7 +21252,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Juggalette (feminine)'],
-        decade: ['1990s'],
+        decade: ['20th_century', '1990s'],
         creator: ['Insane Clown Posse (Violent J and Shaggy 2 Dope)'],
       },
       visualThemes: {
@@ -20843,6 +21265,7 @@ export const aesthetics: AestheticProps[] = [
       mediaCulture: {
         media: ["Insane Clown Posse's 'Joker's Cards' albums", 'Big Money Hustlas'],
       },
+      timeline: {},
     },
   },
   {
@@ -20855,7 +21278,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['2020s'],
+        decade: ['21th_century', '2020s'],
       },
       visualThemes: {
         motifs: [
@@ -20881,6 +21304,7 @@ export const aesthetics: AestheticProps[] = [
           'wishcore',
         ],
       },
+      timeline: {},
     },
   },
   {
@@ -20894,7 +21318,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Salvagepunk', 'Scavenged Punk', 'Scrappunk'],
-        decade: ['2010s'],
+        decade: ['21th_century', '2010s'],
         creator: ['Evan Calder Williams', 'China Mieville'],
       },
       connections: {
@@ -20909,6 +21333,7 @@ export const aesthetics: AestheticProps[] = [
           'hauntology',
         ],
       },
+      timeline: {},
     },
   },
   {
@@ -20922,7 +21347,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Kandi Kid'],
-        decade: ['1990s'],
+        decade: ['20th_century', '1990s'],
         location: ['United States'],
       },
       visualThemes: {
@@ -20950,6 +21375,7 @@ export const aesthetics: AestheticProps[] = [
       connections: {
         related: ['rave', 'decora', 'kidcore', 'scene', 'scenecore', 'cyberpop'],
       },
+      timeline: {},
     },
   },
   {
@@ -20963,7 +21389,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Mode fashion'],
-        decade: ['1982-1990s'],
+        decade: ['20th_century', '1980s', '1990s'],
         creator: ['Yohji Yamamoto and Rei Kawakubo'],
       },
       visualThemes: {
@@ -20974,6 +21400,7 @@ export const aesthetics: AestheticProps[] = [
       connections: {
         related: ['nu-goth', 'goth'],
       },
+      timeline: {},
     },
   },
   {
@@ -20986,7 +21413,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['1970s'],
+        decade: ['20th_century', '1970s'],
       },
       visualThemes: {
         motifs: [
@@ -21045,6 +21472,7 @@ export const aesthetics: AestheticProps[] = [
       mediaCulture: {
         brands: ['Sanrio', 'San-X', 'various Jfashion brands'],
       },
+      timeline: {},
     },
   },
   {
@@ -21059,7 +21487,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Gamer Girl', 'Kawaii Streamer', 'Pastel E-Girl', 'Weeaboo E-Girl'],
-        decade: ['Late 2010s'],
+        decade: ['21th_century', '2010s'],
       },
       visualThemes: {
         motifs: [
@@ -21092,6 +21520,7 @@ export const aesthetics: AestheticProps[] = [
         media: ['My Hero Academia', 'Danganronpa', 'Demon Slayer', 'Osu!', 'Overwatch', 'Sanrio', 'Pokémon', ''],
         brands: ['Razer', 'MSI', 'Sanrio (incl San-X)', 'GOOD SMILE COMPANY'],
       },
+      timeline: {},
     },
   },
   {
@@ -21105,7 +21534,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Kawaiicore', 'Idol Metal', 'Cute Metal', 'J-Pop Metal'],
-        decade: ['2010s'],
+        decade: ['21th_century', '2010s'],
         location: ['Japan'],
         creator: ['Key ‘Kobametal’ Kobayashi (Babymetal producer)'],
       },
@@ -21127,6 +21556,7 @@ export const aesthetics: AestheticProps[] = [
         media: ['Aggretsuko'],
         figures: ['Babymetal (Suzuka Nakamoto', 'Moa Kikuchi', 'Momoko Okazaki)', 'Ladybeard'],
       },
+      timeline: {},
     },
   },
   {
@@ -21140,7 +21570,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Tänzelcore (specific subgenre with heavier electronic influence)'],
-        decade: ['Late 2010s'],
+        decade: ['21th_century', '2010s'],
         location: ['Saarland', 'Germany'],
         creator: ['Andreas "B.S.o.D." Bettinger', 'Sigfrid (Bergënot)'],
       },
@@ -21173,7 +21603,7 @@ export const aesthetics: AestheticProps[] = [
         figures: ['Andreas "B.S.o.D." Bettinger', 'Sigfrid', 'Hexenmeister'],
       },
       timeline: {
-        preceded: ['Dungeon Synth'],
+        preceded: ['dungeon_synth'],
       },
     },
   },
@@ -21189,7 +21619,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Key West Cutie', 'Lizzy Grant Summer'],
-        decade: ['Late 2010s'],
+        decade: ['21th_century', '2010s'],
         location: ['USA'],
       },
       visualThemes: {
@@ -21225,6 +21655,7 @@ export const aesthetics: AestheticProps[] = [
         platform: ['Tumblr', 'Pinterest'],
         figures: ['Lizzy Grant (Lana Del Rey)Alida Simone'],
       },
+      timeline: {},
     },
   },
   {
@@ -21239,7 +21670,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Kidult'],
-        decade: ['Late 2010s'],
+        decade: ['21th_century', '2010s'],
       },
       visualThemes: {
         motifs: [
@@ -21277,6 +21708,7 @@ export const aesthetics: AestheticProps[] = [
       mediaCulture: {
         brands: ['Sanrio', 'Disney', 'Lisa Frank', 'Mattel', 'Hasbro'],
       },
+      timeline: {},
     },
   },
   {
@@ -21289,7 +21721,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['Early 1990s'],
+        decade: ['20th_century', '1990s'],
         location: ['United States'],
       },
       visualThemes: {
@@ -21318,8 +21750,8 @@ export const aesthetics: AestheticProps[] = [
         ],
       },
       timeline: {
-        preceded: ['Hair Metal'],
-        succeeded: ['Soft Grunge (revival)'],
+        preceded: ['hair_metal'],
+        succeeded: ['soft_grunge (revival)'],
       },
     },
   },
@@ -21352,6 +21784,8 @@ export const aesthetics: AestheticProps[] = [
           'forestpunk',
         ],
       },
+      origins: {},
+      timeline: {},
     },
   },
   {
@@ -21362,7 +21796,11 @@ export const aesthetics: AestheticProps[] = [
       'A Kissaten is a type of tea and coffee shop that serves food in Japan, with this type of establishment being popularized in the 1920s. It was inspired by Viennese coffeehouses, with a deliberately European interior design.',
     categories: [],
     isVisible: true,
-    metadata: {},
+    metadata: {
+      connections: {},
+      origins: {},
+      timeline: {},
+    },
   },
   {
     url: 'https://aesthetics.fandom.com/wiki/Kitsch_Las_Vegas',
@@ -21374,7 +21812,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['1950s'],
+        decade: ['20th_century', '1950s'],
       },
       visualThemes: {
         motifs: ['Neon signage', 'shotgun weddings', 'gambling'],
@@ -21383,6 +21821,7 @@ export const aesthetics: AestheticProps[] = [
       connections: {
         related: ['burlesque', 'camp', 'casino', 'googie', 'gogoie_kitsch'],
       },
+      timeline: {},
     },
   },
   {
@@ -21395,7 +21834,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['Around the middle of the 20th century'],
+        decade: ['20th_century'],
         location: ['New Zealand'],
       },
       visualThemes: {
@@ -21405,6 +21844,8 @@ export const aesthetics: AestheticProps[] = [
         media: ['Footrot Flats', 'Goodnight Kiwi', 'Hairy Maclary and Friends', 'Mrs. Wishy-Washy'],
         brands: ['V-Energy Drink', "Wattie's", 'Wests', "Whittaker's"],
       },
+      connections: {},
+      timeline: {},
     },
   },
   {
@@ -21418,7 +21859,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Flower Boy'],
-        decade: ['Late 1990s'],
+        decade: ['20th_century', '1990s'],
         location: ['South Korea'],
       },
       visualThemes: {
@@ -21443,6 +21884,7 @@ export const aesthetics: AestheticProps[] = [
         media: ['Boys Over Flowers (K-Drama)', 'The City of the Rising Sun (Film)'],
         figures: ['K-Pop Idols (BTS', 'SHINee)', 'Lee Min Ho'],
       },
+      timeline: {},
     },
   },
   {
@@ -21461,6 +21903,8 @@ export const aesthetics: AestheticProps[] = [
       connections: {
         related: ['bardcore', 'dark_fantasy', 'fantasy', 'medieval', 'medievalcore'],
       },
+      origins: {},
+      timeline: {},
     },
   },
   {
@@ -21475,7 +21919,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Kogyaru', 'Heisei Gyaru'],
-        decade: ['Early-to-mid 1990s'],
+        decade: ['20th_century', '1990s'],
         creator: ['Namie Amuro'],
       },
       visualThemes: {
@@ -21489,6 +21933,7 @@ export const aesthetics: AestheticProps[] = [
       mediaCulture: {
         brands: ['EGG Magazine', 'Ranzuki Magazine'],
       },
+      timeline: {},
     },
   },
   {
@@ -21503,7 +21948,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Beige Milk Tea', 'Korean Neutral Beige'],
-        decade: ['Unknown'],
+        decade: ['unknown'],
       },
       visualThemes: {
         motifs: [
@@ -21523,6 +21968,7 @@ export const aesthetics: AestheticProps[] = [
         media: ['Line & Friends', 'Rilakkuma. Sanrio. We Bare Bears'],
         brands: ['Shein', 'Dazy', 'Yes', 'Style', 'Boogzel Apparel'],
       },
+      timeline: {},
     },
   },
   {
@@ -21536,7 +21982,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Kracher', 'Netlog Styler'],
-        decade: ['Late 2000s'],
+        decade: ['21th_century', '2000s'],
         location: ['Vienna', 'Austria'],
       },
       visualThemes: {
@@ -21558,6 +22004,7 @@ export const aesthetics: AestheticProps[] = [
         platform: ['Netlog'],
         brands: ['Ed Hardy', 'VANS'],
       },
+      timeline: {},
     },
   },
   {
@@ -21571,7 +22018,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['KRUSHCLUB! (stylized)', 'Odecore (used by Odetari)'],
-        decade: ['Early 2020s'],
+        decade: ['21th_century', '2020s'],
         creator: ['Lumi Athena', 'Odetari'],
       },
       visualThemes: {
@@ -21594,7 +22041,7 @@ export const aesthetics: AestheticProps[] = [
         figures: ['Odetari', 'Lumi Athena', '6arelyhuman'],
       },
       timeline: {
-        preceded: ['Sigilkore'],
+        preceded: ['sigilkore'],
       },
     },
   },
@@ -21608,7 +22055,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['1950s'],
+        decade: ['20th_century', '1950s'],
         location: ['Southern California'],
       },
       visualThemes: {
@@ -21644,6 +22091,7 @@ export const aesthetics: AestheticProps[] = [
         brands: ['Barris Kustoms', 'Von Dutch', 'Ed “Big Daddy” Roth', 'Dean Jeffries'],
         figures: ['George Barris', 'Larry Watson', 'Robert Williams'],
       },
+      timeline: {},
     },
   },
   {
@@ -21657,7 +22105,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Kuromiotaku'],
-        decade: ['2010s'],
+        decade: ['21th_century', '2010s'],
       },
       visualThemes: {
         colours: ['Warm white', 'pink', 'black', 'pastel purple'],
@@ -21680,6 +22128,7 @@ export const aesthetics: AestheticProps[] = [
         media: ['Onegai My Melody', "Kuromi's Pretty Journey"],
         brands: ['Sanrio. Co', 'Hot Topic'],
       },
+      timeline: {},
     },
   },
   {
@@ -21693,7 +22142,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Lads'],
-        decade: ['1990s'],
+        decade: ['20th_century', '1990s'],
         location: ['United Kingdom'],
       },
       visualThemes: {
@@ -21704,12 +22153,14 @@ export const aesthetics: AestheticProps[] = [
       connections: {
         related: ['blokecore', 'britpop', 'casuals', 'chav', 'cool_britannia', 'gorpcore', 'normcore', 'ultras'],
       },
+      timeline: {},
     },
   },
   {
     url: 'https://aesthetics.fandom.com/wiki/Landevejsriddere',
     name: 'Landevejsriddere',
     id: 'landevejsriddere',
+    imageUrl: 'https://static.wikia.nocookie.net/aesthetics/images/3/38/Landevejsriddere.jpg',
     description:
       'Crust PunkGutter Punk Landevejsriddere (Danish for "Knights of the Road"), also known as Landevejens Farende Svende or simply Stodder, describes a Danish subculture of itinerant vagabonds who voluntarily live on the road. Distinct from the general homeless population who may lack housing due to socio-economic displacement, Landevejsriddere view their existence as a deliberate lifestyle choice characterized by specific traditions, hierarchies, and visual markers. The subculture centers on walking between major Danish market fairs during the spring and summer months, relying on odd jobs, knife sharpening, performance, and public generosity for survival. The subculture emerged from the tradition of traveling journeymen and farmhands who moved between estates for seasonal work. While historically functional within the agricultural economy for tasks like knife sharpening or harvesting, the modernization of the Danish welfare state and labor market marginalized their role. In the late 20th century, the demographic shifted from itinerant workers to individuals rejecting societal norms, the "hamster wheel," or recovering from personal crises.',
     categories: ['lifestyle', 'subcultures', 'fashion'],
@@ -21717,7 +22168,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Landevejens Farende Svende', 'Stodder', 'Knights of the Road'],
-        decade: ['Early 20th Century'],
+        decade: ['20th_century'],
         location: ['Denmark'],
       },
       visualThemes: {
@@ -21741,6 +22192,7 @@ export const aesthetics: AestheticProps[] = [
         media: ['Landevejsriddere og glade musikanter (1972 DR Documentary); Hus Forbi (Newspaper)'],
         brands: ['Albani (beer)', 'Hus Forbi'],
       },
+      timeline: {},
     },
   },
   {
@@ -21754,7 +22206,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['2012'],
+        decade: ['21th_century', '2010s'],
         creator: ['Haruna Nakagoori'],
       },
       visualThemes: {
@@ -21779,7 +22231,7 @@ export const aesthetics: AestheticProps[] = [
         figures: ['Risa Nakamura'],
       },
       timeline: {
-        succeeded: ['French Girly', 'Jirai Kei'],
+        succeeded: ['french_girly', 'jirai_kei'],
       },
     },
   },
@@ -21794,7 +22246,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Sapeurs'],
-        decade: ['1920s'],
+        decade: ['20th_century', '1920s'],
       },
       visualThemes: {
         colours: ['Any'],
@@ -21803,6 +22255,7 @@ export const aesthetics: AestheticProps[] = [
       connections: {
         related: ['swenkas', 'metrosexual', 'new_romantic', 'afrofuturism', 'dandy'],
       },
+      timeline: {},
     },
   },
   {
@@ -21832,6 +22285,8 @@ export const aesthetics: AestheticProps[] = [
           'monochrome_luxe',
         ],
       },
+      origins: {},
+      timeline: {},
     },
   },
   {
@@ -21845,7 +22300,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Leathermen', 'Leatherdom'],
-        decade: ['1940s (Post-WWII emergence)'],
+        decade: ['20th_century', '1940s'],
         location: ['United States (San Francisco', 'Los Angeles', 'New York City)'],
         creator: ['Motorcycle Clubs', 'Post-WWII Veterans', "Gay Men's Community"],
       },
@@ -21868,6 +22323,7 @@ export const aesthetics: AestheticProps[] = [
       mediaCulture: {
         media: ['The Wild One (1953 Film)', 'Illustrations by Tom of Finland', 'Photography by Robert Mapplethorpe'],
       },
+      timeline: {},
     },
   },
   {
@@ -21881,7 +22337,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['2010s'],
+        decade: ['21th_century', '2010s'],
       },
       visualThemes: {
         motifs: [
@@ -21914,6 +22370,7 @@ export const aesthetics: AestheticProps[] = [
         ],
         overlaped: ['academia'],
       },
+      timeline: {},
     },
   },
   {
@@ -21927,7 +22384,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Klare Lijn (Dutch)', 'Hergé Style', 'Tintin Style'],
-        decade: ['Mid-1940s to 1950s'],
+        decade: ['20th_century', '1940s', '1950s'],
         location: ['Belgium'],
         creator: ['Hergé'],
       },
@@ -21942,6 +22399,7 @@ export const aesthetics: AestheticProps[] = [
       mediaCulture: {
         media: ['The Adventures of Tintin', 'Franco-Belgian comics'],
       },
+      timeline: {},
     },
   },
   {
@@ -21956,7 +22414,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Liminality', 'Liminalcore', 'Liminal aesthetic', 'Anemoiacore', 'Liminal Horror'],
-        decade: ['2000s/Late 2010s'],
+        decade: ['21th_century', '2000s', '2010s'],
       },
       visualThemes: {
         motifs: ['Empty indoor/outdoor areas', 'white noise'],
@@ -21980,6 +22438,7 @@ export const aesthetics: AestheticProps[] = [
           'weirdcore',
         ],
       },
+      timeline: {},
     },
   },
   {
@@ -21993,7 +22452,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Lietuviškas Eurodiskas', 'Village Disco'],
-        decade: ['1990s'],
+        decade: ['20th_century', '1990s'],
         location: ['Lithuania'],
       },
       visualThemes: {
@@ -22016,6 +22475,7 @@ export const aesthetics: AestheticProps[] = [
         media: ['Andrew Miksys "DISKO" series'],
         figures: ['Karališka Erdvė', 'Ledi Disko', 'Jausmų Imperija', 'DJ Dainius', 'Junior'],
       },
+      timeline: {},
     },
   },
   {
@@ -22028,7 +22488,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['2000s'],
+        decade: ['21th_century', '2000s'],
       },
       visualThemes: {
         motifs: ['Brush scripts', 'wooden textures', 'blackboard textures', 'word art signs', 'Rae Dunn pottery'],
@@ -22049,6 +22509,7 @@ export const aesthetics: AestheticProps[] = [
       mediaCulture: {
         media: ['Eat Pray Love', 'justgirlythings'],
       },
+      timeline: {},
     },
   },
   {
@@ -22062,7 +22523,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Human Doll', 'Barbie Transformation'],
-        decade: ['2010s'],
+        decade: ['21th_century', '2010s'],
         creator: ['Valeria Lukyanova', 'Venus Angelic', 'Anastasiya Shpagina'],
       },
       visualThemes: {
@@ -22095,6 +22556,7 @@ export const aesthetics: AestheticProps[] = [
         media: ['You', 'Tube and Instagram makeup tutorials'],
         brands: ['Barbie', 'Disney'],
       },
+      timeline: {},
     },
   },
   {
@@ -22108,7 +22570,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Dissociative Pout', 'Selfie Nihilism'],
-        decade: ['2020s'],
+        decade: ['21th_century', '2020s'],
       },
       visualThemes: {
         motifs: [
@@ -22147,6 +22609,7 @@ export const aesthetics: AestheticProps[] = [
         platform: ['Instagram'],
         brands: ['Praying'],
       },
+      timeline: {},
     },
   },
   {
@@ -22160,7 +22623,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Lo-fi Design[1]'],
-        decade: ['2010s'],
+        decade: ['21th_century', '2010s'],
       },
       visualThemes: {
         motifs: [
@@ -22193,6 +22656,7 @@ export const aesthetics: AestheticProps[] = [
         platform: ['You', 'Tube', 'Twitch'],
         figures: ['Lofi Girl (Jade)'],
       },
+      timeline: {},
     },
   },
   {
@@ -22205,10 +22669,12 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['1980s'],
+        decade: ['20th_century', '1980s'],
         location: ['Harlem', 'New York'],
         creator: ['Dapper Dan'],
       },
+      connections: {},
+      timeline: {},
     },
   },
   {
@@ -22221,7 +22687,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['Mid-2010s'],
+        decade: ['21th_century', '2010s'],
       },
       visualThemes: {
         motifs: [
@@ -22243,7 +22709,7 @@ export const aesthetics: AestheticProps[] = [
         figures: ['Jeremy Scott (for Moschino)', 'Anna Dello Russo', 'Katy Perry', 'Rita Ora'],
       },
       timeline: {
-        preceded: ['Normcore', 'Minimalism'],
+        preceded: ['normcore', 'minimalism'],
       },
     },
   },
@@ -22257,7 +22723,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['2000s'],
+        decade: ['21th_century', '2000s'],
         location: ['Western Internet Communities (4chan)'],
         creator: ['Loli Ripe', 'Onomatopeee'],
       },
@@ -22300,7 +22766,7 @@ export const aesthetics: AestheticProps[] = [
         ],
       },
       timeline: {
-        succeeded: ['Glitchbreak'],
+        succeeded: ['glitchbreak'],
       },
     },
   },
@@ -22315,7 +22781,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['Late 90s/Early 2000s'],
+        decade: ['20th_century', '21th_century', '1990s', '2000s'],
       },
       visualThemes: {
         motifs: ['Depends on the substyle'],
@@ -22352,6 +22818,7 @@ export const aesthetics: AestheticProps[] = [
           'Moi Meme Moitie',
         ],
       },
+      timeline: {},
     },
   },
   {
@@ -22366,7 +22833,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Heartcore', 'Crushcore', 'Cupidcore', 'Valentinecore'],
-        decade: ['2010s'],
+        decade: ['21th_century', '2010s'],
       },
       visualThemes: {
         motifs: ['Hearts', 'love letters', 'kisses', 'bouquets', 'cherubs', "Valentine's Day cards", 'lipstick prints'],
@@ -22390,6 +22857,7 @@ export const aesthetics: AestheticProps[] = [
       mediaCulture: {
         platform: ['Tumblr', 'Tik', 'Tok', 'Pinterest'],
       },
+      timeline: {},
     },
   },
   {
@@ -22403,7 +22871,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Pop Surrealism', 'Newbrow', 'Nobrow'],
-        decade: ['Late 1960s-Present'],
+        decade: ['20th_century', '1960s'],
       },
       visualThemes: {
         motifs: [
@@ -22449,6 +22917,7 @@ export const aesthetics: AestheticProps[] = [
       mediaCulture: {
         media: ['Juxtapoz Magazine', 'Last Gasp (publisher)'],
       },
+      timeline: {},
     },
   },
   {
@@ -22462,7 +22931,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Low Polygon Mesh', 'PS1', 'N64', 'DS'],
-        decade: ['Originated from the 1990s', 'intentional aesthetic emerged in the 2010s'],
+        decade: ['20th_century', '1990s', '21th_century', '2010s'],
       },
       visualThemes: {
         motifs: ['Low polygon amount', 'simple low-resolution textures', 'flat shading'],
@@ -22483,6 +22952,7 @@ export const aesthetics: AestheticProps[] = [
           'y2k_futurism',
         ],
       },
+      timeline: {},
     },
   },
   {
@@ -22496,7 +22966,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['可露丽风 (kělùlì fēng)', 'Canelé Style'],
-        decade: ['2020s'],
+        decade: ['21th_century', '2020s'],
         location: ['China'],
       },
       visualThemes: {
@@ -22511,6 +22981,7 @@ export const aesthetics: AestheticProps[] = [
         platform: ['Rednote (Xiaohongshu)'],
         figures: ['Nana Ou-Yang'],
       },
+      timeline: {},
     },
   },
   {
@@ -22524,7 +22995,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Lumbersexual', 'Urban Lumberjack'],
-        decade: ['Late 2000s'],
+        decade: ['21th_century', '2000s'],
       },
       visualThemes: {
         motifs: [
@@ -22545,6 +23016,7 @@ export const aesthetics: AestheticProps[] = [
       mediaCulture: {
         brands: ['Red Wing', 'Timberland', "Levi's", 'Filson', 'Carhartt', 'Pendleton'],
       },
+      timeline: {},
     },
   },
   {
@@ -22557,7 +23029,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['Late 2010s'],
+        decade: ['21th_century', '2010s'],
       },
       visualThemes: {
         motifs: [
@@ -22575,6 +23047,7 @@ export const aesthetics: AestheticProps[] = [
       connections: {
         related: ['solarpunk', 'dreampunk', 'cyberdelia', 'goth', 'naturecore', 'witch_house'],
       },
+      timeline: {},
     },
   },
   {
@@ -22588,7 +23061,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Second Summer of Love', 'Baggy'],
-        decade: ['1980s'],
+        decade: ['20th_century', '1980s'],
         location: ['Manchester', 'England'],
         creator: ['1980s-1990s Manchester music groups and youth culture'],
       },
@@ -22628,8 +23101,8 @@ export const aesthetics: AestheticProps[] = [
         figures: ['The Stone Roses', 'Happy Mondays', 'Inspiral Carpets', 'The Charlatans', 'James808 State'],
       },
       timeline: {
-        preceded: ['Punk', 'Post-Punk', 'New Wave', 'New Romantic'],
-        succeeded: ['Britpop'],
+        preceded: ['punk', 'post-punk', 'new_wave', 'new_romantic'],
+        succeeded: ['britpop'],
       },
     },
   },
@@ -22650,6 +23123,8 @@ export const aesthetics: AestheticProps[] = [
       connections: {
         related: ['science_academia'],
       },
+      origins: {},
+      timeline: {},
     },
   },
   {
@@ -22663,7 +23138,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Mafiacore', 'Mobster Chic'],
-        decade: ['20th Century (Media Portrayals)'],
+        decade: ['20th_century'],
       },
       visualThemes: {
         motifs: [
@@ -22686,6 +23161,7 @@ export const aesthetics: AestheticProps[] = [
         media: ['The Godfather trilogy', 'Goodfellas', 'The Sopranos', 'Scarface', 'Casino'],
         figures: ['Vito Corleone', 'Michael Corleone', 'Tony Soprano', 'Tony Montana (fictional characters)'],
       },
+      timeline: {},
     },
   },
   {
@@ -22699,7 +23175,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Mahou Shoujo'],
-        decade: ['1960s'],
+        decade: ['20th_century', '1960s'],
       },
       visualThemes: {
         motifs: ['Transformation magic', 'color coded costumes', 'youth', 'coming of age'],
@@ -22709,6 +23185,7 @@ export const aesthetics: AestheticProps[] = [
       connections: {
         related: ['animecore', 'fairy_kei', 'kawaii', 'moe', 'nanchatte_seifuku', 'shoujo', 'yume_kawaii'],
       },
+      timeline: {},
     },
   },
   {
@@ -22723,7 +23200,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Magiciancore', 'Stage-Magician Core', 'Magic-Showcore', 'Illusionistcore'],
-        decade: ['1700s-present'],
+        decade: ['18th_century', '19th_century', '20th_century', '21th_century'],
         creator: ['thepinkseat-askthemoonbunny'],
       },
       visualThemes: {
@@ -22734,6 +23211,7 @@ export const aesthetics: AestheticProps[] = [
       connections: {
         related: ['witchcore', 'wizardcore', 'steampunk', 'fanfare'],
       },
+      timeline: {},
     },
   },
   {
@@ -22746,7 +23224,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['2000s'],
+        decade: ['21th_century', '2000s'],
       },
       visualThemes: {
         motifs: ['Maid dresses', 'aprons', 'frilly/laced clothing', 'feather dusters', 'thigh-high socks'],
@@ -22767,6 +23245,7 @@ export const aesthetics: AestheticProps[] = [
           'weeaboo',
         ],
       },
+      timeline: {},
     },
   },
   {
@@ -22779,7 +23258,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['Mid-2010s'],
+        decade: ['21th_century', '2010s'],
         location: ['Russia / Internet (VK)'],
       },
       visualThemes: {
@@ -22799,6 +23278,7 @@ export const aesthetics: AestheticProps[] = [
       mediaCulture: {
         figures: ['Yakui the Maid'],
       },
+      timeline: {},
     },
   },
   {
@@ -22812,7 +23292,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Maillard Feng'],
-        decade: ['2023 August'],
+        decade: ['21th_century', '2020s'],
         location: ['China'],
         creator: ['Douyin'],
       },
@@ -22832,6 +23312,7 @@ export const aesthetics: AestheticProps[] = [
           'old_money',
         ],
       },
+      timeline: {},
     },
   },
   {
@@ -22845,7 +23326,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Majo / Maja', 'Manolo / Manola'],
-        decade: ['18th Century'],
+        decade: ['18th_century'],
         location: ['Madrid', 'Spain'],
       },
       visualThemes: {
@@ -22874,6 +23355,7 @@ export const aesthetics: AestheticProps[] = [
       mediaCulture: {
         figures: ['Francisco de Goya (artist)'],
       },
+      timeline: {},
     },
   },
   {
@@ -22887,7 +23369,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Spooky Kid', 'Alternative Kid'],
-        decade: ['Late 1990s-Early 2000s'],
+        decade: ['20th_century', '21th_century', '1990s', '2000s'],
         location: ['North America'],
       },
       visualThemes: {
@@ -22921,7 +23403,7 @@ export const aesthetics: AestheticProps[] = [
         figures: ['Marilyn Manson', 'Korn', 'Slipknot', 'Amy Lee (Evanescence)'],
       },
       timeline: {
-        preceded: ['Goth'],
+        preceded: ['goth'],
       },
     },
   },
@@ -22936,7 +23418,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['Early 2000s'],
+        decade: ['21th_century', '2000s'],
       },
       visualThemes: {
         motifs: ['Impracticality', 'weaponry', 'being badass'],
@@ -22946,6 +23428,7 @@ export const aesthetics: AestheticProps[] = [
       connections: {
         related: ['animecore', 'nerd', 'tacticool'],
       },
+      timeline: {},
     },
   },
   {
@@ -22959,7 +23442,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Mallwave'],
-        decade: ['2010s'],
+        decade: ['21th_century', '2010s'],
       },
       visualThemes: {
         motifs: [
@@ -22982,7 +23465,7 @@ export const aesthetics: AestheticProps[] = [
         brands: ['Kmart', 'Sears', 'JCPenney', 'The Gap'],
       },
       timeline: {
-        preceded: ['Vaporwave'],
+        preceded: ['vaporwave'],
       },
     },
   },
@@ -22997,7 +23480,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Mamba'],
-        decade: ['Late 1990s-Early 2000s'],
+        decade: ['20th_century', '21th_century', '1990s', '2000s'],
         location: ['Shibuya', 'Tokyo', 'Japan'],
       },
       visualThemes: {
@@ -23022,7 +23505,7 @@ export const aesthetics: AestheticProps[] = [
         figures: ['Buriteri'],
       },
       timeline: {
-        preceded: ['Ganguro'],
+        preceded: ['ganguro'],
       },
     },
   },
@@ -23037,7 +23520,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Nóia', 'Mandraka', 'Cria', 'Funkeiro', 'Funkeira', 'Chave', 'Maloka'],
-        decade: ['Late 1980s - 1990s (music); 2000s (as a distinct style)'],
+        decade: ['20th_century', '21th_century', '1980s', '1990s', '2000s'],
         location: ['Southeast Brazil (primarily Rio de Janeiro and São Paulo)'],
       },
       visualThemes: {
@@ -23055,6 +23538,7 @@ export const aesthetics: AestheticProps[] = [
       connections: {
         related: ['funk_carioca', 'gangsta_rap', 'paty_de_sp'],
       },
+      timeline: {},
     },
   },
   {
@@ -23068,7 +23552,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Manguebit'],
-        decade: ['1990s'],
+        decade: ['20th_century', '1990s'],
         location: ['Recife', 'Pernambuco', 'Brazil'],
         creator: ['Chico Science', 'Fred Zero Quatro', 'Renato L', 'Mabuse', 'Héder Aragão'],
       },
@@ -23096,6 +23580,7 @@ export const aesthetics: AestheticProps[] = [
         platform: ['Music festivals', 'local scene', 'later national and international media'],
         media: ['Da Lama ao Caos (album)', 'Manguebit (documentary)'],
       },
+      timeline: {},
     },
   },
   {
@@ -23109,7 +23594,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Portuguese Late Gothic'],
-        decade: ['15th-16th Century'],
+        decade: ['15th_century', '16th_century'],
         location: ['Portugal'],
       },
       visualThemes: {
@@ -23119,6 +23604,7 @@ export const aesthetics: AestheticProps[] = [
       connections: {
         related: ['baroque', 'gothic', 'italian_renaissance', 'mudjar', 'nautical', 'rococo', 'spanish_golden_age'],
       },
+      timeline: {},
     },
   },
   {
@@ -23131,7 +23617,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['1980s (original term)', '2020s (modern subculture)'],
+        decade: ['20th_century', '1980s', '21th_century', '2020s'],
         location: ['Milan', 'Italy'],
       },
       visualThemes: {
@@ -23153,6 +23639,7 @@ export const aesthetics: AestheticProps[] = [
         platform: ['Tik', 'Tok'],
         figures: ['Rondodasosa', 'Baby Gang', 'Central Cee (influence)', 'Simba La Rue'],
       },
+      timeline: {},
     },
   },
   {
@@ -23165,7 +23652,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['2010s'],
+        decade: ['21th_century', '2010s'],
         location: ['Japan'],
       },
       visualThemes: {
@@ -23196,6 +23683,7 @@ export const aesthetics: AestheticProps[] = [
         brands: ['La Farfa', 'Ji', 'G Paradise'],
         figures: ['Goto Seina', 'Chubbiness', 'la BIG 3', 'Nao Poppa'],
       },
+      timeline: {},
     },
   },
   {
@@ -23209,7 +23697,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Military Pop'],
-        decade: ['1980s'],
+        decade: ['20th_century', '1980s'],
         location: ['Europe'],
         creator: ['Laibach (often cited as progenitors)'],
       },
@@ -23229,6 +23717,7 @@ export const aesthetics: AestheticProps[] = [
       connections: {
         related: ['dungeon_synth', 'industrial', 'neofolk', 'neue_slowenische_kunst'],
       },
+      timeline: {},
     },
   },
   {
@@ -23242,7 +23731,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Manyanga', 'Nganya'],
-        decade: ['1970s'],
+        decade: ['20th_century', '1970s'],
         location: ['Nairobi', 'Kenya'],
       },
       visualThemes: {
@@ -23272,6 +23761,7 @@ export const aesthetics: AestheticProps[] = [
         brands: ['Ford', 'Volkswagen', 'Peugeot', 'Nissan'],
         figures: ['Mohamed "Moha" Kartarchand Bagatiram Rala Ram (Moha Grafix)'],
       },
+      timeline: {},
     },
   },
   {
@@ -23285,7 +23775,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Maximalist'],
-        decade: ['19th Century'],
+        decade: ['19th_century'],
       },
       visualThemes: {
         motifs: ['Bold colors', 'Prints', 'Patterns', 'Wallpaper', 'Rugs', 'Layering'],
@@ -23302,6 +23792,7 @@ export const aesthetics: AestheticProps[] = [
           'mob_wife',
         ],
       },
+      timeline: {},
     },
   },
   {
@@ -23316,7 +23807,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Trashy Y2K', 'Glam Y2K', '2000s Glam', '2000s Trashy'],
-        decade: ['2000s'],
+        decade: ['21th_century', '2000s'],
         location: ['United States'],
       },
       visualThemes: {
@@ -23364,8 +23855,8 @@ export const aesthetics: AestheticProps[] = [
         figures: ['Paris Hilton', 'Lindsay Lohan', 'Britney Spears', 'Nicole Richie', 'Jessica Simpson'],
       },
       timeline: {
-        preceded: ['Grunge', 'Heroin Chic', 'Memphis Lite'],
-        succeeded: ['Recession Pop', 'Swag', 'Indie Sleaze'],
+        preceded: ['grunge', 'heroin_chic', 'memphis_lite'],
+        succeeded: ['recession_pop', 'swag', 'indie_sleaze'],
       },
     },
   },
@@ -23380,7 +23871,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Mec de la Rue'],
-        decade: ['Late 2010s'],
+        decade: ['21th_century', '2010s'],
         location: ['Spain (with French origins)'],
       },
       visualThemes: {
@@ -23401,6 +23892,7 @@ export const aesthetics: AestheticProps[] = [
       mediaCulture: {
         figures: ['Morad'],
       },
+      timeline: {},
     },
   },
   {
@@ -23423,6 +23915,7 @@ export const aesthetics: AestheticProps[] = [
       connections: {
         related: ['gorecore', 'devilcore', 'weirdcore', 'starrflesh', 'teethcore', 'cannibalcore'],
       },
+      timeline: {},
     },
   },
   {
@@ -23435,7 +23928,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['1950s'],
+        decade: ['20th_century', '1950s'],
         location: ['Japan'],
       },
       visualThemes: {
@@ -23481,6 +23974,7 @@ export const aesthetics: AestheticProps[] = [
         brands: ['Bandai', 'Takara Tomy', 'Hasbro', 'Sunrise['],
         figures: ['Osamu Tezuka', 'Mitsuteru Yokoyama', 'Go Nagai', 'Yoshiyuki Tomino', 'Hideaki Anno'],
       },
+      timeline: {},
     },
   },
   {
@@ -23513,6 +24007,7 @@ export const aesthetics: AestheticProps[] = [
           'mochette',
         ],
       },
+      timeline: {},
     },
   },
   {
@@ -23526,7 +24021,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Middle Ages'],
-        decade: ['5th Century AD'],
+        decade: ['5th_century'],
       },
       visualThemes: {
         values: ['Christianity', 'feudalism'],
@@ -23534,6 +24029,7 @@ export const aesthetics: AestheticProps[] = [
       connections: {
         related: ['bardcore', 'romanesque', 'southern_french_gothic', 'visigothic_art'],
       },
+      timeline: {},
     },
   },
   {
@@ -23553,7 +24049,7 @@ export const aesthetics: AestheticProps[] = [
           'Medieval Weirdcore',
           'Medieval Girl Fall',
         ],
-        decade: ['2020s'],
+        decade: ['21th_century', '2020s'],
       },
       visualThemes: {
         motifs: [
@@ -23608,6 +24104,7 @@ export const aesthetics: AestheticProps[] = [
           'Hodakova (designer)',
         ],
       },
+      timeline: {},
     },
   },
   {
@@ -23641,6 +24138,8 @@ export const aesthetics: AestheticProps[] = [
         media: ['Legend of Zelda', 'Lord of the Rings', 'A Song of Ice and Fire'],
         figures: ['King Arthur', 'Robin Hood'],
       },
+      origins: {},
+      timeline: {},
     },
   },
   {
@@ -23654,7 +24153,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Medical scientific stock imagery'],
-        decade: ['1990s'],
+        decade: ['20th_century', '1990s'],
       },
       visualThemes: {
         motifs: ['Cells', 'neurons', 'organs', 'brain', 'DNA helix'],
@@ -23673,6 +24172,7 @@ export const aesthetics: AestheticProps[] = [
       mediaCulture: {
         media: ['Technology and science magazines', 'news media'],
       },
+      timeline: {},
     },
   },
   {
@@ -23686,7 +24186,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['My', 'Melodycore'],
-        decade: ['Early 2020s'],
+        decade: ['21th_century', '2020s'],
       },
       visualThemes: {
         motifs: [
@@ -23710,6 +24210,7 @@ export const aesthetics: AestheticProps[] = [
         media: ['Onegai My Melody', "Kuromi's Pretty Journey"],
         brands: ['Sanrio', 'Lafary', 'Liz Lisa', 'Maison de Fleur', 'Noemie', 'Rojita'],
       },
+      timeline: {},
     },
   },
   {
@@ -23723,7 +24224,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Internet Rap', 'Ironic Rap'],
-        decade: ['2010s'],
+        decade: ['21th_century', '2010s'],
         location: ['United States'],
       },
       visualThemes: {
@@ -23744,6 +24245,7 @@ export const aesthetics: AestheticProps[] = [
         platform: ['Sound', 'Cloud', 'You', 'Tube', 'Roblox'],
         figures: ['Lil B', 'Filthy Frank', 'Yung Lean', 'Ugly God'],
       },
+      timeline: {},
     },
   },
   {
@@ -23758,7 +24260,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Memphis Art', 'Memphis', 'Memphis-Milano'],
-        decade: ['1980s'],
+        decade: ['20th_century', '1980s'],
         location: ['Milan', 'Italy'],
         creator: ['Ettore Sottsass and other members of the Memphis Group'],
       },
@@ -23805,8 +24307,8 @@ export const aesthetics: AestheticProps[] = [
         ],
       },
       timeline: {
-        preceded: ['Radical Design'],
-        succeeded: ['Memphis Lite', 'Factory Pomo', 'Frasurbane', 'Wacky Pomo', 'Memphis Jr.'],
+        preceded: ['radical_design'],
+        succeeded: ['memphis_lite', 'factory_pomo', 'frasurbane', 'wacky_pomo', 'memphis_jr.'],
       },
     },
   },
@@ -23839,6 +24341,7 @@ export const aesthetics: AestheticProps[] = [
       connections: {
         related: ['kidcore', 'memphis_design', 'memphis_lite', 'nostalgiacore', 'preschool_pop'],
       },
+      timeline: {},
     },
   },
   {
@@ -23852,7 +24355,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Memphis', '90s Retro', 'Contempo-Eclectic'],
-        decade: ['1980s'],
+        decade: ['20th_century', '1980s'],
       },
       visualThemes: {
         motifs: ['Pastel CMYK colors', 'squiggles and brushstrokes', 'geometric abstraction with cubist influence'],
@@ -23903,8 +24406,8 @@ export const aesthetics: AestheticProps[] = [
         ],
       },
       timeline: {
-        preceded: ['Memphis Design', 'Earth Tones', 'Pacific Punk Wave', 'Supergraphic Ultramodern'],
-        succeeded: ['Y2K Futurism', 'Gen X Soft Club', 'Vectorheart'],
+        preceded: ['memphis_design', 'earth_tones', 'pacific_punk wave', 'supergraphic_ultramodern'],
+        succeeded: ['y2k_futurism', 'gen_x soft club', 'vectorheart'],
       },
     },
   },
@@ -23919,7 +24422,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Mermaid Style'],
-        decade: ['2020s'],
+        decade: ['21th_century', '2020s'],
       },
       visualThemes: {
         motifs: [
@@ -23943,6 +24446,7 @@ export const aesthetics: AestheticProps[] = [
         media: ['The Little Mermaid (2023)', 'Aquamarine (2006)', 'H₂O: Just Add Water'],
         figures: ['Halle Bailey', 'Dua Lipa'],
       },
+      timeline: {},
     },
   },
   {
@@ -23955,7 +24459,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['Early 2020s'],
+        decade: ['21th_century', '2020s'],
       },
       visualThemes: {
         motifs: [
@@ -23977,6 +24481,7 @@ export const aesthetics: AestheticProps[] = [
       mediaCulture: {
         figures: ['Lily-Rose Depp', 'ate Moss', 'Camille Rowe', 'Carla Bruni'],
       },
+      timeline: {},
     },
   },
   {
@@ -23987,7 +24492,11 @@ export const aesthetics: AestheticProps[] = [
       'This page is currently under construction. See Metalhead for relevant information. Metal describes a style of heavy, aggressive music. It evolved from the acid rock/heavy psych of the late 1960s, a heavier form of psychedelic rock originating in the San Francisco music scene. Metal music is typically characterized by loud guitars, fast drumming, and often intense lyrics. Early bands credited with the origins of metal range from the heavy blues of Led Zeppelin, Blue Cheer, and Jimi Hendrix, to the occult rock of Coven and Blue Öyster Cult, and artists like Alice Cooper and Pentagram. MC5 and The Stooges also played a crucial role in foreshadowing the development of rock music into both punk and metal. Black Sabbath is often credited with crystallizing the genre in the early-mid 1970s.',
     categories: [],
     isVisible: true,
-    metadata: {},
+    metadata: {
+      connections: {},
+      origins: {},
+      timeline: {},
+    },
   },
   {
     url: 'https://aesthetics.fandom.com/wiki/Metalhead',
@@ -24000,7 +24509,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Heavy Metal Subculture', 'Headbanger', 'Hesher', 'Mosher', 'Thrasher'],
-        decade: ['1970s'],
+        decade: ['20th_century', '1970s'],
       },
       visualThemes: {
         motifs: [
@@ -24042,6 +24551,7 @@ export const aesthetics: AestheticProps[] = [
           'The Decline of Western Civilization Part II: The Metal Years (1988)',
         ],
       },
+      timeline: {},
     },
   },
   {
@@ -24055,7 +24565,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Depthcore', 'Trendwhore'],
-        decade: ['1990s'],
+        decade: ['20th_century', '1990s'],
       },
       visualThemes: {
         motifs: ['Deformed abstract shapes', 'metal/chrome textures', 'futuristic UI and fonts'],
@@ -24089,6 +24599,7 @@ export const aesthetics: AestheticProps[] = [
       mediaCulture: {
         media: ['The Matrix'],
       },
+      timeline: {},
     },
   },
   {
@@ -24101,7 +24612,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['1990s (coined)2000s (popularized)'],
+        decade: ['20th_century', '21th_century', '1990s', '2000s'],
         location: ['Urban centers (metropolitan areas)'],
       },
       visualThemes: {
@@ -24123,7 +24634,7 @@ export const aesthetics: AestheticProps[] = [
         figures: ['David Beckham', 'Brad Pitt'],
       },
       timeline: {
-        preceded: ['Dandy'],
+        preceded: ['dandy'],
       },
     },
   },
@@ -24138,7 +24649,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Muralismo Mexicano'],
-        decade: ['1920s-1950s'],
+        decade: ['20th_century', '1920s', '1930s', '1940s', '1950s'],
         location: ['Mexico'],
         creator: ['Dr. Atl', 'Diego Rivera', 'José Clemente Orozco', 'David Alfaro Siqueiros'],
       },
@@ -24174,6 +24685,7 @@ export const aesthetics: AestheticProps[] = [
           'socialist_realism',
         ],
       },
+      timeline: {},
     },
   },
   {
@@ -24187,7 +24699,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['1960s / 1970s Medieval Revival'],
-        decade: ['1950s'],
+        decade: ['20th_century', '1950s'],
       },
       visualThemes: {
         motifs: ['Embroidery', 'lush gardens', 'castles', 'knights', ''],
@@ -24218,6 +24730,7 @@ export const aesthetics: AestheticProps[] = [
         brands: ['Steak & Ale', 'Knights Inn'],
         figures: ['Bill Gibb'],
       },
+      timeline: {},
     },
   },
   {
@@ -24231,7 +24744,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['MCM'],
-        decade: ['c. 1945–1969'],
+        decade: ['20th_century', '1940s', '1950s', '1960s'],
       },
       visualThemes: {
         motifs: [
@@ -24260,8 +24773,8 @@ export const aesthetics: AestheticProps[] = [
         figures: ['Charles and Ray Eames', 'Eero Saarinen', 'George Nelson', 'Richard Neutra'],
       },
       timeline: {
-        preceded: ['Streamline Moderne', 'Bauhaus'],
-        succeeded: ['Postmodernism', 'Earth Tones', 'Supergraphic Ultramodern', 'Cassette Futurism'],
+        preceded: ['streamline_moderne', 'bauhaus'],
+        succeeded: ['postmodernism', 'earth_tones', 'supergraphic_ultramodern', 'cassette_futurism'],
       },
     },
   },
@@ -24282,7 +24795,7 @@ export const aesthetics: AestheticProps[] = [
           'Soft Zoo Kitsch',
           'Vintage Toycore',
         ],
-        decade: ['1950s'],
+        decade: ['20th_century', '1950s'],
         location: ['United States'],
       },
       visualThemes: {
@@ -24308,6 +24821,7 @@ export const aesthetics: AestheticProps[] = [
           'My-Toy Company',
         ],
       },
+      timeline: {},
     },
   },
   {
@@ -24322,7 +24836,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Second Wave Emo', 'Fourth Wave Emo', 'Midwestern Emo', 'Emo Revival'],
-        decade: ['1990s'],
+        decade: ['20th_century', '1990s'],
         creator: ["Cap'n Jazz", 'Mineral', 'The Promise Ring', 'American Football'],
       },
       visualThemes: {
@@ -24345,6 +24859,7 @@ export const aesthetics: AestheticProps[] = [
       mediaCulture: {
         brands: ['Converse', 'Vans', "Levi's", 'Fender'],
       },
+      timeline: {},
     },
   },
   {
@@ -24359,7 +24874,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Midwestern Gothic'],
-        decade: ['2010s'],
+        decade: ['21th_century', '2010s'],
       },
       visualThemes: {
         motifs: ['Alienation', 'emptiness', 'ruralness', 'nature'],
@@ -24380,6 +24895,7 @@ export const aesthetics: AestheticProps[] = [
       mediaCulture: {
         media: ['Fargo', 'American Gods', 'Supernatural'],
       },
+      timeline: {},
     },
   },
   {
@@ -24393,7 +24909,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Cheta', 'Tincho (male variant)'],
-        decade: ['Early 2020s'],
+        decade: ['21th_century', '2020s'],
         location: ['Argentina'],
       },
       visualThemes: {
@@ -24416,6 +24932,7 @@ export const aesthetics: AestheticProps[] = [
         platform: ['Tik', 'Tok', 'Instagram'],
         media: ['Lollapalooza Argentina'],
       },
+      timeline: {},
     },
   },
   {
@@ -24428,7 +24945,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['19th Century (modern origins)'],
+        decade: ['19th_century'],
       },
       visualThemes: {
         motifs: [
@@ -24449,6 +24966,7 @@ export const aesthetics: AestheticProps[] = [
       mediaCulture: {
         brands: ['Prada', 'Balmain', 'Burberry'],
       },
+      timeline: {},
     },
   },
   {
@@ -24461,9 +24979,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: [
-          '1990s (as an unnamed stylistic tendency within goth and rivethead fashion); 2020s (as a named social media aesthetic)',
-        ],
+        decade: ['20th_century', '21th_century', '1990s', '2020s'],
       },
       visualThemes: {
         motifs: [
@@ -24488,7 +25004,7 @@ export const aesthetics: AestheticProps[] = [
         platform: ['Pinterest', 'Tik', 'Tok'],
       },
       timeline: {
-        preceded: ['Goth', 'Rivethead'],
+        preceded: ['goth', 'rivethead'],
       },
     },
   },
@@ -24523,6 +25039,7 @@ export const aesthetics: AestheticProps[] = [
       mediaCulture: {
         brands: ['Atelier Boz', 'Metamorphose temps de fille', 'Innocent World'],
       },
+      timeline: {},
     },
   },
   {
@@ -24536,7 +25053,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['00s China(Chinese) Y2KBoom-Era Nostalgia', 'Beauty of the Boom Years'],
-        decade: ['2000s (origin)2020s (nostalgia)'],
+        decade: ['21th_century', '2000s'],
         location: ['China'],
       },
       visualThemes: {
@@ -24548,7 +25065,7 @@ export const aesthetics: AestheticProps[] = [
         related: ['heisei_retro', 'y2kretro_hong_kong', 'chinese_dreamcore', 'gyaru', 'girl_crush'],
       },
       timeline: {
-        preceded: ['Retro Hong Kong'],
+        preceded: ['retro_hong kong'],
       },
     },
   },
@@ -24563,7 +25080,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Nu-Disco', 'Disco House', 'Funky House'],
-        decade: ['Mid-1990s'],
+        decade: ['20th_century', '1990s'],
       },
       visualThemes: {
         motifs: [
@@ -24620,6 +25137,7 @@ export const aesthetics: AestheticProps[] = [
           'Madonna',
         ],
       },
+      timeline: {},
     },
   },
   {
@@ -24633,7 +25151,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Eastern Exoticism'],
-        decade: ['1990s'],
+        decade: ['20th_century', '1990s'],
       },
       visualThemes: {
         colours: ['Purple', 'Gold'],
@@ -24641,6 +25159,7 @@ export const aesthetics: AestheticProps[] = [
       connections: {
         related: ['arabian_nights', 'orientalism'],
       },
+      timeline: {},
     },
   },
   {
@@ -24654,7 +25173,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Minets du Drugstore', 'Bande du Drugstore', 'Blousons Dorés'],
-        decade: ['1960s'],
+        decade: ['20th_century', '1960s'],
         location: ['Paris', 'France'],
       },
       connections: {
@@ -24671,6 +25190,7 @@ export const aesthetics: AestheticProps[] = [
           'y-y_opposition',
         ],
       },
+      timeline: {},
     },
   },
   {
@@ -24683,7 +25203,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['1960s'],
+        decade: ['20th_century', '1960s'],
       },
       visualThemes: {
         colours: ['Any colors', 'commonly white', 'neutrals', 'and muted tones'],
@@ -24722,6 +25242,7 @@ export const aesthetics: AestheticProps[] = [
           'suprematism',
         ],
       },
+      timeline: {},
     },
   },
   {
@@ -24734,7 +25255,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['Late 1970s (initial musical period); 2000s (term coinage and subsequent renewed interest)'],
+        decade: ['20th_century', '21th_century', '1970s', '2000s'],
       },
       visualThemes: {
         motifs: [
@@ -24781,6 +25302,7 @@ export const aesthetics: AestheticProps[] = [
           'Martin Dupont',
         ],
       },
+      timeline: {},
     },
   },
   {
@@ -24794,7 +25316,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Tenshi Kaiwai'],
-        decade: ['2010s'],
+        decade: ['21th_century', '2010s'],
         creator: ['Ano'],
       },
       visualThemes: {
@@ -24817,6 +25339,7 @@ export const aesthetics: AestheticProps[] = [
           'webcore',
         ],
       },
+      timeline: {},
     },
   },
   {
@@ -24830,7 +25353,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Major League Gaming', 'Montage Parodies'],
-        decade: ['2010s'],
+        decade: ['21th_century', '2010s'],
         creator: ['You', 'Tube parody community (Snipars', 'Ancient', 'Reality', 'NFKRZ)'],
       },
       visualThemes: {
@@ -24864,6 +25387,7 @@ export const aesthetics: AestheticProps[] = [
         media: ['You', 'Tube Poop', 'Call of Duty Montages'],
         brands: ['Major League Gaming', 'Doritos', 'Mountain Dew', 'Supreme', 'OBEY'],
       },
+      timeline: {},
     },
   },
   {
@@ -24877,7 +25401,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['2020s'],
+        decade: ['21th_century', '2020s'],
         creator: ['Kayla Trivieri'],
       },
       visualThemes: {
@@ -24891,6 +25415,7 @@ export const aesthetics: AestheticProps[] = [
       mediaCulture: {
         media: ['The Sopranos', 'Goodfellas'],
       },
+      timeline: {},
     },
   },
   {
@@ -24913,7 +25438,7 @@ export const aesthetics: AestheticProps[] = [
           'Usedcore',
           'Vomitcore',
         ],
-        decade: ['2010s (origin)2020s (coined)'],
+        decade: ['21th_century', '2010s', '2020s'],
       },
       visualThemes: {
         motifs: [
@@ -24957,6 +25482,7 @@ export const aesthetics: AestheticProps[] = [
         platform: ['Tumblr'],
         figures: ['Nicole Dollanganger', 'Katie Jane Garside'],
       },
+      timeline: {},
     },
   },
   {
@@ -24970,7 +25496,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Modernist'],
-        decade: ['Late 1950s'],
+        decade: ['20th_century', '1950s'],
         location: ['London', 'England'],
       },
       visualThemes: {
@@ -25017,8 +25543,8 @@ export const aesthetics: AestheticProps[] = [
         figures: ['The Who', 'Small Faces', 'The Kinks', 'Twiggy', 'Jean Shrimpton', 'The Beatles'],
       },
       timeline: {
-        preceded: ['Teddy Boys', 'Beatnik'],
-        succeeded: ['Peacock Revolution', 'Skinhead', 'Northern Soul', 'Hippie (USA more prominently)'],
+        preceded: ['teddy_boys', 'beatnik'],
+        succeeded: ['peacock_revolution', 'skinhead', 'northern_soul', 'hippie_(usa more prominently)'],
       },
     },
   },
@@ -25033,7 +25559,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Catalan Modernism', 'Catalan Art Nouveau'],
-        decade: ['c. 1888 - 1911'],
+        decade: ['19th_century', '20th_century'],
         location: ['Catalonia', 'Spain'],
         creator: ['Antoni Gaudí', 'Lluís Domènech i Montaner', 'Josep Puig i Cadafalch'],
       },
@@ -25063,8 +25589,8 @@ export const aesthetics: AestheticProps[] = [
         overlaped: ['art_nouveau', 'symbolism'],
       },
       timeline: {
-        preceded: ['Romanticism', 'Historicism'],
-        succeeded: ['Noucentisme'],
+        preceded: ['romanticism', 'historicism'],
+        succeeded: ['noucentisme'],
       },
     },
   },
@@ -25078,7 +25604,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['Late 1970s'],
+        decade: ['20th_century', '1970s'],
         location: ['United Kingdom'],
       },
       visualThemes: {
@@ -25102,7 +25628,7 @@ export const aesthetics: AestheticProps[] = [
         figures: ['The Jam (especially Paul Weller)', 'Secret Affair', 'The Chords'],
       },
       timeline: {
-        preceded: ['Mod', 'Punk'],
+        preceded: ['mod', 'punk'],
       },
     },
   },
@@ -25116,7 +25642,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['1990s-2000s'],
+        decade: ['20th_century', '21th_century', '1990s', '2000s'],
         location: ['Japan'],
       },
       visualThemes: {
@@ -25150,6 +25676,7 @@ export const aesthetics: AestheticProps[] = [
       mediaCulture: {
         media: ['CGDCT ("Cute Girls Doing Cute Things") genre', 'visual novels', 'bishōjo games'],
       },
+      timeline: {},
     },
   },
   {
@@ -25163,7 +25690,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Gangstas with Waifus', 'Celebrities with Anime Characters'],
-        decade: ['2010s'],
+        decade: ['21th_century', '2010s'],
         creator: ['Unknown', 'popularized by Lushsux'],
       },
       visualThemes: {
@@ -25181,6 +25708,7 @@ export const aesthetics: AestheticProps[] = [
       connections: {
         related: ['future_funk', 'pen_pixel', 'meme_rap', 'moe', 'mlglolicore', 'trillwave'],
       },
+      timeline: {},
     },
   },
   {
@@ -25193,7 +25721,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['80s'],
+        decade: ['20th_century', '1980s'],
       },
       visualThemes: {
         motifs: [
@@ -25220,6 +25748,7 @@ export const aesthetics: AestheticProps[] = [
           'laser_grid',
         ],
       },
+      timeline: {},
     },
   },
   {
@@ -25234,7 +25763,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Mori Girl', 'Mori Boy'],
-        decade: ['2000s'],
+        decade: ['21th_century', '2000s'],
       },
       visualThemes: {
         motifs: [
@@ -25280,6 +25809,7 @@ export const aesthetics: AestheticProps[] = [
           'Studio Ghibli',
         ],
       },
+      timeline: {},
     },
   },
   {
@@ -25294,7 +25824,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Creepy Cute Tumblr', 'Morbid Cute', 'Morbid Dolly', 'Morbidette', 'Sad Babydoll', 'Sad Bbydoll'],
-        decade: ['Early 2010s'],
+        decade: ['21th_century', '2010s'],
         creator: ['Nicole Dollanganger'],
       },
       visualThemes: {
@@ -25343,6 +25873,7 @@ export const aesthetics: AestheticProps[] = [
           'Welcome to the Dollhouse (1995)',
         ],
       },
+      timeline: {},
     },
   },
   {
@@ -25355,7 +25886,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['Late 2000s'],
+        decade: ['21th_century', '2000s'],
       },
       visualThemes: {
         motifs: ['Attractiveness', 'simplicity'],
@@ -25364,6 +25895,7 @@ export const aesthetics: AestheticProps[] = [
       connections: {
         related: ['girly_kei', 'gyaru', 'larme_kei'],
       },
+      timeline: {},
     },
   },
   {
@@ -25376,7 +25908,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['2020s'],
+        decade: ['21th_century', '2020s'],
         location: ['Spain / Internet (Tik', 'Tok)'],
       },
       visualThemes: {
@@ -25406,6 +25938,7 @@ export const aesthetics: AestheticProps[] = [
         brands: ['Miu Miu', 'Chanel', 'Balmain', 'Diesel'],
         figures: ['ROSALÍA', 'Bella Hadid', 'Kim Kardashian'],
       },
+      timeline: {},
     },
   },
   {
@@ -25419,7 +25952,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['The Madrid Scene', 'La Edad de Oro del Pop Español'],
-        decade: ['Late 1970s'],
+        decade: ['20th_century', '1970s'],
         location: ['Madrid', 'Spain'],
       },
       visualThemes: {
@@ -25460,7 +25993,7 @@ export const aesthetics: AestheticProps[] = [
         figures: ['Pedro Almodóvar', 'Alaska (Olvido Gara)', 'Fabio Mc', 'Namara', 'Tino Casal', 'Ouka Leele'],
       },
       timeline: {
-        preceded: ['Francoist Spain era'],
+        preceded: ['francoist_spain era'],
       },
     },
   },
@@ -25474,7 +26007,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['12th–16th Centuries'],
+        decade: ['12th_century', '13th_century', '14th_century', '15th_century', '16th_century'],
         location: ['Medieval Iberia (Kingdoms of Castile', 'Aragon', 'Portugal)'],
       },
       visualThemes: {
@@ -25493,8 +26026,8 @@ export const aesthetics: AestheticProps[] = [
         related: ['gothic_architecture', 'moorish_revival', 'romanesque'],
       },
       timeline: {
-        preceded: ['Romanesque', 'Al-Andalus Islamic architecture'],
-        succeeded: ['Spanish Golden Age'],
+        preceded: ['romanesque', 'al-andalus_islamic architecture'],
+        succeeded: ['spanish_golden age'],
       },
     },
   },
@@ -25509,7 +26042,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Mushcore'],
-        decade: ['Early 2020s'],
+        decade: ['21th_century', '2020s'],
       },
       visualThemes: {
         motifs: [
@@ -25542,7 +26075,7 @@ export const aesthetics: AestheticProps[] = [
         platform: ['Facebook', 'Tik', 'Tok', 'Pinterest', 'Instagram'],
       },
       timeline: {
-        preceded: ['Cottagecore'],
+        preceded: ['cottagecore'],
       },
     },
   },
@@ -25556,7 +26089,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['Varies', 'due to the disconnected nature of many subgenres'],
+        decade: ['unknown'],
       },
       visualThemes: {
         motifs: [
@@ -25600,6 +26133,7 @@ export const aesthetics: AestheticProps[] = [
           'Jack the Giant-Killer by Charles de Lint',
         ],
       },
+      timeline: {},
     },
   },
   {
@@ -25612,7 +26146,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['2020s'],
+        decade: ['21th_century', '2020s'],
         location: ['Melbourne', 'Australia'],
       },
       visualThemes: {
@@ -25622,6 +26156,7 @@ export const aesthetics: AestheticProps[] = [
       connections: {
         related: ['gorpcore', 'normcore'],
       },
+      timeline: {},
     },
   },
   {
@@ -25635,7 +26170,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['High School Fantasy (ハイスクールファンタジー)'],
-        decade: ['2000s'],
+        decade: ['21th_century', '2000s'],
       },
       visualThemes: {
         motifs: ['Anything related to school life.'],
@@ -25654,6 +26189,7 @@ export const aesthetics: AestheticProps[] = [
           'nautical',
         ],
       },
+      timeline: {},
     },
   },
   {
@@ -25666,7 +26202,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['2020s'],
+        decade: ['21th_century', '2020s'],
       },
       visualThemes: {
         motifs: ['Forests', 'mountains', 'plants', 'flowers', 'wild animals', 'natural landscapes'],
@@ -25689,6 +26225,7 @@ export const aesthetics: AestheticProps[] = [
           'vulture_culture',
         ],
       },
+      timeline: {},
     },
   },
   {
@@ -25735,6 +26272,7 @@ export const aesthetics: AestheticProps[] = [
         ],
         brands: ['Life is Good', 'Brandy Melville', 'Simply Southern'],
       },
+      timeline: {},
     },
   },
   {
@@ -25748,7 +26286,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Nautical Fiction'],
-        decade: ['1180 (The Kraken myth)'],
+        decade: ['12th_century'],
         creator: ["Sailor's folktales"],
       },
       visualThemes: {
@@ -25773,6 +26311,7 @@ export const aesthetics: AestheticProps[] = [
       mediaCulture: {
         media: ['20', '000 Leagues Under The Sea', 'Red Seas Under Red Skies', 'Pirates of the Caribbean'],
       },
+      timeline: {},
     },
   },
   {
@@ -25785,7 +26324,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['Mid-1970s'],
+        decade: ['20th_century', '1970s'],
         creator: ['Various (Punk', 'Metal', 'Industrial subcultures)'],
       },
       visualThemes: {
@@ -25817,6 +26356,7 @@ export const aesthetics: AestheticProps[] = [
           'punk',
         ],
       },
+      timeline: {},
     },
   },
   {
@@ -25829,7 +26369,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['2020s'],
+        decade: ['21th_century', '2020s'],
         creator: ['NECROSOCIETY (Tsaruicide', 'Gorejit', 'Hxlx)'],
       },
       visualThemes: {
@@ -25853,7 +26393,7 @@ export const aesthetics: AestheticProps[] = [
         media: ['Slasher and horror films', 'horror cinema', 'combat footage', 'FPS gaming culture'],
       },
       timeline: {
-        preceded: ['Trap Metal'],
+        preceded: ['trap_metal'],
       },
     },
   },
@@ -25868,7 +26408,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['1920s2000s (modern)'],
+        decade: ['20th_century', '21th_century', '1920s', '2000s'],
       },
       visualThemes: {
         motifs: [
@@ -25891,6 +26431,7 @@ export const aesthetics: AestheticProps[] = [
       mediaCulture: {
         media: ['Neko Musume', 'The Star of the Cottonland Tokyo Mew Mew', 'Nekopara'],
       },
+      timeline: {},
     },
   },
   {
@@ -25904,7 +26445,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Frutiger Aero Revival', 'Neo-Frutiger Aero', 'Nu-Aero'],
-        decade: ['Early 2020s'],
+        decade: ['21th_century', '2020s'],
       },
       visualThemes: {
         motifs: [
@@ -25940,7 +26481,7 @@ export const aesthetics: AestheticProps[] = [
         platform: ['Tik', 'Tok', 'Reddit', 'Music/You', 'Tuber Branding (e.g.', 'Kurtis Conner)'],
       },
       timeline: {
-        preceded: ['Frutiger Aero'],
+        preceded: ['frutiger_aero'],
       },
     },
   },
@@ -25955,7 +26496,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['New Chinese Style', 'Xinzhongshi (新中式)', 'Neo-Chinese fashion'],
-        decade: ['Late 20th Century-Present'],
+        decade: ['20th_century'],
         location: ['China'],
       },
       visualThemes: {
@@ -25999,6 +26540,7 @@ export const aesthetics: AestheticProps[] = [
           'Li-Ning',
         ],
       },
+      timeline: {},
     },
   },
   {
@@ -26011,7 +26553,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['c. 1760–1830'],
+        decade: ['18th_century', '19th_century'],
         location: ['Rome', 'Italy'],
       },
       visualThemes: {
@@ -26060,8 +26602,8 @@ export const aesthetics: AestheticProps[] = [
         ],
       },
       timeline: {
-        preceded: ['Rococo', 'Baroque'],
-        succeeded: ['Romanticism'],
+        preceded: ['rococo', 'baroque'],
+        succeeded: ['romanticism'],
       },
     },
   },
@@ -26076,7 +26618,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Apocalyptic Folk', 'Folk Noir'],
-        decade: ['1980s'],
+        decade: ['20th_century', '1980s'],
         location: ['London', 'United Kingdom'],
         creator: ['Douglas Pearce', 'David Tibet', 'Tony Wakeford'],
       },
@@ -26102,7 +26644,7 @@ export const aesthetics: AestheticProps[] = [
         figures: ['Douglas Pearce', 'David Tibet', 'Tony Wakeford', 'Michael Moynihan', 'Jérôme Reuter'],
       },
       timeline: {
-        preceded: ['Industrial', 'Post-Punk'],
+        preceded: ['industrial', 'post-punk'],
       },
     },
   },
@@ -26117,7 +26659,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Neo-Noir'],
-        decade: ['1980s'],
+        decade: ['20th_century', '1980s'],
       },
       visualThemes: {
         motifs: ['Crime', 'Neon lights', 'Nightlife'],
@@ -26129,6 +26671,7 @@ export const aesthetics: AestheticProps[] = [
       mediaCulture: {
         media: ['Blade Runner'],
       },
+      timeline: {},
     },
   },
   {
@@ -26142,7 +26685,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Oozepunk'],
-        decade: ['1980s-1990s'],
+        decade: ['20th_century', '1980s', '1990s'],
       },
       visualThemes: {
         motifs: ['Slime', 'trash'],
@@ -26154,6 +26697,7 @@ export const aesthetics: AestheticProps[] = [
       mediaCulture: {
         brands: ['Nickelodeon'],
       },
+      timeline: {},
     },
   },
   {
@@ -26167,7 +26711,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Neo-Perreo'],
-        decade: ['Mid-2010s'],
+        decade: ['21th_century', '2010s'],
         location: ['Latin America and Spain (internet-based)'],
         creator: ['Tomasa del Real', 'Ms Nina'],
       },
@@ -26193,7 +26737,7 @@ export const aesthetics: AestheticProps[] = [
         related: ['bimbocore', 'cyberpunk', 'goth', 'motomami', 'neo-y2kraxet', 'reggaetonero'],
       },
       timeline: {
-        preceded: ['Reggaeton'],
+        preceded: ['reggaeton'],
       },
     },
   },
@@ -26208,7 +26752,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['New Pop'],
-        decade: ['1980s'],
+        decade: ['20th_century', '1980s'],
         location: ['United States'],
       },
       visualThemes: {
@@ -26244,8 +26788,8 @@ export const aesthetics: AestheticProps[] = [
         ],
       },
       timeline: {
-        preceded: ['Pop Art', 'Minimalism'],
-        succeeded: ['Superflat', 'Lowbrow'],
+        preceded: ['pop_art', 'minimalism'],
+        succeeded: ['superflat', 'lowbrow'],
       },
     },
   },
@@ -26260,7 +26804,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Neon Tokyo'],
-        decade: ['1980s'],
+        decade: ['20th_century', '1980s'],
         location: ['Japan'],
       },
       visualThemes: {
@@ -26285,7 +26829,7 @@ export const aesthetics: AestheticProps[] = [
         figures: ['Shotaro Kaneda (Akira)', 'Major Motoko Kusanagi (Ghost in the Shell)'],
       },
       timeline: {
-        preceded: ['Cyberpunk'],
+        preceded: ['cyberpunk'],
       },
     },
   },
@@ -26300,7 +26844,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Vectorheart Revival'],
-        decade: ['2010s'],
+        decade: ['21th_century', '2010s'],
       },
       visualThemes: {
         motifs: [
@@ -26322,6 +26866,7 @@ export const aesthetics: AestheticProps[] = [
           'vectorheart',
         ],
       },
+      timeline: {},
     },
   },
   {
@@ -26335,7 +26880,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Y2K Revival'],
-        decade: ['Late 2010s'],
+        decade: ['21th_century', '2010s'],
       },
       visualThemes: {
         motifs: [
@@ -26376,7 +26921,7 @@ export const aesthetics: AestheticProps[] = [
         ],
       },
       timeline: {
-        preceded: ['Y2K Futurism'],
+        preceded: ['y2k_futurism'],
       },
     },
   },
@@ -26391,7 +26936,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['1950s'],
+        decade: ['20th_century', '1950s'],
       },
       visualThemes: {
         motifs: [
@@ -26423,6 +26968,7 @@ export const aesthetics: AestheticProps[] = [
       mediaCulture: {
         media: ['Doctor Who', 'Star Trek', 'Star Wars', 'The IT Crowd', 'Napoleon Dynamite', 'The Outcasts (2017)'],
       },
+      timeline: {},
     },
   },
   {
@@ -26435,7 +26981,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['Late 1990s'],
+        decade: ['20th_century', '1990s'],
         creator: ['MC Frontalot'],
       },
       visualThemes: {
@@ -26464,6 +27010,7 @@ export const aesthetics: AestheticProps[] = [
           'y2k_futurism',
         ],
       },
+      timeline: {},
     },
   },
   {
@@ -26477,7 +27024,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Internet Art', 'Telematic Art'],
-        decade: ['1990s'],
+        decade: ['20th_century', '1990s'],
         creator: [
           'Early internet artists',
           'including Vuk Ćosić',
@@ -26519,6 +27066,7 @@ export const aesthetics: AestheticProps[] = [
           'xpiritualism',
         ],
       },
+      timeline: {},
     },
   },
   {
@@ -26532,7 +27080,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Neo Brutalism', 'Neo Memphis'],
-        decade: ['Late 2010s'],
+        decade: ['21th_century', '2010s'],
       },
       visualThemes: {
         motifs: [
@@ -26571,6 +27119,7 @@ export const aesthetics: AestheticProps[] = [
           'y2k_futurism',
         ],
       },
+      timeline: {},
     },
   },
   {
@@ -26584,7 +27133,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['NSK'],
-        decade: ['1980s'],
+        decade: ['20th_century', '1980s'],
         location: ['Ljubljana', 'Slovenia (then Yugoslavia)'],
         creator: ['Laibach', 'IRWIN', 'Scipion Nasice Sisters Theatre'],
       },
@@ -26618,7 +27167,7 @@ export const aesthetics: AestheticProps[] = [
         ],
       },
       timeline: {
-        preceded: ['Industrial', 'Historical Avant-Gardes'],
+        preceded: ['industrial', 'historical_avant-gardes'],
       },
     },
   },
@@ -26633,7 +27182,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Soft UI', 'New Skeuomorphism'],
-        decade: ['Late 2010s'],
+        decade: ['21th_century', '2010s'],
       },
       visualThemes: {
         motifs: [
@@ -26653,8 +27202,8 @@ export const aesthetics: AestheticProps[] = [
         media: ['mac', 'OS Big Sur (partial adoption)'],
       },
       timeline: {
-        preceded: ['Flat Design'],
-        succeeded: ['Glassmorphism', 'Claymorphism'],
+        preceded: ['flat_design'],
+        succeeded: ['glassmorphism', 'claymorphism'],
       },
     },
   },
@@ -26669,7 +27218,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Belgian New Beat'],
-        decade: ['Late 1980s (1987–1989)'],
+        decade: ['20th_century', '1980s'],
         location: ['Belgium'],
       },
       visualThemes: {
@@ -26696,8 +27245,8 @@ export const aesthetics: AestheticProps[] = [
         figures: ["Confetti's", 'Lords of Acid', 'Technotronic', 'Praga Khan', 'Patrick de Meyer (Tragic Error)'],
       },
       timeline: {
-        preceded: ['Belgian Popcorn', 'EBMNew Wave'],
-        succeeded: ['Gabber'],
+        preceded: ['belgian_popcorn', 'ebmnew_wave'],
+        succeeded: ['gabber'],
       },
     },
   },
@@ -26713,7 +27262,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['"Northern Gothic"'],
-        decade: ['1835'],
+        decade: ['19th_century', '1840s'],
         creator: ['Nathaniel Hawthorne'],
       },
       visualThemes: {
@@ -26749,6 +27298,7 @@ export const aesthetics: AestheticProps[] = [
           'southern_gothic',
         ],
       },
+      timeline: {},
     },
   },
   {
@@ -26762,7 +27312,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Neofiguration', 'Neo-Figurative Art', 'Nueva Figuración'],
-        decade: ['1950s-1960s'],
+        decade: ['20th_century', '1950s', '1960s'],
         location: ['Argentina', 'Mexico', 'Venezuela', 'Spain'],
       },
       visualThemes: {
@@ -26773,6 +27323,7 @@ export const aesthetics: AestheticProps[] = [
       connections: {
         related: ['cubism', 'expressionism', 'figuration_narrative', 'surrealism'],
       },
+      timeline: {},
     },
   },
   {
@@ -26785,7 +27336,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['Late-1940s'],
+        decade: ['20th_century', '1940s'],
         location: ['France'],
         creator: ['Christian Dior'],
       },
@@ -26808,7 +27359,7 @@ export const aesthetics: AestheticProps[] = [
         ],
       },
       timeline: {
-        preceded: ['Wartime Austerity'],
+        preceded: ['wartime_austerity'],
       },
     },
   },
@@ -26823,7 +27374,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Skol Lulyn (Cornish)'],
-        decade: ['c. 1880s–1910s'],
+        decade: ['19th_century', '20th_century', '1880s', '1890s', '1900s', '1910s'],
         location: ['Newlyn', 'Cornwall', 'England'],
         creator: ['Walter Langley', 'Stanhope Forbes'],
       },
@@ -26852,8 +27403,8 @@ export const aesthetics: AestheticProps[] = [
         figures: ['Stanhope Forbes', 'Walter Langley', 'Frank Bramley', 'Norman Garstin', 'Laura Knight'],
       },
       timeline: {
-        preceded: ['Realism', 'Barbizon School'],
-        succeeded: ['St Ives School'],
+        preceded: ['realism', 'barbizon_school'],
+        succeeded: ['st_ives school'],
       },
     },
   },
@@ -26888,6 +27439,7 @@ export const aesthetics: AestheticProps[] = [
         media: ['Iron Man', 'Dynasty'],
         brands: ['Chanel', 'Goop', 'Gucci', 'Louis Vuitton', 'Versace'],
       },
+      timeline: {},
     },
   },
   {
@@ -26901,7 +27453,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Novi Partizani'],
-        decade: ['1980s'],
+        decade: ['20th_century', '1980s'],
         location: ['Sarajevo', 'Yugoslavia (now Bosnia and Herzegovina)'],
       },
       visualThemes: {
@@ -26922,6 +27474,7 @@ export const aesthetics: AestheticProps[] = [
       mediaCulture: {
         figures: ['Bijelo Dugme', 'Plavi Orkestar', 'Merlin'],
       },
+      timeline: {},
     },
   },
   {
@@ -26935,7 +27488,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['New Primitives', 'Novi Primitivizam'],
-        decade: ['March 1983'],
+        decade: ['20th_century', '1980s'],
         location: ['Sarajevo', 'Socialist Republic of Bosnia and Herzegovina', 'SFR Yugoslavia'],
         creator: [
           'Nele Karajlić',
@@ -26984,8 +27537,8 @@ export const aesthetics: AestheticProps[] = [
         figures: ['Nele Karajlić', 'Elvis J. Kurtović', 'Sejo Sexon', 'Branko Đurić'],
       },
       timeline: {
-        preceded: ['Punk', 'New Wave'],
-        succeeded: ['New Partisans'],
+        preceded: ['punk', 'new_wave'],
+        succeeded: ['new_partisans'],
       },
     },
   },
@@ -27000,7 +27553,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Nu-Rave', 'Neu-Rave'],
-        decade: ['Mid-2000s (c. 2006–2008)'],
+        decade: ['21th_century', '2000s'],
         location: ['United Kingdom'],
       },
       visualThemes: {
@@ -27016,8 +27569,8 @@ export const aesthetics: AestheticProps[] = [
         figures: ['Klaxons', 'Late of the Pier', 'Trash Fashion', 'New Young Pony Club', 'CSS'],
       },
       timeline: {
-        preceded: ['Indie', 'Electroclash'],
-        succeeded: ['Indie Sleaze'],
+        preceded: ['indie', 'electroclash'],
+        succeeded: ['indie_sleaze'],
       },
     },
   },
@@ -27032,7 +27585,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Blitz Kids'],
-        decade: ['Late 1970s'],
+        decade: ['20th_century', '1970s'],
       },
       visualThemes: {
         motifs: [
@@ -27057,6 +27610,7 @@ export const aesthetics: AestheticProps[] = [
           'visual_kei',
         ],
       },
+      timeline: {},
     },
   },
   {
@@ -27069,7 +27623,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['Late 1970s'],
+        decade: ['20th_century', '1970s'],
         location: ['United Kingdom & United States (international)'],
       },
       visualThemes: {
@@ -27113,8 +27667,8 @@ export const aesthetics: AestheticProps[] = [
         ],
       },
       timeline: {
-        preceded: ['Disco', 'Punk', 'Post-Punk'],
-        succeeded: ['Memphis Lite', 'Electroclash', 'Madchester'],
+        preceded: ['disco', 'punk', 'post-punk'],
+        succeeded: ['memphis_lite', 'electroclash', 'madchester'],
       },
     },
   },
@@ -27128,7 +27682,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['2000s'],
+        decade: ['21th_century', '2000s'],
       },
       visualThemes: {
         motifs: [
@@ -27149,6 +27703,7 @@ export const aesthetics: AestheticProps[] = [
       mediaCulture: {
         platform: ['You', 'Tube (music video thumbnails)', 'wallpaper websites', 'imageboards'],
       },
+      timeline: {},
     },
   },
   {
@@ -27161,7 +27716,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['2010s'],
+        decade: ['21th_century', '2010s'],
       },
       visualThemes: {
         motifs: ['Plain silhouettes', 'brand-less basics', 'suburban utility', 'technical gear', '"dad" fashion'],
@@ -27178,8 +27733,8 @@ export const aesthetics: AestheticProps[] = [
         figures: ['Steve Jobs', 'Jerry Seinfeld', 'Larry David'],
       },
       timeline: {
-        preceded: ['Hipster', 'Minimalism'],
-        succeeded: ['Gorpcore'],
+        preceded: ['hipster', 'minimalism'],
+        succeeded: ['gorpcore'],
       },
     },
   },
@@ -27194,7 +27749,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Norse', 'Viking', 'Nordic', 'Scandinavia'],
-        decade: ["2010's"],
+        decade: ['21th_century', '2010s'],
       },
       visualThemes: {
         motifs: [
@@ -27227,6 +27782,7 @@ export const aesthetics: AestheticProps[] = [
           'vulture_culture',
         ],
       },
+      timeline: {},
     },
   },
   {
@@ -27239,7 +27795,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['Late 1960s'],
+        decade: ['20th_century', '1960s'],
         location: ['Northern England and the Midlands'],
       },
       visualThemes: {
@@ -27258,8 +27814,8 @@ export const aesthetics: AestheticProps[] = [
         related: ['beatnik', 'belgian_popcorn', 'disco', 'glam_rock', 'madchester', 'mod', 'rude_boy', 'skinhead'],
       },
       timeline: {
-        preceded: ['Mod', 'Skinhead'],
-        succeeded: ['Madchester'],
+        preceded: ['mod', 'skinhead'],
+        succeeded: ['madchester'],
       },
     },
   },
@@ -27273,7 +27829,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['Late 2010s'],
+        decade: ['21th_century', '2010s'],
       },
       visualThemes: {
         motifs: [
@@ -27294,7 +27850,7 @@ export const aesthetics: AestheticProps[] = [
         platform: ['Tik', 'Tok', 'Tumblr', 'Pinterest'],
       },
       timeline: {
-        preceded: ['Dreamcore'],
+        preceded: ['dreamcore'],
       },
     },
   },
@@ -27308,7 +27864,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['c. 1906–1923'],
+        decade: ['20th_century', '1900s', '1910s', '1920s'],
         location: ['Catalonia', 'Spain'],
         creator: ["Eugeni d'Ors"],
       },
@@ -27346,8 +27902,8 @@ export const aesthetics: AestheticProps[] = [
         ],
       },
       timeline: {
-        preceded: ['Modernisme'],
-        succeeded: ['Avant-garde movements'],
+        preceded: ['modernisme'],
+        succeeded: ['avant-garde_movements'],
       },
     },
   },
@@ -27362,7 +27918,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['New Realism'],
-        decade: ['Early 1960s'],
+        decade: ['20th_century', '1960s'],
         location: ['France'],
         creator: ['Pierre Restany', 'Yves Klein'],
       },
@@ -27382,6 +27938,7 @@ export const aesthetics: AestheticProps[] = [
           'surrealism',
         ],
       },
+      timeline: {},
     },
   },
   {
@@ -27395,7 +27952,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Hipster Goth'],
-        decade: ['2010s'],
+        decade: ['21th_century', '2010s'],
       },
       visualThemes: {
         motifs: [
@@ -27417,6 +27974,7 @@ export const aesthetics: AestheticProps[] = [
         platform: ['Tumblr', 'Instagram'],
         brands: ['Killstar', 'Disturbia', 'Dr. Martens'],
       },
+      timeline: {},
     },
   },
   {
@@ -27429,7 +27987,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['Mid-1990s'],
+        decade: ['20th_century', '1990s'],
         location: ['United States'],
       },
       visualThemes: {
@@ -27492,8 +28050,8 @@ export const aesthetics: AestheticProps[] = [
         figures: ['Korn', 'Limp Bizkit', 'Linkin Park', 'Deftones', 'Slipknot', 'System of a Down'],
       },
       timeline: {
-        preceded: ['Grunge', 'Metal'],
-        succeeded: ['Third Wave Emo'],
+        preceded: ['grunge', 'metal'],
+        succeeded: ['third_wave emo'],
       },
     },
   },
@@ -27508,7 +28066,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Chicago Punk'],
-        decade: ["1990's"],
+        decade: ['20th_century', '1990s'],
       },
       visualThemes: {
         values: ['Getting through the day', 'here for a good time not a long time'],
@@ -27520,6 +28078,7 @@ export const aesthetics: AestheticProps[] = [
         media: ['The Lawrence Arms', 'Alkaline Trio', 'The Bouncing Souls'],
         brands: ['Chrome', "Levi's"],
       },
+      timeline: {},
     },
   },
   {
@@ -27533,7 +28092,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Няшка', 'Drain-Nyashka (дрейн-няшка)'],
-        decade: ['2020s'],
+        decade: ['21th_century', '2020s'],
         location: ['Russia and Ukraine'],
       },
       visualThemes: {
@@ -27557,6 +28116,7 @@ export const aesthetics: AestheticProps[] = [
         platform: ['VKontakte', 'Tik', 'Tok', 'Telegram'],
         media: ['Hunter x Hunter', 'Tokyo Ghoul', 'various animes'],
       },
+      timeline: {},
     },
   },
   {
@@ -27571,7 +28131,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Nymphette', 'Vintage Americana Coquette', 'American Lolita', 'Lolitacore'],
-        decade: ["1950's/2010s Tumblr"],
+        decade: ['20th_century', '21th_century', '1950s', '2010s'],
         creator: ['Vladimir Nabokov'],
       },
       visualThemes: {
@@ -27598,6 +28158,7 @@ export const aesthetics: AestheticProps[] = [
       mediaCulture: {
         media: ['Lolita (1962)Lolita (1997)'],
       },
+      timeline: {},
     },
   },
   {
@@ -27610,7 +28171,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['2010s'],
+        decade: ['21th_century', '2010s'],
       },
       visualThemes: {
         motifs: [
@@ -27643,6 +28204,7 @@ export const aesthetics: AestheticProps[] = [
       mediaCulture: {
         media: ['Aliens of the Deep (2005)Narcosis (game) (2017-)League of Legends: Forgotten Depths Arc (2009s-)'],
       },
+      timeline: {},
     },
   },
   {
@@ -27655,7 +28217,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['1870s (concept)1990s (term and popularization)'],
+        decade: ['20th_century', '1990s'],
       },
       visualThemes: {
         motifs: ['Ocean', 'ocean colonisation', 'ships', 'sea architecture', 'Pirates'],
@@ -27677,6 +28239,7 @@ export const aesthetics: AestheticProps[] = [
       mediaCulture: {
         media: ['Waterworld'],
       },
+      timeline: {},
     },
   },
   {
@@ -27691,7 +28254,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Bayonettacore', 'Corpcore', 'Corporate Girlie'],
-        decade: ['2020s'],
+        decade: ['21th_century', '2020s'],
       },
       visualThemes: {
         motifs: [
@@ -27722,6 +28285,7 @@ export const aesthetics: AestheticProps[] = [
         brands: ['Miu Miu', 'Prada', 'Dolce & Gabbana', 'Ralph Lauren', 'Hugo Boss'],
         figures: ['Bella Hadid', 'Gisele Bündchen (as Serena in The Devil Wears Prada)', 'Bayonetta'],
       },
+      timeline: {},
     },
   },
   {
@@ -27735,7 +28299,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Офники'],
-        decade: ['2010s'],
+        decade: ['21th_century', '2010s'],
         location: ['Russia and Eastern Europe'],
       },
       visualThemes: {
@@ -27749,6 +28313,7 @@ export const aesthetics: AestheticProps[] = [
         platform: ['VKontakte (VK)'],
         brands: ['Adidas', 'C.P. Company', 'Napapijri', 'Stone Island'],
       },
+      timeline: {},
     },
   },
   {
@@ -27762,7 +28327,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Street Punk Skin', '80s Skinhead', 'Second Wave Skinhead'],
-        decade: ['Late 1970s (c. 1977–1979)'],
+        decade: ['20th_century', '1970s'],
         location: ['United Kingdom (London East End)'],
       },
       visualThemes: {
@@ -27786,8 +28351,8 @@ export const aesthetics: AestheticProps[] = [
         figures: ['Garry Bushell', 'Sham 69', 'Cockney Rejects', 'The 4-Skins'],
       },
       timeline: {
-        preceded: ['Trojan Skinhead', 'Suedehead'],
-        succeeded: ['SHARPRedskin', 'White Power Skinhead'],
+        preceded: ['trojan_skinhead', 'suedehead'],
+        succeeded: ['sharpredskin', 'white_power skinhead'],
       },
     },
   },
@@ -27802,7 +28367,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Wiesn', "d'Wiesn"],
-        decade: ['1800s'],
+        decade: ['19th_century', '1800s'],
       },
       visualThemes: {
         motifs: ['Beer', 'food', 'traditional Bavarian costumes', 'parades', 'music'],
@@ -27812,6 +28377,7 @@ export const aesthetics: AestheticProps[] = [
       connections: {
         related: ['saint_patricks_day', 'autumn'],
       },
+      timeline: {},
     },
   },
   {
@@ -27825,7 +28391,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['2020s (drawing from 1990s-2000s)'],
+        decade: ['21th_century', '2020s'],
       },
       visualThemes: {
         motifs: [
@@ -27874,6 +28440,7 @@ export const aesthetics: AestheticProps[] = [
           'Converse',
         ],
       },
+      timeline: {},
     },
   },
   {
@@ -27886,7 +28453,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['1920s-1930s'],
+        decade: ['20th_century', '1920s', '1930s'],
       },
       visualThemes: {
         motifs: [
@@ -27912,6 +28479,7 @@ export const aesthetics: AestheticProps[] = [
           'rockabilly',
         ],
       },
+      timeline: {},
     },
   },
   {
@@ -27965,6 +28533,7 @@ export const aesthetics: AestheticProps[] = [
           'Fashion 4 The Leisure Class',
         ],
       },
+      timeline: {},
     },
   },
   {
@@ -27978,7 +28547,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Web 1.0 Aesthetic', 'Geo', 'Cities Aesthetic', '1990s Web Design'],
-        decade: ['1990s'],
+        decade: ['20th_century', '1990s'],
         creator: ['Amateur web developers and personal homepage users'],
       },
       visualThemes: {
@@ -28009,6 +28578,7 @@ export const aesthetics: AestheticProps[] = [
       mediaCulture: {
         platform: ['Geo', 'Cities', 'Angelfire', 'Tripod', 'Personal Homepages'],
       },
+      timeline: {},
     },
   },
   {
@@ -28021,7 +28591,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['1990s'],
+        decade: ['20th_century', '1990s'],
       },
       visualThemes: {
         motifs: ['"Wolf" haircut', 'imported jeans', 'pointed shoes', ''],
@@ -28030,6 +28600,7 @@ export const aesthetics: AestheticProps[] = [
       connections: {
         related: ['archive', 'gyaru', 'olderbrothercore', 'onee_gyaru_female_counterpart'],
       },
+      timeline: {},
     },
   },
   {
@@ -28043,7 +28614,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Optical Art'],
-        decade: ['1960s (origins dating back to the 1930s)'],
+        decade: ['20th_century', '1960s'],
       },
       visualThemes: {
         motifs: [
@@ -28091,7 +28662,7 @@ export const aesthetics: AestheticProps[] = [
         ],
       },
       timeline: {
-        preceded: ['Bauhaus', 'Constructivism', 'Geometric Abstraction'],
+        preceded: ['bauhaus', 'constructivism', 'geometric_abstraction'],
       },
     },
   },
@@ -28106,7 +28677,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Vamp', '00', 'Opiumcore'],
-        decade: ['2020s'],
+        decade: ['21th_century', '2020s'],
         location: ['Atlanta', 'Georgia / Internet'],
         creator: ['Playboi Carti (Label Founder)'],
       },
@@ -28137,6 +28708,7 @@ export const aesthetics: AestheticProps[] = [
         brands: ['Rick Owens', 'Balenciaga', 'Vetements', 'Chrome Hearts', 'Alyx', 'Givenchy', 'Raf Simons'],
         figures: ['Playboi Carti', 'Ken Carson', 'Destroy Lonely', 'Homixide Gang', 'Matthew Williams', 'Rick Owens'],
       },
+      timeline: {},
     },
   },
   {
@@ -28150,7 +28722,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Osare Kei (オサレ系)'],
-        decade: ['2001'],
+        decade: ['21th_century', '2000s'],
         creator: ['BAROQUE'],
       },
       visualThemes: {
@@ -28159,6 +28731,7 @@ export const aesthetics: AestheticProps[] = [
       connections: {
         related: ['decora', 'fairy_kei', 'harajuku_fashion', 'visual_kei', 'scene'],
       },
+      timeline: {},
     },
   },
   {
@@ -28172,7 +28745,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Wotaku', 'Idol Otaku'],
-        decade: ['2000s'],
+        decade: ['21th_century', '2000s'],
       },
       visualThemes: {
         values: ['Idol worship'],
@@ -28180,6 +28753,7 @@ export const aesthetics: AestheticProps[] = [
       connections: {
         related: ['animecore', 'itasha', 'girly_kei', 'otaku', 'ryousangata_otaku_personal_aesthetics_wiki'],
       },
+      timeline: {},
     },
   },
   {
@@ -28193,7 +28767,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['East German Nostalgia', 'GDR Nostalgia', 'Eastalgia'],
-        decade: ['Post-1990 (German reunificatin/as nostalgia)'],
+        decade: ['20th_century', '1990s'],
         location: ['East Germany'],
       },
       visualThemes: {
@@ -28218,6 +28792,7 @@ export const aesthetics: AestheticProps[] = [
         media: ['Good Bye', 'Lenin!', 'Sonnenallee', 'documentaries on GDR life'],
         brands: ['Rotkäppchen', 'Vita Cola', 'Berliner Fernsehturm (as a symbol)'],
       },
+      timeline: {},
     },
   },
   {
@@ -28231,7 +28806,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['2010s'],
+        decade: ['21th_century', '2010s'],
       },
       visualThemes: {
         motifs: ['Unfashionable', 'nerdy'],
@@ -28240,6 +28815,7 @@ export const aesthetics: AestheticProps[] = [
       connections: {
         related: ['denpa', 'itasha', 'moe', 'nerd', 'nerdcore', 'lolicore', 'superflat', 'weeaboo', 'wota'],
       },
+      timeline: {},
     },
   },
   {
@@ -28252,7 +28828,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['1970s'],
+        decade: ['20th_century', '1970s'],
       },
       visualThemes: {
         colours: ['earthy', 'muted', 'or vintage-inspired color palettes'],
@@ -28263,6 +28839,7 @@ export const aesthetics: AestheticProps[] = [
       mediaCulture: {
         brands: ['Pink House'],
       },
+      timeline: {},
     },
   },
   {
@@ -28276,7 +28853,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['音MAD', 'Sound MAD', 'Kichiku (China)'],
-        decade: ['Late 2000s'],
+        decade: ['21th_century', '2000s'],
         creator: ['Nico Nico Douga Community'],
       },
       visualThemes: {
@@ -28297,6 +28874,7 @@ export const aesthetics: AestheticProps[] = [
         platform: ['Nico Nico Douga', 'Bilibili', 'You', 'Tube'],
         media: ['Touhou Project', 'Mc', "Dondald's Japan commercials", 'Z-Kai', '"Red Zone"'],
       },
+      timeline: {},
     },
   },
   {
@@ -28309,7 +28887,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['Late 90s/Early 2000s'],
+        decade: ['20th_century', '21th_century', '1990s', '2000s'],
       },
       connections: {
         related: [
@@ -28340,6 +28918,7 @@ export const aesthetics: AestheticProps[] = [
           'Sheglit',
         ],
       },
+      timeline: {},
     },
   },
   {
@@ -28353,7 +28932,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Zoot Suiters'],
-        decade: ['1930s-1940s'],
+        decade: ['20th_century', '1930s', '1940s'],
         location: ['United States (U.S.-Mexico border cities', 'East Los Angeles)'],
         creator: ['Mexican-American and Chicano youth'],
       },
@@ -28387,7 +28966,7 @@ export const aesthetics: AestheticProps[] = [
         figures: ['Tin Tan'],
       },
       timeline: {
-        preceded: ['Harlem Renaissance'],
+        preceded: ['harlem_renaissance'],
       },
     },
   },
@@ -28401,7 +28980,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['1970s'],
+        decade: ['20th_century', '1970s'],
       },
       connections: {
         related: [
@@ -28417,6 +28996,7 @@ export const aesthetics: AestheticProps[] = [
           'rad_dog',
         ],
       },
+      timeline: {},
     },
   },
   {
@@ -28429,7 +29009,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['Mid-2010s'],
+        decade: ['21th_century', '2010s'],
       },
       visualThemes: {
         motifs: ['Light-wash denim', 'white sneakers', 'loose fits', 'basic tees', 'minimalism'],
@@ -28443,6 +29023,7 @@ export const aesthetics: AestheticProps[] = [
         platform: ['Reddit (r/streetwear)', 'Tumblr'],
         brands: ['Our Legacy', 'Norse Projects', 'Acne Studios', 'Common Projects'],
       },
+      timeline: {},
     },
   },
   {
@@ -28455,7 +29036,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['1980s'],
+        decade: ['20th_century', '1980s'],
         location: ['Milan', 'Italy'],
       },
       visualThemes: {
@@ -28479,6 +29060,7 @@ export const aesthetics: AestheticProps[] = [
         ],
         figures: ['Enzo Braschi (as a parody character)'],
       },
+      timeline: {},
     },
   },
   {
@@ -28492,7 +29074,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Apaches de Paris', 'Apacherie'],
-        decade: ['1890s–1910s'],
+        decade: ['19th_century', '20th_century', '1890s', '1900s', '1910s'],
         location: ['Paris', 'France'],
       },
       visualThemes: {
@@ -28510,6 +29092,7 @@ export const aesthetics: AestheticProps[] = [
       connections: {
         related: ['art_nouveau', 'bohemian'],
       },
+      timeline: {},
     },
   },
   {
@@ -28523,7 +29106,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['2000s Paris Trend', 'Paris Party', 'Paris Bling', 'Oh Là Là Paris', 'Triple Chic'],
-        decade: ['Late 2000s'],
+        decade: ['21th_century', '2000s'],
       },
       visualThemes: {
         motifs: ['The Eiffel Tower', 'Breton stripes', 'poodles', 'fleurs-de-lis', 'mannequins', 'ornate mirrors'],
@@ -28536,6 +29119,7 @@ export const aesthetics: AestheticProps[] = [
       mediaCulture: {
         brands: ['Barbie', 'Monster High'],
       },
+      timeline: {},
     },
   },
   {
@@ -28549,7 +29133,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['PJ'],
-        decade: ['Late 2000s'],
+        decade: ['21th_century', '2000s'],
         location: ['Partille', 'Gothenburg', 'Sweden'],
         creator: ['Johnny Shalaimon (popularizer)'],
       },
@@ -28565,6 +29149,7 @@ export const aesthetics: AestheticProps[] = [
         media: ['Bilddagboken (Swedish social media)', 'Basshunter (musician)'],
         brands: ['D:fi (hair wax)', 'Dax Wax', 'Evisu', 'Wesc', 'Björn Borg'],
       },
+      timeline: {},
     },
   },
   {
@@ -28578,7 +29163,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['2010s Party Aesthetic'],
-        decade: ['Late 2000s-Early 2010s'],
+        decade: ['21th_century', '2000s'],
         location: ['Los Angeles', 'United States (specifically the Hollywood club scene)'],
         creator: ['LMFAO (Redfoo & Sky', 'Blu)'],
       },
@@ -28604,8 +29189,8 @@ export const aesthetics: AestheticProps[] = [
         brands: ['Ciroc', 'Beats by Dre', 'American Apparel', 'Vans'],
       },
       timeline: {
-        preceded: ['Mc', 'Bling', 'Indie Sleaze'],
-        succeeded: ['Hypebeast'],
+        preceded: ['mc', 'bling', 'indie_sleaze'],
+        succeeded: ['hypebeast'],
       },
     },
   },
@@ -28619,7 +29204,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['Late 2010s'],
+        decade: ['21th_century', '2010s'],
       },
       visualThemes: {
         motifs: ['Organs', 'blood', 'bones', 'candy', 'slime', 'eyeballs', 'weaponry', 'body horror elements'],
@@ -28641,6 +29226,7 @@ export const aesthetics: AestheticProps[] = [
       mediaCulture: {
         platform: ['Online art communities (Tumblr', 'Deviant', 'Art', 'Amino', 'Sony Sketch)'],
       },
+      timeline: {},
     },
   },
   {
@@ -28655,7 +29241,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Kawaii Goth', 'Spooky Kawaii'],
-        decade: ['2010s'],
+        decade: ['21th_century', '2010s'],
       },
       visualThemes: {
         motifs: ['Bats', 'eyeballs', 'bones', 'pastel crosses', 'pentagrams', 'drippy texts'],
@@ -28675,6 +29261,7 @@ export const aesthetics: AestheticProps[] = [
           'yami_kawaii',
         ],
       },
+      timeline: {},
     },
   },
   {
@@ -28687,7 +29274,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['early-mid 2010s'],
+        decade: ['21th_century', '2010s'],
         location: ['America/Europe'],
       },
       visualThemes: {
@@ -28705,8 +29292,8 @@ export const aesthetics: AestheticProps[] = [
         figures: ['LOONA', 'Aluna', 'George', 'Lemaitre', 'Madeon'],
       },
       timeline: {
-        preceded: ['Webcore'],
-        succeeded: ['Seapunk'],
+        preceded: ['webcore'],
+        succeeded: ['seapunk'],
       },
     },
   },
@@ -28729,7 +29316,7 @@ export const aesthetics: AestheticProps[] = [
           'Burguesa',
           'Mauricinho/Enzo/Enzocore (male variant)',
         ],
-        decade: ['2000s (pre-concept)', 'early 2020s'],
+        decade: ['21th_century', '2000s', '21th_century', '2020s'],
         location: ['São Paulo', 'Brazil'],
       },
       visualThemes: {
@@ -28744,6 +29331,7 @@ export const aesthetics: AestheticProps[] = [
         platform: ['Tik', 'Tok'],
         brands: ['Vans', 'Nike Air Force', 'Nike Air Jordan', 'V10'],
       },
+      timeline: {},
     },
   },
   {
@@ -28756,7 +29344,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['1990s'],
+        decade: ['20th_century', '1990s'],
       },
       visualThemes: {
         motifs: ['Limited colors', 'anime', 'high-resolution pixel art'],
@@ -28777,6 +29365,7 @@ export const aesthetics: AestheticProps[] = [
           'vaporwave',
         ],
       },
+      timeline: {},
     },
   },
   {
@@ -28790,7 +29379,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Bubblegum Bass', 'Hyperpop'],
-        decade: ['2010s'],
+        decade: ['21th_century', '2010s'],
         location: ['London', 'United Kingdom'],
       },
       visualThemes: {
@@ -28820,8 +29409,8 @@ export const aesthetics: AestheticProps[] = [
         figures: ['A. G. Cook', 'SOPHIE', 'Hannah Diamond', 'Charli XCX'],
       },
       timeline: {
-        preceded: ['Vaporwave'],
-        succeeded: ['Hyperpop'],
+        preceded: ['vaporwave'],
+        succeeded: ['hyperpop'],
       },
     },
   },
@@ -28836,7 +29425,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Peachy Beachy'],
-        decade: ['2020s'],
+        decade: ['21th_century', '2020s'],
       },
       visualThemes: {
         motifs: ['Peaches', 'soft blush', 'dewy skin', 'glossy lips', 'sun-kissed glow', 'simple clothing'],
@@ -28846,6 +29435,7 @@ export const aesthetics: AestheticProps[] = [
       connections: {
         related: ['blueberry_girl', 'coquette', 'soft_girl', 'strawberry_girl', 'that_girl', 'tomato_girl'],
       },
+      timeline: {},
     },
   },
   {
@@ -28859,7 +29449,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Swinging London', 'Freakbeat', 'Soft Mod', 'Peacock Mod', 'Smooth Mod', 'British Invasion'],
-        decade: ['Mid 1960s'],
+        decade: ['20th_century', '1960s'],
         creator: ['Ernest Dichter', '1965 (coined term)George Frazier', '1968 (popularised term)'],
       },
       visualThemes: {
@@ -28919,8 +29509,8 @@ export const aesthetics: AestheticProps[] = [
         media: ['60s British Invasion and psychedelic rock bands'],
       },
       timeline: {
-        preceded: ['Mod'],
-        succeeded: ['Hippie', 'Glam Rock', 'Earth Tones (70s casual wear)Punk', 'New Romantic'],
+        preceded: ['mod'],
+        succeeded: ['hippie', 'glam_rock', 'earth_tones (70s casual wear)punk', 'new_romantic'],
       },
     },
   },
@@ -28934,7 +29524,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['2020s'],
+        decade: ['21th_century', '2020s'],
       },
       visualThemes: {
         motifs: ['Pearl necklaces', 'pearl embellishments', 'iridescent accents', 'baroque pearls', 'layered jewelry'],
@@ -28949,6 +29539,7 @@ export const aesthetics: AestheticProps[] = [
         brands: ['Chanel', 'Simone Rocha', 'Vivienne Westwood'],
         figures: ['Harry Styles', 'A$AP Rocky', 'Kate Middleton'],
       },
+      timeline: {},
     },
   },
   {
@@ -28962,7 +29553,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Gengarcore'],
-        decade: ['Late 2010s'],
+        decade: ['21th_century', '2010s'],
       },
       visualThemes: {
         colours: ['Purple', 'black', 'green'],
@@ -28974,6 +29565,7 @@ export const aesthetics: AestheticProps[] = [
         media: ['Pokémon'],
         brands: ['Ohpearl'],
       },
+      timeline: {},
     },
   },
   {
@@ -28987,7 +29579,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Bling Era Graphics', 'Dirty South Style', 'No Limit Style'],
-        decade: ['Late 1990s'],
+        decade: ['20th_century', '1990s'],
         location: ['Houston', 'Texas'],
         creator: ['Pen & Pixel (Aaron and Shawn Brauch)'],
       },
@@ -29019,6 +29611,7 @@ export const aesthetics: AestheticProps[] = [
       mediaCulture: {
         figures: ['Master P', 'Birdman', 'Lil Wayne', 'Snoop Dogg', 'Big Bear'],
       },
+      timeline: {},
     },
   },
   {
@@ -29032,7 +29625,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['2021'],
+        decade: ['21th_century', '2020s'],
       },
       visualThemes: {
         motifs: ['Hands', 'food and cooking', 'urban areas', 'people interacting'],
@@ -29051,6 +29644,7 @@ export const aesthetics: AestheticProps[] = [
           'thought_daughter',
         ],
       },
+      timeline: {},
     },
   },
   {
@@ -29064,7 +29658,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['OG Phonk', 'Rare Phonk', 'Memphis Rap Revival'],
-        decade: ['Early 2010s'],
+        decade: ['21th_century', '2010s'],
         location: ['Sound', 'Cloud (Global)', 'roots in Miami (Raider Klan) and Memphis'],
       },
       visualThemes: {
@@ -29097,8 +29691,8 @@ export const aesthetics: AestheticProps[] = [
         ],
       },
       timeline: {
-        preceded: ['Trillwave', 'Horrorcore'],
-        succeeded: ['Drift Phonk'],
+        preceded: ['trillwave', 'horrorcore'],
+        succeeded: ['drift_phonk'],
       },
     },
   },
@@ -29113,7 +29707,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Super-Realism', 'Hyperrealism', 'Sharp-Focus Realism'],
-        decade: ['Late 1960s–1970s'],
+        decade: ['20th_century', '1960s', '1970s'],
         location: ['United States'],
       },
       visualThemes: {
@@ -29143,7 +29737,7 @@ export const aesthetics: AestheticProps[] = [
         figures: ['Richard Estes', 'Chuck Close', 'Audrey Flack', 'Ralph Goings', 'Robert Bechtle'],
       },
       timeline: {
-        preceded: ['Pop Art'],
+        preceded: ['pop_art'],
       },
     },
   },
@@ -29158,7 +29752,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Piano Aesthetic', 'Piano Girl', 'Music Note Fashion'],
-        decade: ['c. 2000s'],
+        decade: ['21th_century', '2000s'],
       },
       visualThemes: {
         motifs: ['Piano keys', 'lace', 'musical staves', 'treble clefs', 'eighth notes', 'violins', 'metronomes'],
@@ -29173,6 +29767,7 @@ export const aesthetics: AestheticProps[] = [
         media: ['Vocaloid', 'The Nanny', 'Your Lie in April'],
         brands: ['Moschino', 'Angelic Pretty', 'Alice and the Pirates'],
       },
+      timeline: {},
     },
   },
   {
@@ -29186,7 +29781,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Picnic', 'Jamcore'],
-        decade: ['Unknown'],
+        decade: ['unknown'],
       },
       visualThemes: {
         motifs: ['Gingham blankets', 'woven baskets', 'sandwiches', 'fruit'],
@@ -29205,6 +29800,7 @@ export const aesthetics: AestheticProps[] = [
           'lovecore',
         ],
       },
+      timeline: {},
     },
   },
   {
@@ -29218,7 +29814,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Postu', 'Cayetano'],
-        decade: ['1970s (Evolving over decades)'],
+        decade: ['20th_century', '1970s'],
         location: ['Spain'],
       },
       visualThemes: {
@@ -29260,6 +29856,7 @@ export const aesthetics: AestheticProps[] = [
           'torero_aesthetic',
         ],
       },
+      timeline: {},
     },
   },
   {
@@ -29274,7 +29871,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Vintage Parisian'],
-        decade: ['1930s-1960s'],
+        decade: ['20th_century', '1930s', '1940s', '1950s', '1960s'],
       },
       visualThemes: {
         motifs: [
@@ -29310,6 +29907,7 @@ export const aesthetics: AestheticProps[] = [
         media: ['Sabrina (1954)'],
         brands: ['Chanel', 'Dior', 'Tiffany & co.', 'Louis Vuitton', 'Laduree'],
       },
+      timeline: {},
     },
   },
   {
@@ -29342,6 +29940,8 @@ export const aesthetics: AestheticProps[] = [
       connections: {
         related: ['2014_girly_ballet', 'pink_princess_that_girl', 'dollette', 'wonyoungism'],
       },
+      origins: {},
+      timeline: {},
     },
   },
   {
@@ -29355,7 +29955,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Rocococore', 'Modern Rococo'],
-        decade: ['1930s'],
+        decade: ['20th_century', '1930s'],
       },
       visualThemes: {
         motifs: [
@@ -29381,6 +29981,7 @@ export const aesthetics: AestheticProps[] = [
       mediaCulture: {
         brands: ['Dior', 'Red Valentino', 'Laduree', 'Charbonnel et Walker'],
       },
+      timeline: {},
     },
   },
   {
@@ -29394,7 +29995,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Cheesecake (female)', 'Beefcake (male)', 'Glamour modeling'],
-        decade: ['1920s (modern style; the term was first used in 1941)'],
+        decade: ['20th_century', '1920s'],
         location: ['United States'],
       },
       visualThemes: {
@@ -29429,6 +30030,7 @@ export const aesthetics: AestheticProps[] = [
         brands: ['Playboy'],
         figures: ['Bettie Page', 'Marilyn Monroe', 'Betty Grable', 'Alberto Vargas', 'Dita Von Teese'],
       },
+      timeline: {},
     },
   },
   {
@@ -29450,6 +30052,7 @@ export const aesthetics: AestheticProps[] = [
       connections: {
         related: ['adventurecore', 'crowcore', 'dark_nautical_nautical'],
       },
+      timeline: {},
     },
   },
   {
@@ -29464,6 +30067,8 @@ export const aesthetics: AestheticProps[] = [
       connections: {
         related: ['chav', 'choni', 'cocalar', 'mc', 'bling'],
       },
+      origins: {},
+      timeline: {},
     },
   },
   {
@@ -29475,7 +30080,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['2000s'],
+        decade: ['21th_century', '2000s'],
       },
       visualThemes: {
         motifs: ['Pixel art', 'bright colors', 'isometric angles'],
@@ -29483,6 +30088,7 @@ export const aesthetics: AestheticProps[] = [
       connections: {
         related: ['early_cyber', 'old_web', 'kidcore', 'mc', 'bling', 'pixel_ui'],
       },
+      timeline: {},
     },
   },
   {
@@ -29496,7 +30102,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Pixel Design', 'Pixel Perfect'],
-        decade: ['1980s'],
+        decade: ['20th_century', '1980s'],
         creator: ['Apple', 'Microsoft', 'Atari'],
       },
       visualThemes: {
@@ -29529,6 +30135,7 @@ export const aesthetics: AestheticProps[] = [
       mediaCulture: {
         media: ['Classic Mac OS', 'Windows 3.x', 'Windows 9X (95', '98', 'ME)', 'Windows NT (3.1', '4.0', '2000)'],
       },
+      timeline: {},
     },
   },
   {
@@ -29541,7 +30148,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['Late 2010s'],
+        decade: ['21th_century', '2010s'],
         location: ['Western Europe'],
       },
       visualThemes: {
@@ -29572,6 +30179,7 @@ export const aesthetics: AestheticProps[] = [
         ],
         brands: ['Killstar', 'Blackcraft Cult', 'Restyle'],
       },
+      timeline: {},
     },
   },
   {
@@ -29585,7 +30193,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Sachplakat (Object Poster)'],
-        decade: ['1900s–1910s'],
+        decade: ['20th_century', '1900s', '1910s'],
         location: ['Germany'],
         creator: ['Lucian Bernhard'],
       },
@@ -29601,8 +30209,8 @@ export const aesthetics: AestheticProps[] = [
         figures: ['Lucian Bernhard', 'Hans Rudi Erdt', 'Ludwig Hohlwein', 'Julius Klinger'],
       },
       timeline: {
-        preceded: ['Art Nouveau'],
-        succeeded: ['Art Deco', 'Bauhaus'],
+        preceded: ['art_nouveau'],
+        succeeded: ['art_deco', 'bauhaus'],
       },
     },
   },
@@ -29618,7 +30226,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Plant Parent', 'Plant Dad'],
-        decade: ['2010s'],
+        decade: ['21th_century', '2010s'],
       },
       visualThemes: {
         motifs: [
@@ -29639,6 +30247,7 @@ export const aesthetics: AestheticProps[] = [
       mediaCulture: {
         media: ['Instagram', 'Tik', 'Tok'],
       },
+      timeline: {},
     },
   },
   {
@@ -29652,7 +30261,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Jet Set', 'Bon Vivant'],
-        decade: ['Mid-20th century'],
+        decade: ['20th_century'],
       },
       visualThemes: {
         motifs: [
@@ -29684,6 +30293,7 @@ export const aesthetics: AestheticProps[] = [
         media: ['James Bond film series', 'The Wolf of Wall Street (2013)', 'Miami Vice'],
         brands: ['Rolex', 'Aston Martin', 'Ferrari', 'Versace', 'Armani'],
       },
+      timeline: {},
     },
   },
   {
@@ -29696,7 +30306,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['2020s'],
+        decade: ['21th_century', '2020s'],
         location: ['Internet (inspired by New York City)'],
       },
       visualThemes: {
@@ -29726,7 +30336,7 @@ export const aesthetics: AestheticProps[] = [
         figures: ['Eloise (at the Plaza)', 'Blair Waldorf (Gossip Girl)'],
       },
       timeline: {
-        preceded: ['Preppy'],
+        preceded: ['preppy'],
       },
     },
   },
@@ -29740,7 +30350,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['2020s'],
+        decade: ['21th_century', '2020s'],
         location: ['Russia & Ukraine'],
       },
       visualThemes: {
@@ -29766,6 +30376,7 @@ export const aesthetics: AestheticProps[] = [
       mediaCulture: {
         media: ['Hunter x Hunter', 'Dot', 'A 2', 'Telegram', 'VK'],
       },
+      timeline: {},
     },
   },
   {
@@ -29779,7 +30390,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Hx', 'Citos', 'Hardcoritos'],
-        decade: ['2000s'],
+        decade: ['21th_century', '2000s'],
       },
       visualThemes: {
         motifs: [
@@ -29822,6 +30433,7 @@ export const aesthetics: AestheticProps[] = [
       mediaCulture: {
         media: ['Fotolog', 'MSN Messenger'],
       },
+      timeline: {},
     },
   },
   {
@@ -29835,7 +30447,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Pokera (feminine)', 'Poky (associated music genre)'],
-        decade: ['2000s'],
+        decade: ['21th_century', '2000s'],
         location: ['Spain (specifically Madrid', 'Levante', 'and Catalonia)'],
       },
       visualThemes: {
@@ -29856,7 +30468,7 @@ export const aesthetics: AestheticProps[] = [
         brands: ['Nike (Shox/Retro)', 'Pull & Bear', 'Rottweiler', 'Dj Neil'],
       },
       timeline: {
-        preceded: ['Bakala'],
+        preceded: ['bakala'],
       },
     },
   },
@@ -29868,7 +30480,11 @@ export const aesthetics: AestheticProps[] = [
       "The Political Compass, a popular internet format, adapted to illustrate the different retrofuturistic-inspired subgenres of Political 'Wave' Aesthetics. The image uses the characteristic visual style of each movement to represent its position on the political spectrum. Political 'Wave' Aesthetics is an umbrella term for a group of internet-based visual styles that adapt the retrofuturistic motifs of Vaporwave and Synthwave for political messaging and propaganda. Emerging primarily in the late 2010s, these aesthetics are defined by their ideological purpose rather than by a distinct musical style, which distinguishes them for the other, more legitimate subgenres of the latter. They often serve as a form of online propaganda, attempting to appeal to younger audiences by packaging political ideologies within the recognizable and nostalgic framework of 80s and 90s-inspired digital art. This page serves as a neutral overview of these various subgenres. The use of Vaporwave and Synthwave aesthetics for political ends stems from the inherent, though often ambiguous, political undertones of Vaporwave itself, which is frequently interpreted as a satire of consumerism and late-stage capitalism. This inspired explicitly political offshoots like Laborwave.",
     categories: [],
     isVisible: true,
-    metadata: {},
+    metadata: {
+      connections: {},
+      origins: {},
+      timeline: {},
+    },
   },
   {
     url: 'https://aesthetics.fandom.com/wiki/Polychrome',
@@ -29880,7 +30496,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['2010s'],
+        decade: ['21th_century', '2010s'],
       },
       visualThemes: {
         motifs: ['blended abstract colors', 'smears/splatters/slicks', 'colored powders or smoke'],
@@ -29889,6 +30505,7 @@ export const aesthetics: AestheticProps[] = [
       connections: {
         related: ['geo-boho', 'hexatron', 'metalheart'],
       },
+      timeline: {},
     },
   },
   {
@@ -29901,7 +30518,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['Late 1880s–Early 1890s'],
+        decade: ['19th_century', '1880s', '1890s'],
         location: ['Pont-Aven', 'Brittany', 'France'],
         creator: ['Paul Gauguin', 'Émile Bernard'],
       },
@@ -29936,8 +30553,8 @@ export const aesthetics: AestheticProps[] = [
         figures: ['Paul Gauguin', 'Émile Bernard', 'Paul Sérusier', 'Charles Laval'],
       },
       timeline: {
-        preceded: ['Impressionism'],
-        succeeded: ['Symbolism', 'Fauvism', 'Expressionism'],
+        preceded: ['impressionism'],
+        succeeded: ['symbolism', 'fauvism', 'expressionism'],
       },
     },
   },
@@ -29952,7 +30569,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Poolrooms', 'Liminal Pool', 'Dreampools'],
-        decade: ['2010s'],
+        decade: ['21th_century', '2010s'],
         creator: ['Jared Pike'],
       },
       visualThemes: {
@@ -29976,6 +30593,7 @@ export const aesthetics: AestheticProps[] = [
       mediaCulture: {
         media: ['Backrooms'],
       },
+      timeline: {},
     },
   },
   {
@@ -29988,7 +30606,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['1950s'],
+        decade: ['20th_century', '1950s'],
         location: ['United Kingdom', 'United States'],
       },
       visualThemes: {
@@ -30040,8 +30658,8 @@ export const aesthetics: AestheticProps[] = [
         ],
       },
       timeline: {
-        preceded: ['Abstract Expressionism'],
-        succeeded: ['Neo-Pop', 'Superflat'],
+        preceded: ['abstract_expressionism'],
+        succeeded: ['neo-pop', 'superflat'],
       },
     },
   },
@@ -30055,7 +30673,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['1990s'],
+        decade: ['20th_century', '1990s'],
         location: ['Sweden'],
       },
       visualThemes: {
@@ -30077,7 +30695,7 @@ export const aesthetics: AestheticProps[] = [
         figures: ['Henrik Berggren (Broder Daniel)', 'Håkan Hellström'],
       },
       timeline: {
-        preceded: ['Mod', 'Britpop'],
+        preceded: ['mod', 'britpop'],
       },
     },
   },
@@ -30092,7 +30710,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Snob (in Austria)'],
-        decade: ['1980s'],
+        decade: ['20th_century', '1980s'],
         location: ['Hamburg', 'West Germany'],
       },
       visualThemes: {
@@ -30109,6 +30727,7 @@ export const aesthetics: AestheticProps[] = [
       connections: {
         related: ['disco', 'new_romantic', 'paninaro', 'preppy', 'teddy_boy'],
       },
+      timeline: {},
     },
   },
   {
@@ -30122,7 +30741,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Wellness Kawaii', 'Western Kawaii'],
-        decade: ['2010s'],
+        decade: ['21th_century', '2010s'],
       },
       visualThemes: {
         motifs: ['Inspirational quotes', 'mascots', 'cuteness', 'puns'],
@@ -30135,6 +30754,7 @@ export const aesthetics: AestheticProps[] = [
       mediaCulture: {
         brands: ['Pusheen', 'Mr. Wonderful', 'The Fruit Company'],
       },
+      timeline: {},
     },
   },
   {
@@ -30148,7 +30768,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Dystopian'],
-        decade: ['Biblical stories', '19th Century works'],
+        decade: ['19th_century'],
       },
       visualThemes: {
         motifs: ['Destroyed cities', 'dead foilage', 'minimal human population.'],
@@ -30175,6 +30795,7 @@ export const aesthetics: AestheticProps[] = [
       mediaCulture: {
         media: ['Fallout', 'Mad Max', 'Bird Box', 'The Walking Dead', 'Most of the Shin Megami Tensei franchise'],
       },
+      timeline: {},
     },
   },
   {
@@ -30188,7 +30809,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['deviant', 'ARTcore 2000s deviant', 'ART Y2K Chibi'],
-        decade: ['90s/2000s'],
+        decade: ['20th_century', '21th_century', '1990s', '2000s'],
         creator: ['Brianna Garcia'],
       },
       visualThemes: {
@@ -30217,6 +30838,7 @@ export const aesthetics: AestheticProps[] = [
         media: ['See:Media'],
         brands: ['Hot Topic', 'Think', 'Geek', 'Molondi'],
       },
+      timeline: {},
     },
   },
   {
@@ -30237,7 +30859,7 @@ export const aesthetics: AestheticProps[] = [
           'Rawk Maximalism',
           'Rock Maximalism',
         ],
-        decade: ['2000s'],
+        decade: ['21th_century', '2000s'],
       },
       visualThemes: {
         motifs: [
@@ -30275,7 +30897,7 @@ export const aesthetics: AestheticProps[] = [
         brands: ['Affliction', 'Ed Hardy', 'True Religion', 'Christian Audigier'],
       },
       timeline: {
-        preceded: ['Grunge', 'Nu-Metal'],
+        preceded: ['grunge', 'nu-metal'],
       },
     },
   },
@@ -30289,7 +30911,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['c. 1886–1905'],
+        decade: ['19th_century', '20th_century'],
         location: ['France'],
       },
       visualThemes: {
@@ -30320,8 +30942,8 @@ export const aesthetics: AestheticProps[] = [
         figures: ['Paul Cézanne', 'Vincent van Gogh', 'Paul Gauguin', 'Georges Seurat', 'Henri de Toulouse-Lautrec'],
       },
       timeline: {
-        preceded: ['Impressionism'],
-        succeeded: ['Fauvism', 'Cubism'],
+        preceded: ['impressionism'],
+        succeeded: ['fauvism', 'cubism'],
       },
     },
   },
@@ -30335,7 +30957,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['1970s'],
+        decade: ['20th_century', '1970s'],
         location: ['United Kingdom', 'United States'],
       },
       visualThemes: {
@@ -30383,8 +31005,8 @@ export const aesthetics: AestheticProps[] = [
         ],
       },
       timeline: {
-        preceded: ['Punk'],
-        succeeded: ['New Wave', 'Goth'],
+        preceded: ['punk'],
+        succeeded: ['new_wave', 'goth'],
       },
     },
   },
@@ -30399,7 +31021,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Homeless Chic', 'Derelicte', 'Recession Dressing'],
-        decade: ['1990s'],
+        decade: ['20th_century', '1990s'],
         creator: ['John Galliano', 'Vivienne Westwood', 'Demna Gvasalia'],
       },
       visualThemes: {
@@ -30432,6 +31054,7 @@ export const aesthetics: AestheticProps[] = [
         ],
         figures: ['Kanye West', 'Demna Gvasalia', 'The Olsen Twins (Boho-Chic era)'],
       },
+      timeline: {},
     },
   },
   {
@@ -30445,7 +31068,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Power Suit'],
-        decade: ['Late 1970s–1980s'],
+        decade: ['20th_century', '1970s', '1980s'],
         location: ['United States & United Kingdom'],
       },
       visualThemes: {
@@ -30473,6 +31096,7 @@ export const aesthetics: AestheticProps[] = [
         brands: ['Armani', 'Thierry Mugler', 'Claude Montana', 'Donna Karan'],
         figures: ['Margaret Thatcher', 'Joan Collins', 'Grace Jones'],
       },
+      timeline: {},
     },
   },
   {
@@ -30486,7 +31110,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Uptown Prairie'],
-        decade: ['1970s'],
+        decade: ['20th_century', '1970s'],
         creator: ['Batsheva Hay'],
       },
       visualThemes: {
@@ -30500,6 +31124,7 @@ export const aesthetics: AestheticProps[] = [
       mediaCulture: {
         media: ['Little House on the Prairie series', 'O Pioneers!', 'The Oregon Trail'],
       },
+      timeline: {},
     },
   },
   {
@@ -30513,7 +31138,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ["Preacher's Wife"],
-        decade: ['2020s (drawing inspiration from the 1970s-2000s)'],
+        decade: ['21th_century', '2020s'],
         location: ['United States'],
         creator: ['Ethel Cain'],
       },
@@ -30550,7 +31175,7 @@ export const aesthetics: AestheticProps[] = [
         platform: ['Tumblr'],
       },
       timeline: {
-        preceded: ['Southern Gothic', 'Coquette'],
+        preceded: ['southern_gothic', 'coquette'],
       },
     },
   },
@@ -30564,7 +31189,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['Mid 1920s'],
+        decade: ['20th_century', '1920s'],
       },
       visualThemes: {
         motifs: ['Urban and industrial landscapes', 'skyscrapers', 'factories', 'bridges', 'liminality'],
@@ -30584,6 +31209,7 @@ export const aesthetics: AestheticProps[] = [
           'urbancore',
         ],
       },
+      timeline: {},
     },
   },
   {
@@ -30598,7 +31224,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Prep', 'Preppie'],
-        decade: ['c. 1910s–1950s (classic era)'],
+        decade: ['20th_century', '1910s', '1920s', '1930s', '1940s', '1950s'],
         location: ['Northeastern United States'],
       },
       visualThemes: {
@@ -30633,6 +31259,7 @@ export const aesthetics: AestheticProps[] = [
         brands: ['Ralph Lauren', 'Lacoste', 'J. Crew', 'Brooks Brothers', 'Lilly Pulitzer', 'Tommy Hilfiger'],
         figures: ['John F. Kennedy', 'Jacqueline Kennedy Onassis'],
       },
+      timeline: {},
     },
   },
   {
@@ -30647,7 +31274,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Pre-Raphaelite Brotherhood'],
-        decade: ['1848'],
+        decade: ['19th_century', '1850s'],
         location: ['London', 'England'],
       },
       visualThemes: {
@@ -30681,8 +31308,8 @@ export const aesthetics: AestheticProps[] = [
         ],
       },
       timeline: {
-        preceded: ['Neoclassicism', 'Academic art'],
-        succeeded: ['Arts and Crafts'],
+        preceded: ['neoclassicism', 'academic_art'],
+        succeeded: ['arts_and crafts'],
       },
     },
   },
@@ -30696,7 +31323,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['1990s'],
+        decade: ['20th_century', '1990s'],
       },
       visualThemes: {
         motifs: ['Crayons', 'pencils', 'toys'],
@@ -30711,6 +31338,7 @@ export const aesthetics: AestheticProps[] = [
           'memphis_jr.nave_art',
         ],
       },
+      timeline: {},
     },
   },
   {
@@ -30723,7 +31351,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['Late 2010s'],
+        decade: ['21th_century', '2010s'],
       },
       visualThemes: {
         motifs: [
@@ -30744,6 +31372,7 @@ export const aesthetics: AestheticProps[] = [
       mediaCulture: {
         platform: ['Tumblr'],
       },
+      timeline: {},
     },
   },
   {
@@ -30785,6 +31414,8 @@ export const aesthetics: AestheticProps[] = [
           'The Chronicles of Narnia: Prince Caspian(2008)Pippin(1981)The Prince and The Pauper(1973)Hamlet(1996)Coming to America(1988)Adventures of Prince Achmed(1926)',
         ],
       },
+      origins: {},
+      timeline: {},
     },
   },
   {
@@ -30797,7 +31428,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['Late 2010s'],
+        decade: ['21th_century', '2010s'],
       },
       visualThemes: {
         motifs: [
@@ -30822,7 +31453,7 @@ export const aesthetics: AestheticProps[] = [
         brands: ['Selkie', 'Lirika Matoshi', 'Teuta Matoshi'],
       },
       timeline: {
-        preceded: ['Cottagecore'],
+        preceded: ['cottagecore'],
       },
     },
   },
@@ -30837,7 +31468,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Komunizm Nostalgia', "Polish People's Republic Nostalgia"],
-        decade: ['Post-1989 (as nostalgia/aesthetic)'],
+        decade: ['20th_century', '1990s'],
         location: ['Poland'],
       },
       visualThemes: {
@@ -30865,6 +31496,7 @@ export const aesthetics: AestheticProps[] = [
         ],
         brands: ['Polo-Cockta', 'Junak (motorcycles)', 'Ludwik (detergent)'],
       },
+      timeline: {},
     },
   },
   {
@@ -30877,7 +31509,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['Originated in the last quarter of the 20th century', 'intentional aesthetic emerged in the 2010s'],
+        decade: ['20th_century', '21th_century', '2010s'],
       },
       visualThemes: {
         motifs: ['Primitive shapes', 'crude pixel art', 'stick figures characters', 'assets mismatch', 'ASCII art'],
@@ -30897,6 +31529,7 @@ export const aesthetics: AestheticProps[] = [
       mediaCulture: {
         platform: ['Sharewares', 'indie video-games'],
       },
+      timeline: {},
     },
   },
   {
@@ -30909,7 +31542,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['1960s'],
+        decade: ['20th_century', '1960s'],
         location: ['San Francisco and London'],
       },
       visualThemes: {
@@ -30974,8 +31607,8 @@ export const aesthetics: AestheticProps[] = [
         ],
       },
       timeline: {
-        preceded: ['Beatnik', "Rock 'n' Roll", 'Art Nouveau'],
-        succeeded: ['Glam Rock', 'Disco', 'Punk', 'Madchester'],
+        preceded: ['beatnik', "rock_'n' roll", 'art_nouveau'],
+        succeeded: ['glam_rock', 'disco', 'punk', 'madchester'],
       },
     },
   },
@@ -30990,7 +31623,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Punkabilly'],
-        decade: ['Early 1980s'],
+        decade: ['20th_century', '1980s'],
         creator: ['The Meteors'],
       },
       visualThemes: {
@@ -31022,7 +31655,7 @@ export const aesthetics: AestheticProps[] = [
         ],
       },
       timeline: {
-        preceded: ['Rockabilly', 'Punk', 'Horror Punk'],
+        preceded: ['rockabilly', 'punk', 'horror_punk'],
       },
     },
   },
@@ -31035,11 +31668,12 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['1960s'],
+        decade: ['20th_century', '1960s'],
       },
       connections: {
         related: ['airbrush_surrealism'],
       },
+      timeline: {},
     },
   },
   {
@@ -31054,7 +31688,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Punk Rock'],
-        decade: ['1970s'],
+        decade: ['20th_century', '1970s'],
         location: ['New York City', 'USA & London', 'UK'],
       },
       visualThemes: {
@@ -31118,8 +31752,8 @@ export const aesthetics: AestheticProps[] = [
         figures: ['The Sex Pistols', 'Vivienne Westwood', 'Patti Smith', 'The Ramones', 'Richard Hell', 'The Clash'],
       },
       timeline: {
-        preceded: ['Proto-Punk', 'Hippie', 'Glam Rock', 'Greaser', 'Mod'],
-        succeeded: ['Post-Punk', 'New Wave', 'No Wave', 'Goth', 'Grunge'],
+        preceded: ['proto-punk', 'hippie', 'glam_rock', 'greaser', 'mod'],
+        succeeded: ['post-punk', 'new_wave', 'no_wave', 'goth', 'grunge'],
       },
     },
   },
@@ -31134,7 +31768,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Wancore'],
-        decade: ['2000s (named in the 2020s)'],
+        decade: ['21th_century', '2000s'],
       },
       visualThemes: {
         motifs: [
@@ -31173,6 +31807,7 @@ export const aesthetics: AestheticProps[] = [
         ],
         brands: ['Wan Wan Wanco (San-X)', 'The Dog (Artlist)', 'Nintendogs'],
       },
+      timeline: {},
     },
   },
   {
@@ -31185,7 +31820,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['2020s'],
+        decade: ['21th_century', '2020s'],
       },
       visualThemes: {
         motifs: [
@@ -31208,6 +31843,7 @@ export const aesthetics: AestheticProps[] = [
         platform: ['Twitter/X', 'Discord', 'Tik', 'Tok', 'Twitch'],
         figures: ['Meow Dalyn', 'Moronic_Mouse', 'Inugami Korone (as an influence)'],
       },
+      timeline: {},
     },
   },
   {
@@ -31220,7 +31856,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['c. 1918–1925'],
+        decade: ['20th_century', '1910s', '1920s'],
         location: ['Paris', 'France'],
         creator: ['Amédée Ozenfant', 'Le Corbusier'],
       },
@@ -31253,7 +31889,7 @@ export const aesthetics: AestheticProps[] = [
         figures: ['Amédée Ozenfant', 'Le Corbusier', 'Fernand Léger'],
       },
       timeline: {
-        preceded: ['Cubism'],
+        preceded: ['cubism'],
       },
     },
   },
@@ -31267,15 +31903,16 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['1st century'],
+        decade: ['1st_century'],
       },
       visualThemes: {
         colours: ['Black', 'red'],
       },
       timeline: {
-        preceded: ['Bronze Age China'],
-        succeeded: ['Wei and Jin Dynasties'],
+        preceded: ['bronze_age china'],
+        succeeded: ['wei_and jin dynasties'],
       },
+      connections: {},
     },
   },
   {
@@ -31289,7 +31926,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['(Chinese) clear-cold style'],
-        decade: ['2000s'],
+        decade: ['21th_century', '2000s'],
         location: ['China'],
       },
       visualThemes: {
@@ -31303,6 +31940,7 @@ export const aesthetics: AestheticProps[] = [
       mediaCulture: {
         figures: ['Lu Xueqi', 'Zhou Zhiruo', 'Sariel Qi Sili', 'Li Qin', 'Liu Shishi'],
       },
+      timeline: {},
     },
   },
   {
@@ -31316,7 +31954,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['Early 2010s'],
+        decade: ['21th_century', '2010s'],
       },
       visualThemes: {
         colours: ['Neon pastels', 'black', 'and pink'],
@@ -31324,6 +31962,7 @@ export const aesthetics: AestheticProps[] = [
       connections: {
         related: ['basic_girl', 'normcore', 'pale_grunge2014_girly'],
       },
+      timeline: {},
     },
   },
   {
@@ -31342,6 +31981,8 @@ export const aesthetics: AestheticProps[] = [
       connections: {
         related: ['baddie', 'hime_lolita', 'kingcore', 'knightcore', 'princesscore', 'princecore', 'royalcore'],
       },
+      origins: {},
+      timeline: {},
     },
   },
   {
@@ -31355,7 +31996,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Homocore', 'Queerpunk'],
-        decade: ['Early 1980s'],
+        decade: ['20th_century', '1980s'],
       },
       visualThemes: {
         motifs: ['Pink triangle', 'leather'],
@@ -31365,6 +32006,7 @@ export const aesthetics: AestheticProps[] = [
       connections: {
         related: ['la_movida', 'punk', 'taqwacore'],
       },
+      timeline: {},
     },
   },
   {
@@ -31377,7 +32019,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['1990s-2000s'],
+        decade: ['20th_century', '21th_century', '1990s', '2000s'],
       },
       visualThemes: {
         colours: ['White', 'black', 'grey', 'blue', 'red'],
@@ -31389,6 +32031,7 @@ export const aesthetics: AestheticProps[] = [
       mediaCulture: {
         brands: ['Lacoste', 'Nike'],
       },
+      timeline: {},
     },
   },
   {
@@ -31402,7 +32045,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Racer', 'Motorsports', 'Auto Racing', 'Car Racing', 'Automobile Racing', 'Motocross', 'Racecore'],
-        decade: ['1900s (early motorsports)'],
+        decade: ['20th_century', '1900s'],
       },
       visualThemes: {
         motifs: [
@@ -31424,6 +32067,7 @@ export const aesthetics: AestheticProps[] = [
         media: ['Formula 1', 'Le Mans', 'WRC', 'NASCAR', 'Drive to Survive'],
         brands: ['TAG Heuer', 'Pirelli', 'Sparco', 'Ferrari', 'Mercedes-AMG'],
       },
+      timeline: {},
     },
   },
   {
@@ -31437,7 +32081,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Radical Surrealism (CARI)'],
-        decade: ['1960s'],
+        decade: ['20th_century', '1960s'],
         location: ['Florence', 'Italy'],
       },
       visualThemes: {
@@ -31467,8 +32111,8 @@ export const aesthetics: AestheticProps[] = [
         ],
       },
       timeline: {
-        preceded: ['Modernism'],
-        succeeded: ['Memphis Design'],
+        preceded: ['modernism'],
+        succeeded: ['memphis_design'],
       },
     },
   },
@@ -31482,7 +32126,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Neon Surf'],
-        decade: ['1980s'],
+        decade: ['20th_century', '1980s'],
       },
       visualThemes: {
         motifs: ['Paint splatters and tribal patterns'],
@@ -31491,6 +32135,7 @@ export const aesthetics: AestheticProps[] = [
       connections: {
         related: ['neon_ooze', 'wacky_pomo'],
       },
+      timeline: {},
     },
   },
   {
@@ -31503,7 +32148,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['1950s'],
+        decade: ['20th_century', '1950s'],
         location: ['Sweden; minor presence in Norway and Finland'],
       },
       visualThemes: {
@@ -31518,6 +32163,7 @@ export const aesthetics: AestheticProps[] = [
         media: ["Rock'n'roll music", 'car magazines', '"Raggare!" (1959 film)'],
         brands: ['American car manufacturers (e.g.', 'Chevrolet', 'Ford)'],
       },
+      timeline: {},
     },
   },
   {
@@ -31531,7 +32177,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Rave Culture', 'Raver'],
-        decade: ['Late-1980s'],
+        decade: ['20th_century', '1980s'],
       },
       visualThemes: {
         motifs: [
@@ -31595,6 +32241,7 @@ export const aesthetics: AestheticProps[] = [
       mediaCulture: {
         media: ['Trainspotting (film)', 'Human Traffic (film)', 'Groove Armada (band)', 'The Prodigy (band)'],
       },
+      timeline: {},
     },
   },
   {
@@ -31608,7 +32255,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Industrial Style', 'Industrial Chic'],
-        decade: ['Late 2000s - 2010s'],
+        decade: ['21th_century', '2000s', '2010s'],
       },
       visualThemes: {
         motifs: [
@@ -31636,6 +32283,7 @@ export const aesthetics: AestheticProps[] = [
           'decon-dustrial',
         ],
       },
+      timeline: {},
     },
   },
   {
@@ -31649,7 +32297,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Ráchet (less common; used in normative Spanish)[1]'],
-        decade: ['Late-2010s'],
+        decade: ['21th_century', '2010s'],
         location: ['Spain'],
         creator: ['La Zowi', 'Bad Gyal'],
       },
@@ -31683,7 +32331,7 @@ export const aesthetics: AestheticProps[] = [
         brands: ['Bershka'],
       },
       timeline: {
-        preceded: ['Choni'],
+        preceded: ['choni'],
       },
     },
   },
@@ -31698,7 +32346,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Populuxe', 'Googie'],
-        decade: ['1940s/1950s'],
+        decade: ['20th_century', '1940s', '1950s'],
         location: ['United States'],
         creator: [
           'Phillip Francis Knowlan',
@@ -31757,8 +32405,8 @@ export const aesthetics: AestheticProps[] = [
         media: ['The Jetsons', 'My Life as a Teenage Robot', 'Colonel Bleep'],
       },
       timeline: {
-        preceded: ['Streamline Moderne'],
-        succeeded: ['Supergraphic Ultramodern', 'Earth Tones', 'Cassette Futurism'],
+        preceded: ['streamline_moderne'],
+        succeeded: ['supergraphic_ultramodern', 'earth_tones', 'cassette_futurism'],
       },
     },
   },
@@ -31772,7 +32420,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['1840s'],
+        decade: ['19th_century', '1840s'],
         location: ['France'],
       },
       visualThemes: {
@@ -31805,8 +32453,8 @@ export const aesthetics: AestheticProps[] = [
         figures: ['Gustave Courbet', 'Jean-François Millet', 'Honoré Daumier', 'Édouard Manet'],
       },
       timeline: {
-        preceded: ['Romanticism', 'Neoclassicism'],
-        succeeded: ['Impressionism', 'Symbolism'],
+        preceded: ['romanticism', 'neoclassicism'],
+        succeeded: ['impressionism', 'symbolism'],
       },
     },
   },
@@ -31821,7 +32469,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Bad-Boyz or Boy Crush'],
-        decade: ['Late 2000s'],
+        decade: ['21th_century', '2000s'],
         location: ['South Korea'],
         creator: ['Popularized/trended by BIGBANG'],
       },
@@ -31862,6 +32510,7 @@ export const aesthetics: AestheticProps[] = [
       mediaCulture: {
         figures: ['BTS', 'BIGBANG', 'Block B', 'i', 'KON', 'Stray Kidz', 'ATEEZ', 'Super M', 'NCT 127', 'MONSTA X'],
       },
+      timeline: {},
     },
   },
   {
@@ -31875,7 +32524,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Electropop 08'],
-        decade: ['Late 2000s'],
+        decade: ['21th_century', '2000s'],
       },
       visualThemes: {
         motifs: [
@@ -31912,7 +32561,7 @@ export const aesthetics: AestheticProps[] = [
         figures: ['Lady Gaga', 'Ke$ha', 'Rihanna', 'Katy Perry', 'LMFAO', 'Nicki Minaj', 'Pitbull', 'Kylie Minogue'],
       },
       timeline: {
-        preceded: ['Electroclash', 'Mc', 'Bling'],
+        preceded: ['electroclash', 'mc', 'bling'],
       },
     },
   },
@@ -31920,13 +32569,14 @@ export const aesthetics: AestheticProps[] = [
     url: 'https://aesthetics.fandom.com/wiki/Regency',
     name: 'Regency',
     id: 'regency',
+    imageUrl: 'https://static.wikia.nocookie.net/aesthetics/images/e/ef/Eavesdropping_by_Vittorio_Reggianini.jpg',
     description:
-      'DandyHollywood RegencyLight AcademiaNeoclassicismNew LookRococoRomantic AcademiaVictorian This aesthetic gained notoriety largely because of Jane Austen, a female author who wrote romance novels that became incredibly popular during her time and up to the present day. Many television shows, movies, and books adapted and riffed on her work, making this historical period widely known to many audiences. The large part of the appeal of her works is a look into the lives of British nobility of the time period, which, for women, involved elaborate courtship rituals, fashionable gowns, and webs of interpersonal relationships surrounding wealth and power. Because of the influx of famous retellings in around 2020, especially with Emma (2020) and Bridgerton (2020), many young women looked to the fashion as inspiration, with Regency-era fashion details such as puffed sleeves and empire waists being fancifully re-imagined with modern colors and fabrics.[1]',
+      'This aesthetic gained notoriety largely because of Jane Austen, a female author who wrote romance novels that became incredibly popular during her time and up to the present day. Many television shows, movies, and books adapted and riffed on her work, making this historical period widely known to many audiences. The large part of the appeal of her works is a look into the lives of British nobility of the time period, which, for women, involved elaborate courtship rituals, fashionable gowns, and webs of interpersonal relationships surrounding wealth and power. Because of the influx of famous retellings in around 2020, especially with Emma (2020) and Bridgerton (2020), many young women looked to the fashion as inspiration, with Regency-era fashion details such as puffed sleeves and empire waists being fancifully re-imagined with modern colors and fabrics.[1]',
     categories: ['historical', 'fashion'],
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['Regency era'],
+        decade: ['19th_century', '1820s'],
       },
       visualThemes: {
         motifs: [
@@ -31961,7 +32611,7 @@ export const aesthetics: AestheticProps[] = [
         figures: ['Beau Brummell', 'Dora Jordan and others'],
       },
       timeline: {
-        succeeded: ['Victorian'],
+        succeeded: ['victorian'],
       },
     },
   },
@@ -31975,7 +32625,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['2020s'],
+        decade: ['21th_century', '2020s'],
       },
       visualThemes: {
         colours: ['White', 'pastel colors'],
@@ -31986,6 +32636,7 @@ export const aesthetics: AestheticProps[] = [
       mediaCulture: {
         media: ['Bridgerton'],
       },
+      timeline: {},
     },
   },
   {
@@ -31998,7 +32649,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['Late 1960s'],
+        decade: ['20th_century', '1960s'],
         location: ['Jamaica'],
       },
       visualThemes: {
@@ -32033,6 +32684,7 @@ export const aesthetics: AestheticProps[] = [
         media: ['Trojan Records'],
         figures: ['Bob Marley'],
       },
+      timeline: {},
     },
   },
   {
@@ -32046,7 +32698,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Reguetonero'],
-        decade: ['Late 1990s (music)Mid-2000s (subculture massification)'],
+        decade: ['20th_century', '1990s', '21th_century', '2000s'],
         location: ['Puerto Rico and Panama (musical origins)'],
       },
       visualThemes: {
@@ -32071,7 +32723,7 @@ export const aesthetics: AestheticProps[] = [
         figures: ['Daddy Yankee', 'Don Omar', 'Bad Bunny'],
       },
       timeline: {
-        preceded: ['Hip-Hop'],
+        preceded: ['hip-hop'],
       },
     },
   },
@@ -32085,7 +32737,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['1990s'],
+        decade: ['20th_century', '1990s'],
       },
       visualThemes: {
         motifs: ['Corsets', 'Elizabethan ruffs', 'bodices', 'long dresses', 'fairies', ''],
@@ -32110,6 +32762,7 @@ export const aesthetics: AestheticProps[] = [
       mediaCulture: {
         media: ['Ever After (1998)', 'Romeo + Juliet', 'Elizabeth (1998)'],
       },
+      timeline: {},
     },
   },
   {
@@ -32123,7 +32776,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Os Renovadores', 'Os Novos', 'Movemento Renovador'],
-        decade: ['1920s–1930s'],
+        decade: ['20th_century', '1920s', '1930s'],
         location: ['Galicia', 'Spain (including the Galician diaspora)'],
       },
       visualThemes: {
@@ -32158,7 +32811,7 @@ export const aesthetics: AestheticProps[] = [
         ],
       },
       timeline: {
-        preceded: ['Romanticism', 'Realism'],
+        preceded: ['romanticism', 'realism'],
       },
     },
   },
@@ -32172,7 +32825,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['Late 19th Century – Early 20th Century'],
+        decade: ['19th_century', '20th_century'],
       },
       visualThemes: {
         motifs: [
@@ -32228,6 +32881,7 @@ export const aesthetics: AestheticProps[] = [
         ],
         figures: ['Jules Verne', 'H.G. Wells', 'Frank R. Paul', 'Hugh Ferriss', 'Norman Bel Geddes'],
       },
+      timeline: {},
     },
   },
   {
@@ -32240,7 +32894,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['1980s - 2000s'],
+        decade: ['20th_century', '1980s', '1990s', '2000s'],
       },
       visualThemes: {
         motifs: ['Video games', 'controllers', 'TVs', 'arcades'],
@@ -32249,6 +32903,7 @@ export const aesthetics: AestheticProps[] = [
       connections: {
         related: ['8-bit', 'arcadecore', 'cyberdelic', 'cybertwee', 'low_poly', 'pc-98'],
       },
+      timeline: {},
     },
   },
   {
@@ -32262,7 +32917,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['RGB Gamer Room/Setup'],
-        decade: ['Late 2010s'],
+        decade: ['21th_century', '2010s'],
       },
       visualThemes: {
         motifs: ['Gaming/PC setups', 'RGB lights', 'geometric and futuristic designs'],
@@ -32274,6 +32929,7 @@ export const aesthetics: AestheticProps[] = [
       mediaCulture: {
         brands: ['Most of the current PC brands'],
       },
+      timeline: {},
     },
   },
   {
@@ -32286,7 +32942,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['Early 1990s'],
+        decade: ['20th_century', '1990s'],
         location: ['United States (Washington D.C.', 'Pacific Northwest)'],
         creator: ['Allison Wolfe', 'Molly Neuman', 'Jen Smith', 'Tobi Vail (coined term and foundational figures)'],
       },
@@ -32326,7 +32982,7 @@ export const aesthetics: AestheticProps[] = [
         ],
       },
       timeline: {
-        preceded: ['Punk', 'Third-Wave Feminism'],
+        preceded: ['punk', 'third-wave_feminism'],
       },
     },
   },
@@ -32341,7 +32997,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['EBM-head (synonym specific to EBM fans)'],
-        decade: ['Late 1980s'],
+        decade: ['20th_century', '1980s'],
         location: [
           'United States (origin of the term; Wax Trax! Records',
           'Chicago; Re-Constriction Records)',
@@ -32395,8 +33051,8 @@ export const aesthetics: AestheticProps[] = [
         brands: ['Dr. Martens', 'Gripfast', 'Gripfasts', 'Grinders', 'military surplus'],
       },
       timeline: {
-        preceded: ['Industrial', 'Punk'],
-        succeeded: ['Cybergoth'],
+        preceded: ['industrial', 'punk'],
+        succeeded: ['cybergoth'],
       },
     },
   },
@@ -32408,7 +33064,11 @@ export const aesthetics: AestheticProps[] = [
       'Roadman is a contemporary British youth subculture that emerged in London during the early 21st century. It is characterized by its roots in urban working-class communities, a distinct dialect known as Multicultural London English (MLE), and a functional streetwear-based uniform. The term "roadman" refers to someone who is "on the road," a colloquialism for spending significant time on the streets, often involved in social or economic activities within a specific neighborhood. While frequently conflated with the preceding Chav subculture, the Roadman identity is distinct in its geographical origins, racial diversity, and its closer ties to genres like grime, afrobeats, and UK Drill.',
     categories: [],
     isVisible: true,
-    metadata: {},
+    metadata: {
+      connections: {},
+      origins: {},
+      timeline: {},
+    },
   },
   {
     url: 'https://aesthetics.fandom.com/wiki/Roaring_Twenties',
@@ -32421,7 +33081,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Jazz Age', 'Années folles (Crazy Years)'],
-        decade: ['1920s'],
+        decade: ['20th_century', '1920s'],
         location: ['Western World (especially USA', 'France', 'Germany)'],
       },
       visualThemes: {
@@ -32452,6 +33112,7 @@ export const aesthetics: AestheticProps[] = [
         media: ['The Great Gatsby', 'Chicago', 'Metropolis', 'The Artist'],
         figures: ['F. Scott Fitzgerald', 'Coco Chanel', 'Louis Armstrong', 'Josephine Baker', 'Clara Bow'],
       },
+      timeline: {},
     },
   },
   {
@@ -32465,7 +33126,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Codingcore', 'AI.core', 'Androidcore'],
-        decade: ['80s'],
+        decade: ['20th_century', '1980s'],
       },
       visualThemes: {
         motifs: ['Coding', 'robots', 'artificial intelligence', 'computer graphics', 'futurism'],
@@ -32478,6 +33139,7 @@ export const aesthetics: AestheticProps[] = [
       mediaCulture: {
         brands: ['Microsoft', 'Tech Companies'],
       },
+      timeline: {},
     },
   },
   {
@@ -32491,7 +33153,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Rockabella (feminine)'],
-        decade: ['1950s (initial popularity)Late 1970s (revival)'],
+        decade: ['20th_century', '1950s', '1970s'],
         creator: ['Carl Perkins', 'Elvis Presley', 'Johnny Burnette', 'Jerry Lee Lewis (early influential artists)'],
       },
       visualThemes: {
@@ -32540,6 +33202,7 @@ export const aesthetics: AestheticProps[] = [
       mediaCulture: {
         media: ['American Graffiti', 'Cry-Baby', 'Grease'],
       },
+      timeline: {},
     },
   },
   {
@@ -32553,7 +33216,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Leather Boys', 'Ton-Up Boys'],
-        decade: ['1950s'],
+        decade: ['20th_century', '1950s'],
         location: ['United Kingdom'],
       },
       visualThemes: {
@@ -32575,7 +33238,7 @@ export const aesthetics: AestheticProps[] = [
         figures: ['Marlon Brando (as a style icon)', 'Gene Vincent', 'Eddie Cochran'],
       },
       timeline: {
-        preceded: ['Teddy Boys'],
+        preceded: ['teddy_boys'],
       },
     },
   },
@@ -32590,7 +33253,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Hard sci-fi (if realistic)NASApunk', 'COADEcore'],
-        decade: ['1950s-1960s'],
+        decade: ['20th_century', '1950s', '1960s'],
       },
       visualThemes: {
         motifs: ['Rocketry', 'space travel', 'cylinders', 'solar panels and radiators', 'realism'],
@@ -32617,6 +33280,7 @@ export const aesthetics: AestheticProps[] = [
           'For All Mankind',
         ],
       },
+      timeline: {},
     },
   },
   {
@@ -32642,6 +33306,8 @@ export const aesthetics: AestheticProps[] = [
       connections: {
         related: ['messy_french_it_girl', 'downtown_girl', 'grunge', 'indie_sleaze', 'mob_wife'],
       },
+      origins: {},
+      timeline: {},
     },
   },
   {
@@ -32656,7 +33322,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Late Baroque', 'Style Louis XV', 'Style Régence', 'Pompadour Style'],
-        decade: ['1720s - 1760s'],
+        decade: ['18th_century', '1720s', '1730s', '1740s', '1750s', '1760s'],
         location: ['Paris', 'France'],
         creator: ['Jean-Antoine Watteau', 'François Boucher', 'Jean-Honoré Fragonard'],
       },
@@ -32699,8 +33365,8 @@ export const aesthetics: AestheticProps[] = [
         figures: ['Louis XV of France', 'Madame de Pompadour', 'Marie Antoinette (late Rococo)'],
       },
       timeline: {
-        preceded: ['Baroque'],
-        succeeded: ['Neoclassicism'],
+        preceded: ['baroque'],
+        succeeded: ['neoclassicism'],
       },
     },
   },
@@ -32714,7 +33380,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['Early 2010s'],
+        decade: ['21th_century', '2010s'],
         creator: ['Wilhelmina Frame', 'Nick Picard', 'Megan Maude', 'Brittany Anne (key participants)'],
       },
       visualThemes: {
@@ -32728,6 +33394,7 @@ export const aesthetics: AestheticProps[] = [
       mediaCulture: {
         figures: ['Prince Poppycock'],
       },
+      timeline: {},
     },
   },
   {
@@ -32741,7 +33408,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Stone'],
-        decade: ['Late 1980s–1990s'],
+        decade: ['20th_century', '1980s', '1990s'],
         location: ['Argentina'],
       },
       visualThemes: {
@@ -32763,6 +33430,7 @@ export const aesthetics: AestheticProps[] = [
         brands: ['Adidas', 'Topper (sneakers)'],
         figures: ['Mick Jagger', 'Keith Richards', 'Pity Álvarez (Viejas Locas)'],
       },
+      timeline: {},
     },
   },
   {
@@ -32776,7 +33444,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Art Roman (French)Románico (Spanish)Romanik (German)'],
-        decade: ['c. 1000–1200'],
+        decade: ['10th_century', '11th_century', '12th_century'],
         location: ['Europe'],
       },
       visualThemes: {
@@ -32804,8 +33472,8 @@ export const aesthetics: AestheticProps[] = [
         related: ['byzantine', 'carolingian_art', 'ottonian_art', 'pre-romanesque', 'gothic_architecture'],
       },
       timeline: {
-        preceded: ['Pre-Romanesque'],
-        succeeded: ['Gothic Architecture'],
+        preceded: ['pre-romanesque'],
+        succeeded: ['gothic_architecture'],
       },
     },
   },
@@ -32821,7 +33489,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Coquette Academia'],
-        decade: ['2010s'],
+        decade: ['21th_century', '2010s'],
       },
       visualThemes: {
         motifs: ['Reading and writing', 'holding hands', 'kissing', 'cal mythology', 'historical remnants'],
@@ -32876,6 +33544,7 @@ export const aesthetics: AestheticProps[] = [
           'Much Ado About Nothing',
         ],
       },
+      timeline: {},
     },
   },
   {
@@ -32888,7 +33557,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['Ancient times', 'videos in late 2010s'],
+        decade: ['21th_century', '2010s'],
       },
       visualThemes: {
         motifs: ['Chinese traditions', 'architecture', 'food', 'and nature'],
@@ -32901,6 +33570,7 @@ export const aesthetics: AestheticProps[] = [
       mediaCulture: {
         media: ['Li Ziqi (vlogger)'],
       },
+      timeline: {},
     },
   },
   {
@@ -32914,7 +33584,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Romantigoth'],
-        decade: ['1990s'],
+        decade: ['20th_century', '1990s'],
       },
       visualThemes: {
         motifs: [
@@ -32942,6 +33612,7 @@ export const aesthetics: AestheticProps[] = [
       connections: {
         related: ['dark_academia', 'goth', 'gothic', 'romanticism', 'trad_goth', 'victorian_goth'],
       },
+      timeline: {},
     },
   },
   {
@@ -32955,7 +33626,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Romantic movement', 'the Romantic era'],
-        decade: ['Late 18th to mid 19th centuries'],
+        decade: ['18th_century', '19th_century'],
       },
       visualThemes: {
         motifs: [
@@ -33003,8 +33674,8 @@ export const aesthetics: AestheticProps[] = [
         ],
       },
       timeline: {
-        preceded: ['Sturm und Drang', 'Neoclassicism'],
-        succeeded: ['Realism', 'Pre-Raphaelite Brotherhood', 'Symbolism'],
+        preceded: ['sturm_und drang', 'neoclassicism'],
+        succeeded: ['realism', 'pre-raphaelite_brotherhood', 'symbolism'],
       },
     },
   },
@@ -33036,6 +33707,7 @@ export const aesthetics: AestheticProps[] = [
           'tomato_girl_summer',
         ],
       },
+      timeline: {},
     },
   },
   {
@@ -33054,7 +33726,7 @@ export const aesthetics: AestheticProps[] = [
           'Mother Road Aesthetic',
           'Radiator Springs (pop-culture reference)',
         ],
-        decade: ['1950s'],
+        decade: ['20th_century', '1950s'],
         location: ['U.S. Route 66 (Illinois to California)'],
       },
       visualThemes: {
@@ -33084,6 +33756,7 @@ export const aesthetics: AestheticProps[] = [
       mediaCulture: {
         media: ['American Graffiti (1973)', "Pixar's CARS (2006)", "Nat King Cole's Route 66 (song)"],
       },
+      timeline: {},
     },
   },
   {
@@ -33098,7 +33771,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Royaltycore'],
-        decade: ['Late 2010s'],
+        decade: ['21th_century', '2010s'],
       },
       visualThemes: {
         motifs: [
@@ -33144,6 +33817,7 @@ export const aesthetics: AestheticProps[] = [
         media: ['Bridgerton', 'The Crown', 'Marie Antoinette (2006)'],
         brands: ['Selkie', 'Teuta Matoshi', 'Lirika Matoshi'],
       },
+      timeline: {},
     },
   },
   {
@@ -33157,7 +33831,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Rudie', 'Rudi', 'Rudy'],
-        decade: ['1960s'],
+        decade: ['20th_century', '1960s'],
         location: ['Kingston', 'Jamaica'],
       },
       visualThemes: {
@@ -33169,8 +33843,8 @@ export const aesthetics: AestheticProps[] = [
         related: ['2_tone', 'beatnik', 'mod', 'reggae', 'skinhead', 'teddy_boys'],
       },
       timeline: {
-        preceded: ['Teddy Boys'],
-        succeeded: ['2 Tone'],
+        preceded: ['teddy_boys'],
+        succeeded: ['2_tone'],
       },
     },
   },
@@ -33185,7 +33859,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Give me back my 2k17'],
-        decade: ['2010s'],
+        decade: ['21th_century', '2010s'],
         location: ['Russia (post-Soviet urban areas)'],
       },
       visualThemes: {
@@ -33221,6 +33895,7 @@ export const aesthetics: AestheticProps[] = [
           'Morana Battory',
         ],
       },
+      timeline: {},
     },
   },
   {
@@ -33234,7 +33909,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['cosmism'],
-        decade: ['1900s'],
+        decade: ['20th_century', '1900s'],
         location: ['Russia'],
       },
       visualThemes: {
@@ -33255,6 +33930,7 @@ export const aesthetics: AestheticProps[] = [
       mediaCulture: {
         figures: ['Alexander Scriabin'],
       },
+      timeline: {},
     },
   },
   {
@@ -33273,6 +33949,8 @@ export const aesthetics: AestheticProps[] = [
       connections: {
         related: ['americana', 'cabincore', 'cottagecore', 'country', 'lumberjack', 'western'],
       },
+      origins: {},
+      timeline: {},
     },
   },
   {
@@ -33286,7 +33964,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Sad Beige Mom', 'Beige Mom', 'Sad Beige Baby'],
-        decade: ['2020s'],
+        decade: ['21th_century', '2020s'],
         creator: ['Hayley De', 'Roche', 'Kim Kardashian (popularized by)'],
       },
       visualThemes: {
@@ -33297,6 +33975,7 @@ export const aesthetics: AestheticProps[] = [
       connections: {
         related: ['vanilla_girl', 'light_academia', 'clean_girl', 'boujee', 'country'],
       },
+      timeline: {},
     },
   },
   {
@@ -33310,7 +33989,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Sad Boy'],
-        decade: ['2010s'],
+        decade: ['21th_century', '2010s'],
       },
       visualThemes: {
         motifs: [
@@ -33363,8 +34042,8 @@ export const aesthetics: AestheticProps[] = [
         figures: ['Yung Lean', 'Lil Peep', 'XXXTentacion', 'Joji'],
       },
       timeline: {
-        preceded: ['Hipster'],
-        succeeded: ['E-Boy'],
+        preceded: ['hipster'],
+        succeeded: ['e-boy'],
       },
     },
   },
@@ -33379,7 +34058,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Sad Girl'],
-        decade: ['2010s'],
+        decade: ['21th_century', '2010s'],
       },
       visualThemes: {
         motifs: [
@@ -33429,8 +34108,8 @@ export const aesthetics: AestheticProps[] = [
         figures: ['Lana Del Rey', 'Sylvia Plath', 'Effy Stonem', 'Violet Harmon'],
       },
       timeline: {
-        preceded: ['Emo', 'Grunge'],
-        succeeded: ['E-Girl'],
+        preceded: ['emo', 'grunge'],
+        succeeded: ['e-girl'],
       },
     },
   },
@@ -33444,7 +34123,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['1960s (high fashion codification)'],
+        decade: ['20th_century', '1960s'],
       },
       visualThemes: {
         motifs: [
@@ -33464,6 +34143,7 @@ export const aesthetics: AestheticProps[] = [
         brands: ['Yves Saint Laurent', 'Abercrombie & Fitch', 'Willis & Geiger'],
         figures: ['Yves Saint Laurent', 'Ernest Hemingway', 'Veruschka'],
       },
+      timeline: {},
     },
   },
   {
@@ -33477,8 +34157,10 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Saron  Salon fashion  Salon style  Saron kei'],
-        decade: ['2010s'],
+        decade: ['21th_century', '2010s'],
       },
+      connections: {},
+      timeline: {},
     },
   },
   {
@@ -33501,6 +34183,7 @@ export const aesthetics: AestheticProps[] = [
       connections: {
         related: ['steampunk', 'hellenic'],
       },
+      timeline: {},
     },
   },
   {
@@ -33513,7 +34196,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['2010s'],
+        decade: ['21th_century', '2010s'],
       },
       visualThemes: {
         motifs: [
@@ -33537,6 +34220,7 @@ export const aesthetics: AestheticProps[] = [
         platform: ['Tik', 'Tok', 'Pinterest', 'Tumblr'],
         brands: ['Sanrio'],
       },
+      timeline: {},
     },
   },
   {
@@ -33550,7 +34234,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Scandi Girl', 'Scandinavian It Girl', 'Scandinavian Style'],
-        decade: ['Late-2010s'],
+        decade: ['21th_century', '2010s'],
       },
       visualThemes: {
         motifs: ['Natural fibers', 'layering'],
@@ -33574,6 +34258,7 @@ export const aesthetics: AestheticProps[] = [
       mediaCulture: {
         brands: ['GANNI', 'Holzweiler', 'Cecilie Bahnsen', 'Stand Studio'],
       },
+      timeline: {},
     },
   },
   {
@@ -33587,7 +34272,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Nordic Design', 'Scandinavian Modern'],
-        decade: ['1950s (popularization)'],
+        decade: ['20th_century', '1950s'],
       },
       visualThemes: {
         motifs: ['Clean lines', 'organic forms', 'natural light'],
@@ -33614,6 +34299,7 @@ export const aesthetics: AestheticProps[] = [
       mediaCulture: {
         brands: ['IKEA', 'Artek', 'Fritz Hansen'],
       },
+      timeline: {},
     },
   },
   {
@@ -33628,7 +34314,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Scene Kid', 'Scenester', 'Trendie'],
-        decade: ['2000s'],
+        decade: ['21th_century', '2000s'],
         location: ['United States'],
       },
       visualThemes: {
@@ -33680,8 +34366,8 @@ export const aesthetics: AestheticProps[] = [
         figures: ['Audrey Kitching', 'Jeffree Star', 'Brokencyde', 'Bring Me the Horizon (early)'],
       },
       timeline: {
-        preceded: ['Emo', 'Fashioncore', 'Pop-Punk'],
-        succeeded: ['Hipster', 'E-Girl / E-Boy', 'Scenecore'],
+        preceded: ['emo', 'fashioncore', 'pop-punk'],
+        succeeded: ['hipster', 'e-girl_/ e-boy', 'scenecore'],
       },
     },
   },
@@ -33696,7 +34382,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Colorpuke'],
-        decade: ['2020s'],
+        decade: ['21th_century', '2020s'],
       },
       visualThemes: {
         motifs: [
@@ -33744,7 +34430,7 @@ export const aesthetics: AestheticProps[] = [
         figures: ['h3artcrush', 'Rebzyyx', '15forevr', 'Kid Trash', 'Xaxanity', 'kets4eki', '6arelyhuman'],
       },
       timeline: {
-        preceded: ['Scene', 'Hyperpop'],
+        preceded: ['scene', 'hyperpop'],
       },
     },
   },
@@ -33758,7 +34444,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['2010s'],
+        decade: ['21th_century', '2010s'],
       },
       visualThemes: {
         colours: ['Black', 'green', 'blue', 'pink', 'rainbow', 'purple'],
@@ -33779,8 +34465,8 @@ export const aesthetics: AestheticProps[] = [
         brands: ["Claire's", 'Justice', 'Lisa Frank'],
       },
       timeline: {
-        preceded: ['Tweencore', 'Curly Girly'],
-        succeeded: ['Scenecore', 'Nostalgiacore'],
+        preceded: ['tweencore', 'curly_girly'],
+        succeeded: ['scenecore', 'nostalgiacore'],
       },
     },
   },
@@ -33795,7 +34481,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['2010s'],
+        decade: ['21th_century', '2010s'],
       },
       visualThemes: {
         motifs: [
@@ -33833,7 +34519,7 @@ export const aesthetics: AestheticProps[] = [
         figures: ['Azealia Banks', 'Grimes', 'Rihanna', 'Ultrademon'],
       },
       timeline: {
-        succeeded: ['Vaporwave'],
+        succeeded: ['vaporwave'],
       },
     },
   },
@@ -33848,7 +34534,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Ar Seiz Breur'],
-        decade: ['1920s–1940s'],
+        decade: ['20th_century', '1920s'],
         location: ['Brittany', 'France'],
         creator: ['Jeanne Malivel'],
       },
@@ -33888,7 +34574,7 @@ export const aesthetics: AestheticProps[] = [
         ],
       },
       timeline: {
-        preceded: ['Romanticism'],
+        preceded: ['romanticism'],
       },
     },
   },
@@ -33903,7 +34589,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Hex', 'D Trance', 'Hextrance', 'Crushed Trance'],
-        decade: ['2020s'],
+        decade: ['21th_century', '2020s'],
         creator: ['Sienna Sleep', 'Exodia'],
       },
       visualThemes: {
@@ -33926,6 +34612,7 @@ export const aesthetics: AestheticProps[] = [
         platform: ['Sound', 'Cloud', 'You', 'Tube', 'Rate', 'Your', 'Music'],
         media: ['Dismiss Yourself (record label)'],
       },
+      timeline: {},
     },
   },
   {
@@ -33939,7 +34626,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['1980s'],
+        decade: ['20th_century', '1980s'],
       },
       visualThemes: {
         motifs: [
@@ -33957,6 +34644,7 @@ export const aesthetics: AestheticProps[] = [
       connections: {
         related: ['coastal_style', 'cottagecore', 'french_country', 'gustavian', 'rococo', 'victorian'],
       },
+      timeline: {},
     },
   },
   {
@@ -33969,7 +34657,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['2000s'],
+        decade: ['21th_century', '2000s'],
         location: ['China (particularly rural areas)'],
         creator: ['Luo Fuxing'],
       },
@@ -33987,6 +34675,7 @@ export const aesthetics: AestheticProps[] = [
           'yabi',
         ],
       },
+      timeline: {},
     },
   },
   {
@@ -34000,7 +34689,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Sharps'],
-        decade: ['1960s-1970s'],
+        decade: ['20th_century', '1960s'],
         location: ['Melbourne', 'Australia'],
         creator: ['Australian working-class suburban youth gangs'],
       },
@@ -34028,6 +34717,7 @@ export const aesthetics: AestheticProps[] = [
       connections: {
         related: ['biker', 'greaser', 'mod', 'rockers', 'rockabilly', 'preppy', 'skinhead'],
       },
+      timeline: {},
     },
   },
   {
@@ -34041,7 +34731,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Shibuya Style (渋谷系)'],
-        decade: ['1990s'],
+        decade: ['20th_century', '1990s'],
         location: ['Shibuya', 'Tokyo', 'Japan'],
       },
       visualThemes: {
@@ -34069,6 +34759,7 @@ export const aesthetics: AestheticProps[] = [
       mediaCulture: {
         figures: ['Pizzicato Five', "Flipper's Guitar", 'Cornelius', 'Kahimi Karie', 'Fantastic Plastic Machine', ''],
       },
+      timeline: {},
     },
   },
   {
@@ -34082,7 +34773,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Grind Fiction', 'Animemo'],
-        decade: ['Early 2000s'],
+        decade: ['21th_century', '2000s'],
         creator: ['Masayoshi Kikuchi', 'Ryuta Ueda', 'Taiyō Matsumoto'],
       },
       visualThemes: {
@@ -34137,6 +34828,7 @@ export const aesthetics: AestheticProps[] = [
         ],
         brands: ['SEGATeam Reptile'],
       },
+      timeline: {},
     },
   },
   {
@@ -34149,7 +34841,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['2020s'],
+        decade: ['21th_century', '2020s'],
         location: ['China'],
       },
       visualThemes: {
@@ -34158,6 +34850,7 @@ export const aesthetics: AestheticProps[] = [
       connections: {
         related: ['wei_and_jin_dynasties'],
       },
+      timeline: {},
     },
   },
   {
@@ -34172,7 +34865,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Pink Parisian Chic'],
-        decade: ['Late 1990s'],
+        decade: ['20th_century', '1990s'],
       },
       visualThemes: {
         motifs: [
@@ -34200,6 +34893,7 @@ export const aesthetics: AestheticProps[] = [
         ],
         figures: ['Carrie Bradshaw (as an archetype)'],
       },
+      timeline: {},
     },
   },
   {
@@ -34212,7 +34906,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['Late 2010s'],
+        decade: ['21th_century', '2010s'],
         creator: ['Jewelxxet (collective', 'including Luci4/axxturel and islurwhenitalk)'],
       },
       visualThemes: {
@@ -34244,7 +34938,7 @@ export const aesthetics: AestheticProps[] = [
         platform: ['Sound', 'Cloud', 'Tik', 'Tok'],
       },
       timeline: {
-        succeeded: ['Krushclub'],
+        succeeded: ['krushclub'],
       },
     },
   },
@@ -34258,7 +34952,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['Late 1960s–1970s'],
+        decade: ['20th_century', '1960s', '1970s'],
         location: ['Novi Sad', 'Yugoslavia'],
         creator: ['Miroljub Todorović'],
       },
@@ -34289,6 +34983,7 @@ export const aesthetics: AestheticProps[] = [
         platform: ['Signal (magazine)'],
         figures: ['Miroljub Todorović', 'Zoran Popović', 'Jaroslav Supek', 'Slavko Matković'],
       },
+      timeline: {},
     },
   },
   {
@@ -34302,7 +34997,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Broken Transmission'],
-        decade: ['Early 2010s'],
+        decade: ['21th_century', '2010s'],
       },
       visualThemes: {
         motifs: [
@@ -34325,7 +35020,7 @@ export const aesthetics: AestheticProps[] = [
         figures: ['Infinity Frequencies天気予報 (Weather Forecast)Vektroid (as Fuji Grid TV)Nmesh'],
       },
       timeline: {
-        preceded: ['Vaporwave'],
+        preceded: ['vaporwave'],
       },
     },
   },
@@ -34340,7 +35035,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Early CGI', '80s/90s CGI', 'Retro CGI', 'Old CGI', "Drum 'n Bass CGI"],
-        decade: ['1970s (first came into prominence in the 1980s)'],
+        decade: ['20th_century', '1970s'],
       },
       visualThemes: {
         motifs: ['Early CGI Animation / art', 'surreal environments and 3D models'],
@@ -34380,6 +35075,7 @@ export const aesthetics: AestheticProps[] = [
       mediaCulture: {
         brands: ['Bryce3D'],
       },
+      timeline: {},
     },
   },
   {
@@ -34393,7 +35089,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Sino-punk'],
-        decade: ["2010's"],
+        decade: ['21th_century', '2010s'],
         creator: ['Ken Liu'],
       },
       visualThemes: {
@@ -34405,6 +35101,7 @@ export const aesthetics: AestheticProps[] = [
       mediaCulture: {
         media: ['Dandelion Dynasty series', 'Avatar the Last Airbender'],
       },
+      timeline: {},
     },
   },
   {
@@ -34418,7 +35115,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Vintage Hero', 'Mid-20th Century Comic Book Style'],
-        decade: ['Mid-1950s – Early 1970s'],
+        decade: ['20th_century', '1950s'],
         location: ['United States'],
         creator: [
           'Jack Kirby',
@@ -34465,8 +35162,8 @@ export const aesthetics: AestheticProps[] = [
         ],
       },
       timeline: {
-        preceded: ['Golden Age Comics'],
-        succeeded: ['Bronze Age Comics'],
+        preceded: ['golden_age comics'],
+        succeeded: ['bronze_age comics'],
       },
     },
   },
@@ -34480,7 +35177,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['Mid-2010s'],
+        decade: ['21th_century', '2010s'],
       },
       visualThemes: {
         motifs: [
@@ -34502,7 +35199,7 @@ export const aesthetics: AestheticProps[] = [
         figures: ['Lucien Hughes', 'Frank', 'Jav', 'Cee'],
       },
       timeline: {
-        preceded: ['Vaporwave'],
+        preceded: ['vaporwave'],
       },
     },
   },
@@ -34517,7 +35214,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Chinese Sci-Fi Futurism', 'Socialist Cyberpunk[1]'],
-        decade: ['2010s'],
+        decade: ['21th_century', '2010s'],
       },
       visualThemes: {
         motifs: ['Infrastructure', 'space exploration', 'electronics', 'artificial intelligence', 'Chinese cities'],
@@ -34531,6 +35228,7 @@ export const aesthetics: AestheticProps[] = [
         media: ['The Three-Body Problem'],
         figures: ['Liu Cixin', 'Lawrence Lek', 'Fan Wennan'],
       },
+      timeline: {},
     },
   },
   {
@@ -34543,7 +35241,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['2010s'],
+        decade: ['21th_century', '2010s'],
         creator: ['u/tiggerclaw', 'r/sizz'],
       },
       visualThemes: {
@@ -34554,6 +35252,7 @@ export const aesthetics: AestheticProps[] = [
       connections: {
         related: ['are-bure-bokeh', 'cryptidcore', 'expressionism', 'film_noir'],
       },
+      timeline: {},
     },
   },
   {
@@ -34567,7 +35266,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Skate Rock', 'Skatecore'],
-        decade: ['1980s'],
+        decade: ['20th_century', '1980s'],
         location: ['Southern California', 'United States'],
       },
       visualThemes: {
@@ -34581,6 +35280,7 @@ export const aesthetics: AestheticProps[] = [
         brands: ['Vans', 'Independent', 'Thrasher', 'Epitaph Records', 'Fat Wreck Chords'],
         figures: ['Bad Religion', 'NOFX', 'Pennywise', 'Black Flag', 'Suicidal Tendencies'],
       },
+      timeline: {},
     },
   },
   {
@@ -34594,7 +35294,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['1950s'],
+        decade: ['20th_century', '1950s'],
         location: ['California', 'United States'],
       },
       visualThemes: {
@@ -34627,6 +35327,7 @@ export const aesthetics: AestheticProps[] = [
         brands: ['Thrasher', 'Vans', 'DC Shoes', 'Etnies', 'Element', 'Powell-Peralta', 'Santa Cruz'],
         figures: ['Tony Hawk', 'Rodney Mullen', 'Stacy Peralta', 'Tony Alva', 'Leticia Bufoni'],
       },
+      timeline: {},
     },
   },
   {
@@ -34640,7 +35341,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Realistic Design/UI', 'Skiamorphism'],
-        decade: ['1980s-early 2010s'],
+        decade: ['20th_century', '21th_century', '1980s', '2010s'],
       },
       visualThemes: {
         motifs: ['Imitation of real world objects and textures', 'depth filled', 'glossy/shiny'],
@@ -34664,8 +35365,8 @@ export const aesthetics: AestheticProps[] = [
         brands: ['Most major tech companies from when it was popular.'],
       },
       timeline: {
-        preceded: ['Pixel UIY2K Futurism'],
-        succeeded: ['Fl]at Design'],
+        preceded: ['pixel_uiy2k futurism'],
+        succeeded: ['fl]at_design'],
       },
     },
   },
@@ -34680,7 +35381,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Izikhothane'],
-        decade: ['Mid-2000s'],
+        decade: ['21th_century', '2000s'],
         location: ['Townships of Ekurhuleni (East Rand', 'Gauteng Province)', 'South Africa'],
       },
       visualThemes: {
@@ -34724,6 +35425,7 @@ export const aesthetics: AestheticProps[] = [
         ],
         figures: ['Kenny Kunene (often cited as a forerunner/inspiration)', 'Tshepo Pitsa ("The Don Dada")'],
       },
+      timeline: {},
     },
   },
   {
@@ -34736,7 +35438,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['1960s'],
+        decade: ['20th_century', '1960s'],
       },
       visualThemes: {
         motifs: [
@@ -34775,6 +35477,7 @@ export const aesthetics: AestheticProps[] = [
         media: ['Music (Ska', 'Reggae', 'Oi!)', 'Film (Romper Stomper', 'American History X)'],
         brands: ['Fred Perry', 'Ben Sherman', 'Lonsdale', 'Everlast', 'Dr. Martens', "Levi's"],
       },
+      timeline: {},
     },
   },
   {
@@ -34788,7 +35491,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Russian Doll', 'Doll Era', 'Dollface', 'Prada Effect'],
-        decade: ['2000s (Initial Popularity)2020s (Resurgence)'],
+        decade: ['21th_century', '2000s', '2020s'],
       },
       visualThemes: {
         motifs: [
@@ -34808,6 +35511,7 @@ export const aesthetics: AestheticProps[] = [
       connections: {
         related: ['brazilian_bombshell', 'coquette', 'heroin_chic', 'waif', 'winter_bimbo', 'y2k'],
       },
+      timeline: {},
     },
   },
   {
@@ -34821,7 +35525,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['Mid-2010s'],
+        decade: ['21th_century', '2010s'],
       },
       visualThemes: {
         motifs: ['Paramilitary groups', 'gore', 'Bondage', 'weapons', 'drugs'],
@@ -34831,6 +35535,7 @@ export const aesthetics: AestheticProps[] = [
       connections: {
         related: ['bondage', 'morute', 'southern_gothic', 'soviet_nostalgia'],
       },
+      timeline: {},
     },
   },
   {
@@ -34844,7 +35549,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Sleepycore', 'drowsycore'],
-        decade: ['2010s'],
+        decade: ['21th_century', '2010s'],
       },
       visualThemes: {
         motifs: [
@@ -34870,7 +35575,7 @@ export const aesthetics: AestheticProps[] = [
         related: ['cozycore'],
       },
       timeline: {
-        preceded: ['Vaporwave'],
+        preceded: ['vaporwave'],
       },
     },
   },
@@ -34884,7 +35589,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['2010s'],
+        decade: ['21th_century', '2010s'],
       },
       visualThemes: {
         motifs: [
@@ -34929,6 +35634,7 @@ export const aesthetics: AestheticProps[] = [
           'Kawaii Slime Shop',
         ],
       },
+      timeline: {},
     },
   },
   {
@@ -34942,7 +35648,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Sloane', 'Sloane Ranger'],
-        decade: ['Late 1970s–1980s'],
+        decade: ['20th_century', '1970s', '1980s'],
         location: ['London', 'United Kingdom'],
       },
       visualThemes: {
@@ -34973,6 +35679,7 @@ export const aesthetics: AestheticProps[] = [
         brands: ['Barbour', 'Burberry', 'Hunter', 'Laura Ashley', 'Cartier', 'Land Rover'],
         figures: ['Diana', 'Princess of Wales', 'Sarah', 'Duchess of York', 'The Princess Royal'],
       },
+      timeline: {},
     },
   },
   {
@@ -34985,7 +35692,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['Mid-2010s'],
+        decade: ['21th_century', '2010s'],
       },
       visualThemes: {
         motifs: ['Pizza', 'burgers', 'ramen', 'junk food', 'fast food logos', 'snack patterns'],
@@ -34998,12 +35705,14 @@ export const aesthetics: AestheticProps[] = [
         platform: ['Tumblr', 'Instagram'],
         figures: ['Katy Perry', 'Jennifer Lawrence', 'Beyoncé', 'Cara Delevingne'],
       },
+      timeline: {},
     },
   },
   {
     url: 'https://aesthetics.fandom.com/wiki/Socialist_Realism',
     name: 'Socialist Realism',
     id: 'socialist_realism',
+    imageUrl: 'https://static.wikia.nocookie.net/aesthetics/images/7/7f/Socialistrealism3.jpg',
     description:
       "Socialist Realism was the official art style of the Soviet Union and other communist states, prevalent throughout the 20th century, especially during the Stalinist era.[1] It aimed to depict an idealized version of socialist society, promoting communist values and emphasizing heroic portrayals of Soviet workers, peasants, and political figures. While it employed a realistic style, it differed significantly from the Realism art movement by prioritizing propagandistic and ideological messages over objective representation. Socialist Realism aimed to portray an idealized and heroic vision of Soviet society, rather than a strictly factual one. This style was also adopted by various Eastern Bloc countries, where it evolved with distinct national and cultural variations, such as Juche Realism in North Korea. Socialist Realism is related to but distinct from Social Realism, a separate art movement that realistically depicted social issues. Unlike Social Realism, Socialist Realism prioritized clear, unambiguous messages that promoted the state's ideology.",
     categories: ['architectural_styles', 'art_movements', 'historical'],
@@ -35011,7 +35720,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Soviet Realism'],
-        decade: ['1920s-1980s'],
+        decade: ['20th_century', '1920s'],
         creator: ['Maxim Gorky', 'Andrei Zhdanov (key proponents)'],
       },
       visualThemes: {
@@ -35054,6 +35763,7 @@ export const aesthetics: AestheticProps[] = [
           'yugo-nostalgia',
         ],
       },
+      timeline: {},
     },
   },
   {
@@ -35067,7 +35777,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Social Commentary Art'],
-        decade: ['1920s'],
+        decade: ['20th_century', '1920s'],
       },
       visualThemes: {
         motifs: ['Workers', 'the urban poor', 'rural struggles', 'protest', 'industry', 'the common person'],
@@ -35080,6 +35790,7 @@ export const aesthetics: AestheticProps[] = [
       mediaCulture: {
         media: ['The Grapes of Wrath', 'Native Son', 'New Masses', 'Artists on the WPA'],
       },
+      timeline: {},
     },
   },
   {
@@ -35102,6 +35813,7 @@ export const aesthetics: AestheticProps[] = [
       connections: {
         related: ['avant_apocalypse', 'brutalism', 'industrial_decay', 'post-apocalyptic', 'solarpunk'],
       },
+      timeline: {},
     },
   },
   {
@@ -35115,7 +35827,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Softie (masculine)'],
-        decade: ['Late 2010s'],
+        decade: ['21th_century', '2010s'],
       },
       visualThemes: {
         motifs: [
@@ -35159,6 +35871,7 @@ export const aesthetics: AestheticProps[] = [
           'vsco_girl',
         ],
       },
+      timeline: {},
     },
   },
   {
@@ -35172,7 +35885,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Cheeky Victorian Revival'],
-        decade: ['Late 1980s'],
+        decade: ['20th_century', '1980s'],
       },
       visualThemes: {
         motifs: [
@@ -35217,6 +35930,7 @@ export const aesthetics: AestheticProps[] = [
         brands: ["Trader Joe's", 'Kingsway', 'Phileas Fogg', 'Chap Magazine', "Hendrick's Gin"],
         figures: ['Jules Verne', 'Terry Gillam', 'Georges Melies'],
       },
+      timeline: {},
     },
   },
   {
@@ -35235,7 +35949,7 @@ export const aesthetics: AestheticProps[] = [
           'Edwardian Romanticism',
           'Romantic-Countriana',
         ],
-        decade: ['Late 1970s'],
+        decade: ['20th_century', '1970s'],
       },
       visualThemes: {
         motifs: ['Holding onto country life whilst elsewhere', 'femininity', 'comfort', 'coziness'],
@@ -35256,6 +35970,7 @@ export const aesthetics: AestheticProps[] = [
       mediaCulture: {
         brands: ['Gunne Sax', 'Laura Ashley'],
       },
+      timeline: {},
     },
   },
   {
@@ -35269,7 +35984,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Softie (feminine)'],
-        decade: ['Late 2010s'],
+        decade: ['21th_century', '2010s'],
       },
       visualThemes: {
         motifs: [
@@ -35308,6 +36023,7 @@ export const aesthetics: AestheticProps[] = [
       mediaCulture: {
         brands: ['H&M', 'Forever 21', 'Charlotte Tilbury', 'Kaja', "Claire's"],
       },
+      timeline: {},
     },
   },
   {
@@ -35321,7 +36037,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Pale Grunge'],
-        decade: ['2010s'],
+        decade: ['21th_century', '2010s'],
       },
       visualThemes: {
         colours: ['Black', 'white', 'grey', 'blue', 'green'],
@@ -35346,6 +36062,7 @@ export const aesthetics: AestheticProps[] = [
       mediaCulture: {
         brands: ['Voss', 'Fiji', 'Evian', 'American Apparel', 'Zara'],
       },
+      timeline: {},
     },
   },
   {
@@ -35358,7 +36075,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['Coined c. 2000s', 'Gained prevalence in the 2010s.'],
+        decade: ['21th_century', '2000s', '21th_century', '2010s'],
         location: ['Brazil'],
         creator: ['Matt Stagg', 'John Robert', 'Adam Flyn'],
       },
@@ -35399,7 +36116,7 @@ export const aesthetics: AestheticProps[] = [
         figures: ['Luc Schuiten (architecture)', 'John Robert (coined the term)'],
       },
       timeline: {
-        preceded: ['Cyberpunk', 'Steampunk'],
+        preceded: ['cyberpunk', 'steampunk'],
       },
     },
   },
@@ -35414,7 +36131,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Song China'],
-        decade: ['10th century'],
+        decade: ['10th_century'],
         location: ['China'],
       },
       visualThemes: {
@@ -35429,8 +36146,8 @@ export const aesthetics: AestheticProps[] = [
         figures: ['Emperor Hui of Song (Zhao Ji)'],
       },
       timeline: {
-        preceded: ['Tang Dynasty'],
-        succeeded: ['Yuan Dynasty'],
+        preceded: ['tang_dynasty'],
+        succeeded: ['yuan_dynasty'],
       },
     },
   },
@@ -35445,7 +36162,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Soc Art', 'Soviet Pop Art'],
-        decade: ['1970s'],
+        decade: ['20th_century', '1970s'],
         location: ['Moscow', 'Soviet Union'],
       },
       visualThemes: {
@@ -35468,7 +36185,7 @@ export const aesthetics: AestheticProps[] = [
         figures: ['Vitaly Komar', 'Alexander Melamid', 'Leonid Sokov', 'Alexander Kosolapov', 'Dmitri Prigov'],
       },
       timeline: {
-        preceded: ['Socialist Realism'],
+        preceded: ['socialist_realism'],
       },
     },
   },
@@ -35482,7 +36199,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['Antebellum Era (c. 1820s–1860s)'],
+        decade: ['19th_century', '1820s', '1830s', '1840s', '1850s', '1860s'],
         location: ['American South'],
       },
       visualThemes: {
@@ -35505,6 +36222,7 @@ export const aesthetics: AestheticProps[] = [
         media: ['Gone with the Wind', 'The Birth of a Nation', 'Jezebel'],
         figures: ["Scarlett O'Hara", 'Blanche Du', 'Bois'],
       },
+      timeline: {},
     },
   },
   {
@@ -35518,7 +36236,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Meridional Gothic', 'Occitan Gothic', 'Languedoc Gothic', 'Toulousian Gothic'],
-        decade: ['12th-14th centuries'],
+        decade: ['12th_century', '13th_century', '14th_century'],
         location: ['Languedoc', 'France'],
       },
       visualThemes: {
@@ -35529,6 +36247,7 @@ export const aesthetics: AestheticProps[] = [
       connections: {
         related: ['cistercian', 'gothic', 'medieval', 'romanesque', 'visigothic'],
       },
+      timeline: {},
     },
   },
   {
@@ -35542,7 +36261,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['19th Century'],
+        decade: ['19th_century'],
       },
       visualThemes: {
         motifs: ['Criticism of prejudice', 'decay', 'past vs. future'],
@@ -35566,6 +36285,7 @@ export const aesthetics: AestheticProps[] = [
           'cryptidcore',
         ],
       },
+      timeline: {},
     },
   },
   {
@@ -35579,7 +36299,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Sovietcore'],
-        decade: ['Early 1990s (as cultural and commercial phenomenon)'],
+        decade: ['20th_century', '1990s'],
       },
       visualThemes: {
         motifs: ['Soviet Union', 'post-Soviet period', 'nostalgia for childhood', 'panel houses'],
@@ -35595,6 +36315,7 @@ export const aesthetics: AestheticProps[] = [
           'yugo-nostalgia',
         ],
       },
+      timeline: {},
     },
   },
   {
@@ -35607,7 +36328,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['2010s'],
+        decade: ['21th_century', '2010s'],
       },
       visualThemes: {
         motifs: [
@@ -35639,6 +36360,7 @@ export const aesthetics: AestheticProps[] = [
       mediaCulture: {
         media: ['Eastern European New Wave'],
       },
+      timeline: {},
     },
   },
   {
@@ -35651,7 +36373,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['1950s-1960s'],
+        decade: ['20th_century', '1950s', '1960s'],
       },
       visualThemes: {
         motifs: [
@@ -35719,8 +36441,8 @@ export const aesthetics: AestheticProps[] = [
         ],
       },
       timeline: {
-        preceded: ['Art Deco', 'Streamline Moderne'],
-        succeeded: ['Postmodernism', 'Supergraphic Ultramodern', 'Earth Tones', 'Cassette Futurism'],
+        preceded: ['art_deco', 'streamline_moderne'],
+        succeeded: ['postmodernism', 'supergraphic_ultramodern', 'earth_tones', 'cassette_futurism'],
       },
     },
   },
@@ -35735,7 +36457,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Astrocore'],
-        decade: ['2020s'],
+        decade: ['21th_century', '2020s'],
       },
       visualThemes: {
         motifs: [
@@ -35760,6 +36482,7 @@ export const aesthetics: AestheticProps[] = [
       connections: {
         related: ['aliencore', 'fantasy_astronomy', 'galaxy_print', 'signalwave', 'uchuu_kei'],
       },
+      timeline: {},
     },
   },
   {
@@ -35772,7 +36495,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['2020s'],
+        decade: ['21th_century', '2020s'],
         location: ['United States'],
       },
       visualThemes: {
@@ -35844,6 +36567,7 @@ export const aesthetics: AestheticProps[] = [
           'Sabrina Carpenter',
         ],
       },
+      timeline: {},
     },
   },
   {
@@ -35857,7 +36581,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Frontier Sci-Fi', 'Space Cowboy'],
-        decade: ['1930s'],
+        decade: ['20th_century', '1930s'],
         creator: ['Not applicable (genre developed gradually)'],
       },
       visualThemes: {
@@ -35879,6 +36603,7 @@ export const aesthetics: AestheticProps[] = [
         ],
         brands: ['Disney', 'Lucasfilm'],
       },
+      timeline: {},
     },
   },
   {
@@ -35891,7 +36616,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['2020s'],
+        decade: ['21th_century', '2020s'],
         location: ['Spain / Internet (Reddit)'],
       },
       visualThemes: {
@@ -35912,7 +36637,7 @@ export const aesthetics: AestheticProps[] = [
         platform: ['Reddit (r/spainwave)'],
       },
       timeline: {
-        preceded: ['Vaporwave'],
+        preceded: ['vaporwave'],
       },
     },
   },
@@ -35927,7 +36652,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Siglo de Oro (Golden Century)'],
-        decade: ['c. 1492 - 1681'],
+        decade: ['16th_century'],
         location: ['Spanish Empire'],
       },
       visualThemes: {
@@ -35971,7 +36696,7 @@ export const aesthetics: AestheticProps[] = [
         ],
       },
       timeline: {
-        preceded: ['Late Gothic', 'Italian Renaissance'],
+        preceded: ['late_gothic', 'italian_renaissance'],
       },
     },
   },
@@ -35985,7 +36710,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['2000s'],
+        decade: ['21th_century', '2000s'],
       },
       visualThemes: {
         colours: ['Rainbow', 'black'],
@@ -35993,6 +36718,7 @@ export const aesthetics: AestheticProps[] = [
       connections: {
         related: ['2010s_dark_fandom', 'hands_up', 'scene', 'poster_gal', 'furry'],
       },
+      timeline: {},
     },
   },
   {
@@ -36006,7 +36732,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Jingshen Xiaohuo', 'Jingshen Xiaomei'],
-        decade: ['2010s'],
+        decade: ['21th_century', '2010s'],
         location: ['North-East China'],
       },
       connections: {
@@ -36016,6 +36742,7 @@ export const aesthetics: AestheticProps[] = [
       mediaCulture: {
         platform: ['Douyin', 'Kuaishou'],
       },
+      timeline: {},
     },
   },
   {
@@ -36029,7 +36756,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Extreme Horror', 'Hardcore Horror', 'Gore Horror'],
-        decade: ['1980s'],
+        decade: ['20th_century', '1980s'],
         creator: ['David J. Schow is strongly associated with naming and popularizing the term'],
       },
       visualThemes: {
@@ -36065,6 +36792,7 @@ export const aesthetics: AestheticProps[] = [
       mediaCulture: {
         media: ['Books of Blood', 'The Light at the End', 'Off Season', 'The Cipher', 'Exquisite Corpse'],
       },
+      timeline: {},
     },
   },
   {
@@ -36078,7 +36806,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Sports Brutalism', 'Corporate neu-grunge'],
-        decade: ['2010s'],
+        decade: ['21th_century', '2010s'],
       },
       visualThemes: {
         motifs: ['Large bold typography', 'sports imagery'],
@@ -36087,6 +36815,7 @@ export const aesthetics: AestheticProps[] = [
       connections: {
         related: ['acid_design', 'cyberminimalism', 'glitch_art', 'neubrutalism'],
       },
+      timeline: {},
     },
   },
   {
@@ -36105,7 +36834,7 @@ export const aesthetics: AestheticProps[] = [
           'elegantly disheveled',
           '"je ne sais quoi"',
         ],
-        decade: ['16th Century'],
+        decade: ['16th_century'],
         location: ['Italy[Note 1]'],
       },
       visualThemes: {
@@ -36126,6 +36855,7 @@ export const aesthetics: AestheticProps[] = [
         media: ['The Book of the Courtier (1528) by Baldassare Castiglione'],
         figures: ['Baldassare Castiglione', 'Tommaso Capozzoli'],
       },
+      timeline: {},
     },
   },
   {
@@ -36139,7 +36869,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['The beginning of time'],
+        decade: ['unknown'],
         creator: ['Whatever higher power you believe in'],
       },
       visualThemes: {
@@ -36159,6 +36889,7 @@ export const aesthetics: AestheticProps[] = [
           'winter',
         ],
       },
+      timeline: {},
     },
   },
   {
@@ -36171,7 +36902,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['19th century'],
+        decade: ['19th_century'],
       },
       visualThemes: {
         colours: ['black', 'silver', 'red'],
@@ -36182,6 +36913,7 @@ export const aesthetics: AestheticProps[] = [
       mediaCulture: {
         media: ['James Bond', 'Mission: Impossible'],
       },
+      timeline: {},
     },
   },
   {
@@ -36194,7 +36926,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['2020s'],
+        decade: ['21th_century', '2020s'],
       },
       visualThemes: {
         motifs: ['Y2K and Cyber Grunge motifs', 'luxury', 'stars', 'glitter'],
@@ -36204,6 +36936,7 @@ export const aesthetics: AestheticProps[] = [
       connections: {
         related: ['y2kcyber_grunge', 'krushclub', 'rockstar_gfxo'],
       },
+      timeline: {},
     },
   },
   {
@@ -36217,7 +36950,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Starflesh'],
-        decade: ['Early 2010s'],
+        decade: ['21th_century', '2010s'],
         creator: ['@starrflesh (Tik', 'Tok)'],
       },
       visualThemes: {
@@ -36257,6 +36990,7 @@ export const aesthetics: AestheticProps[] = [
       mediaCulture: {
         platform: ['Tumblr', 'Tik', 'Tok'],
       },
+      timeline: {},
     },
   },
   {
@@ -36270,7 +37004,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['1960s (aesthetic)1980s (term)2000s/2010s (popularization)'],
+        decade: ['20th_century', '1960s', '2000s', '2010s'],
       },
       visualThemes: {
         motifs: [
@@ -36320,6 +37054,7 @@ export const aesthetics: AestheticProps[] = [
           'victorian_goth',
         ],
       },
+      timeline: {},
     },
   },
   {
@@ -36333,7 +37068,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Sticker Slapping', 'Sticker Bombing', 'Slap Tagging'],
-        decade: ['2000s'],
+        decade: ['21th_century', '2000s'],
       },
       visualThemes: {
         motifs: [
@@ -36362,6 +37097,7 @@ export const aesthetics: AestheticProps[] = [
       mediaCulture: {
         media: ['Need for Speed: Underground', 'DJ Hero', 'The Amazing World of Gumball', 'Splatoon', 'Jet Set Radio'],
       },
+      timeline: {},
     },
   },
   {
@@ -36375,7 +37111,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Stilyaga (singular)'],
-        decade: ['1940s'],
+        decade: ['20th_century', '1940s'],
         location: ['Soviet Union (primarily Russia)'],
       },
       visualThemes: {
@@ -36405,6 +37141,7 @@ export const aesthetics: AestheticProps[] = [
           'teddy_boy',
         ],
       },
+      timeline: {},
     },
   },
   {
@@ -36417,7 +37154,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['1920s (Early Origins)1940s-1960s'],
+        decade: ['20th_century', '1920s', '1930s', '1940s', '1950s', '1960s'],
         location: ['Cornwall', 'England'],
       },
       visualThemes: {
@@ -36435,6 +37172,7 @@ export const aesthetics: AestheticProps[] = [
           'newlyn_school',
         ],
       },
+      timeline: {},
     },
   },
   {
@@ -36448,7 +37186,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Flintstone', 'Caveman tech', 'Prehistoric tech', 'Neolithic tech', 'Stone age technology'],
-        decade: ['2000s'],
+        decade: ['21th_century', '2000s'],
         creator: ['Frank Wu Wu'],
       },
       visualThemes: {
@@ -36467,6 +37205,7 @@ export const aesthetics: AestheticProps[] = [
       connections: {
         related: ['forestpunk'],
       },
+      timeline: {},
     },
   },
   {
@@ -36480,7 +37219,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['s', 'Xe'],
-        decade: ['Early 1980s'],
+        decade: ['20th_century', '1980s'],
         location: ['Washington', 'D.C.', 'United States'],
       },
       visualThemes: {
@@ -36501,6 +37240,7 @@ export const aesthetics: AestheticProps[] = [
         brands: ['Vans'],
         figures: ['Ian Mac', 'Kaye (Minor Threat)', 'Ray Cappo (Youth of Today)'],
       },
+      timeline: {},
     },
   },
   {
@@ -36514,7 +37254,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Art Moderne', 'Streamline Design', 'Style Paquebot'],
-        decade: ['1930s–1940s'],
+        decade: ['20th_century', '1930s', '1940s'],
       },
       visualThemes: {
         motifs: [
@@ -36535,8 +37275,8 @@ export const aesthetics: AestheticProps[] = [
         figures: ['Norman Bel Geddes', 'Raymond Loewy', 'Henry Dreyfuss'],
       },
       timeline: {
-        preceded: ['Art Deco', 'Dieselpunk', 'Decopunk'],
-        succeeded: ['Atompunk', 'Mid-Century Modern', 'Raygun Gothic', 'Googie', 'Atomic Age', 'Space Age'],
+        preceded: ['art_deco', 'dieselpunk', 'decopunk'],
+        succeeded: ['atompunk', 'mid-century_modern', 'raygun_gothic', 'googie', 'atomic_age', 'space_age'],
       },
     },
   },
@@ -36550,7 +37290,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['Mid-2010s'],
+        decade: ['21th_century', '2010s'],
         creator: ['Mai Magi'],
       },
       visualThemes: {
@@ -36579,6 +37319,7 @@ export const aesthetics: AestheticProps[] = [
           'romantic_goth',
         ],
       },
+      timeline: {},
     },
   },
   {
@@ -36592,7 +37333,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['2010s'],
+        decade: ['21th_century', '2010s'],
       },
       connections: {
         related: [
@@ -36605,6 +37346,7 @@ export const aesthetics: AestheticProps[] = [
           'theatre_academia',
         ],
       },
+      timeline: {},
     },
   },
   {
@@ -36618,7 +37360,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Suburbcore', 'Suburban Lifestyle', 'American Suburbs'],
-        decade: ['1940s-50s (origin)1970s-present (maturation)'],
+        decade: ['20th_century', '1940s', '1950s', '1970s'],
       },
       visualThemes: {
         motifs: [
@@ -36637,6 +37379,7 @@ export const aesthetics: AestheticProps[] = [
       connections: {
         related: ['50s_suburbia', 'suburban_gothic', 'americana', 'dreamcore_adjacent_nostalgiacore_adjacent'],
       },
+      timeline: {},
     },
   },
   {
@@ -36650,7 +37393,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['1950s'],
+        decade: ['20th_century', '1950s'],
       },
       visualThemes: {
         motifs: ['Suburban neighborhoods', 'streetlamps', 'grocery and convenience stores', 'and fluorescent lighting'],
@@ -36673,6 +37416,7 @@ export const aesthetics: AestheticProps[] = [
           'australian_gothic',
         ],
       },
+      timeline: {},
     },
   },
   {
@@ -36686,7 +37430,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Voguish Vampire', 'Glam Ghoul', 'Deadly It Girl'],
-        decade: ['2020s'],
+        decade: ['21th_century', '2020s'],
       },
       visualThemes: {
         motifs: ['Dark hair and clothing', 'eyebags', 'androgynous'],
@@ -36696,6 +37440,7 @@ export const aesthetics: AestheticProps[] = [
       connections: {
         related: ['dark_nymphet', 'devilcore', 'femme_fatale', 'heroin_chic', 'indie_sleaze', 'waif'],
       },
+      timeline: {},
     },
   },
   {
@@ -36709,7 +37454,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Mini-Mods'],
-        decade: ['Early 1970s'],
+        decade: ['20th_century', '1970s'],
         location: ['United Kingdom and Ireland'],
       },
       visualThemes: {
@@ -36733,8 +37478,8 @@ export const aesthetics: AestheticProps[] = [
         figures: ['Hoxton Tom Mc', 'Court'],
       },
       timeline: {
-        preceded: ['Trojan Skinhead'],
-        succeeded: ['Smoothies', 'Bootboy'],
+        preceded: ['trojan_skinhead'],
+        succeeded: ['smoothies', 'bootboy'],
       },
     },
   },
@@ -36748,7 +37493,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['1960s'],
+        decade: ['20th_century', '1960s'],
       },
       visualThemes: {
         motifs: ['Customized school uniforms'],
@@ -36761,6 +37506,7 @@ export const aesthetics: AestheticProps[] = [
       mediaCulture: {
         media: ['Sukeban Deka', 'Tales of Yakjita College', 'Hana no Asuka  Gumi!'],
       },
+      timeline: {},
     },
   },
   {
@@ -36774,7 +37520,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['The formation of Earth'],
+        decade: ['unknown'],
         creator: ['Whatever higher power you believe in'],
       },
       visualThemes: {
@@ -36798,6 +37544,7 @@ export const aesthetics: AestheticProps[] = [
           'winter',
         ],
       },
+      timeline: {},
     },
   },
   {
@@ -36812,12 +37559,14 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Natsu Matsuri', '夏祭り'],
-        decade: ['Ancient origins', 'popularized in modern media in the 1950s'],
+        decade: ['20th_century', '1950s'],
       },
       visualThemes: {
         motifs: ['Fireworks', 'Yukata', 'Japanese Street Food', 'Festival Games', 'Paper Lanterns'],
         colours: ['Red', 'White', 'Black', 'Gold'],
       },
+      connections: {},
+      timeline: {},
     },
   },
   {
@@ -36831,7 +37580,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Soft Pop'],
-        decade: ['1960s'],
+        decade: ['20th_century', '1960s'],
         location: ['Southern California', 'United States'],
       },
       visualThemes: {
@@ -36862,6 +37611,7 @@ export const aesthetics: AestheticProps[] = [
           '',
         ],
       },
+      timeline: {},
     },
   },
   {
@@ -36874,7 +37624,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['Late 1990s'],
+        decade: ['20th_century', '1990s'],
         creator: ['Takashi Murakami'],
       },
       visualThemes: {
@@ -36894,6 +37644,7 @@ export const aesthetics: AestheticProps[] = [
           'ukiyo-e',
         ],
       },
+      timeline: {},
     },
   },
   {
@@ -36908,7 +37659,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Flowery Pop', 'Sweet And Sunny'],
-        decade: ['2000s'],
+        decade: ['21th_century', '2000s'],
       },
       visualThemes: {
         motifs: [
@@ -36941,6 +37692,7 @@ export const aesthetics: AestheticProps[] = [
           'y2k_futurism',
         ],
       },
+      timeline: {},
     },
   },
   {
@@ -36954,7 +37706,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['70s Ultra-Modern'],
-        decade: ['1960s'],
+        decade: ['20th_century', '1960s'],
       },
       visualThemes: {
         motifs: ['Curves', 'rounded shapes', 'rainbows', 'flat iconography', 'plastics and shiny metals'],
@@ -36974,8 +37726,8 @@ export const aesthetics: AestheticProps[] = [
         overlaped: ['cassette_futurism', 'earth_tones', 'international_typographic_style', 'pacific_punk_wave'],
       },
       timeline: {
-        preceded: ['Atompunk', 'Raygun Gothic', 'Mid-Century Modern', 'Space Age', 'Googie'],
-        succeeded: ['Cyberpunk', 'Laser Grid', 'Memphis Lite', 'Cassette Futurism'],
+        preceded: ['atompunk', 'raygun_gothic', 'mid-century_modern', 'space_age', 'googie'],
+        succeeded: ['cyberpunk', 'laser_grid', 'memphis_lite', 'cassette_futurism'],
       },
     },
   },
@@ -36989,7 +37741,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['1910s'],
+        decade: ['20th_century', '1910s'],
         location: ['Russian Empire'],
         creator: ['Kazimir Malevich'],
       },
@@ -37036,8 +37788,8 @@ export const aesthetics: AestheticProps[] = [
         figures: ['Kazimir Malevich', 'El Lissitzky', 'Liubov Popova', 'Olga Rozanova'],
       },
       timeline: {
-        preceded: ['Russian Futurism', 'Cubism'],
-        succeeded: ['Constructivism', 'Socialist Realism'],
+        preceded: ['russian_futurism', 'cubism'],
+        succeeded: ['constructivism', 'socialist_realism'],
       },
     },
   },
@@ -37052,7 +37804,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Coconut Girl'],
-        decade: ['Late 1990s'],
+        decade: ['20th_century', '1990s'],
       },
       visualThemes: {
         motifs: ['Hawaiian prints', 'surf boards', 'puka shells'],
@@ -37074,6 +37826,7 @@ export const aesthetics: AestheticProps[] = [
           'bling',
         ],
       },
+      timeline: {},
     },
   },
   {
@@ -37087,7 +37840,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Surf Culture'],
-        decade: ['1950s (modern subculture)'],
+        decade: ['20th_century', '1950s'],
         creator: ['Duke Kahanamoku', 'George Freeth (popularization)'],
       },
       visualThemes: {
@@ -37119,6 +37872,7 @@ export const aesthetics: AestheticProps[] = [
         media: ['Gidget (1959 film)', 'The Endless Summer (1966 film)', 'The Beach Boys (music)'],
         brands: ['Quiksilver', 'Billabong', 'Rip Curl (early surfwear brands)'],
       },
+      timeline: {},
     },
   },
   {
@@ -37131,7 +37885,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['1920s–1950s'],
+        decade: ['20th_century', '1920s', '1930s', '1940s', '1950s'],
         location: ['Paris', 'France'],
         creator: ['André Breton'],
       },
@@ -37170,8 +37924,8 @@ export const aesthetics: AestheticProps[] = [
         ],
       },
       timeline: {
-        preceded: ['Dadaism', 'Symbolism'],
-        succeeded: ['Abstract Expressionism'],
+        preceded: ['dadaism', 'symbolism'],
+        succeeded: ['abstract_expressionism'],
       },
     },
   },
@@ -37185,7 +37939,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['2010s'],
+        decade: ['21th_century', '2010s'],
       },
       visualThemes: {
         motifs: [
@@ -37204,6 +37958,7 @@ export const aesthetics: AestheticProps[] = [
       connections: {
         related: ['arabfunny', 'deep_fried_meme', 'heart_emoji_meme', 'mlgweirdcore', 'vaporwave'],
       },
+      timeline: {},
     },
   },
   {
@@ -37218,7 +37973,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Jerk', 'Swag Era'],
-        decade: ['Late 2000s - Early 2010s'],
+        decade: ['21th_century', '2000s', '2010s'],
         location: ['United States (primarily California)'],
       },
       visualThemes: {
@@ -37245,8 +38000,8 @@ export const aesthetics: AestheticProps[] = [
         figures: ["New Boy'z", 'Soulja Boy', 'Tyga', 'Chris Brown', 'Odd Future'],
       },
       timeline: {
-        preceded: ['Mc', 'Bling', 'Hip-Hop', 'Bro Hoe'],
-        succeeded: ['Hypebeast'],
+        preceded: ['mc', 'bling', 'hip-hop', 'bro_hoe'],
+        succeeded: ['hypebeast'],
       },
     },
   },
@@ -37265,6 +38020,8 @@ export const aesthetics: AestheticProps[] = [
       connections: {
         related: ['cult_party_kei', 'delicate_sweet', 'fairy_kei', 'hime_lolita', 'lolita', 'pastel', 'yume_kawaii'],
       },
+      origins: {},
+      timeline: {},
     },
   },
   {
@@ -37277,7 +38034,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['Mid-1900s (Apartheid era)'],
+        decade: ['20th_century', '1900s'],
         location: ['Johannesburg (Jeppestown', 'townships)', 'South Africa'],
       },
       visualThemes: {
@@ -37311,6 +38068,7 @@ export const aesthetics: AestheticProps[] = [
         brands: ['Pierre Cardin', 'Florsheim', 'Baker', 'Cashini'],
         figures: ['Simon Ngubane', 'Sabelo Hlatshwayo', ''],
       },
+      timeline: {},
     },
   },
   {
@@ -37324,7 +38082,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Swing Youth', 'Swings', 'Schlurfs (Austria)'],
-        decade: ['Late 1930s'],
+        decade: ['20th_century', '1930s'],
         location: ['Germany (primarily Hamburg and Berlin)'],
       },
       visualThemes: {
@@ -37350,6 +38108,7 @@ export const aesthetics: AestheticProps[] = [
       connections: {
         related: ['jazz_age', 'stilyagi', 'zazou'],
       },
+      timeline: {},
     },
   },
   {
@@ -37363,7 +38122,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Symbolist Movement'],
-        decade: ['Late-19th century'],
+        decade: ['19th_century'],
         creator: ['Gustave Moreau', 'Odilon Redon', 'Jean Moréas', 'and Stéphane Mallarmé'],
       },
       visualThemes: {
@@ -37380,6 +38139,7 @@ export const aesthetics: AestheticProps[] = [
       connections: {
         related: ['aestheticism', 'art_nouveau', 'decadence', 'romanticism', 'synthetism'],
       },
+      timeline: {},
     },
   },
   {
@@ -37392,7 +38152,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['Mid-2000s'],
+        decade: ['21th_century', '2000s'],
         location: ['France'],
         creator: ['Kavinsky', 'College', 'Justice', 'David Grellier'],
       },
@@ -37429,7 +38189,7 @@ export const aesthetics: AestheticProps[] = [
         brands: ['Lamborghini', 'Ferrari', 'Sega', 'Atari'],
       },
       timeline: {
-        preceded: ['French House', 'Italo Disco', 'New Wave'],
+        preceded: ['french_house', 'italo_disco', 'new_wave'],
       },
     },
   },
@@ -37443,7 +38203,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['2010s'],
+        decade: ['21th_century', '2010s'],
       },
       visualThemes: {
         motifs: [
@@ -37460,6 +38220,7 @@ export const aesthetics: AestheticProps[] = [
       connections: {
         related: ['mall_ninja', 'techwear', 'warcore'],
       },
+      timeline: {},
     },
   },
   {
@@ -37474,7 +38235,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Taisho Romance', 'Taisho Romantic', 'Haikara'],
-        decade: ['1920s'],
+        decade: ['20th_century', '1920s'],
       },
       visualThemes: {
         colours: ['Bright colors'],
@@ -37491,6 +38252,7 @@ export const aesthetics: AestheticProps[] = [
           'bankara_opposite',
         ],
       },
+      timeline: {},
     },
   },
   {
@@ -37504,7 +38266,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Bamboo Shoot Tribe'],
-        decade: ['Mid-1970s'],
+        decade: ['20th_century', '1970s'],
         location: ['Harajuku', 'Tokyo', 'Japan'],
         creator: ['Boutique Takenoko'],
       },
@@ -37519,6 +38281,7 @@ export const aesthetics: AestheticProps[] = [
       mediaCulture: {
         brands: ['Boutique Takenoko'],
       },
+      timeline: {},
     },
   },
   {
@@ -37531,7 +38294,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['2020s'],
+        decade: ['21th_century', '2020s'],
         location: ['Germany / Internet'],
       },
       visualThemes: {
@@ -37549,6 +38312,7 @@ export const aesthetics: AestheticProps[] = [
       connections: {
         related: ['cani', 'chav', 'gangsta_rap', 'gopnik', 'krocha', 'lad_culture', 'racaille'],
       },
+      timeline: {},
     },
   },
   {
@@ -37563,6 +38327,8 @@ export const aesthetics: AestheticProps[] = [
       connections: {
         related: ['aristocrat', 'visual_kei', 'lolita', 'rococo'],
       },
+      origins: {},
+      timeline: {},
     },
   },
   {
@@ -37576,7 +38342,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Tang China'],
-        decade: ['618'],
+        decade: ['7th_century'],
         location: ['China'],
       },
       visualThemes: {
@@ -37590,8 +38356,8 @@ export const aesthetics: AestheticProps[] = [
         figures: ['Li Bai', 'Yang Yuhuan'],
       },
       timeline: {
-        preceded: ['Wei and Jin Dynasties (220-420)'],
-        succeeded: ['Song Dynasty (960-1279)'],
+        preceded: ['wei_and jin dynasties (220-420)'],
+        succeeded: ['song_dynasty (960-1279)'],
       },
     },
   },
@@ -37606,13 +38372,15 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Tango Argentino', 'Milonga'],
-        decade: ['1880s'],
+        decade: ['19th_century', '1880s'],
         location: ['Argentina'],
       },
       visualThemes: {
         colours: ['Red', 'black', 'white'],
         values: ['Romance', 'tragic love', 'passion', 'freedom', 'sexuality', 'following/subverting gender roles'],
       },
+      connections: {},
+      timeline: {},
     },
   },
   {
@@ -37625,7 +38393,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['Early 2000s'],
+        decade: ['21th_century', '2000s'],
         location: ['United States'],
       },
       visualThemes: {
@@ -37654,7 +38422,7 @@ export const aesthetics: AestheticProps[] = [
         figures: ['Michael Muhammad Knight', 'The Kominas', 'Al-Thawra'],
       },
       timeline: {
-        preceded: ['Punk'],
+        preceded: ['punk'],
       },
     },
   },
@@ -37668,7 +38436,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['2000s'],
+        decade: ['21th_century', '2000s'],
       },
       visualThemes: {
         motifs: [
@@ -37702,6 +38470,7 @@ export const aesthetics: AestheticProps[] = [
           'Tube)',
         ],
       },
+      timeline: {},
     },
   },
   {
@@ -37714,7 +38483,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['2000s'],
+        decade: ['21th_century', '2000s'],
       },
       visualThemes: {
         motifs: [
@@ -37762,7 +38531,7 @@ export const aesthetics: AestheticProps[] = [
         ],
       },
       timeline: {
-        preceded: ['Zen-X'],
+        preceded: ['zen-x'],
       },
     },
   },
@@ -37776,7 +38545,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['1990s'],
+        decade: ['20th_century', '1990s'],
         location: ['Munich', 'Germany / Japan'],
         creator: ['Errolson Hugh', 'Michaela Sachenbacher (Acronym)'],
       },
@@ -37807,6 +38576,7 @@ export const aesthetics: AestheticProps[] = [
         ],
         figures: ['Errolson Hugh', 'Massimo Ost'],
       },
+      timeline: {},
     },
   },
   {
@@ -37820,7 +38590,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['TCK', 'Electro Dance', 'Milky Way'],
-        decade: ['2000s'],
+        decade: ['21th_century', '2000s'],
         location: ['Paris', 'France'],
       },
       visualThemes: {
@@ -37852,6 +38622,7 @@ export const aesthetics: AestheticProps[] = [
         brands: ['Tecktonik (trademark)'],
         figures: ['Jey Jey', 'Lili Azian'],
       },
+      timeline: {},
     },
   },
   {
@@ -37865,7 +38636,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Teds', 'Teddies'],
-        decade: ['1950s'],
+        decade: ['20th_century', '1950s'],
       },
       visualThemes: {
         colours: ['plain colors'],
@@ -37874,6 +38645,7 @@ export const aesthetics: AestheticProps[] = [
       connections: {
         related: ['minet', 'mod', 'new_romantic', 'popper', 'raggare', 'rude_boy', 'scuttlers', 'stilyagi', 'zazou'],
       },
+      timeline: {},
     },
   },
   {
@@ -37886,7 +38658,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['Late 2010s'],
+        decade: ['21th_century', '2010s'],
         location: ['South Korea'],
         creator: ['Weki Meki', 'popularized by ITZY'],
       },
@@ -37908,6 +38680,7 @@ export const aesthetics: AestheticProps[] = [
       mediaCulture: {
         figures: ['ITZY', 'WEKI MEKI'],
       },
+      timeline: {},
     },
   },
   {
@@ -37921,7 +38694,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Punk Princess'],
-        decade: ['Late 1990s-Early 2010s'],
+        decade: ['20th_century', '21th_century', '1990s', '2010s'],
       },
       visualThemes: {
         motifs: [
@@ -37957,7 +38730,7 @@ export const aesthetics: AestheticProps[] = [
         figures: ['Avril Lavigne', 'The Veronicas', 'Lindsay Lohan (in Freaky Friday)', 'Olivia Rodrigo (revival)'],
       },
       timeline: {
-        preceded: ['Corporate Grunge'],
+        preceded: ['corporate_grunge'],
       },
     },
   },
@@ -37972,7 +38745,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Toothcore'],
-        decade: ['Mid-2010s'],
+        decade: ['21th_century', '2010s'],
         location: ['Tumblr'],
       },
       visualThemes: {
@@ -38001,7 +38774,7 @@ export const aesthetics: AestheticProps[] = [
         platform: ['Tumblr'],
       },
       timeline: {
-        preceded: ['Morute'],
+        preceded: ['morute'],
       },
     },
   },
@@ -38015,7 +38788,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['2020s'],
+        decade: ['21th_century', '2020s'],
       },
       visualThemes: {
         motifs: ['Tennis skirts', 'polo shirts', 'tennis dresses', 'visors', 'sweatbands', 'tennis bracelets'],
@@ -38028,6 +38801,7 @@ export const aesthetics: AestheticProps[] = [
       mediaCulture: {
         brands: ['Lacoste', 'Wilson', 'Sporty & Rich', 'Prince', 'Kith'],
       },
+      timeline: {},
     },
   },
   {
@@ -38040,7 +38814,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['2000s19th century (concept)'],
+        decade: ['21th_century', '2000s'],
       },
       visualThemes: {
         motifs: [
@@ -38066,6 +38840,7 @@ export const aesthetics: AestheticProps[] = [
       connections: {
         related: ['atompunk', 'cyberpunk', 'decopunk', 'dieselpunk', 'retrofuturism', 'steampunk', 'victorian'],
       },
+      timeline: {},
     },
   },
   {
@@ -38079,7 +38854,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Thai Vintage'],
-        decade: ['1930s'],
+        decade: ['20th_century', '1930s'],
         location: ['Thailand'],
       },
       visualThemes: {
@@ -38090,6 +38865,8 @@ export const aesthetics: AestheticProps[] = [
           'reflecting the prime of cultural hybridized aesthetic before WWII and during the Cold War (from around the 1950s until the 1970s)',
         ],
       },
+      connections: {},
+      timeline: {},
     },
   },
   {
@@ -38103,7 +38880,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['Early 2020s'],
+        decade: ['21th_century', '2020s'],
       },
       visualThemes: {
         colours: ['Bright but not eyestraining colors', 'browns', 'whites', 'nude colors'],
@@ -38112,6 +38889,7 @@ export const aesthetics: AestheticProps[] = [
       connections: {
         related: ['baddie', 'nymphet', 'vanilla_girl', 'wonyoungism'],
       },
+      timeline: {},
     },
   },
   {
@@ -38126,7 +38904,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Theatrical Academia'],
-        decade: ['2010s'],
+        decade: ['21th_century', '2010s'],
       },
       visualThemes: {
         motifs: ['Old buildings', 'literature'],
@@ -38136,6 +38914,7 @@ export const aesthetics: AestheticProps[] = [
       connections: {
         related: ['art_academia', 'ballet', 'dark_academia', 'light_academia', 'romantic_academia'],
       },
+      timeline: {},
     },
   },
   {
@@ -38148,7 +38927,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['2010s–2020s'],
+        decade: ['21th_century', '2010s', '2020s'],
       },
       visualThemes: {
         motifs: [
@@ -38174,6 +38953,7 @@ export const aesthetics: AestheticProps[] = [
       mediaCulture: {
         platform: ['Tik', 'Tok', 'Tumblr', 'Instagram', 'Pinterest'],
       },
+      timeline: {},
     },
   },
   {
@@ -38186,7 +38966,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['2024 (approximately)'],
+        decade: ['21th_century'],
         creator: ['Young women online'],
       },
       visualThemes: {
@@ -38200,6 +38980,7 @@ export const aesthetics: AestheticProps[] = [
       mediaCulture: {
         media: ['The Bell Jar by Sylvia Plath', 'French existentialism', '1960s films'],
       },
+      timeline: {},
     },
   },
   {
@@ -38213,7 +38994,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Thrasher'],
-        decade: ['Early 1980s'],
+        decade: ['20th_century', '1980s'],
         location: ['United States (Bay Area', 'East Coast)', 'Germany', 'Brazil'],
         creator: ['Metallica', 'Megadeth', 'Slayer', 'Anthrax'],
       },
@@ -38233,6 +39014,7 @@ export const aesthetics: AestheticProps[] = [
       connections: {
         related: ['death_metal', 'industrial_gothic', 'metal', 'punk'],
       },
+      timeline: {},
     },
   },
   {
@@ -38247,7 +39029,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Polynesian Pop'],
-        decade: ['1930s'],
+        decade: ['20th_century', '1930s'],
         creator: ['Donn Beach', 'Victor Bergeron'],
       },
       visualThemes: {
@@ -38258,6 +39040,7 @@ export const aesthetics: AestheticProps[] = [
       connections: {
         related: ['americana', 'lowbrow', 'tropical', 'vacation_dadcore', 'vintage'],
       },
+      timeline: {},
     },
   },
   {
@@ -38271,7 +39054,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Lottie Clone', '4chancore'],
-        decade: ['Mid-2020s (peak 2023–2024)'],
+        decade: ['21th_century', '2010s'],
         creator: ['Lottie (canihavepromo)', 'Catcel', 'onlinepetclub'],
       },
       visualThemes: {
@@ -38301,6 +39084,7 @@ export const aesthetics: AestheticProps[] = [
       mediaCulture: {
         platform: ['Tik', 'Tok'],
       },
+      timeline: {},
     },
   },
   {
@@ -38314,7 +39098,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Special Filming', 'Tokugi'],
-        decade: ['1950s-Present'],
+        decade: ['20th_century', '1950s'],
         location: ['Japan'],
       },
       visualThemes: {
@@ -38364,6 +39148,7 @@ export const aesthetics: AestheticProps[] = [
         brands: ['Toei Company', 'Tsuburaya Productions', 'Bandai', 'Hasbro'],
         figures: ['Eiji Tsuburaya', 'Shotaro Ishinomori'],
       },
+      timeline: {},
     },
   },
   {
@@ -38378,7 +39163,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Tomato Girl'],
-        decade: ['2020s'],
+        decade: ['21th_century', '2020s'],
       },
       visualThemes: {
         motifs: [
@@ -38396,6 +39181,7 @@ export const aesthetics: AestheticProps[] = [
       connections: {
         related: ['coastal_grandmother', 'picniccore', 'strawberry_girl'],
       },
+      timeline: {},
     },
   },
   {
@@ -38409,7 +39195,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Cool-Girl', 'Masculine Girl', 'Boyish Girl'],
-        decade: ['Term: 1533Application to group: 1890s'],
+        decade: ['19th_century', '1890s'],
       },
       visualThemes: {
         motifs: [
@@ -38441,6 +39227,7 @@ export const aesthetics: AestheticProps[] = [
       mediaCulture: {
         brands: ['Tomboy', 'X', 'Wildfang'],
       },
+      timeline: {},
     },
   },
   {
@@ -38454,7 +39241,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Tacky Cool'],
-        decade: ['2010s'],
+        decade: ['21th_century', '2010s'],
         location: ['China'],
         creator: ['Liu Min (Princess Butterfly)'],
       },
@@ -38475,6 +39262,7 @@ export const aesthetics: AestheticProps[] = [
           'yabi',
         ],
       },
+      timeline: {},
     },
   },
   {
@@ -38488,7 +39276,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Bullfighter Style', 'Matador Style', 'Tauromaquia'],
-        decade: ['18th Century'],
+        decade: ['18th_century'],
         location: ['Spain'],
       },
       visualThemes: {
@@ -38510,7 +39298,7 @@ export const aesthetics: AestheticProps[] = [
         figures: ['Francisco de Goya', 'Pablo Picasso', 'Georges Bizet'],
       },
       timeline: {
-        preceded: ['Majismo'],
+        preceded: ['majismo'],
       },
     },
   },
@@ -38524,7 +39312,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['1917 (Soviet origins)', 'broadly 20th century'],
+        decade: ['20th_century', '1920s', '20th_century'],
         location: ['Various (Soviet Union', 'Nazi Germany', "People's Republic of China", 'North Korea)'],
       },
       visualThemes: {
@@ -38562,6 +39350,7 @@ export const aesthetics: AestheticProps[] = [
         ],
         figures: ['Josef Stalin', 'Mao Zedong', 'Kim Il-sung', 'Leni Riefenstahl', 'Albert Speer'],
       },
+      timeline: {},
     },
   },
   {
@@ -38575,7 +39364,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Initial D Aesthetic', 'Eurobeat Drifting[citation needed]'],
-        decade: ['2010s (as an internet aesthetic)'],
+        decade: ['21th_century', '2010s'],
       },
       visualThemes: {
         motifs: [
@@ -38599,6 +39388,7 @@ export const aesthetics: AestheticProps[] = [
         media: ['Initial D'],
         figures: ['Keiichi Tsuchiya'],
       },
+      timeline: {},
     },
   },
   {
@@ -38611,7 +39401,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['1990s-Present'],
+        decade: ['20th_century', '1990s'],
         location: ['Emmen', 'Netherlands'],
         creator: ['Dejo (founder)'],
       },
@@ -38629,6 +39419,7 @@ export const aesthetics: AestheticProps[] = [
       connections: {
         related: ['avant-garde', 'figurative_art', 'neo-pop', 'pop_art', 'surrealism'],
       },
+      timeline: {},
     },
   },
   {
@@ -38642,7 +39433,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Coquette Catholic', 'Trad', 'Cath E-Girl Summit', 'Conventcore'],
-        decade: ['2020s'],
+        decade: ['21th_century', '2020s'],
       },
       visualThemes: {
         motifs: [
@@ -38676,6 +39467,7 @@ export const aesthetics: AestheticProps[] = [
       mediaCulture: {
         media: ['Red Scare podcast'],
       },
+      timeline: {},
     },
   },
   {
@@ -38689,7 +39481,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Traditional Wife', 'Trad Girl'],
-        decade: ['Late 2010s–2020s'],
+        decade: ['21th_century', '2010s', '2020s'],
         location: ['Internet (primarily Anglophone countries)'],
       },
       visualThemes: {
@@ -38712,6 +39504,7 @@ export const aesthetics: AestheticProps[] = [
         platform: ['Tik', 'Tok', 'Instagram', 'You', 'Tube'],
         figures: ['Estee Williams', 'Alena Kate Pettitt', 'Cynthia Loewen', 'Tradwife Wojak (internet meme)'],
       },
+      timeline: {},
     },
   },
   {
@@ -38725,7 +39518,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Traditional Goth', 'Batcaver'],
-        decade: ['Late 1970s–1980s'],
+        decade: ['20th_century', '1970s', '1980s'],
         location: ['United Kingdom'],
       },
       visualThemes: {
@@ -38749,8 +39542,8 @@ export const aesthetics: AestheticProps[] = [
         figures: ['Siouxsie Sioux', 'Robert Smith', 'Peter Murphy', 'Patricia Morrison', 'Daniel Ash'],
       },
       timeline: {
-        preceded: ['Punk', 'Glam Rock', 'New Romantic'],
-        succeeded: ['Various Goth substyles'],
+        preceded: ['punk', 'glam_rock', 'new_romantic'],
+        succeeded: ['various_goth substyles'],
       },
     },
   },
@@ -38773,7 +39566,7 @@ export const aesthetics: AestheticProps[] = [
           'Trailer Park Cutie',
           'Trailer Park Angel',
         ],
-        decade: ['2010s (drawing inspiration from the 1950s-1970s)'],
+        decade: ['21th_century', '2010s'],
       },
       visualThemes: {
         motifs: [
@@ -38812,6 +39605,7 @@ export const aesthetics: AestheticProps[] = [
       mediaCulture: {
         media: ['Pink Flamingos (1972)'],
       },
+      timeline: {},
     },
   },
   {
@@ -38825,7 +39619,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Frutiger Zen', 'Tranquil Serenity'],
-        decade: ['c. 2000s'],
+        decade: ['21th_century', '2000s'],
       },
       visualThemes: {
         motifs: [
@@ -38846,6 +39640,7 @@ export const aesthetics: AestheticProps[] = [
       mediaCulture: {
         brands: ['Microsoft (Mahjong)', 'Wellness Apps', 'Digital Wallpaper Vendors'],
       },
+      timeline: {},
     },
   },
   {
@@ -38859,7 +39654,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Ragecore', 'Death Rap', 'Hardcore Trap', 'Industrial Trap', 'Screamo Trap'],
-        decade: ['Late 2010s'],
+        decade: ['21th_century', '2010s'],
         location: ['United States'],
       },
       visualThemes: {
@@ -38901,6 +39696,7 @@ export const aesthetics: AestheticProps[] = [
         platform: ['Sound', 'Cloud', 'You', 'Tube'],
         figures: ['XXXTentacion', 'Scarlxrd', 'Ghostemane', 'Lil Darkie'],
       },
+      timeline: {},
     },
   },
   {
@@ -38913,7 +39709,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['2000s (likely)'],
+        decade: ['21th_century', '2000s'],
       },
       visualThemes: {
         motifs: ['Low-poly 3D', 'crude art', 'mixed assets', 'limited animation', 'strobing colours', ''],
@@ -38925,6 +39721,7 @@ export const aesthetics: AestheticProps[] = [
       mediaCulture: {
         platform: ['Itch.io', 'Steam', 'Independent game-distributing sites'],
       },
+      timeline: {},
     },
   },
   {
@@ -38938,7 +39735,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['Mid-2010s'],
+        decade: ['21th_century', '2010s'],
       },
       visualThemes: {
         motifs: [
@@ -38963,7 +39760,7 @@ export const aesthetics: AestheticProps[] = [
         figures: ['Nicole Dollanganger (as a predecessor)'],
       },
       timeline: {
-        preceded: ['Morute'],
+        preceded: ['morute'],
       },
     },
   },
@@ -38978,7 +39775,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Trill Era', 'Swag Era'],
-        decade: ['Late 2000s'],
+        decade: ['21th_century', '2000s'],
         creator: ['Space', 'Ghost', 'Purrp', 'Raider Klan', 'Lil B', 'A$AP Mob', 'Yung Lean'],
       },
       visualThemes: {
@@ -39027,8 +39824,8 @@ export const aesthetics: AestheticProps[] = [
         brands: ['Nike', 'Gucci', 'Adidas', 'Backwoods', 'Play', 'Station', 'Nintendo', 'Sprite (Lean)'],
       },
       timeline: {
-        preceded: ['Crunk', 'Memphis Rap'],
-        succeeded: ['Cloud Rap', 'Phonk', 'Emo Rap'],
+        preceded: ['crunk', 'memphis_rap'],
+        succeeded: ['cloud_rap', 'phonk', 'emo_rap'],
       },
     },
   },
@@ -39043,7 +39840,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['I-Spy'],
-        decade: ['2000s'],
+        decade: ['21th_century', '2000s'],
       },
       visualThemes: {
         motifs: [
@@ -39067,6 +39864,7 @@ export const aesthetics: AestheticProps[] = [
       connections: {
         related: ['cacareco_girl', 'crowcore', 'grocery_girl_fall', 'indiecraft', 'juminocore', 'whimsigothic', 'twee'],
       },
+      timeline: {},
     },
   },
   {
@@ -39080,7 +39878,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Traditional Skinhead', 'Trad', "Spirit of '69"],
-        decade: ['1960s (Origin); 1980s (codification as a distinct subset)'],
+        decade: ['20th_century', '1960s', '1980s'],
         location: ['United Kingdom'],
         creator: ['British Working Class and Jamaican immigrant youth'],
       },
@@ -39104,8 +39902,8 @@ export const aesthetics: AestheticProps[] = [
         figures: ['Laurel Aitken', 'Desmond Dekker', 'Judge Dread'],
       },
       timeline: {
-        preceded: ['Mod', 'Rude Boy'],
-        succeeded: ['Suedehead'],
+        preceded: ['mod', 'rude_boy'],
+        succeeded: ['suedehead'],
       },
     },
   },
@@ -39119,7 +39917,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['1990s'],
+        decade: ['20th_century', '1990s'],
       },
       visualThemes: {
         motifs: ['Sunsets', 'floral patterns', 'tropical imagery', 'fruit', 'beaches'],
@@ -39146,6 +39944,7 @@ export const aesthetics: AestheticProps[] = [
       mediaCulture: {
         brands: ['Roxy', 'd', 'ELi', "A's", 'Billabong', 'Limited Too'],
       },
+      timeline: {},
     },
   },
   {
@@ -39228,6 +40027,7 @@ export const aesthetics: AestheticProps[] = [
           'Roxy/Quicksilver',
         ],
       },
+      timeline: {},
     },
   },
   {
@@ -39240,7 +40040,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['2020s'],
+        decade: ['21th_century', '2020s'],
       },
       visualThemes: {
         motifs: [
@@ -39270,6 +40070,7 @@ export const aesthetics: AestheticProps[] = [
           'tweencore',
         ],
       },
+      timeline: {},
     },
   },
   {
@@ -39283,7 +40084,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Tropicalism'],
-        decade: ['1920s'],
+        decade: ['20th_century', '1920s'],
         location: ['Brazil'],
       },
       visualThemes: {
@@ -39306,7 +40107,7 @@ export const aesthetics: AestheticProps[] = [
         ],
       },
       timeline: {
-        preceded: ['Brazilian Modernism'],
+        preceded: ['brazilian_modernism'],
       },
     },
   },
@@ -39321,7 +40122,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Tropi-Kitsch', 'Tiki Liminal', "2000's Tropical", 'Tropical Nostalgia', 'Kitsch Tropical'],
-        decade: ['90s-2000s'],
+        decade: ['20th_century', '21th_century', '1990s', '2000s'],
       },
       visualThemes: {
         motifs: [
@@ -39353,6 +40154,7 @@ export const aesthetics: AestheticProps[] = [
           'helvetica_aqua_aero',
         ],
       },
+      timeline: {},
     },
   },
   {
@@ -39366,7 +40168,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Trash Gang Aesthetic'],
-        decade: ['Late 2010s'],
+        decade: ['21th_century', '2010s'],
         location: ['Slovenia / Internet'],
         creator: ['Trash Gang (collective)'],
       },
@@ -39390,6 +40192,7 @@ export const aesthetics: AestheticProps[] = [
         platform: ['You', 'Tube'],
         figures: ['XXXTentacion', '$uicideboy$', 'Ghostemane', 'Shark (Roblox You', 'Tuber)'],
       },
+      timeline: {},
     },
   },
   {
@@ -39403,7 +40206,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Elizabethan Era'],
-        decade: ['1485-1603'],
+        decade: ['16th_century'],
         location: ['England and Wales'],
       },
       visualThemes: {
@@ -39438,8 +40241,8 @@ export const aesthetics: AestheticProps[] = [
         figures: ['Henry VIII', 'Elizabeth I', 'Mary I', 'Anne Boleyn'],
       },
       timeline: {
-        preceded: ['Late Gothic (Perpendicular style)'],
-        succeeded: ['Jacobean'],
+        preceded: ['late_gothic (perpendicular style)'],
+        succeeded: ['jacobean'],
       },
     },
   },
@@ -39454,7 +40257,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Corridos Tumbados', 'Regional Urbano'],
-        decade: ['Late 2010s'],
+        decade: ['21th_century', '2010s'],
         location: ['Northern Mexico and Southwestern United States (primarily Sonora', 'Sinaloa', 'and California)'],
         creator: ['Natanael Cano (pioneer)', 'Jimmy Humilde (producer)'],
       },
@@ -39484,6 +40287,7 @@ export const aesthetics: AestheticProps[] = [
       mediaCulture: {
         platform: ['Spotify', 'Tik', 'Tok', 'You', 'Tube'],
       },
+      timeline: {},
     },
   },
   {
@@ -39496,7 +40300,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['2020s'],
+        decade: ['21th_century', '2020s'],
         location: ['Mexico / Internet (Tik', 'Tok)'],
       },
       visualThemes: {
@@ -39525,7 +40329,7 @@ export const aesthetics: AestheticProps[] = [
         figures: ['Natanael Cano (tumbado influence)', 'Lana Del Rey (coquette influence)', 'Peso Pluma'],
       },
       timeline: {
-        preceded: ['Coquette', 'Tumbado'],
+        preceded: ['coquette', 'tumbado'],
       },
     },
   },
@@ -39551,6 +40355,8 @@ export const aesthetics: AestheticProps[] = [
       connections: {
         related: ['after_hours', 'indie_kid', 'indie_sleaze', 'morute', 'pale_grunge'],
       },
+      origins: {},
+      timeline: {},
     },
   },
   {
@@ -39564,7 +40370,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Turquoiserie', 'Turkish Style', 'à la turque'],
-        decade: ['16th-18th Centuries (peak in 18th century)'],
+        decade: ['16th_century', '17th_century', '18th_century'],
         location: ['Western Europe (particularly France)'],
       },
       visualThemes: {
@@ -39587,6 +40393,7 @@ export const aesthetics: AestheticProps[] = [
       mediaCulture: {
         figures: ['Wolfgang Amadeus Mozart', 'Jean-Étienne Liotard', 'Madame de Pompadour'],
       },
+      timeline: {},
     },
   },
   {
@@ -39600,7 +40407,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Tuscan Style', 'Old-World Luxe', '2000s Mc', 'Mansion'],
-        decade: ['Traditional', 'popularized in the mid-2000s'],
+        decade: ['21th_century', '2000s'],
       },
       visualThemes: {
         motifs: ['Tuscan kitchens', 'natural stone', 'distressed wood', 'terra-cotta', 'wrought iron'],
@@ -39619,6 +40426,7 @@ export const aesthetics: AestheticProps[] = [
           'zen-x',
         ],
       },
+      timeline: {},
     },
   },
   {
@@ -39633,7 +40441,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Twee Pop'],
-        decade: ['Mid-to-late 1980s'],
+        decade: ['20th_century', '1980s'],
         location: ['United Kingdom (especially England)', 'United States'],
         creator: ['C86 (compilation)', 'Sarah Records', 'K Records'],
       },
@@ -39689,7 +40497,7 @@ export const aesthetics: AestheticProps[] = [
         brands: ['Modcloth', 'Princess Highway'],
       },
       timeline: {
-        preceded: ['Post-Punk'],
+        preceded: ['post-punk'],
       },
     },
   },
@@ -39704,7 +40512,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Justicecore', 'Mall Tween'],
-        decade: ['Late 1990s'],
+        decade: ['20th_century', '1990s'],
       },
       visualThemes: {
         motifs: ['Mustaches', 'peace signs', 'neon animal print', 'slogan tees', 'silly bandz'],
@@ -39737,6 +40545,7 @@ export const aesthetics: AestheticProps[] = [
           'Aeropostale (P.S.)',
         ],
       },
+      timeline: {},
     },
   },
   {
@@ -39750,7 +40559,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Twilight Autumn', '2000s Autumn', 'Dark Y2K'],
-        decade: ['2010s/2020s'],
+        decade: ['21th_century', '2010s', '2020s'],
       },
       visualThemes: {
         motifs: ['Late 2000s fashion', 'fog', 'vampires.'],
@@ -39769,6 +40578,7 @@ export const aesthetics: AestheticProps[] = [
           'werewolf',
         ],
       },
+      timeline: {},
     },
   },
   {
@@ -39781,7 +40591,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['2000s'],
+        decade: ['21th_century', '2000s'],
         location: ['Harajuku', 'Tokyo', 'Japan'],
       },
       visualThemes: {
@@ -39811,7 +40621,7 @@ export const aesthetics: AestheticProps[] = [
         brands: ['Aika Electronics', 'Kiss Me Kill Me', 'Holley Tea Time', 'Space Channel 5'],
       },
       timeline: {
-        preceded: ['Fairy Kei'],
+        preceded: ['fairy_kei'],
       },
     },
   },
@@ -39825,7 +40635,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['2010s'],
+        decade: ['21th_century', '2010s'],
         location: ['London', 'England (specifically Brixton)'],
       },
       visualThemes: {
@@ -39848,6 +40658,7 @@ export const aesthetics: AestheticProps[] = [
       mediaCulture: {
         platform: ['You', 'Tube', 'Tik', 'Tok'],
       },
+      timeline: {},
     },
   },
   {
@@ -39861,7 +40672,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['UKG', '2-step'],
-        decade: ['1990s'],
+        decade: ['20th_century', '1990s'],
         location: ['London', 'United Kingdom'],
       },
       visualThemes: {
@@ -39875,6 +40686,7 @@ export const aesthetics: AestheticProps[] = [
       mediaCulture: {
         brands: ['Moschino', 'Versace', 'Iceberg History', 'Dolce & Gabbana', 'Avirex', 'Patrick Cox', 'Gucci'],
       },
+      timeline: {},
     },
   },
   {
@@ -39888,7 +40700,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Pictures of the Floating World'],
-        decade: ['17th–19th centuries'],
+        decade: ['17th_century', '18th_century', '19th_century'],
         location: ['Edo', 'Japan (modern-day Tokyo)'],
         creator: ['Katsushika Hokusai', 'Utagawa Hiroshige', 'Kitagawa Utamaro'],
       },
@@ -39917,8 +40729,8 @@ export const aesthetics: AestheticProps[] = [
         figures: ['Katsushika Hokusai', 'Utagawa Hiroshige', 'Kitagawa Utamaro', 'Tōshūsai Sharaku'],
       },
       timeline: {
-        preceded: ['Yamato-e painting'],
-        succeeded: ['Shin-hanga', 'Sōsaku-hanga'],
+        preceded: ['yamato-e_painting'],
+        succeeded: ['shin-hanga', 'sōsaku-hanga'],
       },
     },
   },
@@ -39932,7 +40744,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['1960s'],
+        decade: ['20th_century', '1960s'],
         location: ['Italy (subsequently spreading worldwide)'],
       },
       visualThemes: {
@@ -39992,6 +40804,7 @@ export const aesthetics: AestheticProps[] = [
           'Ma.strum',
         ],
       },
+      timeline: {},
     },
   },
   {
@@ -40005,7 +40818,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Eoljjang'],
-        decade: ['Early 2000s'],
+        decade: ['21th_century', '2000s'],
         location: ['South Korea'],
       },
       visualThemes: {
@@ -40027,6 +40840,7 @@ export const aesthetics: AestheticProps[] = [
         platform: ['Cyworld (originally)', 'Instagram'],
         brands: ['Stylenanda', 'Etude House', 'Innisfree'],
       },
+      timeline: {},
     },
   },
   {
@@ -40040,7 +40854,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Unicorncore'],
-        decade: ['Late 2010s'],
+        decade: ['21th_century', '2010s'],
       },
       visualThemes: {
         motifs: [
@@ -40062,6 +40876,7 @@ export const aesthetics: AestheticProps[] = [
         platform: ['Instagram', 'Pinterest'],
         brands: ['Lisa Frank', 'My Little Pony franchise (as influences)'],
       },
+      timeline: {},
     },
   },
   {
@@ -40074,7 +40889,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['Early 2020'],
+        decade: ['21th_century', '2020s'],
       },
       visualThemes: {
         motifs: ['Perfect feminine clothes and makeup'],
@@ -40095,6 +40910,7 @@ export const aesthetics: AestheticProps[] = [
       mediaCulture: {
         brands: ['Dior', 'Chanel', 'Glossier and Too Faced'],
       },
+      timeline: {},
     },
   },
   {
@@ -40120,7 +40936,7 @@ export const aesthetics: AestheticProps[] = [
           'Streetwear',
           'High-End Streetwear',
         ],
-        decade: ['1990s'],
+        decade: ['20th_century', '1990s'],
       },
       visualThemes: {
         motifs: [
@@ -40184,6 +41000,7 @@ export const aesthetics: AestheticProps[] = [
           'Vans',
         ],
       },
+      timeline: {},
     },
   },
   {
@@ -40211,6 +41028,8 @@ export const aesthetics: AestheticProps[] = [
       connections: {
         related: ['dragoncore', 'dungeonpunk', 'fantasy', 'fantas', 'y2kurbancore', 'vampire', 'witchcore'],
       },
+      origins: {},
+      timeline: {},
     },
   },
   {
@@ -40224,7 +41043,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Urban Grunge', 'City Grunge'],
-        decade: ['1990s'],
+        decade: ['20th_century', '1990s'],
       },
       visualThemes: {
         motifs: [
@@ -40269,6 +41088,7 @@ export const aesthetics: AestheticProps[] = [
       mediaCulture: {
         media: ['Def Jam Recordings'],
       },
+      timeline: {},
     },
   },
   {
@@ -40281,7 +41101,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['1980s'],
+        decade: ['20th_century', '1980s'],
       },
       visualThemes: {
         motifs: ['Museums', 'photo collages', 'science/social studies-related imagery'],
@@ -40321,8 +41141,8 @@ export const aesthetics: AestheticProps[] = [
         brands: ['Microsoft', 'The Nature Company', 'Discovery Channel', 'History Channel'],
       },
       timeline: {
-        preceded: ['Retrofuturism'],
-        succeeded: ['Frutiger Aero'],
+        preceded: ['retrofuturism'],
+        succeeded: ['frutiger_aero'],
       },
     },
   },
@@ -40338,7 +41158,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Loco', 'Tropical Kitsch'],
-        decade: ['2010s (as a defined aesthetic)'],
+        decade: ['21th_century', '2010s'],
       },
       visualThemes: {
         motifs: [
@@ -40356,6 +41176,7 @@ export const aesthetics: AestheticProps[] = [
       connections: {
         related: ['nautical', 'tiki', 'tropical', 'vaporwave'],
       },
+      timeline: {},
     },
   },
   {
@@ -40370,7 +41191,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Vampirecore', 'Modern Vampire'],
-        decade: ['19th Century (Modern Archetype)'],
+        decade: ['19th_century'],
       },
       visualThemes: {
         motifs: [
@@ -40398,6 +41219,7 @@ export const aesthetics: AestheticProps[] = [
           'witchcore',
         ],
       },
+      timeline: {},
     },
   },
   {
@@ -40411,7 +41233,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['2020s'],
+        decade: ['21th_century', '2020s'],
       },
       visualThemes: {
         colours: ['White', 'brown', 'beige', 'cream'],
@@ -40428,6 +41250,7 @@ export const aesthetics: AestheticProps[] = [
       connections: {
         related: ['clean_girl', 'danish_pastel', 'korean_cozy_beige', 'minimalism', 'that_girl'],
       },
+      timeline: {},
     },
   },
   {
@@ -40441,7 +41264,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Deathdream', 'Spookwave', 'Blackvapor'],
-        decade: ['Mid-2010s'],
+        decade: ['21th_century', '2010s'],
       },
       visualThemes: {
         motifs: [
@@ -40463,7 +41286,7 @@ export const aesthetics: AestheticProps[] = [
         figures: ['Chinese Hackers', 'HKE (as The Darkest Future)', 'VVVX Software'],
       },
       timeline: {
-        preceded: ['Vaporwave'],
+        preceded: ['vaporwave'],
       },
     },
   },
@@ -40478,7 +41301,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Vapor'],
-        decade: ['Early 2010s'],
+        decade: ['21th_century', '2010s'],
       },
       visualThemes: {
         motifs: [
@@ -40540,7 +41363,7 @@ export const aesthetics: AestheticProps[] = [
         figures: ['Macintosh Plus (Ramona Xavier)', 'Saint Pepsi', 'Blank Banshee', 'Vektroid'],
       },
       timeline: {
-        preceded: ['Seapunk'],
+        preceded: ['seapunk'],
       },
     },
   },
@@ -40554,7 +41377,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['Early 2000s'],
+        decade: ['21th_century', '2000s'],
       },
       visualThemes: {
         motifs: [
@@ -40580,6 +41403,7 @@ export const aesthetics: AestheticProps[] = [
           'vectordelia',
         ],
       },
+      timeline: {},
     },
   },
   {
@@ -40593,7 +41417,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Frutiger Metro', 'Abstract Vector Art', 'Vector Maximalism'],
-        decade: ['2000s'],
+        decade: ['21th_century', '2000s'],
       },
       visualThemes: {
         motifs: [
@@ -40651,8 +41475,8 @@ export const aesthetics: AestheticProps[] = [
         ],
       },
       timeline: {
-        preceded: ['Y2K Futurism', 'Corporate Hippie'],
-        succeeded: ['Flat Design', 'Corporate Memphis'],
+        preceded: ['y2k_futurism', 'corporate_hippie'],
+        succeeded: ['flat_design', 'corporate_memphis'],
       },
     },
   },
@@ -40666,7 +41490,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['1990s'],
+        decade: ['20th_century', '1990s'],
         creator: ['The Designers Republic'],
       },
       visualThemes: {
@@ -40703,6 +41527,7 @@ export const aesthetics: AestheticProps[] = [
           'vectorflourishy2k_futurism',
         ],
       },
+      timeline: {},
     },
   },
   {
@@ -40716,7 +41541,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Neoliberal Vector Minimalism'],
-        decade: ['2010s'],
+        decade: ['21th_century', '2010s'],
       },
       visualThemes: {
         motifs: ['Flat vector illustrations', 'bright solid colors'],
@@ -40728,6 +41553,7 @@ export const aesthetics: AestheticProps[] = [
       mediaCulture: {
         brands: ['Google', 'Microsoft'],
       },
+      timeline: {},
     },
   },
   {
@@ -40740,7 +41566,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['Late 2000s'],
+        decade: ['21th_century', '2000s'],
       },
       visualThemes: {
         motifs: [
@@ -40772,12 +41598,14 @@ export const aesthetics: AestheticProps[] = [
         ],
         brands: ['Sanrio (late 2000s stationery)', "Claire's", 'Disney Channel'],
       },
+      timeline: {},
     },
   },
   {
     url: 'https://aesthetics.fandom.com/wiki/Venetian_Carnival',
     name: 'Venetian Carnival',
     id: 'venetian_carnival',
+    imageUrl: 'https://static.wikia.nocookie.net/aesthetics/images/4/44/8d21fd405f7bf36604a1b8e6027b6ab8.jpg',
     description:
       'The Carnival was originally said to be held to celebrate the military victory of the Venetian Republic over the Patriarch of Aquileia, Ulrich II von Treven, in the year 1162. In honour of this, the people gathered in St Mark\'s Square and danced.  Over the years, this Baroque festival was celebrated for its own sake, with its original meaning fading into obscurity. It encouraged licence and pleasure, allowing Venetians to forget their personal anguish for a while. However, under the rule of the Holy Roman Emperor and later the Emperor of Austria, Francis II, the festival was outlawed entirely in 1797 and the use of masks became strictly forbidden. It reappeared gradually in the 19th century, but only for brief periods and in private feasts, where it became an occasion for artistic creations. After a prolonged dissapearance, the Carnival returned in 1979. The Italian government decided a revival of the history and culture of Venice was in order and used the traditional Carnival as the centrepiece of its efforts. The restoration of the masks began as the pursuit of a few Venetian college students to support the tourist trade. Following this, approximately 3 million visitors visit Venice every year for the Carnival. One of the major events is the contest for la maschera più bella ("the most beautiful mask"), which is judged by a panel of international costumers and fashion designers. Masks have always been an essential feature of the Carnival. Traditionally, people were permitted to wear them between Saint Stephen\'s Day (December 26) and the end of the Carnival season at midnight of Shrove Tuesday (February to early March). Maskmakers, or mascherari enjoyed a special position in society, with their own laws and guild. The Mascherari were assisted by sign-painters who drew faces onto plaster in a range of different shapes.',
     categories: ['performance_art', 'seasonal'],
@@ -40785,7 +41613,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Carnevale di Venezia', 'Carneval de Venèsia'],
-        decade: ['1162'],
+        decade: ['12th_century'],
       },
       visualThemes: {
         motifs: ['Masks', 'revelry', 'gondolas', 'costumes', 'mystery'],
@@ -40795,6 +41623,7 @@ export const aesthetics: AestheticProps[] = [
       connections: {
         related: ['brazilian_carnival', 'fanfare', 'baroque', 'rococo', 'clowncore'],
       },
+      timeline: {},
     },
   },
   {
@@ -40808,7 +41637,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['19th Century (1837-1901)'],
+        decade: ['19th_century'],
         location: ['United Kingdom (and British Empire)'],
       },
       visualThemes: {
@@ -40895,8 +41724,8 @@ export const aesthetics: AestheticProps[] = [
         ],
       },
       timeline: {
-        preceded: ['Romanticism', 'Georgian Era'],
-        succeeded: ['Edwardian', 'Art Nouveau', 'Modernism'],
+        preceded: ['romanticism', 'georgian_era'],
+        succeeded: ['edwardian', 'art_nouveau', 'modernism'],
       },
     },
   },
@@ -40912,7 +41741,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Gothic Victorian'],
-        decade: ['1980s'],
+        decade: ['20th_century', '1980s'],
       },
       visualThemes: {
         motifs: [
@@ -40932,6 +41761,7 @@ export const aesthetics: AestheticProps[] = [
       connections: {
         related: ['darkest_academia', 'goth', 'romantic_goth', 'steampunk', 'trad_goth', 'victorian'],
       },
+      timeline: {},
     },
   },
   {
@@ -40945,7 +41775,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['8th century'],
+        decade: ['8th_century'],
       },
       visualThemes: {
         colours: ['brown', 'green', 'black', 'blue'],
@@ -40953,6 +41783,7 @@ export const aesthetics: AestheticProps[] = [
       connections: {
         related: ['northerness'],
       },
+      timeline: {},
     },
   },
   {
@@ -40966,7 +41797,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['2010s'],
+        decade: ['21th_century', '2010s'],
         location: ['United States'],
       },
       visualThemes: {
@@ -41020,19 +41851,21 @@ export const aesthetics: AestheticProps[] = [
           'James Dean for denim influence); Betty Page (for pin-up influence)',
         ],
       },
+      timeline: {},
     },
   },
   {
     url: 'https://aesthetics.fandom.com/wiki/Visigothic_Art',
     name: 'Visigothic Art',
     id: 'visigothic_art',
+    imageUrl: 'https://static.wikia.nocookie.net/aesthetics/images/5/5d/WingedFibulas.jpg',
     description:
       'Not to be confused with Whimsigothic, Gothic, or any Goth-related aesthetic. Visigothic Art refers to the manifestations of artistic expression that originated in the Visigothic Kingdom. This state was estabilished by the Visigoths, a Germanic tribe, in various parts of modern-day Spain, Southern France, and Southern Portugal from 418 to 711 AD. It is considered part of Pre-Romanesque art, and particularly flourished in the Iberian Peninsula during the reign of the Kingdom of Toledo. Visigothic Art primarily developed between the 5th to 8th centuries can be found in the form of architecture, sculpture, and goldsmithing, as well as very few examples of painting. Religion played a fundamental role, with very varied influences, with aspects of Germanic, Pre-Roman, Greek, Roman, North African, Paleo-Christian, and Byzantine art.',
     categories: ['architectural_styles', 'historical'],
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['5th-8th Century'],
+        decade: ['5th_century', '6th_century', '7th_century', '8th_century'],
       },
       visualThemes: {
         colours: ['Gold', 'red', 'blue'],
@@ -41049,6 +41882,7 @@ export const aesthetics: AestheticProps[] = [
           'southern_french_gothic',
         ],
       },
+      timeline: {},
     },
   },
   {
@@ -41063,7 +41897,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['VK', 'V-Kei', 'V系'],
-        decade: ['1980s'],
+        decade: ['20th_century', '1980s'],
         location: ['Japan'],
       },
       visualThemes: {
@@ -41090,6 +41924,7 @@ export const aesthetics: AestheticProps[] = [
       mediaCulture: {
         figures: ['X Japan. Buck-Tick', 'Luna Sea', 'Malice Mizer', 'Dir en grey', 'The Gazette'],
       },
+      timeline: {},
     },
   },
   {
@@ -41102,7 +41937,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['1910s (c. 1914–1917)'],
+        decade: ['20th_century', '1910s'],
         location: ['London', 'United Kingdom'],
         creator: ['Wyndham Lewis'],
       },
@@ -41137,7 +41972,7 @@ export const aesthetics: AestheticProps[] = [
         ],
       },
       timeline: {
-        preceded: ['Cubism', 'Futurism'],
+        preceded: ['cubism', 'futurism'],
       },
     },
   },
@@ -41152,7 +41987,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['Late 2010s'],
+        decade: ['21th_century', '2010s'],
       },
       visualThemes: {
         motifs: [
@@ -41197,8 +42032,8 @@ export const aesthetics: AestheticProps[] = [
         ],
       },
       timeline: {
-        preceded: ['Basic Girl', 'Hipster'],
-        succeeded: ['Tik', 'Tok Preppy', 'Indie Kid', 'Clean Girl'],
+        preceded: ['basic_girl', 'hipster'],
+        succeeded: ['tik', 'tok_preppy', 'indie_kid', 'clean_girl'],
       },
     },
   },
@@ -41212,7 +42047,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['2010s'],
+        decade: ['21th_century', '2010s'],
       },
       visualThemes: {
         motifs: [
@@ -41241,12 +42076,14 @@ export const aesthetics: AestheticProps[] = [
       mediaCulture: {
         platform: ['Tumblr', 'Instagram', 'Reddit'],
       },
+      timeline: {},
     },
   },
   {
     url: 'https://aesthetics.fandom.com/wiki/Wabi-Sabi',
     name: 'Wabi-Sabi',
     id: 'wabi-sabi',
+    imageUrl: 'https://static.wikia.nocookie.net/aesthetics/images/c/c9/440px-thumbnail.jpg',
     description:
       'Characteristics of the wabi-sabi aesthetic include asymmetry, roughness, simplicity, economy, austerity, modesty, intimacy, and appreciation of the ingenuous integrity of natural objects and processes.',
     categories: [],
@@ -41254,7 +42091,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Kintsugi'],
-        decade: ['~1300s A.D.'],
+        decade: ['14th_century'],
         creator: ['Japanese culture'],
       },
       visualThemes: {
@@ -41271,6 +42108,7 @@ export const aesthetics: AestheticProps[] = [
       connections: {
         related: ['art_academia', 'japandi', 'showa_retro', 'mizuiro_kaiwai'],
       },
+      timeline: {},
     },
   },
   {
@@ -41285,7 +42123,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Femcel', 'Waifspo', 'Nepotism Girl', 'Female Manipulator', 'Girlblogger', 'Off Duty Model'],
-        decade: ['Early 2020s'],
+        decade: ['21th_century', '2020s'],
       },
       visualThemes: {
         motifs: [
@@ -41331,6 +42169,7 @@ export const aesthetics: AestheticProps[] = [
         media: ['The Bell Jar by Sylvia Plath', 'Girl', 'Interrupted (1999)', 'The Red Scare (podcast)'],
         brands: ['Brandy Melville', 'luxury designer brands'],
       },
+      timeline: {},
     },
   },
   {
@@ -41344,7 +42183,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['Late 1990s'],
+        decade: ['20th_century', '1990s'],
         location: ['Japan'],
       },
       visualThemes: {
@@ -41382,6 +42221,7 @@ export const aesthetics: AestheticProps[] = [
           'Triple Fortune',
         ],
       },
+      timeline: {},
     },
   },
   {
@@ -41395,7 +42235,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['Late 2010s'],
+        decade: ['21th_century', '2010s'],
       },
       visualThemes: {
         motifs: [
@@ -41417,7 +42257,7 @@ export const aesthetics: AestheticProps[] = [
         platform: ['Tik', 'Tok', '4chan'],
       },
       timeline: {
-        preceded: ['Techwear'],
+        preceded: ['techwear'],
       },
     },
   },
@@ -41434,7 +42274,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Utility Dressing', 'World War II Fashion', 'Clothes Rationing'],
-        decade: ['1940s'],
+        decade: ['20th_century', '1940s'],
         location: ['Europe', 'United States'],
         creator: [
           'Government initiatives (e.g.',
@@ -41489,8 +42329,8 @@ export const aesthetics: AestheticProps[] = [
         figures: ['Winston Churchill', 'Deborah Kerr', 'Katharine Hepburn'],
       },
       timeline: {
-        preceded: ['1930s Fashion', 'Old Hollywood (pre-war)'],
-        succeeded: ["New Look (Dior's 1947 collection)1950s Fashion"],
+        preceded: ['1930s_fashion', 'old_hollywood (pre-war)'],
+        succeeded: ["new_look (dior's 1947 collection)1950s fashion"],
       },
     },
   },
@@ -41505,7 +42345,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Internetcore', 'Enacore'],
-        decade: ['Late 2010s-Early 2020s'],
+        decade: ['21th_century', '2010s', '2020s'],
       },
       visualThemes: {
         motifs: [
@@ -41552,7 +42392,7 @@ export const aesthetics: AestheticProps[] = [
         figures: ['Joel G. (ENA)', 'Graham Kartna', 'Oliver Buckland'],
       },
       timeline: {
-        preceded: ['Vaporwave'],
+        preceded: ['vaporwave'],
       },
     },
   },
@@ -41567,7 +42407,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Weeb', 'Wapanese', 'Japanophile'],
-        decade: ['mid 2000s'],
+        decade: ['21th_century', '2000s'],
       },
       visualThemes: {
         motifs: ['Graphic Tees', 'Cosplay', 'Merch'],
@@ -41576,6 +42416,7 @@ export const aesthetics: AestheticProps[] = [
       connections: {
         related: ['animecore', 'scene', 'emo', 'mall_ninja', 'wota', 'otaku'],
       },
+      timeline: {},
     },
   },
   {
@@ -41590,7 +42431,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Kabarett', 'German Cabaret'],
-        decade: ['1920s'],
+        decade: ['20th_century', '1920s'],
         location: ['Weimar-era Germany (primarily Berlin and Munich)'],
       },
       visualThemes: {
@@ -41619,6 +42460,7 @@ export const aesthetics: AestheticProps[] = [
       mediaCulture: {
         figures: ['Anita Berber', 'Marlene Dietrich', 'Claire Waldoff', 'Otto Dix (artist)', 'George Grosz (artist)'],
       },
+      timeline: {},
     },
   },
   {
@@ -41633,7 +42475,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Oddcore', 'Strangecore'],
-        decade: ['2010s'],
+        decade: ['21th_century', '2010s'],
       },
       visualThemes: {
         motifs: [
@@ -41687,6 +42529,7 @@ export const aesthetics: AestheticProps[] = [
         platform: ['Tumblr'],
         media: ['Soup 0.9', 'Yume Nikki', 'LSD Dream Emulator'],
       },
+      timeline: {},
     },
   },
   {
@@ -41700,7 +42543,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Welwitschia Emo', 'Facebook Alt', 'Whimsical Emo'],
-        decade: ['Late 1990s–Early 2000s'],
+        decade: ['20th_century', '21th_century', '1990s', '2000s'],
       },
       visualThemes: {
         motifs: [
@@ -41732,7 +42575,7 @@ export const aesthetics: AestheticProps[] = [
         platform: ['Deviant', 'Art', 'My', 'Space', 'Facebook'],
       },
       timeline: {
-        preceded: ['Emo', 'Mallgoth'],
+        preceded: ['emo', 'mallgoth'],
       },
     },
   },
@@ -41747,7 +42590,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Lycanthrope', 'Lycanthropus', 'Lobishome'],
-        decade: ['2', '100 BC (Werewolf legends)1910s (Character trope/aesthetic)'],
+        decade: ['20th_century', '1910s'],
       },
       visualThemes: {
         motifs: ['Wolves', 'night', 'full moon', 'fangs', 'claws'],
@@ -41757,6 +42600,7 @@ export const aesthetics: AestheticProps[] = [
       connections: {
         related: ['fantasy', 'vampire', 'witchcore', 'halloween', 'horror', 'zombie_apocalypse'],
       },
+      timeline: {},
     },
   },
   {
@@ -41771,7 +42615,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Cowboy', 'Cowgirl', 'Wild West', 'Wild Wild West', 'Old West', 'Bang Bang', 'Spaghetti Western'],
-        decade: ['1860s'],
+        decade: ['19th_century', '1860s'],
         creator: ['The Settlers of the American Frontier'],
       },
       visualThemes: {
@@ -41787,7 +42631,7 @@ export const aesthetics: AestheticProps[] = [
         media: ['Red Dead Redemption', 'Old Western films'],
       },
       timeline: {
-        preceded: ['American Pioneers'],
+        preceded: ['american_pioneers'],
       },
     },
   },
@@ -41802,7 +42646,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['DIY Handmade Folk Artsy 80s-90s'],
-        decade: ['1980s-1990s'],
+        decade: ['20th_century', '1980s', '1990s'],
         creator: ['CARI (Consumer Aesthetics Research Institute)'],
       },
       visualThemes: {
@@ -41823,6 +42667,7 @@ export const aesthetics: AestheticProps[] = [
           'utopian_scholastic',
         ],
       },
+      timeline: {},
     },
   },
   {
@@ -41837,7 +42682,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Whimsigoth', 'Whimsical Gothic', 'Whimsical Mystical Gothic Celestial (formerly)'],
-        decade: ['1980s-1990s'],
+        decade: ['20th_century', '1980s', '1990s'],
       },
       visualThemes: {
         motifs: ['Warm colors', 'supernatural beings'],
@@ -41859,6 +42704,7 @@ export const aesthetics: AestheticProps[] = [
           'welwitschia_goth',
         ],
       },
+      timeline: {},
     },
   },
   {
@@ -41873,7 +42719,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Whimsical Twee', 'Applecore', 'Igari (on Roblox)'],
-        decade: ['Mid-2020s'],
+        decade: ['21th_century', '2020s'],
       },
       visualThemes: {
         motifs: [
@@ -41904,7 +42750,7 @@ export const aesthetics: AestheticProps[] = [
         ],
       },
       timeline: {
-        preceded: ['Twee'],
+        preceded: ['twee'],
       },
     },
   },
@@ -41919,7 +42765,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Romanticized Winter', 'Wintercore'],
-        decade: ['2010s'],
+        decade: ['21th_century', '2010s'],
       },
       visualThemes: {
         motifs: [
@@ -41946,6 +42792,7 @@ export const aesthetics: AestheticProps[] = [
       connections: {
         related: ['aprs-ski', 'autumn_aesthetic', 'christmas', 'cozycore', 'hygge', 'winter_bimbo'],
       },
+      timeline: {},
     },
   },
   {
@@ -41960,7 +42807,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Winter Fairy Coquette', 'Slavic Bimbo (controversial)'],
-        decade: ['Early 2020s'],
+        decade: ['21th_century', '2020s'],
       },
       visualThemes: {
         motifs: ['Fur hats (ushankas)', 'earmuffs', 'leg warmers', 'miniskirts', 'faux fur coats', 'snowy forests'],
@@ -41970,6 +42817,7 @@ export const aesthetics: AestheticProps[] = [
       connections: {
         related: ['aprs-ski', 'bimbocore', 'coquette', 'slavic_doll', 'winter_aesthetic'],
       },
+      timeline: {},
     },
   },
   {
@@ -41982,7 +42830,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['2020s'],
+        decade: ['21th_century', '2020s'],
         creator: ['NCT Wish Styling/Concept Teams and Fan Communities'],
       },
       visualThemes: {
@@ -42014,6 +42862,7 @@ export const aesthetics: AestheticProps[] = [
       mediaCulture: {
         platform: ['Tik', 'Tok'],
       },
+      timeline: {},
     },
   },
   {
@@ -42083,6 +42932,7 @@ export const aesthetics: AestheticProps[] = [
           'Sabrina the Teenage Witch',
         ],
       },
+      timeline: {},
     },
   },
   {
@@ -42096,7 +42946,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['Late 2000s'],
+        decade: ['21th_century', '2000s'],
       },
       visualThemes: {
         motifs: [
@@ -42126,6 +42976,7 @@ export const aesthetics: AestheticProps[] = [
       mediaCulture: {
         media: ['The Blair Witch Project', 'Twin Peaks'],
       },
+      timeline: {},
     },
   },
   {
@@ -42139,7 +42990,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Vixa', 'Wiksa', 'Wixapol', 'Polish Neo-Gabber', 'Vixa Pixa'],
-        decade: ['Late 1990s (Original); 2010s (Revival)'],
+        decade: ['20th_century', '21th_century', '1990s', '2010s'],
         location: ['Poland'],
       },
       visualThemes: {
@@ -42169,6 +43020,7 @@ export const aesthetics: AestheticProps[] = [
       mediaCulture: {
         figures: ['WIXAPOL S.A. (DJ SPORTY SPICE', 'DJ TORRENTZ.EU', 'MIKOUAJ REJW)'],
       },
+      timeline: {},
     },
   },
   {
@@ -42182,7 +43034,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['2010s'],
+        decade: ['21th_century', '2010s'],
         creator: ['remleeeee'],
       },
       visualThemes: {
@@ -42236,6 +43088,7 @@ export const aesthetics: AestheticProps[] = [
       mediaCulture: {
         media: ['Harry Potter', 'The Lord of the Rings', 'Dungeons and Dragons'],
       },
+      timeline: {},
     },
   },
   {
@@ -42248,7 +43101,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['1860s'],
+        decade: ['19th_century', '1860s'],
         creator: ['Lewis Carroll'],
       },
       visualThemes: {
@@ -42281,6 +43134,7 @@ export const aesthetics: AestheticProps[] = [
       mediaCulture: {
         media: ['Alice in Wonderland', 'The Wizard of Oz'],
       },
+      timeline: {},
     },
   },
   {
@@ -42294,7 +43148,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['The Wonyoung Effect', 'Wonyoung Motivation'],
-        decade: ['2020s'],
+        decade: ['21th_century', '2020s'],
       },
       visualThemes: {
         motifs: [
@@ -42327,6 +43181,7 @@ export const aesthetics: AestheticProps[] = [
         brands: ['Miu Miu', 'Innisfree', 'Dior'],
         figures: ['Jang Wonyoung'],
       },
+      timeline: {},
     },
   },
   {
@@ -42341,7 +43196,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Chinese Warriors'],
-        decade: ['9th century'],
+        decade: ['9th_century'],
         location: ['China'],
         creator: ['Tang Dynasty literati'],
       },
@@ -42357,6 +43212,7 @@ export const aesthetics: AestheticProps[] = [
       mediaCulture: {
         figures: ['Hua Mulan', 'Jin Yong', 'Gu Long'],
       },
+      timeline: {},
     },
   },
   {
@@ -42370,7 +43226,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['Late 2000s/Early 2010s'],
+        decade: ['21th_century', '2000s', '2010s'],
         creator: ['The Weeknd'],
       },
       visualThemes: {
@@ -42388,6 +43244,7 @@ export const aesthetics: AestheticProps[] = [
       connections: {
         related: ['dark_nymphet', 'grunge', 'indie_sleaze', 'pale_grunge', 'sadboi'],
       },
+      timeline: {},
     },
   },
   {
@@ -42401,7 +43258,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Schizocore (James Howard)'],
-        decade: ['2010s (early origins); 2020s (codification)'],
+        decade: ['21th_century', '2010s', '2020s'],
       },
       visualThemes: {
         motifs: [
@@ -42455,6 +43312,7 @@ export const aesthetics: AestheticProps[] = [
         ],
         figures: ['Yabujin', 'James Howard', 'Do Thi Thien Ly Live Beautifully', 'Florecita Dreams', 'Sam Hyde'],
       },
+      timeline: {},
     },
   },
   {
@@ -42469,7 +43327,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Y2K Aesthetic', 'Cyber Y2K', 'Kaybug'],
-        decade: ['1990s'],
+        decade: ['20th_century', '1990s'],
       },
       visualThemes: {
         motifs: [
@@ -42530,8 +43388,8 @@ export const aesthetics: AestheticProps[] = [
         ],
       },
       timeline: {
-        preceded: ['Cassette Futurism', 'Grunge', 'Memphis Lite', 'Early Cyber', 'Factory Pomo'],
-        succeeded: ['Frutiger Aero'],
+        preceded: ['cassette_futurism', 'grunge', 'memphis_lite', 'early_cyber', 'factory_pomo'],
+        succeeded: ['frutiger_aero'],
       },
     },
   },
@@ -42547,7 +43405,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Year 3000', 'Meta Fashion', 'Digital Clothing', 'Aespacore (Fandom-Based)'],
-        decade: ['2020s'],
+        decade: ['21th_century', '2020s'],
       },
       visualThemes: {
         motifs: [
@@ -42586,6 +43444,7 @@ export const aesthetics: AestheticProps[] = [
         media: ['aespa (Music Group)', 'XG (Music Group)', 'Mugler (Fashion House)', 'Dress to Impress (Video Game)'],
         brands: ['Gentle Monster', 'Diesel', 'Balenciaga', 'Mugler'],
       },
+      timeline: {},
     },
   },
   {
@@ -42599,7 +43458,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['Late 2010s'],
+        decade: ['21th_century', '2010s'],
         location: ['China'],
       },
       visualThemes: {
@@ -42633,6 +43492,7 @@ export const aesthetics: AestheticProps[] = [
       mediaCulture: {
         platform: ['Xiaohongshu', 'Bili', 'Bili', 'Douyin'],
       },
+      timeline: {},
     },
   },
   {
@@ -42646,7 +43506,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Jumpstylecore'],
-        decade: ['2020s (specifically 2021)'],
+        decade: ['21th_century', '2020s'],
       },
       visualThemes: {
         motifs: [
@@ -42669,6 +43529,7 @@ export const aesthetics: AestheticProps[] = [
       mediaCulture: {
         platform: ['Tik', 'Tok'],
       },
+      timeline: {},
     },
   },
   {
@@ -42682,7 +43543,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Gokudō', 'Ninkyō Dantai'],
-        decade: ['20th Century (Media Portrayals)'],
+        decade: ['20th_century'],
       },
       visualThemes: {
         motifs: [
@@ -42716,6 +43577,7 @@ export const aesthetics: AestheticProps[] = [
         ],
         figures: ['Kazuma Kiryu', 'Goro Majima', 'Fuyuhiko Kuzuryu (fictional characters)'],
       },
+      timeline: {},
     },
   },
   {
@@ -42730,7 +43592,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ["Y'allternative"],
-        decade: ['2010s'],
+        decade: ['21th_century', '2010s'],
         location: ['United States / Internet'],
       },
       visualThemes: {
@@ -42745,6 +43607,7 @@ export const aesthetics: AestheticProps[] = [
         platform: ['Tumblr', 'Tik', 'Tok'],
         media: ['Dexter and the Moonrocks', 'Tyler Childers', 'Johnny Cash'],
       },
+      timeline: {},
     },
   },
   {
@@ -42759,7 +43622,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Yamikawa', 'Sickly Cute'],
-        decade: ['2010s'],
+        decade: ['21th_century', '2010s'],
       },
       visualThemes: {
         motifs: [
@@ -42782,6 +43645,7 @@ export const aesthetics: AestheticProps[] = [
       mediaCulture: {
         media: ['Wrist-Cut Transformation Subculture✡Menhera'],
       },
+      timeline: {},
     },
   },
   {
@@ -42796,7 +43660,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Yanderecore'],
-        decade: ['2000s'],
+        decade: ['21th_century', '2000s'],
       },
       visualThemes: {
         motifs: ['Knives', 'heart eyes', 'obsession'],
@@ -42814,6 +43678,7 @@ export const aesthetics: AestheticProps[] = [
           'yami_kawaii',
         ],
       },
+      timeline: {},
     },
   },
   {
@@ -42827,7 +43692,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Yankii', 'Japanese Rockabilly'],
-        decade: ['1950s and 1960s'],
+        decade: ['20th_century', '1950s', '1960s'],
       },
       visualThemes: {
         motifs: ['Japanese gangster'],
@@ -42837,6 +43702,7 @@ export const aesthetics: AestheticProps[] = [
       connections: {
         related: ['bosozoku', 'sukeban', 'gyaru', 'greaser', 'yakuza', 'bankara'],
       },
+      timeline: {},
     },
   },
   {
@@ -42850,7 +43716,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['Early 1960s'],
+        decade: ['20th_century', '1960s'],
         location: ['France (with regional scenes in Spain', 'Italy', 'and Portugal)'],
       },
       visualThemes: {
@@ -42876,8 +43742,8 @@ export const aesthetics: AestheticProps[] = [
         ],
       },
       timeline: {
-        preceded: ['Mod'],
-        succeeded: ['Hippie'],
+        preceded: ['mod'],
+        succeeded: ['hippie'],
       },
     },
   },
@@ -42892,7 +43758,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Młoda Polska', 'Polish Neo-Romanticism', 'Polish Modernism'],
-        decade: ['1890s-1910s'],
+        decade: ['19th_century', '20th_century', '1890s', '1900s', '1910s'],
         location: ['Partitions of Poland'],
         creator: ['Antoni Lange', 'Zenon Przesmycki ("Miriam")'],
       },
@@ -42916,6 +43782,7 @@ export const aesthetics: AestheticProps[] = [
           'zakopane_style',
         ],
       },
+      timeline: {},
     },
   },
   {
@@ -42929,7 +43796,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Jugonostalgija'],
-        decade: ['Post-2000s (as aesthetic/commodification)'],
+        decade: ['21th_century', '2000s'],
         location: ['Former Yugoslavia'],
       },
       visualThemes: {
@@ -42958,6 +43825,7 @@ export const aesthetics: AestheticProps[] = [
         media: ['Yugoslav popular culture', 'Ex-Yu Rock and New Wave music', 'Yugoslav cinema'],
         figures: ['Josip Broz Tito'],
       },
+      timeline: {},
     },
   },
   {
@@ -42972,7 +43840,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Yumekawaii', 'Yumekawa'],
-        decade: ['2013'],
+        decade: ['21th_century', '2010s'],
         creator: ['Ichigo Rinahamu'],
       },
       visualThemes: {
@@ -42997,6 +43865,7 @@ export const aesthetics: AestheticProps[] = [
         ],
         overlaped: ['2010s_bright_kawaii'],
       },
+      timeline: {},
     },
   },
   {
@@ -43010,7 +43879,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Young Urban Professional'],
-        decade: ['1980s'],
+        decade: ['20th_century', '1980s'],
         location: ['United States'],
       },
       visualThemes: {
@@ -43044,8 +43913,8 @@ export const aesthetics: AestheticProps[] = [
         figures: ['Gordon Gekko', 'Patrick Bateman', 'Sherman Mc', 'Coy'],
       },
       timeline: {
-        preceded: ['Hippie'],
-        succeeded: ['Hipster'],
+        preceded: ['hippie'],
+        succeeded: ['hipster'],
       },
     },
   },
@@ -43060,7 +43929,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Witkiewicz Style'],
-        decade: ['1890s-1910s'],
+        decade: ['19th_century', '20th_century', '1890s', '1900s', '1910s'],
         location: ['Polish Highlands'],
         creator: ['Stanislaw Witkiewicz'],
       },
@@ -43072,6 +43941,7 @@ export const aesthetics: AestheticProps[] = [
       connections: {
         related: ['art_nouveau', 'arts_and_crafts_movement', 'romanticism', 'young_poland'],
       },
+      timeline: {},
     },
   },
   {
@@ -43085,7 +43955,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['1940s'],
+        decade: ['20th_century', '1940s'],
         location: ['France'],
       },
       visualThemes: {
@@ -43110,6 +43980,7 @@ export const aesthetics: AestheticProps[] = [
       mediaCulture: {
         figures: ['Cab Calloway (inspiration)', 'Johnny Hess'],
       },
+      timeline: {},
     },
   },
   {
@@ -43123,7 +43994,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['2000s'],
+        decade: ['21th_century', '2000s'],
         location: ['Cape Town', 'South Africa'],
       },
       visualThemes: {
@@ -43149,6 +44020,7 @@ export const aesthetics: AestheticProps[] = [
       mediaCulture: {
         figures: ['Die Antwoord (Ninja and Yolandi Visser)', 'Jack Parow'],
       },
+      timeline: {},
     },
   },
   {
@@ -43161,7 +44033,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['1921–1926'],
+        decade: ['20th_century', '1920s'],
         location: ['Yugoslavia (Zagreb & Belgrade)'],
         creator: ['Ljubomir Micić'],
       },
@@ -43191,6 +44063,7 @@ export const aesthetics: AestheticProps[] = [
         platform: ['ZENIT (journal)'],
         figures: ['Ljubomir Micić', 'Jo Klek (Josip Seissel)', 'Branko Ve Poljanski', 'Ivan Goll'],
       },
+      timeline: {},
     },
   },
   {
@@ -43203,7 +44076,7 @@ export const aesthetics: AestheticProps[] = [
     isVisible: true,
     metadata: {
       origins: {
-        decade: ['1990s'],
+        decade: ['20th_century', '1990s'],
       },
       visualThemes: {
         motifs: ['Plants', 'minimalism', 'Japanese architecture and design', 'Buddhist imagery', 'yoga'],
@@ -43225,6 +44098,7 @@ export const aesthetics: AestheticProps[] = [
         ],
         overlaped: ['eco-beige'],
       },
+      timeline: {},
     },
   },
   {
@@ -43239,7 +44113,7 @@ export const aesthetics: AestheticProps[] = [
     metadata: {
       origins: {
         otherNames: ['Zombiecore'],
-        decade: ['1960s'],
+        decade: ['20th_century', '1960s'],
         creator: ['Various horror writers and movie directors'],
       },
       visualThemes: {
@@ -43250,6 +44124,7 @@ export const aesthetics: AestheticProps[] = [
       connections: {
         related: ['grunge', 'horror_punk', 'post-apocalyptic'],
       },
+      timeline: {},
     },
   },
 ];

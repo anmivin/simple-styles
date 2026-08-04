@@ -1,6 +1,6 @@
 import { create } from 'zustand';
 
-import { Paths, routes, SubMenu } from '@shared/constants/routes';
+import { Paths, SubMenu } from '@shared/constants/routes';
 import type { MenuProps } from 'antd';
 import useWardrobe from './wardrobe.store';
 import type { CategoryVariants } from '@shared/types';

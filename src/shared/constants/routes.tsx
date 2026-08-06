@@ -7,6 +7,7 @@ import Wardrobe from '@pages/Wardrobe';
 import Profile from '@pages/Profile';
 import type { MenuProps } from 'antd';
 import { CategoriesView } from './labels';
+import { decades, subDecades } from './decades';
 
 export enum Paths {
   aesthetics = '/aesthetics',
@@ -67,7 +68,26 @@ export const routes: RoutesProps[] = [
 ];
 
 export const SubMenu: Record<Paths, MenuProps['items']> = {
-  [Paths.aesthetics]: [],
+  [Paths.aesthetics]: [
+    { key: 'all', label: 'Все' },
+    ...Object.entries(decades).map(([key, val]) => {
+      return {
+        key,
+        label: val.label,
+        children: val.children
+          ? [
+              { key, label: val.label },
+              ...val.children?.map((child) => {
+                return {
+                  key: child.value,
+                  label: child.label,
+                };
+              }),
+            ]
+          : undefined,
+      };
+    }),
+  ],
   [Paths.beauty]: [],
   [Paths.looks]: [],
   [Paths.profile]: [],

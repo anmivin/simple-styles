@@ -1,4 +1,6 @@
-export const aesthetics = [
+import type { AestheticProps } from '@shared/types';
+
+export const aesthetics: AestheticProps[] = [
   {
     url: 'https://aesthetics.fandom.com/wiki/2_Tone',
     name: '2 Tone',
@@ -54,7 +56,7 @@ export const aesthetics = [
         values: ['opulence', 'drama', 'a reinterpretation of tradition', 'a blend of old and new'],
       },
       connections: {
-        related: ['baroque', 'curly_girly', 'mc', 'bling', 'parisian_girly', 'vectorbloom'],
+        related: ['baroque', 'curly_girly', 'mcbling', 'parisian_girly', 'vectorbloom'],
       },
       timeline: {},
     },
@@ -141,6 +143,8 @@ export const aesthetics = [
     url: 'https://aesthetics.fandom.com/wiki/2000s_Yoga_Mom',
     name: '2000s Yoga Mom',
     id: '2000s_yoga_mom',
+    imageUrl:
+      'https://n1s1.hsmedia.ru/e1/40/49/e140497878cfc846b4ec4a66d8f42453/1920x1440_0x8Q0pqddn_6749044354474052948.jpg',
     description:
       '2000s Yoga Mom aesthetic and cultural archetype emerged in the United States in the early 2000s, associated with upper-middle-class suburban mothers who incorporated yoga, \n      Pilates, and wellness as a central part of their identity. It combines early athleisure, (nascent) conscious consumption, and a polished yet casual image. \n      The aesthetic projects balance, physical discipline, domestic organization, and a moderate economic status. It developed in a pre-2008 financial crisis context, \n      when wellness began to solidify as an aspirational cultural marker.',
     categories: [],
@@ -530,7 +534,7 @@ export const aesthetics = [
         values: ['cheerfulness', 'affluence', 'cleanliness', 'popularity'],
       },
       connections: {
-        related: ['bubblegum_bling', 'coconut_girl', 'dopamine_dressing', 'mc', 'bling', 'vsco_girl'],
+        related: ['bubblegum_bling', 'coconut_girl', 'dopamine_dressing', 'mcbling', 'vsco_girl'],
       },
       mediaCulture: {
         platform: ['Tik', 'Tok', 'Roblox'],
@@ -845,6 +849,7 @@ export const aesthetics = [
     url: 'https://aesthetics.fandom.com/wiki/Acid_Design',
     name: 'Acid Design',
     id: 'acid_design',
+    imageUrl: 'https://static.wikia.nocookie.net/aesthetics/images/5/54/Ad_%286%29.jpg',
     description:
       'Acid Design is a graphic design style characterized by psychedelic visuals, distorted typography, and futuristic textures. Its origins are rooted in the flyer art of the 1990s Acid House and rave movements. The style experienced a significant revival in the mid-2010s, primarily on social media platforms like Instagram, where this new wave became widely known as Acidgrafix.[1] It is commonly found in electronic music cover art, event flyers, and branding for fashion and music labels. The aesthetic combines a dark, often black, background with highly saturated neon colors, complex compositions, and motifs drawn from technology and counter-culture.[2] The visual language of Acid Design first developed in the 1990s alongside the rise of acid house music and the broader European rave scene. Flyers and posters from this era used psychedelic imagery, futuristic fonts, and symbols like the smiley face to capture the energy of the music and culture. This initial wave established the core palette of dark backgrounds contrasted with bright, fluorescent colors and the use of technological and abstract motifs. Beginning in the mid-2010s, the style saw a major resurgence, gaining new life and a new name, Acidgrafix, through online design communities, particularly on Instagram.[3] This revival was propelled by a new generation of graphic designers who reinterpreted the 90s aesthetic for a contemporary audience. Key figures in this movement include David Rudnick, known for his work with musical artists (collaborators include Katy Perry, Oneohtrix Point Never, Black Midi and Nicolás Jaar); Jonathan Castro, who designed the Boiler Room logo; and the Japanese designer GUCCIMAZE. This modern iteration retains the core elements of its predecessor but often incorporates a more ironic, darkly humorous, or cynical worldview, reflecting contemporary anxieties and digital culture.',
     categories: ['design_aesthetics', 'internet_aesthetics'],
@@ -890,6 +895,7 @@ export const aesthetics = [
     url: 'https://aesthetics.fandom.com/wiki/Acid_House',
     name: 'Acid House',
     id: 'acid_house',
+    imageUrl: 'https://static.wikia.nocookie.net/aesthetics/images/8/83/EAqHVL-UEBU71ex.jpg',
     description:
       "Acid House is a subgenre of house music that originated in Chicago in the mid-1980s, defined by the deep, squelching basslines produced by the Roland TB-303 synthesizer. While pioneered by Chicago artists like Phuture, the genre became the catalyst for a massive youth counterculture movement in the United Kingdom during the \"Second Summer of Love\" of 1988–1989.[1] This movement was centered around illegal warehouse parties and influential clubs like Manchester's The Haçienda, where the music's hypnotic and psychedelic sound, often combined with the use of the drug MDMA, fostered a sense of euphoric unity among attendees. In Belgium, Acid House crossed over with the Electronic Body Music (EBM) scene, resulting in the homegrown New Beat movement.[2] The associated fashion of the Acid House scene was loose, baggy, and utilitarian, featuring dungarees, brightly colored t-shirts, and bucket hats. The most iconic visual element of the subculture was the yellow smiley face, which became a universal symbol of the scene's hedonistic and carefree ethos. Acid House was instrumental in bringing electronic dance music to a mainstream audience in Europe and laid the foundation for the global rave culture of the 1990s.",
     categories: ['music_genres', 'subcultures', 'fashion'],
@@ -1534,7 +1540,7 @@ export const aesthetics = [
         values: ['Playfulness', 'energy', 'brand loyalty', 'American pop culture', 'casual comfort'],
       },
       connections: {
-        related: ['gyaru', 'hip-hop', 'kogal', 'mc', 'bling', 'swag', 'y2k'],
+        related: ['gyaru', 'hip-hop', 'kogal', 'mcbling', 'swag', 'y2k'],
       },
       mediaCulture: {
         media: ['Magazines (egg', 'Ranzuki)'],
@@ -2333,6 +2339,7 @@ export const aesthetics = [
     url: 'https://aesthetics.fandom.com/wiki/Arte_Povera',
     name: 'Arte Povera',
     id: 'arte_povera',
+    imageUrl: 'https://static.wikia.nocookie.net/aesthetics/images/1/1c/Pistoletto_VenereStracci.jpg',
     description:
       'It comprised the work of approximately a dozen Italian artists who employed commonplace materials, often associated with a pre-industrial era, such as earth, rocks, clothing, paper, and rope.[1] These literally "poor" or inexpensive materials were repurposed in their artistic practices, challenging established notions of value and propriety, offering a subtle critique of the industrialization and mechanization of Italy, and representing a reaction against the modernist abstract painting that had prevailed in European art during the 1950s. This reaction was emphasized by a focus on sculptural work rather than painting. The group also rejected American Minimalism, particularly its perceived enthusiasm for technology and dominance in the art world. While exhibiting some Post-Minimalist tendencies in its opposition to modernism and technology, Arte Povera maintained distinctly Italian aesthetic and strategic characteristics, particularly in its evocation of the past, locality, and memory. The term "Arte Povera" was coined by Italian art critic Germano Celant in 1967. Its introduction in Italy coincided with a period of upheaval in the late 1960s, during which artists were increasingly adopting radical stances and challenging the values of established institutions, including government, industry, and culture. The movement\'s emergence is linked to a decline in the dominance of abstract painting in Italy and a renewed interest in avant-garde approaches from the 1920s and 1930s, such as Surrealism.',
     categories: ['art_movements'],
@@ -2493,6 +2500,8 @@ export const aesthetics = [
     url: 'https://aesthetics.fandom.com/wiki/Arts_and_Crafts',
     name: 'Arts and Crafts',
     id: 'arts_and_crafts',
+    imageUrl:
+      'https://static.wikia.nocookie.net/aesthetics/images/1/1f/Strawberry_Thief_furnishing_Textile_William_Morris.jpg',
     description:
       "The Arts and Crafts movement was an international trend in the decorative and fine arts that began in Britain and flourished between approximately 1880 and 1920. It originated as a reaction against the poor quality of mass-produced goods and the dehumanizing conditions of industrial labor in the 19th century. Drawing its philosophical inspiration from the art critic John Ruskin and led by the artist and designer William Morris, the movement advocated for a return to traditional craftsmanship, believing that a well-crafted object could enrich the lives of both its maker and its user. At its core, the movement was driven by a set of social and aesthetic principles. It promoted the dignity of labor, promoting small-scale workshops over factories. Aesthetically, it emphasized simplicity of form, truth to materials (where the innate qualities of a material like wood grain were celebrated rather than disguised), and decoration inspired by stylized, natural forms of British flora and fauna. The movement sought to break down the artificial hierarchy between the fine arts (painting and sculpture) and the decorative arts, arguing that a beautiful and useful object, like a chair or wallpaper, was a significant work of art. The name originated with the Arts and Crafts Exhibition Society, founded in London in 1887, which provided a venue for artisans to showcase their work. Firms like Morris's own Morris & Co. produced a wide range of goods, including furniture, textiles, stained glass, and books, all guided by these principles. While the movement's anti-industrial stance ultimately made its handcrafted products too expensive for ordinary people, its ideals had a profound influence. It laid the groundwork for Art Nouveau and its core principle of unifying art and craft was later reinterpreted by modernist movements like the Bauhaus, albeit with an acceptance of industrial methods.",
     categories: ['art_movements', 'design_aesthetics', 'historical'],
@@ -2549,6 +2558,7 @@ export const aesthetics = [
     url: 'https://aesthetics.fandom.com/wiki/Art_Singulier',
     name: 'Art Singulier',
     id: 'art_singulier',
+    imageUrl: 'https://static.wikia.nocookie.net/aesthetics/images/c/c6/Cueillirlesoleil.jpg',
     description:
       'Art Singulier (French for "Singular Art") is an outsider art movement that emerged in France during the 1970s, building upon the principles of Art Brut. Unlike Art Brut, which focuses on a specific mindset, Art Singulier encompasses diverse artistic currents such as Cubism and Surrealism. This contemporary movement gathers creators, including self-taught individuals, who maintain a distance from academic art. They express a distinct knowledge and sensitivity, offering a complement or contradiction to established art history. The concept has connections to post-Art Brut movements, also referred to as "art en marge," "art outsider," "art cru," "création franche," and "art hors-les-normes." In 1971, architect Alain Bourbonnais began collecting works by these artists, leading to the opening of Atelier Jacob in 1972 and the introduction of the term "singulier." Art Singulier gained prominence in 1978 with the "Les Singuliers de l\'Art" exhibition at the Musée d\'Art Moderne de la Ville de Paris, organized by Bourbonnais, Michel Ragon, Suzanne Pagé, and Michel Thévoz.[1] This exhibition introduced the public to various forms of outsider art, including "habitants paysagistes," "art hors-les-normes," Art Brut, and the fringes of popular art. The Bourbonnais collection found a permanent home in Dicy as La Fabuloserie in 1983.',
     categories: ['art_movements'],
@@ -2591,6 +2601,7 @@ export const aesthetics = [
     url: 'https://aesthetics.fandom.com/wiki/Asian_Baby_Girl',
     name: 'Asian Baby Girl',
     id: 'asian_baby_girl',
+    imageUrl: 'https://static.wikia.nocookie.net/aesthetics/images/2/28/ABG5.jpg',
     description:
       'Over time, the direct association with criminal gangs has faded. In the 2010s and 2020s, the ABG identity evolved into a more mainstream aesthetic, popularized on social media platforms like Facebook, Instagram, and TikTok. The modern ABG is typically a young Asian American woman who adopts the style to express confidence, socialize, and subvert traditional cultural expectations, often without any connection to the subculture\'s gangster origins. In the 2020s, the aesthetic has gained popularity in China.[2] The ABG subculture emerged from the Chinese American communities of New York City in the 1990s, particularly in areas like Queens and Chinatown. It developed within a generation of "wannabe gangsters" who sought to emulate the East Coast Chinese American gangster traditions that had been largely dismantled by Mayor Rudy Giuliani\'s anti-crime crackdowns in the 1980s. For the youth in these communities, aligning with a gang aesthetic was a way to gain social capital and reject the "dorky" model minority image.[1]\nThese early ABGs frequented the Asian party scene in New York, which featured clubs that played hip-hop and later, trance music. Their fashion was a counter-cultural statement: they wore all black, lightened their hair, and adopted a tough, assertive demeanor that stood in stark contrast to the stereotype of the submissive Asian woman.[1]',
     categories: ['subcultures', 'fashion'],
@@ -2616,6 +2627,7 @@ export const aesthetics = [
     url: 'https://aesthetics.fandom.com/wiki/Atomic_Age',
     name: 'Atomic Age',
     id: 'atomic_age',
+    imageUrl: 'https://static.wikia.nocookie.net/aesthetics/images/b/be/Atomic_Age_Design.jpg',
     description:
       'Atomic Age, also known as Atomic Age Modern, is a retrofuturistic design movement that was prominent from the end of World War II until the late 1960s. The aesthetic is defined by its influence from atomic science and the burgeoning Space Age, which unfolded concurrently during the Cold War. It manifested across architecture, industrial design, fashion, and graphic design, using a distinct visual style of scientific motifs and futuristic shapes that represent the era\'s dual sense of technological optimism and nuclear anxiety.[1] The Atomic Age began after the atomic bombings of Hiroshima and Nagasaki in 1945. This new, immense power created a cultural paradox: on one hand, it promised a utopian future of limitless, clean energy and scientific solutions to the world\'s problems; on the other, it presented the existential threat of nuclear annihilation.[2] Atomic Age design was a direct response to this duality. By incorporating the visual style of nuclear science into everyday life (from the patterns on a dinner plate to the shape of a building) designers helped to domesticate a concept that was both fascinating and terrifying. The aesthetic was overwhelmingly optimistic, using playful shapes and bright colors to frame the atomic future as hopeful and exciting. It was a form of "retrofuturism" that expressed both a faith in progress and an attempt to make an uncertain future feel more comfortable and familiar.[3]',
     categories: ['architectural_styles', 'design_aesthetics'],
@@ -2664,6 +2676,7 @@ export const aesthetics = [
     url: 'https://aesthetics.fandom.com/wiki/Atompunk',
     name: 'Atompunk',
     id: 'atompunk',
+    imageUrl: 'https://static.wikia.nocookie.net/aesthetics/images/5/53/Atom7.jpg',
     description:
       "The Atompunk aesthetic originated from the Raygun Gothic and Googie aesthetics being born from the eccentric but brilliant mind of Philip K Dick with the book known as Solar Lottery. It is the dark underbelly of that aesthetic and was created as a way to vent frustration at 1950s and 60s American society, acting as the counterculture to the typically utopian or otherwise non-dystopian stories that were popular at the time. The term Atompunk was coined after Cyberpunk was invented, but it has existed long before the aesthetic made dystopian stories popular, similar to Dieselpunk and works such as Metropolis and Things to Come. What differentiates Atompunk to the non-dystopian 50s/60s retrofuturism of Raygun Gothic is the '-punk' suffix. While some consider its meaning to just being connected to the Punk movement, like Cyberpunk, that's a misattribution. Instead, the term -punk refers to how countercultural it was in its context. Steampunk was countercultural in the sense that it was the development of a completely unique and new genre that oftentimes defied societal norms. Dieselpunk consists of two aesthetics: Ottensian Dieselpunk/Decopunk and Piecraftian Dieselpunk (every other part of the Dieselpunk genre like Brazil, Metropolis, Things To Come, etc.) which were created as counterculture in their respective genres; Ottensian after World War 2, and Piecraftian during and before World War 2. Overall, while Raygun Gothic is more of a celebration of its technological advancements and not something designed to push against the culture, Atompunk was designed as counterculture to that zeitgeist. The most well-known example of this aesthetic in the present day is the Fallout series, which takes influences from early-to-mid Atompunk media such as 2000 AD and Do Androids Dream of Electric Sheep.",
     categories: ['genre_fiction', 'fashion'],
@@ -2702,6 +2715,7 @@ export const aesthetics = [
     url: 'https://aesthetics.fandom.com/wiki/Australiana',
     name: 'Australiana',
     id: 'australiana',
+    imageUrl: 'https://static.wikia.nocookie.net/aesthetics/images/e/ec/Australiana.jpg',
     description:
       "A sense of irony is central to Australiana. To embody Australiana involves an understanding of the contradictions within Australian culture, paying homage to the past while optimistically envisioning a more collaborative future. During the 1980s, Australian culture experienced a surge in popularity, with elements like Ken Done's colorful designs and Coogi knitwear becoming prominent. Expo '88 also contributed to this trend, with clothing featuring imagery of Australian landmarks and wildlife. By the mid-1990s, however, this aesthetic fell out of favor, with Australian cultural symbols experiencing a period of 'cultural cringe.' In the late 2010s, a revival occurred, with independent designers reinterpreting these previously mocked symbols, leading to a renewed interest in Australiana. This 'Australiana 2.0' movement reflects a contemporary appreciation for Australian cultural heritage, with brands creating modern fashion pieces that incorporate traditional motifs.[1]",
     categories: ['cultural_nostalgia'],
@@ -2763,7 +2777,8 @@ export const aesthetics = [
     url: 'https://aesthetics.fandom.com/wiki/Austurbane',
     name: 'Austurbane',
     id: 'austurbane',
-    description: '',
+    imageUrl: 'https://static.wikia.nocookie.net/aesthetics/images/7/7b/Original_ce691ce3d0b415cd9f1c662bda022e54.png',
+    description: 'Austurbane is an aesthetic from the late 2010s that was used primarily in product photography.',
     categories: ['consumer_aesthetics', 'design_aesthetics'],
     isVisible: true,
     metadata: {
@@ -2788,6 +2803,7 @@ export const aesthetics = [
     id: 'autumn_aesthetic',
     description:
       'The aesthetic uses a warm, earthy color palette dominated by the hues of changing leaves: rich browns, deep reds, mustard yellows, and burnt oranges. Visually, it is characterized by images of pumpkin patches, streets covered in foliage, misty mornings, and cozy, candlelit interiors. The trend is heavily sensory. Textures are central, with an emphasis on soft and cozy materials like chunky knits, flannel, and wool in both fashion and home decor.[2] Scents are very important, with cinnamon, pumpkin spice, apple, vanilla, and sandalwood being iconic fragrances, often dispersed through candles, baked goods, or simmer pots. Tastes also define the aesthetic, most commonly warm drinks like pumpkin spice lattes and apple cider, and comforting baked goods like pumpkin bread.[3] Fashion in the autumn aesthetic is characterized by comfort, layering, and a color palette drawn directly from the seasonal landscape. The style is built around cozy and textural staple pieces, most notably chunky knit sweaters, cardigans, and plaid flannel shirts, typically layered over turtlenecks.[2] Emphasis is placed on textures that evoke warmth, with materials like wool, cashmere, corduroy, and knits being prominent.[3] These tops are typically paired with denim jeans or skirts in patterns such as plaid or gingham. The look uses accessories that enhance the sense of coziness, such as oversized scarves, beanies, and warm socks worn with knee-high or ankle boots. The style often draws inspiration from specific media, emulating the preppy and academic looks of characters like Rory Gilmore or Blair Waldorf.',
+    imageUrl: 'https://static.wikia.nocookie.net/aesthetics/images/0/0e/1_M6G6vPKD321M9Cdzno8n4A.webp',
     categories: ['lifestyle', 'seasonal', 'fashion'],
     isVisible: true,
     metadata: {
@@ -2908,6 +2924,7 @@ export const aesthetics = [
     url: 'https://aesthetics.fandom.com/wiki/Avantropop',
     name: 'Avantropop',
     id: 'avantropop',
+    imageUrl: 'https://static.wikia.nocookie.net/aesthetics/images/0/0e/Static-assets-upload14510581439806559874.webp',
     description:
       'Avantropop refers to a graphic design style of Recession Pop, seen in other pieces of media during this time, like for example in the "Noods" (2008-2010) and "CHECK it" (2010-2016) eras of Cartoon Network. The style was named by Evan Collins as a portmanteau of "avant-garde" and "electropop." Avantropop emerged in the late 2000s as a branch of the broader Recession Pop design language that dominated Western animation networks, youth advertising, and digital branding during the post-2008 economic recession. While Recession Pop is characterized by vivid colors, geometric motifs, and sleek digital simplicity, Avantropop pushes these ideas into a more experimental, high-energy space. The term “Avantropop” was coined by Evan Collins to describe a specific visual movement within the era, one that blended avant-garde graphic sensibilities with the glossy futurism of electropop music culture. This style became highly recognizable in Cartoon Network’s Noods (2008–2010) and CHECK it (2010–2016) eras, serving as an evolution of the network’s identity during a period of rapid digital transition.',
     categories: ['consumer_aesthetics', 'design_aesthetics'],
@@ -3089,6 +3106,7 @@ export const aesthetics = [
     url: 'https://aesthetics.fandom.com/wiki/Bakala',
     name: 'Bakala',
     id: 'bakala',
+    imageUrl: 'https://static.wikia.nocookie.net/aesthetics/images/e/eb/RutaFashion.png',
     description:
       'Bakala (often used interchangeably with Makinero) is a Spanish youth subculture that emerged in the late 1980s and flourished throughout the 1990s. They were the primary demographic of the Ruta del Bakalao (also known as Ruta Destroy), a massive nightlife phenomenon centered in Valencia that involved partying in macro-discotheques for 72 hours continuously. The aesthetic is characterized by a "hard" appearance influenced by Gabber and Skinhead fashion, a devotion to high-BPM electronic music (Mákina and Hardcore), and a specific grooming style known as the "Cenicero" (Ashtray) cut. While originally a cutting-edge avant-garde movement in the 80s, the subculture was later stigmatized by mass media due to its association with drug use (ecstasy/speed), fatal road accidents, and eventual assimilation into the "Cani" stereotype.',
     categories: ['music', 'subcultures', 'fashion'],
@@ -3154,6 +3172,7 @@ export const aesthetics = [
     url: 'https://aesthetics.fandom.com/wiki/Balearic_Aesthetic',
     name: 'Balearic Aesthetic',
     id: 'balearic_aesthetic',
+    imageUrl: 'https://static.wikia.nocookie.net/aesthetics/images/3/37/Destacada_CAFE_DEL_MAR.jpg',
     description:
       "BohemianHippiePsychedeliaNew Beat The Balearic aesthetic is a visual and cultural style that originated in the late 1980s on the island of Ibiza. It is characterized by a mood of unhurried, sun-drenched euphoria and bohemian freedom, which is rooted in the eclectic, chilled-out nature of the Balearic Beat music genre.[1] The aesthetic is characterized by its soft sun-bleached color palette and an emphasis on the natural environment (particularly sunsets and beaches) transcending any one fashion or genre to embody a lifestyle of spontaneous bliss.[1] Ibiza's history as a major tourist destination in Europe precedes the emergence of Balearic Beat. The island attracted many musical artists and nonconformists starting in the 1950s. Among them were wealthy visitors, hippies, bohemians, and members of the LGBTQ+ community.",
     categories: ['music'],
@@ -3187,6 +3206,7 @@ export const aesthetics = [
     url: 'https://aesthetics.fandom.com/wiki/Ballet',
     name: 'Ballet',
     id: 'ballet',
+    imageUrl: 'https://static.wikia.nocookie.net/aesthetics/images/2/20/Ballet_1.jpg',
     description:
       "The aesthetic is characterized by a combination of elegance and discipline. Key motifs include the iconic attire of dancers, such as tutus, pointe shoes, and leotards, often in a palette of whites, pinks, and blacks. It also incorporates imagery from the practice of dance itself, like the ballet barre, mirrors, and rehearsal studios. The subject matter of many classical ballets (such as swans, supernatural beings, and fairy tales) are central to the art surrounding the practice. Ballet performances can range from light and romantic to dark and dramatic, mirroring the diverse themes found in ballet works like The Nutcracker or Swan Lake. It appeals to those who appreciate the physical beauty, emotional expression, and rich history of the dance form, which has been a significant influence on fashion, film, and art for centuries. One example is the Balletcore fashion trend that originated around 2022 on TikTok. Ballet is a formalized performance dance that originated in the courts of the Italian Renaissance in the 15th and 16th centuries. Initially a form of social court dance for aristocrats, it was further developed in France under the patronage of Catherine de' Medici. The art form was professionalized and codified in the 17th century by King Louis XIV, who founded the Académie Royale de Danse, establishing the foundational vocabulary and techniques still used today.",
     categories: ['lifestyle', 'performance_art', 'fashion'],
@@ -3330,6 +3350,7 @@ export const aesthetics = [
     url: 'https://aesthetics.fandom.com/wiki/Bankara',
     name: 'Bankara',
     id: 'bankara',
+    imageUrl: 'https://static.wikia.nocookie.net/aesthetics/images/6/69/Bankara.jpg',
     description:
       'Bankara (バンカラ) was essentially the opposite of of Taisho Roman. They were opposed to so called haikara (“high collars") that were seen as becoming weak through westernizing. The word Bankara is formed by combining barbarian with haikara, describing the beliefs and personality of the people who were part of it. Bankara were defined by not being concerned with outward appearance: wearing ragged clothing, cloaks, and long hair. Masculinity, nationalism, and strength were core parts of the movement, and they were very similar to the militaristic views that led to World War 2.[1] While the movement ended by the 1950s, the fashion and ideology of the Bankara lived on and eventually evolved into the Yanki. Ironically, the counter-culture ideas of masculinity also continued into movements such as the Japanese New Left.[1] Additionally, various Japanese high school cheerleading teams have adopted the style as a uniform. Although the style has almost gone extinct, Bankara culture lives on through being passed down through these cheering teams.[2] The ideology of Bankara can be represented by "Ah, Flowers in a Jade Cup", a dormitory song for the First Higher School, the most prestigious prep school in Japan. [3] Fascist leaders of Japan graduated from this school, such as Nobusuke Kishi.',
     categories: [],
@@ -3352,6 +3373,8 @@ export const aesthetics = [
     url: 'https://aesthetics.fandom.com/wiki/Barber_Beats',
     name: 'Barber Beats',
     id: 'barber_beats',
+    imageUrl:
+      'https://static.wikia.nocookie.net/aesthetics/images/1/1b/Modest_by_Default_-_%E7%BB%84%E7%BB%87%E8%83%9C%E8%BF%87%E6%97%B6%E9%97%B4_%28Permaculture%29%2C_Cover_art.webp',
     description:
       'The Barber Beats sound was pioneered by the anonymous artist Haircuts for Men, who began releasing music in the mid-2010s. The term itself was coined by the independent record label Aloe City Wrld to describe Haircuts for Men\'s specific downtempo production style.[3] The genre\'s popularity exploded in the early 2020s, with a massive proliferation of artists and releases on platforms like YouTube and Bandcamp. Artists like Macroblank and Modest by Default became key figures in the scene, carrying the torch from Haircuts for Men and further solidifying the genre\'s sound and aesthetic. The rise of Barber Beats has been seen by some as a reaction to the perceived stagnation of the mainstream Vaporwave scene, offering a more mature and less meme-focused evolution of the sound.[2] Barber Beats has a unified and distinct visual style that differs from the neon, glitchy, and often cluttered look of traditional Vaporwave. The album art is typically minimalist and elegant, often featuring heavily edited images of classical or mythological sculptures set against a solid color or simple pattern. The aesthetic has been described as a "stripped-down kind of elegance" and has been linked to the graphic design style known as "Acid Graphics."[2] Album covers often incorporate vinyl-inspired framing and design elements, and many artists use Japanese characters in their track titles and album art, a practice inherited from Vaporwave.',
     categories: ['internet_aesthetics', 'music_genres'],
@@ -5363,7 +5386,7 @@ export const aesthetics = [
           'ur',
           'bling',
         ],
-        overlaped: ['mc', 'bling', 'indie_sleaze', 'swag', 'scene'],
+        overlaped: ['mcbling', 'indie_sleaze', 'swag', 'scene'],
       },
       mediaCulture: {
         brands: [
@@ -6069,7 +6092,7 @@ export const aesthetics = [
         values: ['Sexual promiscuity', 'assertiveness', 'Provençal pride'],
       },
       connections: {
-        related: ['chav', 'chonga', 'choni', 'cocalar', 'gyaru', 'mc', 'bling', 'racaille', 'raxet'],
+        related: ['chav', 'chonga', 'choni', 'cocalar', 'gyaru', 'mcbling', 'racaille', 'raxet'],
       },
       timeline: {},
     },
@@ -6290,7 +6313,7 @@ export const aesthetics = [
         values: ['Debauchery (engaging in vices)Decadence', 'Letting loose', 'Luck (or lack of luck)Trickery'],
       },
       connections: {
-        related: ['boujee', 'funfair_kitsch', 'mc', 'bling', 'synthwave', 'vacation_dadcore', 'vintage'],
+        related: ['boujee', 'funfair_kitsch', 'mcbling', 'synthwave', 'vacation_dadcore', 'vintage'],
       },
       origins: {},
       timeline: {},
@@ -6698,7 +6721,7 @@ export const aesthetics = [
         values: ['Working-class youth culture', 'brand aspiration', 'consumerism', 'street style'],
       },
       connections: {
-        related: ['blokecore', 'casuals', 'lad_culture', 'mc', 'bling', 'roadman', 'ultras'],
+        related: ['blokecore', 'casuals', 'lad_culture', 'mcbling', 'roadman', 'ultras'],
       },
       mediaCulture: {
         brands: ['Nike', 'Adidas', 'Reebok', 'Burberry (specifically its check pattern)', 'Stone Island'],
@@ -7204,7 +7227,7 @@ export const aesthetics = [
         values: ['Perceived vulgarity', 'aggression', 'pride in working-class roots', 'cheapness'],
       },
       connections: {
-        related: ['baddie', 'cani_male_counterpartchav', 'chonga', 'mc', 'bling', 'motomami', 'pokero', 'raxet'],
+        related: ['baddie', 'cani_male_counterpartchav', 'chonga', 'mcbling', 'motomami', 'pokero', 'raxet'],
       },
       timeline: {
         succeeded: ['raxet'],
@@ -8378,7 +8401,7 @@ export const aesthetics = [
       },
       timeline: {
         preceded: ['memphis_design', 'rad_dog/neon surf shack', 'early_cyber'],
-        succeeded: ['frutiger_aero', 'vectordelia', 'mc', 'bling', 'ur', 'bling'],
+        succeeded: ['frutiger_aero', 'vectordelia', 'mcbling', 'ur', 'bling'],
       },
     },
   },
@@ -13485,7 +13508,7 @@ export const aesthetics = [
         values: ['Emotional expression', 'self-discovery', 'rebellion', 'vulnerability', 'drama'],
       },
       connections: {
-        related: ['mc', 'bling', 'indie_sleaze', 'skater', 'grunge'],
+        related: ['mcbling', 'indie_sleaze', 'skater', 'grunge'],
       },
       mediaCulture: {
         platform: ['Tik', 'Tok', 'Instagram'],
@@ -14443,7 +14466,7 @@ export const aesthetics = [
         values: ['Popularity', 'social status', 'partying', 'conformity', 'hyper-femininity (for women)'],
       },
       connections: {
-        related: ['chav', 'gyaru', 'hands_up', 'mc', 'bling', 'partille-johnny', 'scene'],
+        related: ['chav', 'gyaru', 'hands_up', 'mcbling', 'partille-johnny', 'scene'],
       },
       mediaCulture: {
         media: ['Playahead', 'Lunar', 'Storm', 'Bilddagboken (social media)', 'Fjortisdunk (music)'],
@@ -18211,7 +18234,7 @@ export const aesthetics = [
         values: ['Going against traditional beauty standards', 'confidence', 'being yourself'],
       },
       connections: {
-        related: ['bodikon', 'girly_kei', 'heisei_retro', 'mc', 'bling', 'nanchatte_seifuku', 'peepssukeban'],
+        related: ['bodikon', 'girly_kei', 'heisei_retro', 'mcbling', 'nanchatte_seifuku', 'peepssukeban'],
         subgenres: [
           'agejo',
           'amekaji',
@@ -20398,7 +20421,7 @@ export const aesthetics = [
         ],
       },
       timeline: {
-        preceded: ['mc', 'bling', 'electroclash'],
+        preceded: ['mcbling', 'electroclash'],
         succeeded: ['soft_grunge2014 tumblr'],
       },
     },
@@ -24926,7 +24949,7 @@ export const aesthetics = [
         values: ['Affluence', 'trend-consciousness', 'social status', '"it girl" persona', 'party culture'],
       },
       connections: {
-        related: ['y2kcacareco_girl', 'mc', 'bling', 'indie_sleaze', 'baddie', 'cayetana', 'boho-chic', 'brat_summer'],
+        related: ['y2kcacareco_girl', 'mcbling', 'indie_sleaze', 'baddie', 'cayetana', 'boho-chic', 'brat_summer'],
       },
       mediaCulture: {
         platform: ['Tik', 'Tok', 'Instagram'],
@@ -25932,7 +25955,7 @@ export const aesthetics = [
         ],
       },
       connections: {
-        related: ['biker', 'choni', 'cyberpunk', 'mc', 'bling', 'neoperreo', 'raxet'],
+        related: ['biker', 'choni', 'cyberpunk', 'mcbling', 'neoperreo', 'raxet'],
       },
       mediaCulture: {
         brands: ['Miu Miu', 'Chanel', 'Balmain', 'Diesel'],
@@ -29114,7 +29137,7 @@ export const aesthetics = [
         values: ['Femininity', 'childhood', 'chic', 'romance', 'glamour'],
       },
       connections: {
-        related: ['curly_girly', 'mc', 'bling', 'shoe_diva', 'teenpunk', 'vectorflourish', 'pink_parisian'],
+        related: ['curly_girly', 'mcbling', 'shoe_diva', 'teenpunk', 'vectorflourish', 'pink_parisian'],
       },
       mediaCulture: {
         brands: ['Barbie', 'Monster High'],
@@ -29126,6 +29149,7 @@ export const aesthetics = [
     url: 'https://aesthetics.fandom.com/wiki/Partille-Johnny',
     name: 'Partille-Johnny',
     id: 'partille-johnny',
+    imageUrl: 'https://static.wikia.nocookie.net/aesthetics/images/0/00/0761a78525089a63af840feb7c7c9e2f.jpg',
     description:
       'GuidoHands UpKrochaMcBlingMetrosexualSceneTecktonik The aesthetic is widely considered a male counterpart or sub-variety of the Fjortis phenomenon. While the style originated in the municipality of Partille near Gothenburg, it became a nationwide trend in Sweden and saw minor proliferation in neighboring Scandinavian countries. The subculture is notable for its blurring of traditional gender norms regarding male grooming, as participants heavily utilized makeup and hair products previously marketed primarily to women, though the intent was often to achieve a specific "guido" or "metrosexual" status rather than androgyny.',
     categories: ['subcultures', 'fashion'],
@@ -29143,7 +29167,7 @@ export const aesthetics = [
         values: ['Validation', 'conformity', 'meticulous grooming', 'attention-seeking'],
       },
       connections: {
-        related: ['fjortis', 'guido', 'hands_up', 'krocha', 'mc', 'bling', 'metrosexual', 'scene', 'tecktonik'],
+        related: ['fjortis', 'guido', 'hands_up', 'krocha', 'mcbling', 'metrosexual', 'scene', 'tecktonik'],
       },
       mediaCulture: {
         media: ['Bilddagboken (Swedish social media)', 'Basshunter (musician)'],
@@ -29156,6 +29180,7 @@ export const aesthetics = [
     url: 'https://aesthetics.fandom.com/wiki/Party_Rock',
     name: 'Party Rock',
     id: 'party_rock',
+    imageUrl: 'https://static.wikia.nocookie.net/aesthetics/images/3/39/2010s_partying_aesthetic.jpg',
     description:
       'McBlingRecession PopSceneSwagBloghouseColorido Visually, the aesthetic is characterized by a clash of "Hipster" irony and "Rave" excess, featuring animal prints, neon spandex, lensless glasses, and the popularization of the "Melbourne Shuffle" dance. While closely related to Recession Pop (the musical genre) and Swag (the urban fashion trend), Party Rock is distinct for its specific focus on "forced fun," goofiness, and a visual aesthetic centered around "shuffling" and house party chaos rather than coolness or wealth. The term "Party Rock" was introduced to the public via LMFAO\'s debut album of the same name in 2009, but the aesthetic did not reach its cultural apex until the release of their 2011 smash hit, "Party Rock Anthem". While the song was a global chart-topper, the "Party Rock" concept detached itself from the band to become a general descriptor for the era\'s nightlife philosophy. The aesthetic capitalized on the post-2008 economic crash mood, where youth culture rejected the dark, serious tones of the mid-2000s in favor of mindless and unapologetic escapism.',
     categories: ['internet_aesthetics', 'music', 'fashion'],
@@ -29181,7 +29206,7 @@ export const aesthetics = [
         values: ['Hedonism', 'irony', 'unapologetic fun ("Sorry For Party Rocking")', 'excess', 'dance'],
       },
       connections: {
-        related: ['hipster', 'mc', 'bling', 'recession_pop', 'scene', 'swag', 'bloghouse', 'colorido'],
+        related: ['hipster', 'mcbling', 'recession_pop', 'scene', 'swag', 'bloghouse', 'colorido'],
       },
       mediaCulture: {
         platform: ['You', 'Tube', 'VEVO', 'Club Scene'],
@@ -29189,7 +29214,7 @@ export const aesthetics = [
         brands: ['Ciroc', 'Beats by Dre', 'American Apparel', 'Vans'],
       },
       timeline: {
-        preceded: ['mc', 'bling', 'indie_sleaze'],
+        preceded: ['mcbling', 'indie_sleaze'],
         succeeded: ['hypebeast'],
       },
     },
@@ -29198,6 +29223,7 @@ export const aesthetics = [
     url: 'https://aesthetics.fandom.com/wiki/Pastel_Gore',
     name: 'Pastel Gore',
     id: 'pastel_gore',
+    imageUrl: 'https://static.wikia.nocookie.net/aesthetics/images/1/18/Candycore.jpg',
     description:
       'Pastel Gore is a visual art style that emerged from the internet art community around the late-2010s and is defined by the juxtaposition of graphic, horror-themed imagery with a soft, pastel color palette and cute motifs. The aesthetic depicts subjects such as blood, organs, and dismemberment in a stylized, cartoonish manner, using bright and desaturated colors to create a contrast between the disturbing subject matter and its innocent presentation. It draws influence from Japanese art styles like Gurokawa and aesthetics such as Pastel Goth. Pastel Gore gained significant popularity in the late 2010s, primarily within online art communities on platforms like Tumblr, DeviantArt, Amino, and the now-defunct Sony Sketch application. The aesthetic became particularly prevalent among young artists in various fandoms and the "animation meme" community, where it served as a popular theme for original characters and fan art. While it shares a visual timeline with the broader 2014 Tumblr era, its peak occurred slightly later. The web series Happy Tree Friends, known for its combination of cute cartoon animals and extreme graphic violence, is often cited as an early precursor that shares a similar thematic contrast. The core of the Pastel Gore aesthetic is the artistic rendering of gore in a non-threatening and visually appealing way. This is achieved through several key techniques and recurring motifs.',
     categories: ['internet_aesthetics'],
@@ -29268,6 +29294,7 @@ export const aesthetics = [
     url: 'https://aesthetics.fandom.com/wiki/Pastel_Wasteland',
     name: 'Pastel Wasteland',
     id: 'pastel_wasteland',
+    imageUrl: 'https://static.wikia.nocookie.net/aesthetics/images/9/93/Pastelwaste15.jpg',
     description:
       'Pastel Wasteland was a short-lived, niche aesthetic most frequently seen in mid 2010\'s electronic music videos and Tumblr amateur photography. The aesthetic is characterized by both merging minimalism, surrealism, and destruction while also showcasing themes of freedom and creativity. The aesthetic never had a clear audience or true meaning for existence. At the time, it was simply seen as "artsy". Because of this factor, there have been some overlaps of it with 2014 Tumblr (as media was primarily shared/posted on the site). The aesthetic also manifested in the Tumblr mainstream through purposely grungy destination photos. Pastel Wasteland seemed to be a bridge between reality and digital fantasy. It took heavy inspiration from other alternative internet aesthetics and styles. Photography can range from overgrown brutalism to Webcore-esque edits. Geometric shapes were a key motif, along with the signature white border and over exposure* that many photos and videos had.',
     categories: [],
@@ -29301,6 +29328,7 @@ export const aesthetics = [
     url: 'https://aesthetics.fandom.com/wiki/Paty_de_SP',
     name: 'Paty de SP',
     id: 'paty_de_sp',
+    imageUrl: 'https://static.wikia.nocookie.net/aesthetics/images/c/cd/Patricinhaestilo.jpg',
     description:
       'Paty de SP, or simply Paty and Patycore, is a popular aesthetic among Brazilian teenagers and young women. The aesthetic originated with female influencers and TikTok users in São Paulo and has since spread throughout other states of Brazil. The term "Paty" derives from "Patricinha," a diminutive of the feminine personal name Patrícia. In the 1990s and 2000s, "Patricinha" was used to describe affluent middle or upper-class girls who frequented luxury establishments and exhibited a perceived frivolous demeanor. The etymology of the slang is uncertain, although some attribute its origin to the socialite Patrícia Leal.[1] During these decades, the slang in Brazil became associated with films such as Clueless and Mean Girls, where characters like Cher Horowitz and Regina George became iconic figures emulated by "Patys." The male counterpart to "Patricinha" is "Mauricinho," a diminutive of Maurício. However, more recently, the names "Enzo" or the term "Playboy" are also used to refer to affluent middle- or upper-class young men.',
     categories: ['fashion'],
@@ -29338,6 +29366,7 @@ export const aesthetics = [
     url: 'https://aesthetics.fandom.com/wiki/PC-98',
     name: 'PC-98',
     id: 'pc-98',
+    imageUrl: 'https://static.wikia.nocookie.net/aesthetics/images/f/f6/Tenshi-tachi_no_Gogo.jpg',
     description:
       'AnimecoreCassette FuturismCyberpunkFuture FunkHeisei RetroHexDLo-fiPixel UIRetrofuturismVaporwave PC-98 is an aesthetic that originated from the NEC PC-9800 series of personal computers, which were prevalent in Japan from the early 1980s to the late 1990s. This distinctive art style, associated with visual novels and eroge (adult games) of the era, is characterized by its limited color palette, relatively high-resolution for its time, and a highly detailed anime pixel art style. Artists utilized techniques like dithering and carefully placing pixels to create the illusion of gradients and depth. Old advertisement for the PC-9801 computers.',
     categories: ['design_aesthetics', 'music', 'subcultures'],
@@ -29372,6 +29401,7 @@ export const aesthetics = [
     url: 'https://aesthetics.fandom.com/wiki/PC_Music',
     name: 'PC Music',
     id: 'pc_music',
+    imageUrl: 'https://static.wikia.nocookie.net/aesthetics/images/f/f6/A35b80402c93a798c2c9b0336bfcaa14.jpg',
     description:
       'Musically, the style is known as Bubblegum Bass, a genre that deconstructs and exaggerates the tropes of mainstream pop. It features high-pitched, often processed vocals, bright, jittery synth melodies, and experimental electronic textures. The fusion of this unique sound with a highly conceptual visual world has made PC Music one of the most influential cultural movements of the 2010s, laying the direct groundwork for the mainstream emergence of Hyperpop.[2] PC Music was launched by A. G. Cook in 2013 on SoundCloud as a platform for a close-knit group of London-based artists and producers. The label rapidly gained attention for its prolific output and its distinct, fully-formed aesthetic. Early artists like Hannah Diamond, GFOTY, and Danny L Harle were presented not just as musicians, but as highly stylized, conceptual pop personas.[3] The collective intentionally blurred the lines between art, music, and marketing. A key example was the 2014 project QT, a fictional pop star (a collaboration between Cook, SOPHIE, and artist Hayden Dunham) whose only song, "Hey QT," was also an advertisement for a non-existent energy drink. This ambiguous relationship with consumerism became a hallmark of the scene.[3] The label\'s influence grew exponentially through collaborations with mainstream artists, most notably Charli XCX, who enlisted Cook as her creative director, bringing the PC Music sound and aesthetic to a global audience.',
     categories: ['art_movements', 'internet_aesthetics', 'music_genres'],
@@ -29418,6 +29448,7 @@ export const aesthetics = [
     url: 'https://aesthetics.fandom.com/wiki/Peach_Girl',
     name: 'Peach Girl',
     id: 'peach_girl',
+    imageUrl: 'https://static.wikia.nocookie.net/aesthetics/images/0/04/S_a_s_a.jpg',
     description:
       'CoquetteSoft GirlStrawberry GirlThat GirlTomato Girl The trend\'s popularity aligned with Pantone\'s 2024 Color of the Year, "Peach Fuzz," which further popularized the aesthetic in fashion and beauty for the season.[1] The Peach Girl aesthetic is part of a larger pattern of food and fruit-themed "girl" microtrends that have become prevalent on TikTok, following in the footsteps of Strawberry Girl and Tomato Girl. These trends are often seen as a way for social media users to categorize and define their personal style for a particular season.[3] While these aesthetics are popular for their playful and creative nature, they are also criticized for being microtrends that promote hyper-consumerism and the need to constantly keep up with the latest aesthetic(s).',
     categories: ['microtrends', 'fashion'],
@@ -29442,6 +29473,7 @@ export const aesthetics = [
     url: 'https://aesthetics.fandom.com/wiki/Peacock_Revolution',
     name: 'Peacock Revolution',
     id: 'peacock_revolution',
+    imageUrl: 'https://static.wikia.nocookie.net/aesthetics/images/a/a6/Image_2025-04-01_195759121.png',
     description:
       'George Frazier, 1968 (popularised term) Acid HouseArt NouveauBeatnikBohemianCampCool BritanniaCorporate HippieDandyDolly GirlFlower PowerFreakbeatGlam RockGroovivalHippieMid-Century MedievalModNorthern SoulPop ArtPsychedeliaRomanticismVintageYé-yé HippiePsychedeliaGlam RockCamp',
     categories: ['music', 'subcultures', 'fashion_styles', 'fashion'],
@@ -29518,6 +29550,7 @@ export const aesthetics = [
     url: 'https://aesthetics.fandom.com/wiki/Pearlcore',
     name: 'Pearlcore',
     id: 'pearlcore',
+    imageUrl: 'https://static.wikia.nocookie.net/aesthetics/images/e/ee/Pearly_1.jpg',
     description:
       'The trend was heavily documented on Pinterest, which noted a significant increase in searches for pearl-themed items in 2022.[2] Pearlcore is characterized by the incorporation of pearls in all forms, from classic jewelry to iridescent accents on clothing, nail art, and home decor. While pearls have been a symbol of elegance and status for centuries, famously championed by figures like Coco Chanel, the modern Pearlcore trend is a distinctly 2020s phenomenon. Its rise is attributed to several cultural shifts, including a renewed interest in timeless, classic pieces and the influence of the Craftcore aesthetic, which repopularized beaded and handmade jewelry.[1] A key driver of the trend was its adoption by prominent male celebrities, most notably Harry Styles and A$AP Rocky. Their frequent wearing of pearl necklaces played an important role in breaking down the gendered stereotypes traditionally associated with the gem, making it a staple of modern, gender-neutral fashion.[3] The trend was also heavily featured on the runways of high-fashion designers like Simone Rocha, who is known for her consistent use of pearl embellishments and iridescent fabrics.[2]',
     categories: ['microtrends', 'fashion'],
@@ -29546,6 +29579,7 @@ export const aesthetics = [
     url: 'https://aesthetics.fandom.com/wiki/PEEPS',
     name: 'PEEPS',
     id: 'peeps',
+    imageUrl: 'https://static.wikia.nocookie.net/aesthetics/images/8/88/Peeps4.jpg',
     description:
       'GothGoth PunkGyaruJirai KeiTomboyYami Kawaii PEEPS first emerged during the late 2010s among thrift stores in Ura-Harajuku, which have a focus on importing American 90s-style clothing, predominantly the store "Ohpearl" that quickly became known as the sacred place for PEEPS girls. In 2018, the dedicated online magazine PEEPS launched on Instagram giving the style its name, with the owner stating "It would be nice if girls with this style could connect with each other and have a sense of fellowship while wearing their clothes with confidence" as for why the English slang for "friends" was choosen. In 2020, it was voted one of the major trends next to Jirai Kei and Korean fashion.[1] The most distinctive feature of PEEPS fashion is that the outfits center around the combination of black with neon colors in a way that is still casual. There are many tops that are made to resemble layered clothing with bits and pieces of skin showing. The bottoms are usually short with various kinds of belts and chains attached to them. Silver accessories are the most popular in the form of chain necklaces and large rings. Sweatbands are occasionally worn and often feature tribal embroidery. Different to other edgy styles, fishnets are generally not worn with the focus being on a sporty appearance with the help of socks. There are many accessories centering around ghost Pokémon with the most popular being Gengar.',
     categories: ['fashion_styles', 'fashion'],
@@ -29572,6 +29606,7 @@ export const aesthetics = [
     url: 'https://aesthetics.fandom.com/wiki/Pen_%26_Pixel',
     name: 'Pen & Pixel',
     id: 'pen_pixel',
+    imageUrl: 'https://static.wikia.nocookie.net/aesthetics/images/d/dd/Snoop_dog_da_game.jpg',
     description:
       'Glitter GraphicsHaunted MoundHip-HopJiggy EraPhonkTrillwaveDollar Store Vernacular While originated by a specific firm, the aesthetic became the defining visual language of the "Dirty South" era, heavily influencing the branding of major labels like No Limit Records and Cash Money Records. It established a visual vocabulary of "hood surrealism" that persisted in mixtape culture long after the original firm closed. The style was created by brothers Aaron and Shawn Brauch, who founded Pen & Pixel in Houston, Texas, in 1992.[1] They gained prominence by designing covers for Rap-A-Lot Records before becoming the go-to designers for Master P\'s No Limit Records. Their rapid turnaround time and ability to visualize the "ghetto fabulous" aspirations of the artists made them the industry standard.',
     categories: ['design_aesthetics', 'music'],
@@ -29651,6 +29686,8 @@ export const aesthetics = [
     url: 'https://aesthetics.fandom.com/wiki/Phonk',
     name: 'Phonk',
     id: 'phonk',
+    imageUrl:
+      'https://static.wikia.nocookie.net/aesthetics/images/a/a4/Dj-smokey-666-choppin-out-da-forest-Cover-Art.jpg',
     description:
       'This page describes the original hip-hop subgenre inspired by Memphis Rap. For the high-tempo electronic subgenre popularized on TikTok, see Drift Phonk. Phonk is a subgenre of hip-hop and associated internet aesthetic that emerged in the early 2010s. Directly inspired by 1990s Memphis Rap (e.g., Three 6 Mafia, DJ Squeeky), the genre is characterized by nostalgic funk and jazz samples, distorted vocals (often "chopped and screwed"), and "dirty" drum textures. While the term was originally a broad descriptor for the "fonky" southern sound, it solidified into a distinct genre on SoundCloud through the works of collectives like Raider Klan, Purple Posse, and Doomshop Records. In the 2020s, the term "Phonk" was co-opted by a high-tempo, cowbell-heavy electronic subgenre known as Drift Phonk, and later the Funk Carioca derivative of Brazilian Phonk. Consequently, the original style is often retrospectively referred to as "OG Phonk" or "Rare Phonk" to differentiate it from the viral TikTok trend.',
     categories: ['music_genres'],
@@ -29700,6 +29737,7 @@ export const aesthetics = [
     url: 'https://aesthetics.fandom.com/wiki/Photorealism',
     name: 'Photorealism',
     id: 'photorealism',
+    imageUrl: 'https://static.wikia.nocookie.net/aesthetics/images/0/00/Flack-energy-apples-1980.jpg',
     description:
       "Photorealism is a genre of art, primarily painting, that emerged in the United States in the late 1960s and early 1970s.[1] It is defined by its accurate reproduction of a photograph in another medium with a high degree of realism. Photorealist artists work directly from photographs, often using techniques like projecting an image onto the canvas or applying a grid system to ensure precise translation of form and detail. As a reaction against the dominance of abstract movements like Abstract Expressionism and Minimalism, Photorealism re-engaged with representational imagery, but unlike traditional realism, its source was the camera's lens, not direct observation. The subjects are typically mundane aspects of American life, including cars, diners, storefronts, and portraits, as seen in the work of key figures like Richard Estes, Chuck Close, and Ralph Goings. Beyond just technical skill, the movement explores the relationship between painting, photography, and human perception, questioning the nature of reality by creating a handmade copy of a mechanical reproduction. While Photorealism was primarily done through painting, there were several sculptors who also participated in this movement.",
     categories: ['art_movements'],
@@ -29745,6 +29783,7 @@ export const aesthetics = [
     url: 'https://aesthetics.fandom.com/wiki/Pianocore',
     name: 'Pianocore',
     id: 'pianocore',
+    imageUrl: 'https://static.wikia.nocookie.net/aesthetics/images/0/0c/361493a791d952ed484ce06ae9888845.jpg',
     description:
       'Classic LolitaDark AcademiaGothic LolitaWishcoreWhimsy Twee The origins of the aesthetic can be traced to both European high fashion and Japanese subcultures. In the 1990s, the Italian fashion house Moschino produced a notable piano-key gown for their Cheap & Chic Autumn/Winter collection. This specific design gained pop culture notoriety when it was adapted into a minidress worn by Fran Drescher in the sitcom The Nanny, solidifying the "piano skirt" as a statement piece of 90s playful maximalism.[1] Hatsune Miku\'s "Gothic" module from Project DIVA/2nd/Extend.',
     categories: ['internet_aesthetics', 'music', 'fashion'],
@@ -29774,6 +29813,7 @@ export const aesthetics = [
     url: 'https://aesthetics.fandom.com/wiki/Picniccore',
     name: 'Picniccore',
     id: 'picniccore',
+    imageUrl: 'https://static.wikia.nocookie.net/aesthetics/images/9/9b/Picnic_aesthetic.png',
     description:
       'Picniccore is an aesthetic based on picnics, gingham patterns, pastries, and jam. It centers around creating a relaxed atmosphere for outdoor gatherings and offers an opportunity to enjoy a delicious handmade lunch in the beauty of nature. Picniccore fashion is split into 2 categories: aesthetics and functionality. If aesthetics are valued over practicality, the fashion can consist of cute picnic dresses. But if you prefer practical clothes, you may choose to wear aprons.',
     categories: ['fashion'],
@@ -29807,6 +29847,7 @@ export const aesthetics = [
     url: 'https://aesthetics.fandom.com/wiki/Pijo',
     name: 'Pijo',
     id: 'pijo',
+    imageUrl: 'https://static.wikia.nocookie.net/aesthetics/images/5/5d/Pijo3.png',
     description:
       '"Pijos" are often perceived as shallow and smug, and the term is frequently used derogatorily towards wealthy, conservative upper-class individuals. Historically, and sometimes presently, they are associated with aspects of Spanish nationalism and traditionalist interests such as bullfighting, which faces dwindling support in Spain overall. The feminine counterpart to the "pijo" is the "Cayetana". The closest cultural equivalent outside of Spain, would be "preppy." The "pijo" subculture maintains a strong emphasis on impeccable presentation, adhering to current fashion trends. Distinctive attire includes: for men, tailored trousers or pressed jeans, custom-made striped shirts, wool sweaters worn over the shoulders, diamond-patterned socks, and loafers, often accompanied by hair gel; for women, flowing blouses or men\'s shirts, skirts of varying lengths depending on current fashion, fitted jeans, suits, silk scarves, gold jewelry, and straightened hair; and for both, essential accessories such as sunglasses, watches, and specific luxury car brands favored and easily identified through advertising. Associated activities include sports like tennis, skiing, and paddle tennis, as well as mainstream pop music. While not adhering to a uniform ideology, "pijos" are often criticized for their perceived conformism to societal norms.',
     categories: ['lifestyle', 'subcultures', 'fashion_styles'],
@@ -29948,6 +29989,7 @@ export const aesthetics = [
     url: 'https://aesthetics.fandom.com/wiki/Pink_Princess',
     name: 'Pink Princess',
     id: 'pink_princess',
+    imageUrl: 'https://static.wikia.nocookie.net/aesthetics/images/5/5d/Ballerina_painting.jpg',
     description:
       'Pink Princess is a subaesthetic of Princesscore. It is a traditionally feminine aesthetic, heavily influenced by the Rococo era, the late Victorian era, and the Regency era, as well as modern or 20th century royalty. It emphasizes girlish innocence and has a nostalgic and often romanticized view of the past. Those who follow the Pink Princess aesthetic are inspired by real life princesses like Marie Antoinette as well as fictional princesses from fairytales and movies. Visually, pink princess is very similar to Romantic Academia, although it is not an academic aesthetic. Pink Parisian also has a significant influence on Pink Princess. The color palette is heavy on pink tones combined with gold, white, or cream, with other pastel colors being slightly less common. Silver is sometimes used, but is much less common than gold. Pink Princess aesthetic embodies the philosophy of "Take your pleasure seriously" a phrase widely spread on Tumblr after user laduree-et-cigarettes answered an ask about it. Self love and treating oneself, especially in the form of luxuriating in the bathtub and sleeping, are a large part of this philosophy.',
     categories: [],
@@ -29988,6 +30030,7 @@ export const aesthetics = [
     url: 'https://aesthetics.fandom.com/wiki/Pin-up',
     name: 'Pin-up',
     id: 'pin-up',
+    imageUrl: 'https://static.wikia.nocookie.net/aesthetics/images/4/4a/%22No_time_for_sleep%22_cover_art.jpg',
     description:
       'Pin-up refers to a model whose mass-produced images see wide appeal as popular culture. The aesthetic is characterized by a playful and glamorous portrayal of sexuality, often with a nostalgic, mid-20th-century feel. Although the term "pin-up" was not coined until 1941, its origins can be traced to earlier forms of glamour art and photography. The style is most associated with female models, often called "cheesecake," but also includes male models, known as "beefcake." Pin-up images are intended to be "pinned up" on a wall and typically feature models in alluring, often romanticized poses. The aesthetic ranges from innocent and playful to more explicitly suggestive and fetish-oriented themes. In modern times, the pin-up style has been embraced as a form of empowerment, celebrating confidence, beauty, and ownership of one\'s sexuality, famously embodied by figures like Marilyn Monroe and Bettie Page. The modern pin-up aesthetic began to take shape in the 1920s and 30s, evolving from early burlesque advertisements and the illustrative work of artists like Alberto Vargas, whose idealized paintings of women became known as "Vargas Girls." During this period, Black bombshells like Josephine Baker and Dorothy Dandridge also became influential figures, carving out their own space in the glamour and entertainment industries.',
     categories: ['fashion'],
@@ -30059,13 +30102,14 @@ export const aesthetics = [
     url: 'https://aesthetics.fandom.com/wiki/Pi%C8%9Bipoanc%C4%83',
     name: 'Pițipoancă',
     id: 'piipoanc',
+    imageUrl: 'https://static.wikia.nocookie.net/aesthetics/images/7/75/Pitzipoance_000511301011.jpg',
     description:
       'Pițipoancă (sometimes shortened to Piți and plurally, Pițipoance) is a slang term used in Romania to describe a subculture of women who stereotypically wear revealing clothes in bright colors or animal prints, high platform shoes often sporting a dark fake tan, "bad" makeup and plastic surgery. The fashion was mainly inspired by the McBling aesthetic. By the late 2010s this style had died almost completely, with the term hitting its peak in mainstream popularity around the late 2000s to the early 2010s, usually used in a derogatory way towards members of the subculture by the media. Acid House • Afropunk • B-Boy • Botswana Metalheads • Cybergoth • Electronic Body Music • Emo • Funk •  Gabber • Goth • Gothic Belly Dance • Greaser • Grunge • Hip-Hop • Hippie •  Industrial • Juggalo • Madchester • Metalhead • New Beat • New Rave • New Romantic • Northern Soul • Punk • Psychobilly • Rave • Rivethead • Reggaetonero • Riot Grrrl • Rockabilly • Rockers • Rude Boy • UK Drill • Visual Kei Ballroom Culture • Biker • Black Ivy • Bohemian • Bondage • Bro Culture • Bro Hoe • Casuals • Club Kids • Cyberdelia • Decora • Disco • Flapper • Gutter Punk • Hot Rod • Hypebeast • Leather Subculture • Lolita • Mallgoth • Mall Ninja • Mod • Mod Revival • Nerd • Preppy • Scene • Skater • Steampunk • Surfer • Teddy Boys • Tomboy • Ultras • Wota',
     categories: ['stereotypes'],
     isVisible: true,
     metadata: {
       connections: {
-        related: ['chav', 'choni', 'cocalar', 'mc', 'bling'],
+        related: ['chav', 'choni', 'cocalar', 'mcbling'],
       },
       origins: {},
       timeline: {},
@@ -30075,6 +30119,7 @@ export const aesthetics = [
     url: 'https://aesthetics.fandom.com/wiki/Pixelscape',
     name: 'Pixelscape',
     id: 'pixelscape',
+    imageUrl: 'https://static.wikia.nocookie.net/aesthetics/images/4/4d/App_summary_image-1200x628.85a9f5dc.png',
     description: '',
     categories: ['consumer_aesthetics'],
     isVisible: true,
@@ -30086,7 +30131,7 @@ export const aesthetics = [
         motifs: ['Pixel art', 'bright colors', 'isometric angles'],
       },
       connections: {
-        related: ['early_cyber', 'old_web', 'kidcore', 'mc', 'bling', 'pixel_ui'],
+        related: ['early_cyber', 'old_web', 'kidcore', 'mcbling', 'pixel_ui'],
       },
       timeline: {},
     },
@@ -30095,6 +30140,7 @@ export const aesthetics = [
     url: 'https://aesthetics.fandom.com/wiki/Pixel_UI',
     name: 'Pixel UI',
     id: 'pixel_ui',
+    imageUrl: 'https://static.wikia.nocookie.net/aesthetics/images/5/52/Pplware_windows31_00.jpg',
     description:
       'Unlike Aero, the design language of the time never had a formal designation as it was literally developing with each implementations and technological innovations—no formal design took place in Windows until Windows 95. The name is thus taken from the fact that pixels were often the basic unit of these designs because individual pixels were still easily distinguished on display technologies of the time. MS-DOS and early first- and second-generation video games gave rise to the early 8-Bit aesthetic. In parallel, with the arrival of Xerox Star in 1981 and Lisa OS in 1983, immediately followed by Classic Mac OS and Windows 1.0, a new UI language began to appear. That language became solidified with the consumer release of systems like Windows 3.0 in 1990, then Windows 95 in 1995. Pixel UI carried over certain elements of MS-DOS interfaces such as highlighting of selected menu options (whereas 8-Bit usually featured a blinking marker), but also introduced a variety of new conventions. The earlier versions of these systems were monochrome or extremely colour-restricted, with more developed colour spaces arriving later. Nonetheless their improved graphical capacities allowed a much broader use of outlines, where 8-Bit graphics often could not afford or had not figured out how to do so. With Windows 3.0 and particularly Windows 95 came a more subtle look that took advantage of this flexibility to introduce a bevelled or embossed look to some of the graphical elements. Due to comparable limitations, the aesthetics was also encountered in some video games of the era, although HUD-type interfaces tended to be more common.',
     categories: [],
@@ -30142,6 +30188,7 @@ export const aesthetics = [
     url: 'https://aesthetics.fandom.com/wiki/Plaguecore',
     name: 'Plaguecore',
     id: 'plaguecore',
+    imageUrl: 'https://static.wikia.nocookie.net/aesthetics/images/5/5b/Plaguecore3.jpg',
     description:
       'Plaguecore takes inspiration from Renaissance and  Baroque era plague doctors. The aesthetic revolves around curiosity and discovery. Those within the community are typically committed to the pursuit of knowledge, as well as learning about older medicinal practices like bloodletting. The aesthetic’s visuals include colors like black and grays, as well as bird masks and cloaks. Individuals within the Plaguecore community usually refer to each other as “doctors”, though many individuals use alternative titles such as nurse, student, and apprentice. However, using the title “doctor” in other contexts is likely to cause confusion, as the term typically refers to a qualified practitioner of medicine. Plague Doctors do not necessarily have recognized credentials in the medical field. It’s important to note that they place great importance on trusting and respecting actual medical professionals. The community actively avoids actually trying to diagnose or treat people experiencing issues with their health. This aesthetic originates from Tumblr.',
     categories: [],
@@ -30186,6 +30233,7 @@ export const aesthetics = [
     url: 'https://aesthetics.fandom.com/wiki/Plakatstil',
     name: 'Plakatstil',
     id: 'plakatstil',
+    imageUrl: 'https://static.wikia.nocookie.net/aesthetics/images/4/49/BooteHeraus.jpg',
     description:
       'Plakatstil (German for "Poster Style"), also known as Sachplakat ("Object Poster"), was an early modern style of poster design that emerged in Germany around 1906. Pioneered by the graphic artist Lucian Bernhard, the movement was a radical simplification of advertising and a direct reaction against the ornate, complex illustrations of Art Nouveau. The Plakatstil formula is defined by its focus and clarity: it typically features a single, isolated image of the product being advertised, rendered in flat colors against a plain background. This central image is usually paired only with a bold, simple brand name. By stripping away all non-essential elements (such as decorative details, slogans, and complex scenery[1]) the style created an immediate and memorable visual impact. This reductive approach to graphic design was a major step towards modernism and heavily influenced later movements like the Bauhaus and the International Typographic Style. Poster for Priester by Lucian Bernhard (1905)',
     categories: ['art_movements', 'design_aesthetics'],
@@ -30254,6 +30302,7 @@ export const aesthetics = [
     url: 'https://aesthetics.fandom.com/wiki/Playboy',
     name: 'Playboy',
     id: 'playboy',
+    imageUrl: 'https://static.wikia.nocookie.net/aesthetics/images/4/4d/Playboy_Aesthetic_3.jpg',
     description:
       'The Playboy is a cultural archetype and aesthetic centered on a wealthy, charismatic, and hedonistic man who lives a life of leisure and pleasure. The aesthetic is defined by a lavish lifestyle involving international travel ("jet-setting"), luxury goods such as sports cars and yachts, and a focus on romantic or sexual pursuits. The archetype is not necessarily tied to a profession but rather a state of being, where freedom from conventional work and social norms is a primary characteristic. It has been a prominent figure in popular culture, particularly in film and literature, since the mid-20th century. The Playboy archetype became prominent in the post-World War II era of economic prosperity. It was embodied by real-life international socialites known for their immense wealth, extravagant lifestyles, and numerous romantic affairs, such as Porfirio Rubirosa and Gianni Agnelli. The term was famously popularized by Hugh Hefner with the launch of Playboy magazine in 1953, which promoted an aspirational lifestyle of sophistication, culture, and sexual liberation for the modern man. In fiction, the archetype was cemented in the public consciousness by Ian Fleming\'s James Bond, particularly as portrayed by Sean Connery in the 1960s films. Bond represented an idealized version of the playboy: a sophisticated, well-traveled man of action, equally comfortable in a casino, on a ski slope, or in a high-stakes confrontation. This "millionaire playboy" trope has remained a staple of fiction, seen in characters like DC Comics\' Bruce Wayne and Marvel\'s Tony Stark, who use their immense wealth and public persona as a cover for their heroic alter-egos.',
     categories: ['character_tropes', 'lifestyle'],
@@ -30300,6 +30349,7 @@ export const aesthetics = [
     url: 'https://aesthetics.fandom.com/wiki/Plazacore',
     name: 'Plazacore',
     id: 'plazacore',
+    imageUrl: 'https://static.wikia.nocookie.net/aesthetics/images/4/4f/4c93cb9fcb1b4f9e484b930dda626a13.jpg',
     description:
       "The aesthetic is heavily inspired by the whimsical yet luxurious lifestyle of the book's protagonist, a mischievous little girl who lives in a suite at the Plaza. This is often blended with the polished, schoolgirl-inspired fashion of another iconic fictional New Yorker, Blair Waldorf from Gossip Girl.[2] The Plazacore aesthetic originated on social media, where fashion influencers began to popularize a look that combined nostalgia for the Eloise book series by Kay Thompson and the TV show Gossip Girl. The character of Eloise provides the aesthetic's whimsical hotel-centric fantasy, while Blair Waldorf provides the blueprint for its polished and colorfully accessorized fashion.[1] The trend gained popularity from runway collections that featured Plazacore elements. Designers like Thom Browne and Bora Aksu presented collections with pleated skirts, bows, and tweed twin sets, while Chanel's continued focus on tweed has also been cited as a major influence.[3]",
     categories: ['microtrends', 'fashion'],
@@ -30344,6 +30394,7 @@ export const aesthetics = [
     url: 'https://aesthetics.fandom.com/wiki/PMC_Ryodan',
     name: 'PMC Ryodan',
     id: 'pmc_ryodan',
+    imageUrl: 'https://static.wikia.nocookie.net/aesthetics/images/5/5f/Photo_2023-03-02_22-51-40-2943799036.jpg',
     description:
       'PMC Ryodan (ЧВК Рёдан) is a subculture primarily present in Russia and Ukraine. It is characterized by groups of teenagers, often anime fans, who adopted the name as an ironic reference to the Wagner Group, a Russian private military contractor (PMC). The name "Ryodan" originates from a group of thieves in the anime series Hunter x Hunter. Members of the subculture are often identified by their attire, which includes black hoodies featuring a white spider symbol. The PMC Ryodan subculture emerged in Russia, primarily among teenagers approximately aged 14 to 16, who are fans of anime, specifically the manga series Hunter x Hunter. The name "Ryodan" originates from the "Genei Ryodan" (Phantom Troupe), a criminal organization in the manga, identifiable by a black spider emblem. This spider symbol is prominently featured on the clothing of PMC Ryodan members, specifically black hoodies.[1] The clothing, featuring a 12-legged spider, is associated with a clothing brand created by a designer known as Hikikomori Kai, established in 2020. Prior to widespread attention in 2023, individuals identifying with "Ryodan" congregated at concerts and online, without drawing significant notice.',
     categories: ['subcultures'],
@@ -30383,6 +30434,7 @@ export const aesthetics = [
     url: 'https://aesthetics.fandom.com/wiki/Pokem%C3%B3n_(Chilean_subculture)',
     name: 'Pokemón',
     id: 'pokemn',
+    imageUrl: 'https://static.wikia.nocookie.net/aesthetics/images/5/5b/Pokemon4.jpg',
     description:
       'EmoFlaiteFloggerHip-HopJejemonPunkReggaetoneroSceneShamate Pokemones, also known as HxCitos, were a youth subculture that originated in Chile in 2006. While projecting an image of melancholy and sadness, they were often described as happy and extroverted. Their identity was formed through a fusion of elements from various subcultures: Otaku culture (hobbies and worldview), Emo hairstyles, Hip-Hop fashion, Punk political ideologies, and local Chilean influences such as Flaites (musical preferences) and the Hardcore Punk scene. They favored Reggaeton music and engaged in activities like perreo, ponceo (searching for partners at night), and kissing with other people. Their distinct dance style, Pokemoneo, whose origins are debated but may be connected to the Pokémon franchise, was a key aspect of their culture. They heavily utilized the internet, with Fotolog and MSN Messenger as their primary communication platforms.',
     categories: [],
@@ -30440,6 +30492,7 @@ export const aesthetics = [
     url: 'https://aesthetics.fandom.com/wiki/Pokero',
     name: 'Pokero',
     id: 'pokero',
+    imageUrl: 'https://static.wikia.nocookie.net/aesthetics/images/c/c3/Pokerus.jpg',
     description:
       'The subculture is characterized by its intrinsic connection to the "Poky" music genre (a Spanish derivative of Hard House[2]), a specific fashion style involving sportswear and gold jewelry, and a lifestyle centered around macro-discotheques in the industrial outskirts of cities like Madrid and Valencia. The term "Pokero" is derived directly from the music genre they consume: Poky. The origin of the word "Poky" itself is debated; some theories suggest it is an onomatopoeia used by DJs to mimic the pounding sound of the bass, while others claim it describes the hand gestures of followers dancing, which resembled dealing poker cards. The subculture coalesced between 2000 and 2002 as a fusion of the earlier "Bakala" subculture (associated with the "Ruta del Bakalao" clubbing phenomenon in Valencia) and Gitano (Romani) aesthetics. It became heavily concentrated in the south of Madrid and the Levante region, flourishing in specific local nightclubs such as Radical, Panic, Fabrik, and KKO.',
     categories: ['music', 'subcultures', 'fashion'],
@@ -30474,8 +30527,9 @@ export const aesthetics = [
   },
   {
     url: 'https://aesthetics.fandom.com/wiki/Political_%27Wave%27_Aesthetics',
-    name: '',
-    id: '',
+    name: 'Political Wave Aesthetics',
+    id: 'political_wave',
+    imageUrl: 'https://static.wikia.nocookie.net/aesthetics/images/a/a7/Politicalwave.png',
     description:
       "The Political Compass, a popular internet format, adapted to illustrate the different retrofuturistic-inspired subgenres of Political 'Wave' Aesthetics. The image uses the characteristic visual style of each movement to represent its position on the political spectrum. Political 'Wave' Aesthetics is an umbrella term for a group of internet-based visual styles that adapt the retrofuturistic motifs of Vaporwave and Synthwave for political messaging and propaganda. Emerging primarily in the late 2010s, these aesthetics are defined by their ideological purpose rather than by a distinct musical style, which distinguishes them for the other, more legitimate subgenres of the latter. They often serve as a form of online propaganda, attempting to appeal to younger audiences by packaging political ideologies within the recognizable and nostalgic framework of 80s and 90s-inspired digital art. This page serves as a neutral overview of these various subgenres. The use of Vaporwave and Synthwave aesthetics for political ends stems from the inherent, though often ambiguous, political undertones of Vaporwave itself, which is frequently interpreted as a satire of consumerism and late-stage capitalism. This inspired explicitly political offshoots like Laborwave.",
     categories: [],
@@ -30490,6 +30544,7 @@ export const aesthetics = [
     url: 'https://aesthetics.fandom.com/wiki/Polychrome',
     name: 'Polychrome',
     id: 'polychrome',
+    imageUrl: 'https://static.wikia.nocookie.net/aesthetics/images/0/0a/Original_f10eebfecf975dbf50b2169295c968dc.png',
     description:
       'The visual style of Polychrome is characterized by colors bursting/mixing together, usually over simple white/black backgrounds. This includes ink/liquid spills, powder explosions, smoke, paint smears and splatters, oil slicks, blended watercolors, plastic shimmers etc. The palette uses a wide variety of high contrast colors, mostly blue.',
     categories: ['consumer_aesthetics', 'design_aesthetics'],
@@ -30512,6 +30567,7 @@ export const aesthetics = [
     url: 'https://aesthetics.fandom.com/wiki/Pont-Aven_School',
     name: 'Pont-Aven School',
     id: 'pont-aven_school',
+    imageUrl: 'https://static.wikia.nocookie.net/aesthetics/images/9/9f/VisionAfterTheSermon.jpg',
     description:
       'Dissatisfied with the Impressionist focus on capturing fleeting visual reality, these artists, particularly Gauguin and Émile Bernard, developed a new style called Synthetism. This approach was based on a "synthesis" of the outward appearance of a subject, the artist\'s feelings about that subject, and purely aesthetic considerations of line and color. The resulting works are characterized by bold, flat areas of non-naturalistic color, simplified forms, and strong dark outlines, a technique known as Cloisonnism. In seminal paintings like Gauguin\'s Vision after the Sermon, color is used not for descriptive accuracy but for its emotional and symbolic power. The Pont-Aven School\'s move towards expressing inner ideas rather than external reality was a significant development in modern art and directly influenced later movements like Symbolism and Fauvism. The Pont-Aven School was formed in the mid-1880s when a group of international artists, including several from the United States (such as Henry Bacon, Robert Wylie, C. J. Way, Earl Shinn, and Howard Roberts[1]), established a colony in the town of Pont-Aven in Brittany. They were drawn to the region for its scenery and what they perceived as its authentic, traditional culture, which remained relatively isolated from modern tourism. The artist Paul Gauguin arrived in 1886 and soon became a central figure, encouraging his peers, such as Émile Bernard and Charles Laval, to move beyond the constraints of Naturalism and Impressionism. This collective experimentation led to the development of a new style and theory known as Synthetism. A key event for the group was the 1889 "Exposition of Impressionist and Synthetist Group" in Paris, which, despite being a financial failure, helped to publicly define the movement\'s new direction. The school\'s most active period declined after 1891, when Gauguin left France for Tahiti, causing the artist colony to lose its principal leader and dissipate.[2] Today, Pont-Aven is still known as "la cité des peintres" (the city of the artists) in French.[3]',
     categories: ['art_movements'],
@@ -30562,6 +30618,7 @@ export const aesthetics = [
     url: 'https://aesthetics.fandom.com/wiki/Poolcore',
     name: 'Poolcore',
     id: 'poolcore',
+    imageUrl: 'https://static.wikia.nocookie.net/aesthetics/images/4/4a/Poolcore1.jpg',
     description:
       "Poolcore can suggest feelings of eeriness and serenity or peacefulness. The way that Poolcore makes you feel is a slight mix of two very separate things, seeing as the feelings of liminality insinuate creepy or eerie feelings of being to place before, or seeing the pools in a dream. It can be relayed to Dreamcore, as dreams are often a thing which incorporate water, so as such, a lot of people will find that they've seen similar (or exact) places like the pools in their own dreams. The peaceful feeling is driven by the clean tiles or the blue and white colors which are a part of the images along with the clear water which can strike one as being serene, hence the feelings of serenity. The nostalgic feeling often associated with Poolcore is one based in logic, as many people went to pools as children, or have been to many in their life. Pools often look fairly similar, so the liminality and nostalgia make sense as the pools one has been to all feel like they cross over as a whole in Poolcore images. Poolcore visuals are generally very blue in appearance, although not always the case, and often have tiles which are commonly white and square-shaped. Other times the tiles in Poolcore are darker shade, such as navy or lighter blue colors. In 3d renders, the tiles are most often up the sides of the walls as well as under the water, but since actual pools don't generally look like that, real pool photographs will almost never have their tiles all the way around, and just have them inside of the pool. The pool water or light going through the water is a big part of Poolcore, and the way that the light hits the water is often a prominent visual feature. Along with this, the pattern of the water is sometimes the main feature of an image, and some Poolcore photos will just show the water's light reflections on the bottom of the pool, or the top of the water. Since these types of Poolcore images will mostly be close-ups, the tiles are often a large part of the whole image.",
     categories: ['location_based_aesthetics'],
@@ -30600,6 +30657,7 @@ export const aesthetics = [
     url: 'https://aesthetics.fandom.com/wiki/Pop_Art',
     name: 'Pop Art',
     id: 'pop_art',
+    imageUrl: 'https://static.wikia.nocookie.net/aesthetics/images/d/df/Roy_Lichtenstein_Drowning_Girl.jpg',
     description:
       'Pop Art is an art movement that originated in the United Kingdom and the United States during the mid-1950s. The movement is defined by its use of imagery and techniques from popular and mass culture. Pop Art incorporated elements from advertising, comic books, product packaging, and other mundane cultural objects. Artists challenged traditional fine art by blurring the line between commercial and high art. The term "Pop Art," a shortened version of "Popular Art," was coined by art critic Lawrence Alloway in 1958. Alloway used the term to describe paintings that celebrated post-war consumerism. The movement is characterized by its bright, saturated colors, bold outlines, and the use of mechanical printing techniques like Ben-Day dots, which mimic commercial printing processes. Key motifs include portraits of celebrities, everyday household items, and images from mass media, often rendered in a straightforward graphic style. Pop Art emerged as a reaction against the seriousness of Abstract Expressionism, which was the dominant artistic movement at the time. Pop artists felt that Abstract Expressionism was overly intellectual and detached from everyday life. They sought to create art that was accessible and relatable to the masses. Artists like Andy Warhol and Roy Lichtenstein used irony and humor to critique and celebrate consumerist culture simultaneously. The movement\'s popularity began to wane in the early 1970s, though its influence on subsequent art forms remains.',
     categories: ['art_movements'],
@@ -30667,6 +30725,7 @@ export const aesthetics = [
     url: 'https://aesthetics.fandom.com/wiki/Poppare',
     name: 'Poppare',
     id: 'poppare',
+    imageUrl: 'https://static.wikia.nocookie.net/aesthetics/images/5/5f/Poppare2.jpg',
     description:
       "The movement is centered around key musical acts, most notably the band Broder Daniel and the solo artist Håkan Hellström. While primarily a Swedish phenomenon, the style has had a limited presence in other Nordic countries.[1] The Poppare subculture began to form in the late 1990s, with the aesthetic of Henrik Berggren, the lead singer of the influential Gothenburg-based band Broder Daniel, serving as a primary catalyst. His melancholic, androgynous, and stylish look became a template for the subculture's most recognizable iteration. The movement solidified in the early 2000s, developing a distinct identity and branching into several defined sub-styles. Poppare represented a uniquely Swedish take on indie and retro culture, combining a love for domestic music with an appreciation for British fashion and musical history.[2] The fashion of the Poppare subculture is a modern reinterpretation of 1960s Mod style, filtered through a melancholic indie lens. The look is highly specific and is best understood through its three main variations.",
     categories: ['music', 'subcultures', 'fashion'],
@@ -30703,6 +30762,8 @@ export const aesthetics = [
     url: 'https://aesthetics.fandom.com/wiki/Poppers_(German_subculture)',
     name: 'Poppers',
     id: 'poppers',
+    imageUrl:
+      'https://static.wikia.nocookie.net/aesthetics/images/8/89/57eaec72-0001-0004-0000-000000604971_w1600_r1.568944099378882_fpx31.87_fpy50.webp',
     description:
       'Poppers were a youth subculture that emerged in West Germany during the first half of the 1980s, with its origins tracing back to Hamburg high schools in 1979. Also known as "Snobs" in Austria, they were teenagers primarily from middle to upper-class backgrounds, who distinguished themselves through a conscious embrace of conformity, materialism, and lack of a political stance. This rejected the critique of consumerism seen in preceding countercultural movements; they rebelled against rebellion itself. In this sense, they were similar to the Paninaro subculture of Milan and the Teddy Boys of the 1950s.[1] The origin of the term "Popper" is unclear, but it does not come from English. In German, the plural form is "Die Popper."[1] Therefore, it can be simultaneously plural and singular. Poppers were characterized by their conspicuous consumption and their embrace of "brand fetishism," which were novel concepts at the time. They were more concerned with aesthetics than the ethical and societal issues that had dominated previous youth movements, like the 1968 student protests or the alternative scene. Their pursuit of a sophisticated and deliberately consumerist style also served to differentiate them from traditional conservative bourgeois values. They replaced traditional values like the pursuit of harmony, obedience to authority, sense of duty, and modesty with values like hedonism, unconcealed egoism, and materialistic displays of wealth. This challenged both counterculture and traditional conservative circles.[1]',
     categories: [],
@@ -30722,7 +30783,7 @@ export const aesthetics = [
           'carrot pants',
           'college shoes',
         ],
-        values: ['Consumerism', 'materialism', 'hedonism', 'egoism', 'apoliticism', 'brand fetishism'],
+        values: ['consumerism', 'materialism', 'hedonism', 'egoism', 'apoliticism', 'brand fetishism'],
       },
       connections: {
         related: ['disco', 'new_romantic', 'paninaro', 'preppy', 'teddy_boy'],
@@ -30734,6 +30795,7 @@ export const aesthetics = [
     url: 'https://aesthetics.fandom.com/wiki/Positivity_Kawaii',
     name: 'Positivity Kawaii',
     id: 'positivity_kawaii',
+    imageUrl: 'https://static.wikia.nocookie.net/aesthetics/images/0/0e/Raf%2C360x360%2C075%2Ct%2Cfafafa_ca4434786.jpg',
     description:
       'Positivity Kawaii or Wellness Kawaii is an aesthetic prevalent in marketing since approximately the 2010s. It is characterized by its emphasis on positive and inspirational quotes, cute mascots often based on animals or inanimate objects, and a general air of wholesomeness. It resonates strongly with themes of optimism and wellness culture. This aesthetic primarily targets Gen Z and, increasingly, Gen Alpha girls, manifesting itself in a wide array of consumer goods. From stationery, plushies and bags to cosmetics and school supplies, Positivity Kawaii finds particular prominence during back-to-school seasons.[1] While drawing clear inspiration from the Japanese concept of Kawaii, this aesthetic represents a distinct Western interpretation. It shares some superficial similarities with the "Live Laugh Love" aesthetic, particularly in its focus on positive affirmations. However, a key distinction lies in its target demographic and cultural context. "Live Laugh Love" often appeals to an older demographic and carries a more traditional, sometimes even saccharine, connotation. Positivity Kawaii, on the other hand, embraces a more playful, modern sensibility that aligns with the digital native generation. Its visual language is often more stylized and less overtly sentimental. Notable brands and characters that exemplify Positivity Kawaii include the internet-famous cat, Pusheen, Organic Kitchen, the Spanish brand Mr. Wonderful, and The Fruit Company.[Note 1]',
     categories: ['design_aesthetics'],
@@ -30761,6 +30823,7 @@ export const aesthetics = [
     url: 'https://aesthetics.fandom.com/wiki/Post-Apocalyptic',
     name: 'Post-Apocalyptic',
     id: 'post-apocalyptic',
+    imageUrl: 'https://static.wikia.nocookie.net/aesthetics/images/0/0c/Apoc-city.jpg',
     description:
       'Post-Apocalyptic is a genre of fiction that emerged from the idea of what everyday life would be like if a society collapsed. The apocalytic event may be climatic, such as runaway climate change; natural, such as an impact event; man-made, such as nuclear holocausts; medical, such as a plague or virus, whether natural or man-made; or imaginary, such as a zombie apocalypse or an alien invasion. The story may involve attempts to prevent an apocalypse event, deal with the impact and consequences of the event itself, or may be Post-Apocalyptic, and be set after the event. The time frame may be immediately after the catastrophe, focusing on the travails or psychology of survivors, the way to maintain the human race alive and together as one, or considerably later, often including the theme that the existence of pre-catastrophe civilization has been forgotten (or mythologized). Post-apocalyptic stories often take place in a non-technological future world, or a world where only scattered elements of society and technology remain[1]. Other themes may be cybernetic revolt, divine judgment, dysgenics, ecological collapse, pandemic, resource depletion, supernatural phenomena, technological singularity, or some other general disaster. Visuals in Post-Apocalyptic worlds can vary based on the timeline and cause of the disaster. Typically, most visuals may include:',
     categories: ['genre_fiction', 'fashion'],
@@ -30802,6 +30865,7 @@ export const aesthetics = [
     url: 'https://aesthetics.fandom.com/wiki/Poster_Gal',
     name: 'Poster Gal',
     id: 'poster_gal',
+    imageUrl: 'https://static.wikia.nocookie.net/aesthetics/images/4/48/Chem.jpg',
     description:
       'MallgothNu-MetalPop-Punk EmoEmoY2KFrutiger AeroY2K FuturismOld WebTeenpunkAnimecoreWebcoreSceneMetalheartOtakuMoe Poster Gal, also known as Y2K Chibi, is an aesthetic that was popular around roughly 2002 to 2013. It is often described as a more feminine and nerdier version of Olderbrothercore. Its main motifs are anime-inspired art styles and pop culture from that time period. The Poster Gal art style can best be described as a heavily stylized and exaggerated Chibi art style with Western animation influence. It contain distinctive features that are difficult to perfectly replicate with modern tools and techniques, such as low quality airbrush shading or visible pixels; these features contribute to the dated look of Poster Gal art. Other common features include:',
     categories: ['design_aesthetics', 'internet_aesthetics'],
@@ -30845,6 +30909,7 @@ export const aesthetics = [
     url: 'https://aesthetics.fandom.com/wiki/Post-Grunge_Maximalism',
     name: 'Post-Grunge Maximalism',
     id: 'post-grunge_maximalism',
+    imageUrl: 'https://static.wikia.nocookie.net/aesthetics/images/8/85/Original_adbc5899d8306cef2a86bdb4f2037a85.webp',
     description:
       'Post-Grunge Maximalism is a fashion aesthetic that was highly prevalent in the mid-to-late 2000s, characterized by its maximalist approach to design. The style is a fusion of post-grunge, hard rock, nu-metal, and tattoo culture, resulting in a distinctively embellished and often hyper-masculine look. The term was coined by researcher Evan Collins to retroactively name this previously unnamed but culturally significant trend.[1] The aesthetic is characterized by its use of intricate, overlapping graphics, heavy distressing, and luxury branding. It was popularized by brands like Affliction, Ed Hardy, and True Religion, and became strongly associated with the MMA, rock music, and nightclub scenes of the era. Post-Grunge Maximalism rose to prominence in the mid-2000s, a period that saw a departure from the minimalist and understated style of 1990s grunge. Brands like Affliction built their identity by aligning with the growing popularity of Mixed Martial Arts (MMA), with their graphic t-shirts becoming a uniform for fighters and fans alike.[2] Simultaneously, designer Christian Audigier brought the tattoo art of Don Ed Hardy into the mainstream with the Ed Hardy brand, plastering colorful, tattoo-inspired graphics onto t-shirts, hoodies, and trucker hats.',
     categories: ['fashion'],
@@ -30905,6 +30970,8 @@ export const aesthetics = [
     url: 'https://aesthetics.fandom.com/wiki/Post-Impressionism',
     name: 'Post-Impressionism',
     id: 'post-impressionism',
+    imageUrl:
+      'https://static.wikia.nocookie.net/aesthetics/images/e/ec/Paul-Gauguin.-Portrait-Of-A-Young-Woman-Vait-Goupil-Aka-Jeanne-Goupil-1896.jpg',
     description:
       "Post-Impressionism is a broad term that describes the diverse range of artistic styles that emerged in France between approximately 1886 and 1905, in the wake of Impressionism. It is not a single, unified movement, but rather a collective term for the art of major figures like Paul Cézanne, Vincent van Gogh, Paul Gauguin, and Georges Seurat. These artists all built upon Impressionism's use of bright color and real-life subjects but rejected its focus on capturing fleeting, naturalistic moments. They sought to infuse their work with more emotional, structural, and symbolic content. The movement can be understood through two general trends: one, led by van Gogh and Gauguin, emphasized emotional and spiritual expression through intense, non-naturalistic color and dynamic brushwork. The other, led by Cézanne and Seurat, sought to restore a sense of order and structure to art, with Cézanne analyzing the geometric forms underlying nature and Seurat developing the methodical color theory of Pointillism. The varied experiments of the Post-Impressionists were foundational for 20th-century art, with Cézanne's work directly leading to Cubism, and van Gogh and Gauguin's use of symbolic color paving the way for Fauvism and Expressionism.",
     categories: ['art_movements'],
@@ -31317,6 +31384,7 @@ export const aesthetics = [
     url: 'https://aesthetics.fandom.com/wiki/Preschool_Pop',
     name: 'Preschool Pop',
     id: 'preschool_pop',
+    imageUrl: 'https://static.wikia.nocookie.net/aesthetics/images/2/21/Original_81fef087e594567eae0e1a6d913e5752.png',
     description:
       'Radical Design/Radical SurrealismMemphis DesignMemphis Jr.Naïve Art Preschool Pop utilizes visuals common in classrooms for children around preschool and kindergarten age (3-6 years old). As such, common imagery includes child art (stick figures, scribbles, cephalopod/"tadpole" drawings) and things commonly portrayed in child art, like houses, suns, and trees. Oversized versions of toys, particularly alphabet blocks and teddy bears, is also a common visual, as well as art supplies and cartoon animals. Another common motif is school-related items -- school buses, backpacks, lunchboxes, desks and chairs are all typical to the Preschool Pop aesthetic. Primary colors (red, blue, and yellow) are the main color scheme, though orange, green, and purple are also common. [2] Many animations and artworks in this style will use crayon, felt, or clay textures to evoke a childlike feel.',
     categories: ['consumer_aesthetics'],
@@ -31345,6 +31413,7 @@ export const aesthetics = [
     url: 'https://aesthetics.fandom.com/wiki/Pridecore',
     name: 'Pridecore',
     id: 'pridecore',
+    imageUrl: 'https://static.wikia.nocookie.net/aesthetics/images/f/f2/Neon_bi.png',
     description:
       'The main element of the aesthetic is not just the display of pride flags, but their transformative application: using the distinct color palettes of flags like the bisexual, transgender, or asexual flags as the basis for new, aestheticized content. This can range from character art and icons to abstract moodboards and glittery GIF sets ("stimboards"). It is important to note that the aesthetic is created by and for the LGBTQ+ community, and participation by those who do not identify as such is widely discouraged as it can trivialize the identities the aesthetic seeks to celebrate. The Pridecore aesthetic has its roots in the visual culture of Tumblr in the 2010s. As a wide variety of new pride flags were designed and popularized online to represent more specific identities beyond the original rainbow flag, users began to use these new color palettes as inspiration for creative works.',
     categories: ['internet_aesthetics'],
@@ -31379,6 +31448,8 @@ export const aesthetics = [
     url: 'https://aesthetics.fandom.com/wiki/Princecore',
     name: 'Princecore',
     id: 'princecore',
+    imageUrl:
+      'https://static.wikia.nocookie.net/aesthetics/images/7/7e/Sir_Frank_Dicksee_-_The_Two_Crowns_-_Google_Art_Project.jpg',
     description:
       'Princecore is a subgenre of Royalcore, a more masculine variant of Princesscore and a less mature version of Kingcore. Princecore is visually extremely similar to Ouji and Aristocrat in Lolita culture. (It also seems to take from theater and ballet costumes.) A majority of Princecore writing is heavily centered around fictional prompts centering relationships between princes and knights, or princesses/other princes. Though less common, fictional relationships between princes and female knights also make up a part of the Princecore aesthetic. There are generally two sides of Princecore, one being elegant and mature, the other slightly more childish and young with fantastical aspects. Ironically, it’s mostly women who indulge in this aesthetic—although these kinds of clothes are still worn by men in ballet and theater. It is also popular amongst MLM (man loves men) and genderqueer individuals.',
     categories: [],
@@ -31422,6 +31493,7 @@ export const aesthetics = [
     url: 'https://aesthetics.fandom.com/wiki/Princesscore',
     name: 'Princesscore',
     id: 'princesscore',
+    imageUrl: 'https://static.wikia.nocookie.net/aesthetics/images/0/0c/Fairy_Princess.jpg',
     description:
       "The movement gained significant popularity in the early 2020s, drawing heavily from the visual language of the Netflix series Bridgerton. At its core, Princesscore is a form of escapism, allowing adherents to embody a more glamorous, romantic, and graceful persona as a retreat from the monotony of modern life.[2] The Princesscore aesthetic emerged on social media platforms like TikTok and Instagram in the late 2010s, evolving as a more extravagant and glamorous offshoot of the popular Cottagecore aesthetic. While Cottagecore celebrates a rustic, pastoral lifestyle, Princesscore elevates the fantasy to a royal court, swapping simple farm life for castles and ballrooms.[3] The aesthetic's explosion into the mainstream is widely attributed to the release of the Netflix series Bridgerton in late 2020. The show's highly stylized and romanticized take on Regency-era fashion provided the visual blueprint for the aesthetic. In the wake of its popularity, online searches for key Princesscore garments like corsets and empire-waist dresses surged, solidifying the aesthetic as a major internet trend.[2]",
     categories: ['internet_aesthetics', 'fashion'],
@@ -31461,6 +31533,7 @@ export const aesthetics = [
     url: 'https://aesthetics.fandom.com/wiki/PRL_Nostalgia',
     name: 'PRL Nostalgia',
     id: 'prl_nostalgia',
+    imageUrl: 'https://static.wikia.nocookie.net/aesthetics/images/b/bb/Spolem_corporate_logo.jpg',
     description:
       "Soviet NostalgiaYugo-Nostalgia PRL Nostalgia (Polish: Nostalgia za PRL) is a socio-cultural and aesthetic phenomenon in contemporary Poland that expresses longing for, and commercializes, aspects of life under the Polish People's Republic (PRL) between 1947 and 1989. This movement is centered on the retrieval and aestheticization of the visual artifacts, consumer products, and public infrastructure characteristic of the communist era. For many who lived through the period, this nostalgia is rooted in a fundamental dissatisfaction with the present combined with fondly recollected memories of their youth and the perceived social solidarity of the past. As a visual style, it manifests through the intentional use of socialist-era kitsch and vintage design as an element of contemporary public space and consumption.",
     categories: ['cultural_nostalgia'],
@@ -31503,6 +31576,7 @@ export const aesthetics = [
     url: 'https://aesthetics.fandom.com/wiki/Programmer_Art',
     name: 'Programmer Art',
     id: 'programmer_art',
+    imageUrl: 'https://static.wikia.nocookie.net/aesthetics/images/2/25/Dwarf-Fortress-map.png',
     description:
       'The term "Programmer Art" refers to an aesthetic and visual style that originates from software and video-games developpement, particulary in indie games, early sharewares and personnal projects from programmers. Althought any art made by a programmer could be classified as "programmer art", the term refers specifically to the characteristic unpolished style said to be the result of the lack of artistic skills among "logical-minded" coders[1][2]. It often consists of placeholder elements "threw-together", with the intent to be remplaced with a more consistent artstyle later. This manifests with characters and objects made of primitive shapes with high-constrasting colors, a disregard of style cohesion and of consistent anatomy or perspective and an extensive use of default system fonts, palettes and sounds effects. In pixel-art, the criticized "pillow" shading style is sometimes used[3] when sprites are not simply flat-colored. Historically, when computers were more limited in their capabilities, monochrome alphanumeric symbols were commonly used to denote the elements of the video-game. As the indie game scene grew, a form of nostalgia started to appear for the unprofessionnal sharewares of the early internet, and the style started to be intentionally simulated by artists.',
     categories: ['subcultures'],
@@ -31536,6 +31610,7 @@ export const aesthetics = [
     url: 'https://aesthetics.fandom.com/wiki/Psychedelia',
     name: 'Psychedelia',
     id: 'psychedelia',
+    imageUrl: 'https://static.wikia.nocookie.net/aesthetics/images/3/3e/Axis_Bold_as_Love.jpg',
     description:
       'Psychedelia denotes a countercultural movement originating in the 1960s, characterized by visual and auditory representations of altered consciousness, known as the "psychedelic experience." This aesthetic draws heavily from the subjective experiences induced by psychoactive substances, including LSD, mescaline, and psilocybin. The subculture included both users of these substances and non-users who participated in and appreciated the associated art, music, and fashion. Psychedelic art employs distorted, surreal imagery, vivid colors, and animation to replicate or evoke altered states of perception. Psychedelic music, which encompasses various genres such as psychedelic rock, utilizes techniques such as electric guitar distortion, elements of Indian music including the sitar and tabla, electronic effects, sound manipulation, and studio effects such as tape manipulation and stereo panning. The psychedelic experience, as a phenomenon, involves perceived alterations in consciousness. These alterations encompass hallucinations, synesthesia, shifts in awareness, changes in thought processes, trance-like states, and mystical experiences. These altered states can prompt individuals to experience shifts in self-perception, leading to feelings of revelation, confusion, or psychosis. People who experience altered states of consciousness, particularly with the use of psychedelic substances for spiritual or self-exploratory purposes, are sometimes referred to as "psychonauts."',
     categories: ['art_movements', 'music_genres', 'subcultures', 'fashion'],
@@ -31761,6 +31836,7 @@ export const aesthetics = [
     url: 'https://aesthetics.fandom.com/wiki/Puppycore',
     name: 'Puppycore',
     id: 'puppycore',
+    imageUrl: 'https://static.wikia.nocookie.net/aesthetics/images/b/bb/E9a9eb6afcfdfe93211693e9cc0eaa03.jpg',
     description:
       'CutecoreHeisei RetroKawaiiSanriocore The visual style is characterized by overlays and soft focus that enhance the cuteness and innocence of the animals, presenting them as objects of gentle affection and comfort. The original proposed name for the aesthetic, Wancore, was a pun based on Wanco, the Japanese word for "doggy." The aesthetic sometimes depicts animals other than dogs. Contemporary recreations of this visual style often resemble similar trends, specifically the editing techniques of Cutecore. The Puppycore aesthetic originated with specific Japanese merchandise brands from the 2000s that popularized these hyper-cute, photo-manipulated pet images.',
     categories: ['design_aesthetics'],
@@ -31814,6 +31890,7 @@ export const aesthetics = [
     url: 'https://aesthetics.fandom.com/wiki/Puppygirl',
     name: 'Puppygirl',
     id: 'puppygirl',
+    imageUrl: 'https://static.wikia.nocookie.net/aesthetics/images/e/ed/Puppygirl1.webp',
     description:
       'Puppygirl is an internet subculture that originated in online spaces such as X (formerly Twitter) and Discord, related to kink culture (pet play) and heavily associated with transgender women or transfeminine people.[1] The aesthetic is a particular form of the Kemonomimi aesthetic, defined by the use of animal aesthetics on a human body, in this case using dog aesthetics. The visual style is often paired with the adoption of a highly sexualized and submissive "puppy" persona, which is expressed through specific fashion accessories and behaviors.[1] While it has strong ties to the broader pet play BDSM community, the Puppygirl style is a distinct cultural phenomenon. It functions as both a personal identity and a shared set of aesthetic and narrative codes. While the exact origin of the Puppygirl aesthetic is unknown, the rise in usage of the term "Puppygirl" coincides with the rise in public awareness of a content creator named Puppy Girl Jenna[image references 1]. Jenna is a NSFW content creator using sexualized puppy play as an extension of a broader puppy-play disposition that is not inherently NSFW.[2] However, as the term has become more established in pop-culture it has become increasingly associated with Alternative aesthetics and subculture, which are not present in Jenna\'s case',
     categories: ['fashion'],
@@ -31850,6 +31927,7 @@ export const aesthetics = [
     url: 'https://aesthetics.fandom.com/wiki/Purism',
     name: 'Purism',
     id: 'purism',
+    imageUrl: 'https://static.wikia.nocookie.net/aesthetics/images/8/8a/Purism-10.jpeg',
     description:
       'Purism was an art movement that emerged in France immediately after World War I, active from approximately 1918 to 1925, and led by the artist Amédée Ozenfant and the artist-architect Le Corbusier (Charles-Édouard Jeanneret). It began as a direct critique of later Cubism, which Ozenfant and Le Corbusier argued had become too decorative, personal, and irrational. In their manifesto Après le cubisme ("After Cubism"), they called for a return to an art of order, clarity, and precision. Purism was founded on a belief in a universal artistic language based on pure, simple geometric forms inspired by the functional elegance of machines. Artists depicted everyday objects like bottles, glasses, and guitars, not to fragment them as the Cubists did, but to distill them into their essential, recognizable shapes. The style is characterized by clean outlines, balanced compositions, and a subdued palette of flat colors. While the movement was short-lived in painting, its principles became foundational to Le Corbusier\'s influential architectural theories and the broader development of the International Typographic Style. The essay Après le Cubisme (After Cubism) was written by Ozenfant and Le Corbusier and published in 1918. This essay demonstrated the main concepts behind Purism. Some of them are as follows:[1]',
     categories: ['art_movements'],
@@ -31897,6 +31975,7 @@ export const aesthetics = [
     url: 'https://aesthetics.fandom.com/wiki/Qin_and_Han_Dynasties',
     name: 'Qin and Han Dynasties',
     id: 'qin_and_han_dynasties',
+    imageUrl: 'https://static.wikia.nocookie.net/aesthetics/images/9/92/QinHan_moodb.jpg',
     description:
       'Qin and Han Dynasties is the historical imperial aesthetic of China from 221 BCE to 220 CE. Under Construction\nIn 221 BC, the Qin Dynasty established a centralized governing system. Craftsmen had to work at official state workshops, while the overall economy was constrained, so the general public didn’t have the money or manpower to do artistic creation. Additionally, the Qin Dynasty only existed for 14 years. Thus the most notable works of art were all created on the orders of the First Emperor of Qin. The first emperor of Han, Liu Bang (256 or 247 – 1 June 195 BC), liked Chu music. Because of this, the Han Dynasty also brought in art styles of Chu from pre-Qin times. The design of Han-dynasty lacquerware is believed to be shaped by these arts. Improvements in textile-making skills during the Han Dynasty brought about gorgeous silk fabrics.',
     categories: ['historical'],
@@ -31969,6 +32048,8 @@ export const aesthetics = [
     url: 'https://aesthetics.fandom.com/wiki/Queencore',
     name: 'Queencore',
     id: 'queencore',
+    imageUrl:
+      'https://static.wikia.nocookie.net/aesthetics/images/1/17/BLOG-portrait-of-queen-victoria-attrib-to-franz-xavier-winterhalter.jpg',
     description:
       "Queencore is a more mature, regal variant of Princesscore and a subgenre of Royalcore. Queencore, as a whole, draws from matriarchal and regal roles in many monarchies. One example of such would be the former Queen of England, Elizabeth II, and Princess Diana, of England and Wales both. As being the head of a monarchy, a queen would have to lead one's country through hardships such as famine and wars. This guidance leads to an air of regalia as they handle these issues with grace and care for their peoples. Most visuals can be taken from castle exteriors, interiors, and grounds. This can include throne rooms, royal chambers, and gardens. Examples include: Fashion may be taken directly from historical accounts or may be modernized. Real life examples can include historical figures like Queen Victoria for a more historical approach, or figures like Kate Middleton and Meghan Markle for more modern fashion. Fictional examples can include Queen Calanthe from The Witcher, Cersei Lannister from Game of Thrones, Mary, Queen of Scots from Reign, and The Countess from American Horror Story (for a more creative twist). Staples include intricate embroidery, beading, jewel and metal embellishments, darker or richer colors, and long sleeves. Suggestions include:",
     categories: ['internet_aesthetics', 'fashion'],
@@ -31989,6 +32070,7 @@ export const aesthetics = [
     url: 'https://aesthetics.fandom.com/wiki/Queercore',
     name: 'Queercore',
     id: 'queercore',
+    imageUrl: 'https://static.wikia.nocookie.net/aesthetics/images/0/0d/Z.jpeg',
     description:
       "Queercore (also known as Homocore), is a cultural and social movement that began in the mid-1980s as an offshoot of the Punk subculture. It is distinguished by its discontent with society in general, and specifically society's disapproval of the LGBTQ community. Queercore expresses itself in a D.I.Y. Between 1989 and 1983, an LGBT+ subculture “queercore” (or alternately “homocore”) emerged as a combination of aspects of the punk subculture and LGBT+ subculture.  Queercore media (such as music, zines, and books) effectively opened what can be termed a queer counter-public sphere in opposition to the institutions of the lesbian and/or gay public sphere already in existence and exemplified by organizations like GLAAD and NGLTF, spaces like established middle-class gay neighborhoods, or events like the Michigan Womyn's Music Festival or Gay Pride marches. Curran Nault, in his book Queercore: Queer Punk Media Subculture, describes queercore as “a configuration of artistically minded gender/sexual dissidents who annex punk practices and aesthetics to challenge the oppressions of the mainstream and the lifeless sexual politics and assimilationist tendencies of dominant gay and lesbian society.”",
     categories: ['music_genres'],
@@ -32013,6 +32095,7 @@ export const aesthetics = [
     url: 'https://aesthetics.fandom.com/wiki/Racaille',
     name: 'Racaille',
     id: 'racaille',
+    imageUrl: 'https://static.wikia.nocookie.net/aesthetics/images/2/23/66f17dac3fbf44be94df9e0de817e489.jpg',
     description:
       'Racaille (French, originally means "scum") are a type of french gangster that wears a Lacoste cap, usually tight jeans or sweatpants. This term refers to a despicable group, often the poorest part of the population. For some, a sense of socio-economic, for others a more socio-cultural, the definition referring to "a mass of despicable" does not recognize individual distinction, its use is invariable in the singular, feminine: "La racaille" ; sometimes coupled with a partitif: "de la racaille". "Racaille" generally means the publicized fringes of society, with the intelligence, motives and numerous privileges for the castes thus denoting them. Nowadays, the Racailles can be called «Lacoste TN» (which refers to their clothing style, most of the time being a Lacoste sportswear with Nike TN sneakers) or «Les gars de cité» (meaning Guys from the Hood). Clothes related to the racaille aesthetic include:',
     categories: ['subcultures', 'fashion'],
@@ -32038,6 +32121,7 @@ export const aesthetics = [
     url: 'https://aesthetics.fandom.com/wiki/Racing',
     name: 'Racing',
     id: 'racing',
+    imageUrl: 'https://static.wikia.nocookie.net/aesthetics/images/b/b8/0cc87895110ee74e15878bbc52bfb405.jpg',
     description:
       'The Racing aesthetic is based on the visual elements and culture surrounding auto racing, a motorsport that has existed since the invention of the automobile. Early races, beginning in the 1880s, served to demonstrate the practicality of these new machines and laid the foundation for the competitive sport. The aesthetic is not simply the cars themselves, nor just anyone who drives them, but a specific style and attitude associated with the world of racing. By the 1930s, the development of specialized racing vehicles began to define the look of the sport, characterized by streamlined forms and an emphasis on speed. The Racing aesthetic encompasses various disciplines, including sports car racing, which combines high-performance cars with endurance challenges. Sports car racing, with events like the 24 Hours of Le Mans, emphasizes reliability, teamwork, and the visual appeal of high-end vehicles. Racing vehicle design, which includes aerodynamic forms, bright color schemes, and sponsor logos, are part of this aesthetic.  Brands such as Porsche and Ferrari, through their participation and success in racing, have integrated these visual cues into their road-going vehicles, creating a tangible link between the track and consumer products.',
     categories: ['fashion'],
@@ -32074,6 +32158,7 @@ export const aesthetics = [
     url: 'https://aesthetics.fandom.com/wiki/Radical_Design',
     name: 'Radical Design',
     id: 'radical_design',
+    imageUrl: 'https://static.wikia.nocookie.net/aesthetics/images/9/92/RadicalDesign.webp',
     description:
       'The movement gave voice to a new generation of architects who aimed to critique traditional planning methods and question the future of cities. They adopted a speculative approach to architecture and the envisionment of future urban environments. Designers and architects involved in the movement began publishing anti-design manifestos and formed design studios, where they created playful objects with strong visual impact and socio-political undertones, transforming the Italian design industry of the 1960s. Radical Design\'s products are characterized by their quirky, ironic, and colorful nature, utilizing diverse materials and unique shapes. This approach was a direct response to the prevalent consumerism and minimalist aesthetic of the mid-1960s, which favored simple, mass-produced items. The movement sought to challenge these established beauty standards, and was a precursor to the Memphis Group. Key figures and groups associated with Radical Design include Archizoom, Superstudio, Studio 65, Ettore Sottsass Jr., Gaetano Pesce, and Alessandro Mendini. Companies like Poltronova played a significant role in making the ideas of Radical Design tangible, producing notable works such as the Ultrafragola mirror, Superonda bench, Joe chair, and Sofo chair. The movement also influenced interior design for spaces like discotheques, with examples like the Bocca (or "Lipstick") sofa.',
     categories: ['art_movements', 'design_aesthetics'],
@@ -32120,6 +32205,7 @@ export const aesthetics = [
     url: 'https://aesthetics.fandom.com/wiki/Rad_Dog',
     name: 'Rad Dog',
     id: 'rad_dog',
+    imageUrl: 'https://static.wikia.nocookie.net/aesthetics/images/c/c4/Original_c6dbefd44b4a96d80f1e4500d29f453d.jpg',
     description: 'The aesthetic is characterized as edgy, loud and radical.',
     categories: ['consumer_aesthetics', 'design_aesthetics'],
     isVisible: true,
@@ -32142,6 +32228,7 @@ export const aesthetics = [
     url: 'https://aesthetics.fandom.com/wiki/Raggare',
     name: 'Raggare',
     id: 'raggare',
+    imageUrl: 'https://static.wikia.nocookie.net/aesthetics/images/c/c8/Raggarna_ANN3780.JPG',
     description:
       'Raggare is a youth subculture present since the 1950s, primarily found in rural areas and smaller towns of Sweden and, to a lesser extent, Norway and Finland. They participate in car cruising events. Their origins are linked to increased prosperity and the rise of rock music in the mid-1950s, influenced by American figures like Elvis Presley. It is often associated with middle-aged men who are enthusiastic about classic cars produced in the United States. Predominantly a working-class youth culture, they emphasize a masculine, tough style, with men wearing jeans and greased, combed hairstyles, and women sporting voluminous hairdos. Their affinity for American cars reflected optimism, while their exaggerated masculinity was a reaction to changing gender roles. The term "Raggare" is both plural and singular. This slang term has uncertain origins, possibly related to "picking up" women (pursuing romantic encounters). The subculture drew heavy inspiration from American rock\'n\'roll, rockabilly, and greaser culture, including hot rod cars and greased hairstyles. Similar subcultures existed across Western Europe, but Raggare are particularly enduring in Sweden.',
     categories: ['subcultures', 'fashion'],
@@ -32170,6 +32257,7 @@ export const aesthetics = [
     url: 'https://aesthetics.fandom.com/wiki/Rave',
     name: 'Rave',
     id: 'rave',
+    imageUrl: 'https://static.wikia.nocookie.net/aesthetics/images/7/73/Raver2.jpg',
     description:
       'Rave refers to a dance party held in a variety of venues, from warehouses and clubs to private homes and open fields. These events typically feature DJs playing a range of electronic music genres, including drum and bass, dubstep, techno, house, trance, and hardcore. Raves are characterized by their high-energy atmosphere, powerful sound systems, and immersive light shows, often accompanied by laser displays, projected images, and fog machines. Originating in the late-1980s, the rave scene gained momentum in the early 1990s, associated with illegal events held in unconventional spaces. Early raves were heavily influenced by the acid house movement and bands like The Prodigy, with parties frequently taking place in squats and abandoned buildings. Well-known locations like the Dole House in Peckham and Groove Park in Camberwell hosted significant gatherings, with Groove Park even operating as an art collective with full moon parties organized by Pete Marland. Some raves remain small-scale gatherings, but others have evolved into large-scale festivals, such as the Castlemorton Common Festival in 1992. These events may feature multiple DJs and dance areas, lasting for 24 hours or more. The rave scene has faced challenges from law enforcement due to associations with illegal drug use, including MDMA, amphetamine, LSD, and others. This has led to raids and anti-rave laws in many countries, often attributed to a moral panic surrounding rave culture. Raves also frequently utilize non-authorized venues, such as squat parties, unused warehouses, and aircraft hangars.',
     categories: ['lifestyle', 'music', 'subcultures'],
@@ -32191,17 +32279,17 @@ export const aesthetics = [
           'PLUR hand sign',
           'fluorescent clothing',
         ],
-        colours: ['Neon', 'black', 'fluorescent'],
+        colours: ['neon', 'black', 'fluorescent'],
         values: [
-          'Individuality',
+          'individuality',
           'freedom',
           'community',
           'self-expression',
           'hedonism',
-          'PLUR (Peace',
-          'Love',
-          'Unity',
-          'Respect)',
+          'peace',
+          'love',
+          'unity',
+          'respect',
         ],
       },
       connections: {
@@ -32248,6 +32336,8 @@ export const aesthetics = [
     url: 'https://aesthetics.fandom.com/wiki/Raw_Industrial',
     name: 'Raw Industrial',
     id: 'raw_industrial',
+    imageUrl:
+      'https://static.wikia.nocookie.net/aesthetics/images/6/67/Water_skis_in_a_cozy_coffee_shop_%28Unsplash%29.jpg',
     description:
       'This page is about the interior design style. For other aesthetics associated with the word "industrial," see Industrial (disambiguation). Raw Industrial is an interior design style that draws inspiration from old factories and industrial spaces, particularly those converted into residential or commercial use. This aesthetic, which gained popularity in the late 2000s and throughout the 2010s, incorporates elements such as weathered wood, exposed brick, building systems, industrial lighting fixtures, and concrete. The Industrial style utilizes raw materials to create an unfinished or warehouse-like atmosphere. This is often achieved through the incorporation of existing architectural features, such as exposed brick walls, visible pipes, concrete flooring, and large, unadorned windows.',
     categories: ['design_aesthetics'],
@@ -32290,6 +32380,7 @@ export const aesthetics = [
     url: 'https://aesthetics.fandom.com/wiki/Raxet',
     name: 'Raxet',
     id: 'raxet',
+    imageUrl: 'https://static.wikia.nocookie.net/aesthetics/images/f/f0/Raxet2.jpg',
     description:
       'Raxet\'s origins are rooted in urban neighborhoods, reflecting the realities and aspirations of young people. The style involves mixing mainstream clothing with imitations of luxury brands, embodying a sense of rebellion and empowerment. Figures such as La Zowi, Bad Gyal, Ms. Nina, and Bea Pelea are considered prominent artists associated with the Raxet movement. These performers, along with others like Tania Chanel and La Mala Rodríguez, have contributed to popularizing the style and expanding its reach. The Raxet aesthetic is characterized by the use of tracksuits, often paired with elegant pieces, and the wearing of XL hoop earrings. Fanny packs are a staple accessory, featuring bold patterns like leopard print or glitter. Long, elaborate nails with embellishments are a defining feature. Fishnet clothing, both as stockings and tops, is also common. Other essential items include (faux) fur coats, cropped sweatshirts, platform shoes, and high hairstyles to showcase large earrings. The term "raxet" is possibly an adaptation of the hip-hop slang term "ratchet" (meaning an uncouth woman), associated with a cultural and musical style tied to trap music and young people from marginalized neighborhoods. It became a way for people feeling excluded by society to express themselves through music, clothing, and overall aesthetic. A key element of the style is the mixing of regular fashion pieces with knock-offs of luxury brands; the style also focuses on being bold and provocative, reclaiming working-class stereotypes.',
     categories: ['music', 'subcultures', 'fashion_styles', 'fashion'],
@@ -32323,7 +32414,7 @@ export const aesthetics = [
         ],
       },
       connections: {
-        related: ['chav', 'choni', 'hip-hop', 'mc', 'bling', 'neoperreo'],
+        related: ['chav', 'choni', 'hip-hop', 'mcbling', 'neoperreo'],
       },
       mediaCulture: {
         platform: ['Tik', 'Tok'],
@@ -32339,6 +32430,7 @@ export const aesthetics = [
     url: 'https://aesthetics.fandom.com/wiki/Raygun_Gothic',
     name: 'Raygun Gothic',
     id: 'raygun_gothic',
+    imageUrl: 'https://static.wikia.nocookie.net/aesthetics/images/b/bb/Tommorowland.jpg',
     description:
       'Raygun Gothic is a retrofuturistic aesthetic centered around a view of the future from the perspective of circa 1945 to 1970. It tends to use a distinct, brightly-colored art style similar to comic books and pulp science fiction. Besides fantastic technology, it often depicts imagery associated with "traditionally American" values, particularly a belief in heroism, discovery, the nuclear family and the suburban lifestyle. The aesthetic may vary in intensity from a stylized, slightly sci-fi depiction of Mid-century America to a full-blown Tomorrowland where people live in glowing cities on the moon, spacesuits dictate fashion trends, and intergalactic adventure is common. Raygun Gothic typically envisions a brightly-coloured space-age utopian society resembling pulp sci-fi comics. It is the light-hearted and optimistic cousin of Atompunk, whereas it leans on the more dystopian or cynical side of Mid-Century Sci-Fi, often evoking elements of the Cold War, Raygun Gothic emphasizes the potential of technology, especially atomic energy, to improve standards of living. Whether it be seen in theme parks like Tomorrowland, sci-fi adventures like Buzz Lightyear of Star Command, or even the aesthetics of a vintage diner, Raygun Gothic looks to the future with the whimsical hope of the mid-century. Key features of Raygun Gothic include visual elements borrowed from early to mid-century modern architecture, diners, advertisements, scientific instruments, cars, spacecraft, aircraft, boats, and trains. Shiny or chrome metal is prevalent, as are glowing neon lights, curved or streamlined design, midcentury graphics like starbursts, antennae, fins, radar dishes, stylized metal struts and support beams, grates and grille patterns, laser/energy beams, and vibrant colors featured on vehicles, refrigerators, and other metallic objects of the time.',
     categories: ['architectural_styles', 'design_aesthetics'],
@@ -32414,6 +32506,7 @@ export const aesthetics = [
     url: 'https://aesthetics.fandom.com/wiki/Realism',
     name: 'Realism',
     id: 'realism',
+    imageUrl: 'https://static.wikia.nocookie.net/aesthetics/images/7/7c/Realism-4.jpg',
     description:
       "Realism refers to two distinct concepts in art. Primarily, it was a revolutionary art movement that emerged in France in the 1840s in the wake of the 1848 Revolution. As a movement, Realism explicitly rejected the idealized subjects of Neoclassicism and the dramatic emotionalism of Romanticism. Instead, Realist artists sought to depict the world truthfully and objectively, focusing on the unvarnished realities of modern, everyday life. Led by the painter Gustave Courbet, the movement was grounded in the philosophy that artists should only paint what they could physically see and experience, a sentiment captured in his famous declaration, \"I cannot paint an angel because I have never seen one.\" Realist painters turned their attention to subjects previously considered unworthy of fine art: laborers, peasants, the provincial bourgeoisie, and mundane scenes. Works like Courbet's A Burial at Ornans and Jean-François Millet's The Gleaners treated common people and events with the grand scale and serious attention once reserved for historical or religious figures. This elevation of the ordinary was seen as a democratic, and often political, statement that challenged the hierarchical standards of the official French Academy. The movement's commitment to social observation coincided with the rise of realist literature in the works of authors like Flaubert and Balzac. More broadly, the term realism (also known as naturalism or mimesis) refers to a technical approach in art that aims for a precise, detailed, and accurate representation of the visual appearance of objects and scenes. This method is not tied to a specific period and can be seen in the art of various eras, from the Dutch Golden Age to the modern day. The 19th-century Realist movement, however, was defined as much by its choice of subject matter and social philosophy as by its technique. By grounding art in direct observation of the contemporary world, it laid the essential groundwork for future modernist movements, most notably Impressionism.",
     categories: ['art_movements'],
@@ -32462,6 +32555,7 @@ export const aesthetics = [
     url: 'https://aesthetics.fandom.com/wiki/Rebels',
     name: 'Rebels',
     id: 'rebels',
+    imageUrl: 'https://static.wikia.nocookie.net/aesthetics/images/4/4d/ATEEZ.jpg',
     description:
       "In K-Pop, Rebels (frequently referred to as the Bad Boys concept or Boy Crush) is a recurring visual and musical archetype that functions as the male counterpart to the Girl Crush aesthetic. The aesthetic utilizes heavy streetwear, techwear garments, distressed denim, leather jackets, and prominent dark makeup, specifically smokey eyeshadow or thick eyeliner. Music videos employing this concept frequently feature industrial, post-apocalyptic, or underground sets. Musically, the concept integrates hip-hop, trap, and heavy EDM production, often paired with anti-establishment or confrontational lyrical themes. The Rebels concept has its roots from the iconic boy group BIGBANG, who popularized the style, while MONSTA X influenced it's modern form and influencing the 3rd and 4th-gen wave of the concept, pushing extreme boundaries and creating trends with their dark, misfits, edgy, rebellious styles and looks, fever-hype performances, and raw chaotic electronic sound. Other than BIGBANG or MONSTA X, 2nd/early 3rd-gen boy groups such as BTS, B.A.P, ToppDogg or EXO are often cited as semi-pioneers for help pushing the genre even forward in popularity, in a more raw, modern twist, showcasing the concept's potential for future Rebels-inspiring boy groups. The concept gained true momentum as groups/artists like 2PM, Block B, B.A.P or G-Dragon continued to experiment with the aesthetic, takimg the concept to even higher heights, with its dark, bold visuals, rowdy delivery and intense choreography cementing the Rebels/Bad Boys concept as a popular staple in K-pop til this day.",
     categories: [],
@@ -32517,6 +32611,7 @@ export const aesthetics = [
     url: 'https://aesthetics.fandom.com/wiki/Recession_Pop',
     name: 'Recession Pop',
     id: 'recession_pop',
+    imageUrl: 'https://static.wikia.nocookie.net/aesthetics/images/d/d5/Robynbodytalk.jpg',
     description:
       'The aesthetic emerged in the midst of the Great Recession, and its function was to provide a form of cathartic escapism from the economic hardship and anxiety of the era. The term "Recession Pop" was first used in a 2009 Irish Independent article and gained widespread popularity on TikTok in 2024 to describe this specific period in music and culture.[2] The groundwork for Recession Pop was laid between 2006 and 2008, when producer Timbaland pushed pop music in a more futuristic and electronic direction with his work on albums like his solo album Shock Value, Justin Timberlake\'s FutureSex/LoveSounds, and Nelly Furtado\'s Loose. Songs like Flo Rida and T-Pain\'s "Low" (2007) also presaged this new direction. Britney Spears\' album "Blackout" (2007) is also considered a blueprint for electronic dance-pop music moving forward, and its production style would go on to heavily influence future pop musicians. The aesthetic fully coalesced with the global success of Lady Gaga\'s debut album, The Fame (2008). Its lead singles, "Just Dance" and "Poker Face", established the sound and style of the era: an infectious, synth-heavy dance-pop that celebrated partying and escapism. The following years saw a string of hits that defined the genre, including Ke$ha\'s "Tik Tok" (2009), The Black Eyed Peas\' "I Gotta Feeling" (2009), and Katy Perry\'s "Teenage Dream" (2010). Later Electropop hits began incorporating some EDM influences, such as LMFAO\'s "Party Rock Anthem" (2011), PSY\'s "Gangnam Style" (2012), and Ylvis\'s "What Does the Fox Say" (2013).',
     categories: ['design_aesthetics', 'music_genres', 'fashion'],
@@ -32619,6 +32714,7 @@ export const aesthetics = [
     url: 'https://aesthetics.fandom.com/wiki/Regencycore',
     name: 'Regencycore',
     id: 'regencycore',
+    imageUrl: 'https://static.wikia.nocookie.net/aesthetics/images/0/0a/Bridgerton-Season-3-5.webp',
     description:
       "PrincesscoreRegencyRococoRoyalcore Regencycore is an interpretation of the Regency aesthetic originating in the early 2020s. Rather than it being an accurate recreation of the Regency historical period, this fashion style and literary genre utilizes a more modern or over-the-top tone that incorporates Rococo/Baroque and Royalcore aesthetics and literary tropes that would not be true to Regency society. The aesthetic's inspiration, the Regency period in Britain, has been popular and immortalized from Jane Austen's writings. In her novels, she paints a vivid picture of the lifestyles and concerns of Regency women, such as finding a suitable husband, running a household, navigating social situations within Britain's hierarchical society, etc.",
     categories: ['internet_aesthetics', 'fashion_styles'],
@@ -32628,7 +32724,7 @@ export const aesthetics = [
         decade: ['21th_century', '2020s'],
       },
       visualThemes: {
-        colours: ['White', 'pastel colors'],
+        colours: ['white', 'pastels'],
       },
       connections: {
         related: ['baroque', 'princesscore', 'regency', 'rococo', 'royalcore'],
@@ -32643,6 +32739,7 @@ export const aesthetics = [
     url: 'https://aesthetics.fandom.com/wiki/Reggae',
     name: 'Reggae',
     id: 'reggae',
+    imageUrl: 'https://static.wikia.nocookie.net/aesthetics/images/7/79/Reggaemood01.jpg',
     description:
       'Reggae is a Jamaican music genre that emerged in the late 1960s, developing from earlier styles like ska and rocksteady and quickly becoming the island’s dominant popular music. Defined by a moderate tempo, it has a strong, steady four-beat rhythm and a distinctive emphasis on the offbeat (often called the “skank”), typically played by guitar or keyboards while a deep, prominent bass line anchors the sound. It draws on influences from rhythm and blues, calypso, and other Afro-Caribbean and African-derived traditions.[1][2] Beyond its musical traits, reggae functions as a cultural and political voice, often associated with Rastafarian spirituality and themes of social justice, resistance, and the struggles of marginalized communities. Through iconic artists such as Bob Marley, the genre moved from Kingston’s ghettos to global stages in the 1970s, becoming an international symbol of Jamaican identity and broader anti-oppression movements.[1] Reggae originated in Jamaica, where local musicians fused Afro‑Jamaican mento and spiritual drumming traditions with imported American blues and jazz. In the 1950s and early 1960s, this mix produced ska, a unique musical style with a walking bass and an offbeat guitar/piano. As social tensions and urban poverty grew, ska slowed into rocksteady, though it retained the offbeat rhythmic feel. This gradual deceleration, combined with experiments in studio rhythm and sound system culture, set the stage for a new lyrical focus that would be called reggae.[2][3][4][5]',
     categories: ['music_genres'],
@@ -32691,6 +32788,7 @@ export const aesthetics = [
     url: 'https://aesthetics.fandom.com/wiki/Reggaetonero',
     name: 'Reggaetonero',
     id: 'reggaetonero',
+    imageUrl: 'https://static.wikia.nocookie.net/aesthetics/images/0/0e/Reguetoneros-colaboracion.jpg',
     description:
       'Mid-2000s (subculture massification) ChongaCumbieroGangsta RapHip-HopNeoperreoPokemón Reggaetoneros (or Reguetoneros) are a youth subculture and lifestyle that originated in the Caribbean and Latin America in the mid-2000s, coinciding with the mass internationalization of the reggaeton music genre. This subculture is characterized by the combination of athletic streetwear, luxury accessories, and distinctive grooming and adherence to the customs and values disseminated by the music. The subculture is prominent throughout Spanish-speaking countries, particularly in Puerto Rico, the Dominican Republic, Colombia, and Panama.[1]',
     categories: ['music_genres', 'subcultures', 'fashion'],
@@ -32731,6 +32829,7 @@ export const aesthetics = [
     url: 'https://aesthetics.fandom.com/wiki/Renaissance_Revival',
     name: 'Renaissance Revival',
     id: 'renaissance_revival',
+    imageUrl: 'https://static.wikia.nocookie.net/aesthetics/images/b/bb/R-2195662-1462072374-9506.jpg',
     description:
       'EtherealFairycoreFrasurbaneFantasY2KHellenicItalian RenaissanceMid-Century MedievalSepia BlurTudorVintageWhimsigoth Renaissance Revival refers to a trend originating from the 1990s that reinterprets elements from fashion and art of the Renaissance through a cotemporary lens. The aesthetic is defined by imagery reminiscent of the Renaissance era, drawing inspiration from fairytales, Greco-Roman paintings and art styles from the Middle Ages and Elizabethan period. Visuals often use warm muted colors, sepia filters/textures and renaissance script fonts to evoke a sense of antique quality.',
     categories: ['consumer_aesthetics', 'design_aesthetics'],
@@ -32740,8 +32839,8 @@ export const aesthetics = [
         decade: ['20th_century', '1990s'],
       },
       visualThemes: {
-        motifs: ['Corsets', 'Elizabethan ruffs', 'bodices', 'long dresses', 'fairies', ''],
-        colours: ['Gold', 'Brown', 'sepia', 'black'],
+        motifs: ['Corsets', 'Elizabethan ruffs', 'bodices', 'long dresses', 'fairies'],
+        colours: ['gold', 'brown', 'sepia', 'black'],
       },
       connections: {
         related: [
@@ -32769,6 +32868,7 @@ export const aesthetics = [
     url: 'https://aesthetics.fandom.com/wiki/Renovador_Movement',
     name: 'Renovador Movement',
     id: 'renovador_movement',
+    imageUrl: 'https://static.wikia.nocookie.net/aesthetics/images/a/aa/GaleriaPacifico.jpg',
     description:
       'A central figure, Alfonso Daniel Rodríguez Castelao, articulated the group\'s philosophy that art could achieve global relevance precisely through its local character, rather than by abandoning it. This led to an eclectic style where artists adopted formal elements from movements like Cubism, Expressionism, and Surrealism but applied them to Galician subjects, including landscapes, portraits of working people, and scenes of social reality. The movement encompassed painting, innovative sculpture by artists like Francisco Asorey, and a strong tradition of graphic satire, with many of its key figures continuing their work in exile in the Americas following the Spanish Civil War. The cause of the Renovador Movement is rooted in several historical and socio-political events that occurred in the region of Galicia over the centuries. Understanding the historical context behind the movement is pretty much essential to appreciate the motivations and expression  of the artists. During the Middle Ages, the Galician-Portuguese language once came to be the lingua franca accross the Christian kingdoms of the Iberian Peninsula. However, when the kingdoms of Galicia and Leon became part Castile, the Castilian language (nowadays better known as Spanish) was also introduced to the regions. Following the union of kingdoms of Castile and Aragón, the Spanish Empire became an united nation, and the Castilian language became the national language and its use was considered prestigious, unlike other languages spoken within the country (including Galician itself, Catalan, Basque, Aragonese, and Astur-Leonese, as well as countless languages native to overseas colonies). In Galician history, the period when Castilian came to be the dominant language is known as the Séculos Escuros ("Dark Centuries"), corresponding to the 16th to 18th centuries. At the time, the Galician language was hardly used in public administration or literary works, and it didn\'t even have a standarized grammar yet. Galician remained as a language spoken by the lower classes, strictly used in daily life rather than formal contexts.',
     categories: ['architectural_styles', 'art_movements'],
@@ -32819,6 +32919,7 @@ export const aesthetics = [
     url: 'https://aesthetics.fandom.com/wiki/Retrofuturism',
     name: 'Retrofuturism',
     id: 'retrofuturism',
+    imageUrl: 'https://static.wikia.nocookie.net/aesthetics/images/2/24/Retro_futurism.jpg',
     description:
       "As a broad conceptual framework, Retrofuturism encompasses various distinct subgenres, each rooted in a specific historical period's technological outlook. These include Steampunk (Victorian-era visions), Dieselpunk (interwar period, 1920s-1940s visions), Raygun Gothic (Art Deco-influenced future), Space Age (optimistic space race 1950s-1960s visions), Atompunk (Cold War, 1950s-1960s visions), Cassette Futurism (1970s-1980s, late Cold War era), Cyberpunk (1980s-1990s, digital-age visions), Y2K Futurism (late 1990s-early 2000s, tech anticipation), and Frutiger Aero (mid-2000s-early 2010s, eco-friendly tech visions). Each of these subsets focuses on specific technological themes and cultural anxieties from their respective eras of origin, while still operating under the broader Retrofuturist principle. Retrofuturism is a creative movement that looks at “the future” through the lens of the past, focusing on how earlier eras imagined tomorrow rather than on new predictions of what is to come. It shows up in art, design, film, fashion, architecture, and graphics that blend vintage styles (for example, Art Deco, 1930s–1960s modernism, or 1980s chrome and neon) with imagined technologies like flying cars, ray guns, robot servants, and space colonies.[1][2] The movement itself grew out of early‑20th‑century futurist dreams and mid‑century “world of tomorrow” imagery, such as pulp science‑fiction covers, World’s Fair exhibits, and Space Age advertising, but it was named and recognized only much later. Commentators generally note that the term started circulating in the early 1980s, around design and fashion writing that described objects or jewelry as “retro‑futuristic,” with subsequent critical writing in art and media studies solidifying it as a category. By the late 20th century, especially from the 1970s onward, rapid yet disorienting technological change and environmental and political anxieties encouraged artists to revisit older, often naïve techno‑utopian images with either nostalgia, irony, or both.[3]",
     categories: ['architectural_styles', 'art_movements', 'genre_fiction', 'historical'],
@@ -32888,6 +32989,7 @@ export const aesthetics = [
     url: 'https://aesthetics.fandom.com/wiki/Retro_Gamer',
     name: 'Retro Gamer',
     id: 'retro_gamer',
+    imageUrl: 'https://static.wikia.nocookie.net/aesthetics/images/b/bc/Arcade.jpg',
     description:
       'Retro Gamer surrounds things such as video games and gaming-related things such as controllers and other accessories, especially of the retro variety. Content from this aesthetic usually invokes feelings of comfort, contentment, euphoria and nostalgia. Retro Gamer aesthetic visuals include:',
     categories: ['subcultures'],
@@ -32910,6 +33012,7 @@ export const aesthetics = [
     url: 'https://aesthetics.fandom.com/wiki/RGB_Gamer',
     name: 'RGB Gamer',
     id: 'rgb_gamer',
+    imageUrl: 'https://static.wikia.nocookie.net/aesthetics/images/4/46/A03e0ca282a30b54f6679617efe67d81.jpg',
     description:
       'RGB Gamer describes the design trends and subculture surrounding the video gamer community in the 2020s. With the increasing popularity of gaming as a subculture, as well as the rise of e-sports[1], PC-building, and Twitch streaming, the culture is increasingly streamlined and has more professional appeal. This interpretation of gaming is also the default gamer image, at least currently. The major component of this aesthetic is the design of gaming-related products made by companies for electronics and furniture. These designs emphasize sleekness and a certain color palette.',
     categories: ['design_aesthetics', 'subcultures'],
@@ -32936,6 +33039,7 @@ export const aesthetics = [
     url: 'https://aesthetics.fandom.com/wiki/Riot_Grrrl',
     name: 'Riot Grrrl',
     id: 'riot_grrrl',
+    imageUrl: 'https://static.wikia.nocookie.net/aesthetics/images/c/cd/Screenshot_2024-07-27_085937.png',
     description:
       'Riot Grrrl was an underground feminist punk movement that emerged in the early 1990s in the United States, primarily from Washington D.C. and the Pacific Northwest. Characterized by its DIY ethos, the movement combined punk music with feminist politics, challenging sexism, advocating for female empowerment, and addressing topics like domestic violence, discrimination, and rape through its lyrics and activism. Musically, Riot Grrrl bands typically featured standard rock instrumentation, rooted in punk rock with influences from grunge, post-hardcore, and noise rock. The sound was often raw, aggressive, and intentionally unpolished, defined by shouted, confrontational female vocals and distorted guitar work within concise song structures. While some bands adjacent to the movement shared a similar aesthetic, such as grunge acts like Babes in Toyland and L7, they were often not considered part of the broader political movement. Some groups associated with Riot Grrrl also had ties to the Queercore scene. The term "Riot Grrrl" originated from discussions among members of the feminist punk band Bratmobile, Allison Wolfe and Molly Neuman, who coined the phrase "girl riot." Jen Smith contributed the spelling "grrrl," which was further developed by Tobi Vail\'s expression "angry grrrl zines." The deliberate use of "grrrl" replaced the passive connotations of "girl" and conveyed the movement\'s anger and growl-like intensity. The movement gained significant momentum following events like "Girl Night" at the International Pop Underground Convention in Olympia, Washington, on August 20, 1991, which brought together numerous all-female or female-fronted bands and solidified the movement\'s focus on creative autonomy and community building.',
     categories: ['music_genres', 'subcultures'],
@@ -32990,8 +33094,9 @@ export const aesthetics = [
     url: 'https://aesthetics.fandom.com/wiki/Rivethead',
     name: 'Rivethead',
     id: 'rivethead',
+    imageUrl: 'https://static.wikia.nocookie.net/aesthetics/images/b/ba/StevePykeCyberpunks.jpg',
     description:
-      'BondageCybergothCyberpunkElectronic Body MusicFetish GothGothIndustrialMetalheadNeofolkPost-PunkPunk Rivethead is a music-based youth subculture that emerged in North America and Europe during the late 1980s alongside the popularization of electro-industrial, Electronic Body Music (EBM), and industrial rock. Evolving from the broader, more experimental industrial culture of the 1970s, the subculture formed around a utilitarian aesthetic drawing upon military surplus clothing, factory workwear, and cyberpunk literature, using these functional elements to visually mirror the mechanized and dystopian themes of the associated music. Unlike adjacent dark alternative movements, the rivethead subculture maintains a strict connection to post-industrial dance music. Because of visual similarities, specifically the monochromatic palette and use of leather, the subculture is frequently mislabeled by outsiders as "Industrial Goth" or "Military Goth." However, Rivethead remains a distinct reaction to modern industrialization, prioritizing a harsh and utilitarian presentation over the historical romanticism and theatricality typical of the Goth subculture.',
+      'Rivethead is a music-based youth subculture that emerged in North America and Europe during the late 1980s alongside the popularization of electro-industrial, Electronic Body Music (EBM), and industrial rock. Evolving from the broader, more experimental industrial culture of the 1970s, the subculture formed around a utilitarian aesthetic drawing upon military surplus clothing, factory workwear, and cyberpunk literature, using these functional elements to visually mirror the mechanized and dystopian themes of the associated music. Unlike adjacent dark alternative movements, the rivethead subculture maintains a strict connection to post-industrial dance music. Because of visual similarities, specifically the monochromatic palette and use of leather, the subculture is frequently mislabeled by outsiders as "Industrial Goth" or "Military Goth." However, Rivethead remains a distinct reaction to modern industrialization, prioritizing a harsh and utilitarian presentation over the historical romanticism and theatricality typical of the Goth subculture.',
     categories: ['music', 'subcultures', 'fashion'],
     isVisible: true,
     metadata: {
@@ -33057,23 +33162,10 @@ export const aesthetics = [
     },
   },
   {
-    url: 'https://aesthetics.fandom.com/wiki/Roadman',
-    name: '',
-    id: '',
-    description:
-      'Roadman is a contemporary British youth subculture that emerged in London during the early 21st century. It is characterized by its roots in urban working-class communities, a distinct dialect known as Multicultural London English (MLE), and a functional streetwear-based uniform. The term "roadman" refers to someone who is "on the road," a colloquialism for spending significant time on the streets, often involved in social or economic activities within a specific neighborhood. While frequently conflated with the preceding Chav subculture, the Roadman identity is distinct in its geographical origins, racial diversity, and its closer ties to genres like grime, afrobeats, and UK Drill.',
-    categories: [],
-    isVisible: true,
-    metadata: {
-      connections: {},
-      origins: {},
-      timeline: {},
-    },
-  },
-  {
     url: 'https://aesthetics.fandom.com/wiki/Roaring_Twenties',
     name: 'Roaring Twenties',
     id: 'roaring_twenties',
+    imageUrl: 'http://static.wikia.nocookie.net/aesthetics/images/5/58/Roaring_20s.jpg',
     description:
       'The Roaring Twenties refers to the decade of the 1920s in the Western world, a period of dramatic social, artistic, and cultural change that followed the end of World War I. Fueled by post-war economic prosperity and rapid technological innovation, the era was characterized by a widespread embrace of modernity and a rejection of traditional Victorian-era values. This period, also known as the "Jazz Age," saw the explosion of jazz music, the rise of the Flapper as a symbol of new female independence, and the visual splendor of the Art Deco style in design and architecture. It was a time of unprecedented social liberation, but also of significant cultural tension, marked by Prohibition in the United States, which led to the rise of illegal speakeasies and organized crime. The exuberant prosperity and cultural dynamism of the decade came to an abrupt end with the Wall Street Crash of 1929 and the beginning of the Great Depression. The Roaring Twenties, sometimes stylized as the Roarin\' 20s, refers to the decade of the 1920s in Western society and Western culture. It was a period of economic prosperity with a distinctive cultural edge in the United States and Europe, particularly in major cities such as Berlin, Chicago, London, Los Angeles, New York City, Paris, Shanghai, and Sydney. In France, the decade was known as the années folles ("crazy years"), emphasizing the era\'s social, artistic and cultural dynamism. Jazz blossomed, the flapper redefined the modern look for British and American women, and Art Deco peaked. The Roaring 20s saw the emergence of new technologies to the middle class due to mass production. For this reason, the radio and automobile are prominent in the images of the 1920s middle class home. It also differentiates this era from many of the past, increasing its uniqueness. These two devices are also important to the aesthetic because cars had a great importance in the novel The Great Gatsby, and radios-played music, one of the most distinctive motifs of the time period.',
     categories: ['historical'],
@@ -33119,6 +33211,7 @@ export const aesthetics = [
     url: 'https://aesthetics.fandom.com/wiki/Robotcore',
     name: 'Robotcore',
     id: 'robotcore',
+    imageUrl: 'https://static.wikia.nocookie.net/aesthetics/images/6/67/Robotcore_Moodboard_1.png',
     description:
       "Robotcore is an aesthetic utilizing the more technical and complex elements of technological aesthetics, with people using them to express their fascination of these ideas and motifs. This aesthetic is sometimes used to personify and add anthropomorphic qualities to robots, computers, and AI. The aesthetic is based on futurism and robots; it is a glimpse into a world where robots dominate and rule the world, how their society would function, and how it would look. The aesthetic puts heavy emphasis on robots as the name suggests, however it is more than just robots; it's the tech and the parts and the idea of robot sentience, and the colors and civilization they create. Robotcore is centered around, as its name suggests, robots; their roots trace back to the late 1930's and 1940's where innovators invested and worked on the first automation machines. Over time with the attention of robots, the machines gained attention being nicknamed \"robots\", a term that originated from a Czech play named R.U.R. (Rossum's Universal Robots). The advancements of coding, technology, and robots in general helped contribute to playing a part in boosting the popularity of these machines. Ever since the '60s, many people have opposed the idea of the existence of robots; some people even fear them, often being concerned about having their jobs taken over, therefore decreasing their income. These people still exist and express their beliefs to this day, especially in regards to many developments in technology that allow robots to perform a variety of tasks (some of which have brought up ethical concerns around the world). People who create and build robots are known as innovators; they ended up leading new generations to become fascinated with robots of all kinds. Robotcore is the aesthetic name for a community filled to the brim with the aforementioned new generations of people, most of whom don't have the skills or degree to work on professional robots but still want to be involved in the robotics world in some shape or form. People who identify with the Robotcore aesthetic often relate to robots, doing activities such as listening to electronic music or going even as far as to act and/or present as one. Like Fairycore, the aesthetic is popular with botkin.",
     categories: [],
@@ -33146,6 +33239,7 @@ export const aesthetics = [
     url: 'https://aesthetics.fandom.com/wiki/Rockabilly',
     name: 'Rockabilly',
     id: 'rockabilly',
+    imageUrl: 'https://static.wikia.nocookie.net/aesthetics/images/c/c5/Rockabilly_002.jpg',
     description:
       'BikerBurlesqueCountryDinerGreaserHalbstarkeHorror PunkHot RodOld HollywoodPin-upRaggareStilyagi The rockabilly subculture also encompasses a distinct aesthetic rooted in 1950s Americana. This visual style often includes elements like vintage cars, motorcycles, and imagery associated with diners and soda fountains. Fashion commonly features wide dresses, tight jeans, leather jackets, and specific hairstyles such as men\'s slicked-back "greaser" dos and women\'s pinned-up hair. The color palette frequently incorporates white, red, and black. While drawing from 1950s styles, the aesthetic can also include modern elements like tattoos and piercings. While its initial widespread popularity declined in the late 1950s, rockabilly experienced a revival in the late 1970s and early 1980s. The subculture continues to exist in the 21st century, with enthusiasts often embracing a lifestyle and fashion inspired by 1950s rock and roll, sometimes exhibiting exaggerated motifs of that era. Rockabilly has influenced other genres, including punk rock, and has spawned various sub-styles, such as Psychobilly and Gothabilly.',
     categories: ['music_genres', 'subcultures', 'fashion'],
@@ -33209,6 +33303,7 @@ export const aesthetics = [
     url: 'https://aesthetics.fandom.com/wiki/Rockers',
     name: 'Rockers',
     id: 'rockers',
+    imageUrl: 'https://static.wikia.nocookie.net/aesthetics/images/8/88/Rockers_subculture.jpg',
     description:
       'Rockers were a young, working-class youth subculture that emerged in the United Kingdom during the 1950s and flourished in the early to mid-1960s. The identity was defined by an appreciation for 1950s American rock and roll music and a passion for customizing and racing British café racer motorcycles. Known alternately as "Leather Boys" for their attire or "Ton-Up Boys" for their practice of riding at speeds over 100 mph ("doing the ton"), the Rockers cultivated a rebellious, masculine identity that stood in opposition to mainstream British society and, most famously, in direct conflict with their rivals, the Mods. Acid House • Afropunk • B-Boy • Botswana Metalheads • Cybergoth • Electronic Body Music • Emo • Funk •  Gabber • Goth • Gothic Belly Dance • Greaser • Grunge • Hip-Hop • Hippie •  Industrial • Juggalo • Madchester • Metalhead • New Beat • New Rave • New Romantic • Northern Soul • Punk • Psychobilly • Rave • Rivethead • Reggaetonero • Riot Grrrl • Rockabilly • Rockers • Rude Boy • UK Drill • Visual Kei Ballroom Culture • Biker • Black Ivy • Bohemian • Bondage • Bro Culture • Bro Hoe • Casuals • Club Kids • Cyberdelia • Decora • Disco • Flapper • Gutter Punk • Hot Rod • Hypebeast • Leather Subculture • Lolita • Mallgoth • Mall Ninja • Mod • Mod Revival • Nerd • Preppy • Scene • Skater • Steampunk • Surfer • Teddy Boys • Tomboy • Ultras • Wota',
     categories: ['music', 'subcultures', 'fashion'],
@@ -33246,6 +33341,7 @@ export const aesthetics = [
     url: 'https://aesthetics.fandom.com/wiki/Rocketpunk',
     name: 'Rocketpunk',
     id: 'rocketpunk',
+    imageUrl: 'https://static.wikia.nocookie.net/aesthetics/images/b/bc/Sci-fi_Alex_Schomburg.jpg',
     description:
       "2001: A Space OdysseyKerbal Space ProgramInterstellarThe MartianFor All Mankind The Rocketpunk aesthetic is based on retro-futuristic or near-futuristic depictions of spaceflight, space exploration, and settlement, usually with realistic (as in hard science fiction) or semi-realistic science and engineering considerations. As quoted by Winchell Chung's Atomic Rockets website, Rick Robinson of the Rocketpunk Manifesto blog specifically defines the term as retro-futuristic visions of space travel from the 1950s: advanced and cheap aerospace technology with primitive electronics.[1]",
     categories: [],
@@ -33287,6 +33383,7 @@ export const aesthetics = [
     url: 'https://aesthetics.fandom.com/wiki/Rockstar_GF',
     name: 'Rockstar Girlfriend',
     id: 'rockstar_girlfriend',
+    imageUrl: 'https://static.wikia.nocookie.net/aesthetics/images/1/1d/ROCKSTAR_GF_etsy..png/',
     description:
       "The Rockstar GF aesthetic is one that seeks to emulate the 24/7 lifestyles and clothing styles of the girlfriends of famous musicians.[1] This style combines elements of edgy and grunge fashion with feminine and romantic touches. This effortlessly cool look is often inspired by the fashions of the '70s and '80s. This aesthetic is one that rose in popularity through TikTok. In post-lockdown 2022, the idea of hedonism and non-stop partying has naturally made its comeback[1]. The Rockstar GF aesthetic encapsulates this idea, and much more. Although this aesthetic has risen in popularity recently, the aesthetic has existed for much longer. As Sophie Wilson writes for The Face, “The rockstar girlfriend has existed for as long as the modern rockstar. In the 1960s, OG rockstar girlfriends Anita Pallenberg and Pattie Boyd dated members of the Rolling Stones and the Beatles [...]”[1]",
     categories: [],
@@ -33374,6 +33471,7 @@ export const aesthetics = [
     url: 'https://aesthetics.fandom.com/wiki/Rococopunk',
     name: 'Rococopunk',
     id: 'rococopunk',
+    imageUrl: 'https://static.wikia.nocookie.net/aesthetics/images/1/10/Rococopunk.jpg',
     description:
       'Rococopunk emerged from costuming groups in the early 2010s, presented as a reaction to the perceived commercialization and seriousness of the Steampunk subculture. The aesthetic is not intended to be historically accurate but rather serves as a playful reinterpretation of history.[2] Adherents of the style emphasize a sense of humor about their costumes and the subculture itself. Participants have described themselves with the portmanteau "classholes," a term meant to capture the fusion of aristocratic Rococo visuals with a defiant punk demeanor.[2] The core philosophy celebrates decadence and excess, deliberately contrasting with the more industrial and subdued color palettes often associated with Steampunk.[1] The visual style of Rococopunk is a literal fusion of Rococo and punk elements. The clothing, which is typically handmade by its wearers, draws from the late Baroque period, incorporating frilly garments, elaborate silhouettes, and colorful fabrics.[2][1] These historical components are then combined with punk fashion staples, such as mohawks and other anti-authoritarian stylistic choices. While the costuming movement is distinct, parallels can be drawn to the work of fashion designer Vivienne Westwood, who frequently blended 18th-century aesthetics with punk stylings. The performer Prince Poppycock, known from his appearance on The X Factor, has also presented a visual style that aligns with the Rococopunk aesthetic. The aesthetic has also been the subject of dedicated art projects, such as The RococoPunk Project by Fifth Wall Media, which created a large-scale "digital baroque painting" featuring numerous subjects in the style.[3]',
     categories: ['internet_aesthetics', 'fashion'],
@@ -33401,6 +33499,7 @@ export const aesthetics = [
     url: 'https://aesthetics.fandom.com/wiki/Rolinga',
     name: 'Rolinga',
     id: 'rolinga',
+    imageUrl: 'https://static.wikia.nocookie.net/aesthetics/images/a/a8/Rolingas.jpg',
     description:
       'Key fashion elements include flared jeans, band t-shirts (especially with the "tongue and lips" logo), and platform sneakers, but the most iconic feature is the haircut: a long, shaggy mullet with a thick fringe, known locally as the flequillo rolinga. The subculture is also tied to a specific subgenre of Argentine rock music called "rock rolinga," which emulates the blues-based sound of The Stones. The movement is strongly associated with a working-class, suburban, and neighborhood-centric (barrio) identity, often intertwined with football culture. One of the characteristics of rolingas is their stereotypical aesthetics. However, in recent years the Rastafari and Villero culture influenced her. His fans usually wear Mick Jagger\'s bangs in the \'60s (some use dreadlocks), worn sneakers (generally Topper), a frayed scarf around their neck, a T-shirt from a movement band or with the Rolling Stones\' tongue. Stones and in some cases, necklaces on the neck and bracelets on the wrists; They also usually use jackets and jogging pants, although they also use jamaican pants or jeans, in any case, they may be torn.',
     categories: ['subcultures'],
@@ -33437,6 +33536,8 @@ export const aesthetics = [
     url: 'https://aesthetics.fandom.com/wiki/Romanesque',
     name: 'Romanesque',
     id: 'romanesque',
+    imageUrl:
+      'https://static.wikia.nocookie.net/aesthetics/images/2/28/Maria_Laach_Abbey%2C_Glees%2C_Germany%2C_unknown_architect%2C_1093-1230.jpeg',
     description:
       'Romanesque is the style of art and architecture that flourished across Europe from approximately the 11th century until the emergence of the Gothic style in the mid-12th century. Coined by 19th-century art historians, the term "Romanesque" refers to the style\'s inheritance of features from ancient Roman architecture, most notably the use of the rounded arch. As the first major pan-European style of the Middle Ages, it is primarily associated with the construction of churches, monasteries, and castles, reflecting the power of the Church and the feudal system. The architecture is characterized by its massive, thick walls, sturdy piers, large towers, and barrel vaults, which created a sense of immense, grounded stability and fortress-like security. Romanesque sculpture and painting, found on church portals and in frescoes, were not naturalistic; instead, figures were often elongated or distorted to fit the architectural space and to convey symbolic religious narratives with clarity and emotional force.',
     categories: ['architectural_styles', 'art_movements', 'historical'],
@@ -33551,6 +33652,7 @@ export const aesthetics = [
     url: 'https://aesthetics.fandom.com/wiki/Romantic_Chinese_Village',
     name: 'Romantic Chinese Village',
     id: 'romantic_chinese_village',
+    imageUrl: 'https://static.wikia.nocookie.net/aesthetics/images/a/a8/Chinese_village_1.jpg',
     description:
       'The appreciation of rural living in China has been a common motif throughout history and culture, with the agriculture, material culture, and landscape being admired in literature, poetry, and art. Romanticized depictions of rural Chinese villages have become incredibly popular, specifically on Douyin, the Chinese equivalent to TikTok. This aesthetic describes the new emphasis on traditional handmade cooking and crafting with farmed or foraged ingredients made with non-industrial tools, filmed along with cinematic shots of the landscape and traditional architecture of China. This page describes the contemporary trend online, rather than the development and true image of Chinese village life throughout history.',
     categories: ['internet_aesthetics', 'location_based_aesthetics'],
@@ -34527,6 +34629,7 @@ export const aesthetics = [
     url: 'https://aesthetics.fandom.com/wiki/Seiz_Breur',
     name: 'Seiz Breur',
     id: 'seiz_breur',
+    imageUrl: 'https://static.wikia.nocookie.net/aesthetics/images/c/c7/Langleiz.jpg',
     description:
       'Seiz Breur (Breton for "The Seven Brothers") was an art movement that originated in Brittany, France, and was active between 1923 and 1947. Initiated by the artist Jeanne Malivel, a professor at the Rennes School of Fine Arts, the movement sought to create a modern Breton aesthetic by synthesizing contemporary European art trends, such as those of the Arts and Crafts movement and the Bauhaus, with the region\'s distinct cultural and linguistic heritage.[1] The group, which grew to include artists like René-Yves Creston and Xavier de Langlais, rejected what they considered the superficial and touristic portrayal of Brittany. Instead, they aimed to express a "living soul" of Breton art that was both authentic and modern. This artistic renewal was closely aligned with the broader Breton political movement, which advocated for cultural and linguistic revival in the face of French state centralization. Seiz Breur was multidisciplinary, with members working in wood engraving, furniture design, architecture, ceramics, and graphic design, using both traditional motifs like the triskelion and Celtic knots alongside modern techniques. While the movement dissolved following World War II, it is considered to have laid the groundwork for present-day Breton art, but its historical perception is complicated by the political collaboration of some of its members during the Nazi occupation of France.',
     categories: ['architectural_styles', 'art_movements', 'design_aesthetics'],
@@ -34881,7 +34984,7 @@ export const aesthetics = [
         values: ['Glamour', 'femininity', 'consumerism', 'urban lifestyle', 'playful indulgence'],
       },
       connections: {
-        related: ['curly_girly', 'mc', 'bling', 'parisian_girly', 'vectordelia'],
+        related: ['curly_girly', 'mcbling', 'parisian_girly', 'vectordelia'],
       },
       mediaCulture: {
         brands: [
@@ -38000,7 +38103,7 @@ export const aesthetics = [
         figures: ["New Boy'z", 'Soulja Boy', 'Tyga', 'Chris Brown', 'Odd Future'],
       },
       timeline: {
-        preceded: ['mc', 'bling', 'hip-hop', 'bro_hoe'],
+        preceded: ['mcbling', 'hip-hop', 'bro_hoe'],
         succeeded: ['hypebeast'],
       },
     },
@@ -41584,7 +41687,7 @@ export const aesthetics = [
         values: ['Harmony', 'whimsy', 'elegance', 'melody', 'magical transformation'],
       },
       connections: {
-        related: ['frutiger_aero', 'vectorbloom', 'vectordelia_parentmagical_girl', 'mc', 'bling', 'pianocore'],
+        related: ['frutiger_aero', 'vectorbloom', 'vectordelia_parentmagical_girl', 'mcbling', 'pianocore'],
       },
       mediaCulture: {
         media: [
@@ -43922,6 +44025,8 @@ export const aesthetics = [
     url: 'https://aesthetics.fandom.com/wiki/Zakopane_Style',
     name: 'Zakopane Style',
     id: 'zakopane_style',
+    imageUrl:
+      'https://static.wikia.nocookie.net/aesthetics/images/0/00/Willa_%E2%80%9EOksza%E2%80%9D%2C_Zakopane%2C_A-68_M_02.jpg',
     description:
       'Stanisław Witkiewicz, born in Pašiaušė, present-day Lithuania, created this synthesis and is recognized as the founder of the Zakopane Style. The style emerged around 1890, as Witkiewicz aimed to establish a foundation for modern Polish national architecture rooted in Podhale art, connected to the Young Poland art movement. Promoters of this style included W. Matlakowski, W. Eljasz-Radzikowski, and J. Wojciechowski, with the "Przegląd Zakopiański" journal, published from 1899 to 1906, serving as a platform for its popularization. The style predominantly gained traction in the construction of guesthouses. Zakopane Style design also extends to furniture, household items, clothing, porcelain products, musical instruments, and souvenirs.[2] Elements of Goral culture permeated the works of Polish composers and writers. In its broader sense, the term "Zakopane Style" can also encompass all manifestations of Podhale folk art\'s influence on national culture.[3] The Zakopane Style, conceived by Stanisław Witkiewicz in the late 19th century, was a pioneering Polish national style inspired by the Arts and Crafts movement and the vernacular architecture of the Podhale region. Witkiewicz, who settled in Zakopane in 1890, sought to create a modern Polish architectural style rooted in the traditions of the Goral people. His vision extended beyond theory, leading to the construction of numerous buildings, primarily guesthouses, in Zakopane and other parts of Poland under Austrian and Russian partition.[2]',
     categories: ['architectural_styles'],
@@ -44015,7 +44120,7 @@ export const aesthetics = [
         ],
       },
       connections: {
-        related: ['chav', 'hipness_purgatory', 'juggalo', 'kitsch', 'mc', 'bling', 'rave'],
+        related: ['chav', 'hipness_purgatory', 'juggalo', 'kitsch', 'mcbling', 'rave'],
       },
       mediaCulture: {
         figures: ['Die Antwoord (Ninja and Yolandi Visser)', 'Jack Parow'],
@@ -44027,6 +44132,7 @@ export const aesthetics = [
     url: 'https://aesthetics.fandom.com/wiki/Zenitism',
     name: 'Zenitism',
     id: 'zenitism',
+    imageUrl: 'https://static.wikia.nocookie.net/aesthetics/images/9/98/Zenitism_%283%29.jpg',
     description:
       'Zenitism\'s core philosophy was the concept of the "Barbarogenius," a term Micić coined to describe the creative potential of the Balkan peoples. He argued that the supposedly "barbaric," untamed spirit of the Balkans could spiritually rejuvenate a decadent and overly rational Western Europe. The movement\'s aim was to synthesize the "primitive" energy of Eastern Europe with the technological modernity of the West, creating a new, unified European culture. The visual style of Zenitism drew heavily on the geometric abstraction of Constructivism and Cubism, as well as the dynamic compositions of Futurism. This aesthetic, however, was often blended with elements from Balkan folklore and Orthodox Christian art. While Zenitists celebrated the machine, the city, and speed in a manner similar to the Futurists, they sharply diverged in their political and social views. In the aftermath of World War I, Zenitism was fundamentally anti-militarist and humanist, rejecting the glorification of war that was central to Italian Futurism. The movement ended in 1926 when the ZENIT magazine was banned by Yugoslav authorities for its leftist political leanings. Zenitism emerged in the aftermath of World War I, founded by the writer and artist Ljubomir Micić in 1921 in what was then the Kingdom of Serbs, Croats, and Slovenes (later Yugoslavia). The movement\'s ideas were first articulated in the "Zenitist Manifesto" and promoted through its international magazine, ZENIT. The journal was initially published in Zagreb (1921–1923) before relocating to Belgrade (1924–1926), where it became a significant platform for avant-garde artists from across Europe. Through the magazine, the Zenitists connected with figures from movements like Constructivism, Expressionism, and Dadaism, establishing themselves as a notable node in the European experimental art network. The movement came to an abrupt end in 1926 when the Yugoslav authorities banned the final issue of ZENIT for its leftist and socio-critical content.',
     categories: ['art_movements', 'historical'],
@@ -44070,8 +44176,9 @@ export const aesthetics = [
     url: 'https://aesthetics.fandom.com/wiki/Zen-X',
     name: 'Zen-X',
     id: 'zen-x',
+    imageUrl: 'https://static.wikia.nocookie.net/aesthetics/images/5/53/ZENX.jpg',
     description:
-      'FrasurbaneGen X Soft ClubGlobal Village CoffeehouseJapandiRusticShabby ChicTranquil SerenityTechnozenTuscan Rustic The 1980s was seen as a decade of abundance. A booming economy fostered a culture of materialism and consumption. Music transformed into a visual medium with the launch of MTV in 1981, and the high-stakes investing of Wall Street created the subcultures of Yuppies and Power Dressing. The design trends were neon, loud, and patterned, with heavy makeup, ostentatious jewelry, and big hair becoming the standard. As a result of this decade of opulence, the 1990s was different -- a little more down-to-earth in some ways, a little more counterculture in others. After the discovery of the Antarctic ozone hole and the ban of the chemical hairsprays of the 80s that contributed to it, combined with the United Nations reporting on climate change and recommending that CO2 emissions be reduced worldwide, the youth of the 90s became much more environmentally conscious as well. In 1990, 76% of Americans identified themselves as "environmentalists."',
+      'Zen-X is an aesthetic that emerged as a reaction to the excess of the 1980s, and as a part of the renewed environmentalist movement of the 1990s, alongside Eco-Beige. This aesthetic is characterized by its usage of Zen Buddhism, natural materials such as bamboo, grass, and flowing water, imagery of yoga and Zen gardens, and the incorporation of Japanese architecture and design elements.',
     categories: ['consumer_aesthetics'],
     isVisible: true,
     metadata: {
@@ -44117,12 +44224,12 @@ export const aesthetics = [
         creator: ['Various horror writers and movie directors'],
       },
       visualThemes: {
-        motifs: ['Meat', 'torn clothes', 'empty cities', 'post-apocalyptic scenery', 'weapons (especially firearms)'],
+        motifs: ['meat', 'torn clothes', 'empty cities', 'post-apocalyptic scenery', 'weapons (especially firearms)'],
         colours: ['Faded and dull colors', 'reds', 'greens', 'purples', 'teals', 'pinks'],
-        values: ['Fatigue', 'hunger', 'survival'],
+        values: ['fatigue', 'hunger', 'survival'],
       },
       connections: {
-        related: ['grunge', 'horror_punk', 'post-apocalyptic'],
+        related: ['grunge', 'horror_punk', 'post_apocalyptic'],
       },
       timeline: {},
     },

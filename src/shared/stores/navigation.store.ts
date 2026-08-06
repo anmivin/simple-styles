@@ -4,6 +4,7 @@ import { Paths, SubMenu } from '@shared/constants/routes';
 import type { MenuProps } from 'antd';
 import useWardrobe from './wardrobe.store';
 import type { CategoryVariants } from '@shared/types';
+import useAesthetics from './aesthetics.store';
 
 interface MenuConfig {
   sideBarItems: MenuProps['items'];
@@ -23,8 +24,11 @@ const useNavigationStore = create<NavigationStore>((set) => ({
   updateMenuConfig: (path) => {
     const configs: Record<Paths, MenuConfig> = {
       [Paths.aesthetics]: {
-        sideBarItems: [],
-        onSidebarItemClick: (info) => {},
+        sideBarItems: SubMenu[Paths.aesthetics],
+        onSidebarItemClick: (info) => {
+          console.log(info);
+          useAesthetics.getState().setFilters;
+        },
       },
 
       [Paths.beauty]: {

@@ -1,4 +1,4 @@
-import { useCallback, useEffect, useMemo, type ReactNode } from 'react';
+import { useEffect, type ReactNode } from 'react';
 
 import { Link, useLocation } from 'react-router-dom';
 
@@ -30,13 +30,7 @@ const Layout = ({ children }: { children: ReactNode }) => {
   return (
     <AntLayout>
       <Header style={{ display: 'flex', alignItems: 'center' }}>
-        <Menu
-          theme="dark"
-          mode="horizontal"
-          defaultSelectedKeys={['2']}
-          items={items1}
-          style={{ flex: 1, minWidth: 0 }}
-        />
+        <Menu theme="dark" mode="horizontal" items={items1} style={{ flex: 1, minWidth: 0 }} />
         <Link to={Paths.profile} key={'profile'}>
           <UserOutlined />
         </Link>

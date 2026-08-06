@@ -1,12 +1,14 @@
-import type { AestheticProps } from '@shared/types';
+import type { AestheticProps, SubDecades, Decades } from '@shared/types';
 import { create } from 'zustand';
 import { aesthetics } from '@shared/constants/aesthetics';
 
-interface FiltersProps {}
+interface FiltersProps {
+  decades: (SubDecades | Decades)[];
+}
 interface AestheticsStoreProps {
   items: AestheticProps[];
   filters: FiltersProps;
-  setFilters: (props: FiltersProps) => void;
+  setFilters: (props: Partial<FiltersProps>) => void;
 
   currentAesthetic: AestheticProps | null;
   setCurrentAesthetic: (props: AestheticProps | null) => void;
@@ -14,9 +16,9 @@ interface AestheticsStoreProps {
 
 const useAesthetics = create<AestheticsStoreProps>((set) => ({
   items: aesthetics,
-  filters: {},
+  filters: { decades: [] },
   setFilters: (props) => {
-    set({ filters: props });
+    set((state) => ({ filters: { ...state.filters, ...props } }));
     //set({ items: mockitems[props] });
   },
 

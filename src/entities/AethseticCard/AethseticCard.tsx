@@ -18,6 +18,7 @@ const AethseticCard = ({ aesthetic }: AethseticCardProps) => {
         style={{ objectFit: 'cover' }}
       />
       <Typography.Text>{aesthetic.name}</Typography.Text>
+      <a target="_blank" href={aesthetic.url} />
     </StyledCard>
   );
 };

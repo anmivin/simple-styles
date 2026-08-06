@@ -1,0 +1,806 @@
+import type { AestheticProps } from '@shared/types';
+
+export const punkgenre: AestheticProps[] = [
+  {
+    url: 'https://aesthetics.fandom.com/wiki/Aetherpunk',
+    name: 'Aetherpunk',
+    id: 'aetherpunk',
+    imageUrl: 'https://static.wikia.nocookie.net/aesthetics/images/e/e6/Aetherpunk_city.jpg',
+    description:
+      "Aetherpunk or Arcanepunk is probably one of the most diverse punk genres. High fantasy magic creates technology more befitting of a sci-fi world, from magical sky-ships to magical powered weapons. Architecture has gilded gold, enchanted lighting, stained glass art, and ancient pagan imagery; Think Asgard from the Marvel Franchise. But, most importantly, it is a rather new genre that is similar to Solarpunk as the 'Punk' doesn't come from its dystopian social exploration nature but instead its utopian social elevation nature that looks to help people who are suffering and bring a world that is inherently good. Utopian fiction can still have negative themes such as Adventure Time's Lich which acts as the antagonist and is usually in the form of a Dark Lord like Lord of the Rings. The exact color of the so-called aether may vary between examples. In the Kaladesh Plane from Magic the Gathering, the aether has a distinct neon blue, similar to Arcane's upper-class utopian city Piltover. The Undercity, on the other hand, has a green tinge or as another wiki editor described it \"Green everywhere, just green things everywhere.\" This darker, undercity variety can also be seen in video games like Bioshock. Depending on the universe, aether may be a naturally occurring phenomenon or a scientifically harnessed one, and colors are often used to differentiate this attitude. This juxtaposition can often be used as a key story element for aetherpunk worlds. Conflict can arise between those who are in tune with natural aether, those who harness and exploit aether, and all the questions about who is able and allowed to access this fundamental, world changing resource gives rise to rebellious factions with a variety of motivations. It also commonly uses stone and gold for most structures with the emphasis being on the gold as well as large amounts of pagan imagery.",
+    categories: ['genre_fiction'],
+    isVisible: true,
+    metadata: {
+      origins: {
+        otherNames: ['Arcanepunk', 'Magicpunk'],
+      },
+      visualThemes: {
+        motifs: ['Nature', 'Pagan Imagery', 'Gold everywhere'],
+        values: ['Utopianism', 'A fight against an evil dark force but not an industrial one', ''],
+      },
+      connections: {
+        related: ['dungeonpunk', 'fantasy', 'steampunk'],
+      },
+      timeline: {},
+    },
+  },
+  {
+    url: 'https://aesthetics.fandom.com/wiki/Atompunk',
+    name: 'Atompunk',
+    id: 'atompunk',
+    imageUrl: 'https://static.wikia.nocookie.net/aesthetics/images/4/4a/Atom8.jpg',
+    description:
+      "The Atompunk aesthetic originated from the Raygun Gothic and Googie aesthetics being born from the eccentric but brilliant mind of Philip K Dick with the book known as Solar Lottery. It is the dark underbelly of that aesthetic and was created as a way to vent frustration at 1950s and 60s American society, acting as the counterculture to the typically utopian or otherwise non-dystopian stories that were popular at the time. The term Atompunk was coined after Cyberpunk was invented, but it has existed long before the aesthetic made dystopian stories popular, similar to Dieselpunk and works such as Metropolis and Things to Come. What differentiates Atompunk to the non-dystopian 50s/60s retrofuturism of Raygun Gothic is the '-punk' suffix. While some consider its meaning to just being connected to the Punk movement, like Cyberpunk, that's a misattribution. Instead, the term -punk refers to how countercultural it was in its context. Steampunk was countercultural in the sense that it was the development of a completely unique and new genre that oftentimes defied societal norms. Dieselpunk consists of two aesthetics: Ottensian Dieselpunk/Decopunk and Piecraftian Dieselpunk (every other part of the Dieselpunk genre like Brazil, Metropolis, Things To Come, etc.) which were created as counterculture in their respective genres; Ottensian after World War 2, and Piecraftian during and before World War 2. Overall, while Raygun Gothic is more of a celebration of its technological advancements and not something designed to push against the culture, Atompunk was designed as counterculture to that zeitgeist. The most well-known example of this aesthetic in the present day is the Fallout series, which takes influences from early-to-mid Atompunk media such as 2000 AD and Do Androids Dream of Electric Sheep.",
+    categories: ['genre_fiction', 'fashion'],
+    isVisible: true,
+    metadata: {
+      origins: {
+        otherNames: ['Raypunk'],
+        decade: ['20th_century', '1950s'],
+      },
+      visualThemes: {
+        motifs: ['Nuclear-based power', 'space travel', 'hover technology', 'bright colours'],
+        values: ['Endless technological advancement', 'pulp comic vibes', 'pessimistic views'],
+      },
+      connections: {
+        related: [
+          'cyberpunk',
+          'decopunk',
+          'dieselpunk',
+          'modernism',
+          'punk',
+          'raygun_gothic_polar_oppositeretrofuturism',
+          'rocketpunk',
+          'space_age',
+          'atomic_age',
+          'googie',
+          'mid-century_modern',
+        ],
+      },
+      mediaCulture: {
+        media: ['Futurama and Red Dwarf'],
+      },
+      timeline: {},
+    },
+  },
+  {
+    url: 'https://aesthetics.fandom.com/wiki/Biopunk',
+    name: 'Biopunk',
+    id: 'biopunk',
+    imageUrl: 'https://static.wikia.nocookie.net/aesthetics/images/7/76/Biopunk-building.jpg',
+    description:
+      "Common themes in biopunk include: Visually, Biopunk shares many similarities with Cyberpunk, but may blend dystopian futurism with an organic, often unsettling biological architecture which create environments that feel both advanced and alive. From sprawling neon lit cityscapes where biotech clinics operate like tattoo parlors, to H. R. Giger's biomechanical art, there is often a contrast between cold laboratory sterilization and organic chaos. The color palette incorporates shadowy grays, sickly greens, yellows, and browns, with neon bio-luminescent blues, purples, and pinks piercing inky darkness. As the aesthetic itself stems from Cyberpunk, so is the fashion surrounding Biopunk. They share Darkwear and Techwear inspiration, with Biopunk putting an emphasis on practical, scientific outfits.",
+    categories: ['genre_fiction'],
+    isVisible: true,
+    metadata: {
+      visualThemes: {
+        values: ['Genetic manipulation', 'biotechnology'],
+      },
+      connections: {
+        related: [
+          'cybergoth',
+          'cyberprep',
+          'cyberpunk',
+          'dieselpunk',
+          'science_academia',
+          'seapunk',
+          'solarpunk',
+          'stalker',
+          'steampunk',
+        ],
+      },
+      mediaCulture: {
+        media: ['Resident Evil', 'Parasite Eve', 'Akira', 'Neon Genesis Evangelion', 'Elfen Lied', 'Stranger Things'],
+        figures: ['Hans Rudolf Giger'],
+      },
+      origins: {},
+      timeline: {},
+    },
+  },
+  {
+    url: 'https://aesthetics.fandom.com/wiki/Clockpunk',
+    name: 'Clockpunk',
+    id: 'clockpunk',
+    imageUrl: 'https://static.wikia.nocookie.net/aesthetics/images/9/92/Vo0yv9ybof5c1.webp',
+    description:
+      'Clockpunk is a subgenre of speculative fiction similar to Steampunk that imagines a world where technology is based on Renaissance-era clockwork mechanics rather than steam power or electricity, being more surrealist than the latter. Drawing its aesthetic from the Italian Renaissance and Baroque periods (roughly the 14th through 17th centuries), Clockpunk deals with the potential of intricate gears, springs, and levers to create advanced machinery.[1] The Clockpunk aesthetic is inspired by pre-industrial craftsmanship. Clockpunk technology is purely mechanical, relying on the intricate interplay of gears, springs, and levers. Common inventions in Clockpunk settings include automatons (clockwork robots), ornithopters (flying machines with flapping wings), and other complex devices powered by winding mechanisms.[1] Because the energy stored in a spring is limited, Clockpunk fiction often addresses the issue of power by incorporating fantastical elements that were part of the Renaissance worldview, such as alchemy or magic, to explain how its complex machines function.[1]',
+    categories: ['genre_fiction'],
+    isVisible: true,
+    metadata: {
+      origins: {
+        otherNames: ['Machinepunk'],
+        decade: ['14th_century', '15th_century', '16th_century', '17th_century'],
+      },
+      visualThemes: {
+        motifs: [
+          'Clockwork mechanisms',
+          'gears',
+          'springs',
+          'automatons',
+          'ornithopters',
+          'polished lenses',
+          'intricate carvings',
+        ],
+        colours: ['Gold', 'bronze', 'brass', 'wood tones', 'silver'],
+      },
+      connections: {
+        related: ['baroque', 'dungeonpunk', 'italian_renaissance', 'steampunk'],
+      },
+      mediaCulture: {
+        media: ["Assassin's Creed II (video game)", 'Dishonored 2 (video game)', 'Hugo (film)'],
+        figures: ['Leonardo da Vinci'],
+      },
+      timeline: {},
+    },
+  },
+  {
+    url: 'https://aesthetics.fandom.com/wiki/Cyberpunk',
+    name: 'Cyberpunk',
+    id: 'cyberpunk',
+    imageUrl: 'https://static.wikia.nocookie.net/aesthetics/images/7/78/Tumblr_pt47hcx0if1wek0r2_1280cyber.jpg',
+    description:
+      'It typically centers on marginalized antiheroes (mainly hackers, street criminals, renegade corporate workers, or other outsiders) who navigate or resist systems of control enforced by mega-corporations, opaque algorithms, and surveillant states, often using the very technologies that oppress them as tools of subversion. Stylistically indebted to hardboiled detective fiction and film noir, cyberpunk favors dense, neon-lit cityscapes, morally ambiguous characters, and narratives that foreground black markets, data smuggling, and corporate espionage, while thematically probing questions of identity, embodiment, and consciousness in an era where the boundaries between human and machine, physical and virtual, and individual agency and systemic power are increasingly unstable.[2][3][4] Cyberpunk’s philosophy begins from the tension of “high tech, low life”. It treats advanced technology not as a path to collective emancipation but as an amplifier of existing hierarchies, producing worlds where mega-corporations and opaque networks dominate precarious, marginalized populations, and where power is exercised through data extraction, pervasive surveillance, and the commodification of bodies and desires. These settings function as critiques of neoliberal capitalism and technocratic optimism, insisting that every new layer of infrastructure also becomes a new apparatus of control, debt, and dependency. Cyberpunk asks what freedom means when control is soft, distributed, and algorithmic rather than overtly authoritarian, suggesting that resistance must operate at the same level of networks, code, and media that structure everyday life.[5][6][7]',
+    categories: ['genre_fiction', 'music', 'fashion'],
+    isVisible: true,
+    metadata: {
+      origins: {
+        decade: ['20th_century', '1980s'],
+        location: ['North America and Japan'],
+        creator: ['William Gibson', 'Ridley Scott', 'Syd Mead', 'Katsuhiro Otomo'],
+      },
+      visualThemes: {
+        motifs: [
+          'Neon-lit cityscapes',
+          'cybernetics and prosthetics',
+          'rain-slicked streets',
+          'towering megastructures',
+          'computer terminals',
+          'hackers',
+          'holograms',
+          'Japanese kanji',
+          'tactical gear',
+          'wires and cables',
+        ],
+        colours: ['Black', 'neon blue', 'neon pink', 'neon purple', 'silver', 'chrome'],
+        values: [
+          'High-Tech/Low-Life',
+          'anti-authoritarianism',
+          'transhumanism',
+          'skepticism of corporate power',
+          'digital dystopia',
+        ],
+      },
+      connections: {
+        related: [
+          '90s_cool',
+          'abstract_tech',
+          'berlin_techno_fashion',
+          'biopunk',
+          'brutalism',
+          'cassette_futurism',
+          'cyberdelia',
+          'cyber_ghetto',
+          'cyberpop',
+          'cyberprep',
+          'cybertwee',
+          'dreampunk',
+          'early_cyber',
+          'electronic_body_music',
+          'glitch_art',
+          'hexatron',
+          'neo-tokyo',
+          'neon_noir',
+          'pc-98retrofuturism',
+          'rivethead',
+          'synthwave',
+          'steampunk',
+          'techwear',
+          'vaporwave',
+          'vectorheart',
+          'y2k_futurism',
+        ],
+      },
+      mediaCulture: {
+        media: [
+          'Neuromancer',
+          'Blade Runner',
+          'Akira',
+          'Ghost in the Shell',
+          'The Matrix',
+          'Johnny Mnemonic',
+          'Cyberpunk 2077',
+          'Deus Ex',
+          'Shadowrun',
+        ],
+        figures: ['Rick Deckard', 'Major Motoko Kusanagi', 'Neo', 'Case', 'Johnny Silverhand'],
+      },
+      timeline: {},
+    },
+  },
+  {
+    url: 'https://aesthetics.fandom.com/wiki/Decopunk',
+    name: 'Decopunk',
+    id: 'decopunk',
+    imageUrl: 'https://static.wikia.nocookie.net/aesthetics/images/a/a4/Debbie-ash-decopunk11.jpg',
+    description:
+      "Decopunk, also known as Ottensian Dieselpunk, is a subset of the -punk sci-fi genres (specifically Dieselpunk), centered around the Art Deco and Streamline Moderne art styles of the 1910s to 1940s. It has a sleeker and shiny aesthetic compared to Dieselpunk, which has a tendency to be more gritty and dark aesthetic to it. Often times, Decopunk will use slightly more modern technology compared to the times it's supposed to evoke like VHS tapes. Decopunk shares a lot in common with Dieselpunk aesthetics, but with more of a focus on the Art Deco style that was popular around the time.  A perfect visual example of the Decopunk aesthetic would be the original BioShock video game. A lot of Decopunk fashion does tend to draw upon Dieselpunk's similar influences, but there's definitely more of a focus on looking fashionable and classically presentable than there is on the grittiness one would find within the Dieselpunk genre. Definitely expect more zoot suits, dresses, and higher-end fashion in Decopunk circles than you would find within the Dieselpunk genre of aesthetics.",
+    categories: ['genre_fiction', 'fashion'],
+    isVisible: true,
+    metadata: {
+      origins: {
+        otherNames: ['Ottensian Dieselpunk'],
+      },
+      visualThemes: {
+        motifs: ['Elements of Streamline Moderne'],
+      },
+      connections: {
+        related: [
+          'art_deco',
+          'atompunk',
+          'dieselpunk',
+          'deco-luxe',
+          'decoplex',
+          'steampunk',
+          'streamline_moderne',
+          'factory_pomo',
+          'raygun_gothic',
+        ],
+      },
+      mediaCulture: {
+        media: [
+          'Bio',
+          'Shock',
+          'Batman: The Animated Series',
+          'Dick Tracy',
+          'The Shadow',
+          'Skullgirls',
+          'My Life as a Teenage Robot',
+        ],
+      },
+      timeline: {},
+    },
+  },
+  {
+    url: 'https://aesthetics.fandom.com/wiki/Dieselpunk',
+    name: 'Dieselpunk',
+    id: 'dieselpunk',
+    imageUrl: 'https://static.wikia.nocookie.net/aesthetics/images/b/be/Dieselpunk4-e1600124481256.jpg',
+    description:
+      'It often explores themes of war, espionage, totalitarianism, resistance, and the societal impact of technological advancement during this specific historical era. While the name implies diesel technology, the aesthetic also encompasses other industrial advancements and the cultural shifts of the early to mid-20th century. The "-punk" suffix denotes a countercultural approach, often examining society through a gritty, sometimes pessimistic, lens that contrasts with contemporary aesthetics. The aesthetic now known as Dieselpunk developed from a convergence of artistic and technological influences of the early to mid-20th century. While the visual and thematic elements existed in earlier works, the term "Dieselpunk" was formally coined in 2001 by game designer Lewis Pollak. He used this term to describe his tabletop role-playing game, Children of the Sun, aiming to articulate a style distinct from Steampunk, often characterized as darker and grittier.',
+    categories: ['genre_fiction', 'fashion'],
+    isVisible: true,
+    metadata: {
+      origins: {
+        decade: ['21th_century', '2000s'],
+      },
+      visualThemes: {
+        motifs: [
+          'Diesel-powered machinery',
+          'riveted surfaces',
+          'engine turning',
+          'aviation',
+          'vacuum tubes',
+          'Art Deco',
+          'Streamline Moderne',
+          'propaganda art',
+          'pulp fiction',
+        ],
+        colours: ['Black', 'grey', 'muted industrial tones', 'metallic shades'],
+        values: [
+          'Technological advancement',
+          'societal change',
+          'war',
+          'rebellion',
+          'dystopia',
+          'utopia',
+          'human-machine interaction',
+          'noir elements',
+        ],
+      },
+      connections: {
+        related: [
+          'adventure_pulp',
+          'art_deco',
+          'atompunk',
+          'cyberpunk',
+          'decopunk',
+          'film_noir',
+          'heroic_realism',
+          'post-apocalyptic',
+          'raygun_gothic',
+          'retrofuturism',
+          'steampunk',
+          'streamline_moderne',
+        ],
+      },
+      mediaCulture: {
+        media: [
+          'The Man in the High Castle',
+          'Sky Captain and the World of Tomorrow',
+          'Wolfenstein: The New Order',
+          'Bio',
+          'Shock',
+          'Mad Max',
+        ],
+        brands: ['World Brews (Dieselpunk Brew)'],
+        figures: ['Philip K. Dick', 'Hayao Miyazaki', 'Lewis Pollak', 'Jakub Różalski', 'Kow Yokoyama'],
+      },
+      timeline: {
+        preceded: ['steampunk'],
+        succeeded: ['atompunk', 'raygun_gothic'],
+      },
+    },
+  },
+  {
+    url: 'https://aesthetics.fandom.com/wiki/Junkpunk',
+    name: 'Junkpunk',
+    id: 'junkpunk',
+    imageUrl: 'https://static.wikia.nocookie.net/aesthetics/images/f/f8/Arrival-at-sky-harbour-small-crop.webp',
+    description:
+      "Junkpunk (also known as Salvagepunk or Scavenged Punk) is a stylized setting that focuses on technology and culture based on an unusual source: scavenged junk. Weapons, tools, clothing, and sometimes entire cities will be built out of repurposed/recycled materials. A key factor here is that said materials, often pieces of trash, are being used for something other than their original purpose (as opposed to simply being repaired and reused). In speculative fiction, this often takes place in the remnant of society after an apocalypse[1]. However, it can also be used to describe the reperpopusing rubbish in the contemporary era. This could include the DIY culture of Cuba discussed by Ernesto Oroza where people repurposed household electronic goods into new products due to the trade embargos on the country[2]. The commonplace refurbishing of western e-waste in developing countries where they are resold and used again[3]. In music critique, the term has been used to describe the repurposing and reforming of cultural detritus. Mark Fisher described Oneohtrix Point Never’s “Nobodies here” as junkpunk due to its sampling of Chris de Burgh’s “Lady in Red”. Summarising Evan Calder Williams' Fisher says:",
+    categories: ['genre_fiction'],
+    isVisible: true,
+    metadata: {
+      origins: {
+        otherNames: ['Salvagepunk', 'Scavenged Punk', 'Scrappunk'],
+        decade: ['21th_century', '2010s'],
+        creator: ['Evan Calder Williams', 'China Mieville'],
+      },
+      connections: {
+        related: [
+          'avant_apocalypse',
+          'post-apocalyptic_soft_apocalypse',
+          'hip-hop',
+          'post-punk',
+          'steampunk',
+          'cyberpunk',
+          'surrealism',
+          'hauntology',
+        ],
+      },
+      timeline: {},
+    },
+  },
+  {
+    url: 'https://aesthetics.fandom.com/wiki/Lunarpunk',
+    name: 'Lunarpunk',
+    id: 'lunarpunk',
+    imageUrl: 'https://static.wikia.nocookie.net/aesthetics/images/f/f5/Lunarpunk_fb.jpg',
+    description:
+      "Lunarpunk is an emerging subgenre of science fiction and a derivative of Solarpunk that envisions a sustainable and optimistic future, but with a focus on the nocturnal, spiritual, and individualistic aspects of society. While it shares the core ecological and hopeful goals of its sibling aesthetic, Lunarpunk serves as its complementary opposite, often described as the yin to Solarpunk's yang.[1] The aesthetic explores a world that thrives at night, illuminated not by the sun, but by moonlight, starlight, and most importantly, bioluminescence. It emphasizes introspection, spirituality, and a deep connection with the more mysterious elements of nature, such as fungi, moths, and the deep sea.[2] Lunarpunk provides a darker, more introspective counterpart to the bright, communal vision of Solarpunk. The relationship between the two can be understood through a series of analogies: if Solarpunk is the sun, Lunarpunk is the moon; if Solarpunk is the day, Lunarpunk is the night.",
+    categories: ['genre_fiction', 'fashion'],
+    isVisible: true,
+    metadata: {
+      origins: {
+        decade: ['21th_century', '2010s'],
+      },
+      visualThemes: {
+        motifs: [
+          'Bioluminescence',
+          'glowing mushrooms',
+          'nocturnal scenes',
+          'moon and stars',
+          'moths',
+          'spirituality',
+          'occult symbols',
+        ],
+        colours: ['Dark palettes (deep blue', 'purple', 'silver', 'black) with glowing accents'],
+        values: ['Individualism', 'spirituality', 'sustainability', 'introspection', 'harmony with nature'],
+      },
+      connections: {
+        related: ['solarpunk', 'dreampunk', 'cyberdelia', 'goth', 'naturecore', 'witch_house'],
+      },
+      timeline: {},
+    },
+  },
+  {
+    url: 'https://aesthetics.fandom.com/wiki/Mythpunk',
+    name: 'Mythpunk',
+    id: 'mythpunk',
+    imageUrl: 'https://static.wikia.nocookie.net/aesthetics/images/7/78/Tumblr_pt4ayxZnm91wek0r2_1280.jpg',
+    description:
+      'Mythpunk refers to a subgenre of mythic fiction in which classical folklore and faerie tales get hyper-poetic post-modern makeovers. Coined by author Catherynne M. Valente, the term describes a brand of speculative fiction which starts in folklore and myth and adds elements of post-modern fantastic techniques: urban fantasy, confessional poetry, non-linear storytelling, linguistic calisthenics, surrealism, world-building, and academic fantasy.',
+    categories: ['genre_fiction'],
+    isVisible: true,
+    metadata: {
+      origins: {
+        decade: ['unknown'],
+      },
+      visualThemes: {
+        motifs: [
+          'Urban Fantasy',
+          'non-linear storytelling',
+          'fairy tale retellings',
+          'Magical Realism',
+          'poetry',
+          'lyricism',
+          'morbidity',
+          'sensuality',
+          'Surrealism',
+          'horror',
+        ],
+      },
+      connections: {
+        related: [
+          'dark_fantasy',
+          'fantasy',
+          'dark_academia',
+          'goth',
+          'gothic',
+          'forestpunk',
+          'fairycore',
+          'strega',
+          'vampire',
+          'werewolf',
+          'new_romantic',
+        ],
+      },
+      mediaCulture: {
+        media: [
+          'Mythpunk:The Orphan’s Tales by Cathrynne M. Valente',
+          'Weetzie Bat by Francisca Lia Brock',
+          'The Bloody Chamber by Angela Carter',
+          'Red As Blood by Tanith Lee',
+          'Elfpunk:Terri Windling‘s Borderland',
+          'War For the Oaks by Emma Bull',
+          'The Book of Atrix Wolfe by Patricia A. Mc',
+          'Killip',
+          'Jack the Giant-Killer by Charles de Lint',
+        ],
+      },
+      timeline: {},
+    },
+  },
+  {
+    url: 'https://aesthetics.fandom.com/wiki/Oceanpunk',
+    name: 'Oceanpunk',
+    id: 'oceanpunk',
+    imageUrl: 'https://static.wikia.nocookie.net/aesthetics/images/f/f5/Oceanpunk.jpg',
+    description:
+      "Oceanpunk is a science fiction genre centred around technology used to explore, colonise or traverse the sea, as well as humanity's relationship with the sea in a sometimes apocalyptic or post-apocalyptic environment. Oceanpunk's visual aesthetic has a lot similarities and connections with steampunk, most notably the wooden ships and buildings and sometimes Victorian style technology. Not to be confused with Seapunk, a sea-themed fashion aesthetic popularised in the 2000s on Tumblr.",
+    categories: ['genre_fiction', 'historical'],
+    isVisible: true,
+    metadata: {
+      origins: {
+        decade: ['20th_century', '1990s'],
+      },
+      visualThemes: {
+        motifs: ['Ocean', 'ocean colonisation', 'ships', 'sea architecture', 'Pirates'],
+        colours: ['Blue', 'green', 'grey', 'brown', 'bronze', 'metallic'],
+        values: ['Ocean colonization', 'exploration'],
+      },
+      connections: {
+        related: [
+          'nautical',
+          'nautical_fantasy',
+          'seapunk',
+          'steampunk',
+          'biopunk',
+          'ocean_grunge',
+          'pirate',
+          'dark_nautical',
+        ],
+      },
+      mediaCulture: {
+        media: ['Waterworld'],
+      },
+      timeline: {},
+    },
+  },
+  {
+    url: 'https://aesthetics.fandom.com/wiki/Rocketpunk',
+    name: 'Rocketpunk',
+    id: 'rocketpunk',
+    imageUrl: 'https://static.wikia.nocookie.net/aesthetics/images/b/bc/Sci-fi_Alex_Schomburg.jpg',
+    description:
+      "The Rocketpunk aesthetic is based on retro-futuristic or near-futuristic depictions of spaceflight, space exploration, and settlement, usually with realistic (as in hard science fiction) or semi-realistic science and engineering considerations. As quoted by Winchell Chung's Atomic Rockets website, Rick Robinson of the Rocketpunk Manifesto blog specifically defines the term as retro-futuristic visions of space travel from the 1950s: advanced and cheap aerospace technology with primitive electronics.[1]",
+    categories: [],
+    isVisible: true,
+    metadata: {
+      origins: {
+        otherNames: ['Hard sci-fi (if realistic)NASApunk', 'COADEcore'],
+        decade: ['20th_century', '1950s', '1960s'],
+      },
+      visualThemes: {
+        motifs: ['Rocketry', 'space travel', 'cylinders', 'solar panels and radiators', 'realism'],
+        values: ['Human expansion into space'],
+      },
+      connections: {
+        related: [
+          'atompunk',
+          'raygun_gothic',
+          'retrofuturism',
+          'space_age',
+          'atomic_age',
+          'atompunk',
+          'raygun_gothic',
+          'googie',
+        ],
+      },
+      mediaCulture: {
+        media: [
+          '1950s-1960s sci-fi art2001: A Space Odyssey',
+          'Kerbal Space Program',
+          'Interstellar',
+          'The Martian',
+          'For All Mankind',
+        ],
+      },
+      timeline: {},
+    },
+  },
+  {
+    url: 'https://aesthetics.fandom.com/wiki/Rococopunk',
+    name: 'Rococopunk',
+    id: 'rococopunk',
+    imageUrl: 'https://static.wikia.nocookie.net/aesthetics/images/1/10/Rococopunk.jpg',
+    description:
+      'Rococopunk emerged from costuming groups in the early 2010s, presented as a reaction to the perceived commercialization and seriousness of the Steampunk subculture. The aesthetic is not intended to be historically accurate but rather serves as a playful reinterpretation of history.[2] Adherents of the style emphasize a sense of humor about their costumes and the subculture itself. Participants have described themselves with the portmanteau "classholes," a term meant to capture the fusion of aristocratic Rococo visuals with a defiant punk demeanor.[2] The core philosophy celebrates decadence and excess, deliberately contrasting with the more industrial and subdued color palettes often associated with Steampunk.[1] The visual style of Rococopunk is a literal fusion of Rococo and punk elements. The clothing, which is typically handmade by its wearers, draws from the late Baroque period, incorporating frilly garments, elaborate silhouettes, and colorful fabrics.[2][1] These historical components are then combined with punk fashion staples, such as mohawks and other anti-authoritarian stylistic choices. While the costuming movement is distinct, parallels can be drawn to the work of fashion designer Vivienne Westwood, who frequently blended 18th-century aesthetics with punk stylings. The performer Prince Poppycock, known from his appearance on The X Factor, has also presented a visual style that aligns with the Rococopunk aesthetic. The aesthetic has also been the subject of dedicated art projects, such as The RococoPunk Project by Fifth Wall Media, which created a large-scale "digital baroque painting" featuring numerous subjects in the style.[3]',
+    categories: ['internet_aesthetics', 'fashion'],
+    isVisible: true,
+    metadata: {
+      origins: {
+        decade: ['21th_century', '2010s'],
+        creator: ['Wilhelmina Frame', 'Nick Picard', 'Megan Maude', 'Brittany Anne (key participants)'],
+      },
+      visualThemes: {
+        motifs: ['Frills', 'lace', '18th-century silhouettes', 'powdered wigs', 'mohawks', 'punk accessories'],
+        colours: ['Pastels', 'rich and vibrant colors'],
+        values: ['Humor', 'rebellion', 'decadence', 'excess', 'anti-commercialism'],
+      },
+      connections: {
+        related: ['new_romantic', 'punk', 'rococo', 'steampunk'],
+      },
+      mediaCulture: {
+        figures: ['Prince Poppycock'],
+      },
+      timeline: {},
+    },
+  },
+  {
+    url: 'https://aesthetics.fandom.com/wiki/Sandalpunk',
+    name: 'Sandalpunk',
+    id: 'sandalpunk',
+    imageUrl: 'https://static.wikia.nocookie.net/aesthetics/images/5/5d/Tumblr_pt4amjYszp1wek0r2_1280.jpg',
+    description:
+      'Sandalpunk, also known as Bronzepunk, is a subgenre of Cyberpunk that is set in an alternate universe in which civilizations during the Ancient era have access to advanced fantastic Bronze-Age or Iron-Age technology. This would potentially lead to a less-isolated retro-futurist Greece that was never conquered or a retro-futurist Roman Empire that never fell. Prime examples would be the mechanical wonders in films like Jason and the Argonauts (1963) and Clash of the Titans (1981) or the God of War video game series. High-technology in such works is rare (usually a "one-off" by a genius philosopher or a hand-crafted "trade secret" product made by workshops of artificiers) but potentially indistinguishable from miracles or magic. Another example is the retro-futuristic blend of Imperial Rome and 1930s Fascist Italy in Julie Taymor\'s Titus (1999). There are motor vehicles, radios, and simple firearms, but war is still waged by armor-clad troops with swords and spears.',
+    categories: ['genre_fiction', 'historical'],
+    isVisible: true,
+    metadata: {
+      origins: {
+        otherNames: ['Bronzepunk'],
+        creator: ['Unknown'],
+      },
+      visualThemes: {
+        motifs: ['Ancient Greco-Roman architecture', 'futuristic technology'],
+        colours: ['White marble', 'gold', 'metal gray', 'blue'],
+      },
+      connections: {
+        related: ['steampunk', 'hellenic'],
+      },
+      timeline: {},
+    },
+  },
+  {
+    url: 'https://aesthetics.fandom.com/wiki/Silkpunk',
+    name: 'Silkpunk',
+    id: 'silkpunk',
+    imageUrl:
+      'https://static.wikia.nocookie.net/aesthetics/images/3/39/Yuandu-by-%E8%9A%B5%E4%BB%94%E4%B8%8D%E5%8A%A0%E8%9B%8B-v0-o1fj7a226tf81.webp',
+    description:
+      'Silkpunk is a subgenre of speculative fiction and an aesthetic that incorporates technology and design inspired by the materials, engineering traditions, and culture of late imperial and early-20th-century East Asia, especially Chinese, in a way similar to Steampunk. The term was conjoined by the author Ken Liu to describe his 2015 book The Grace of Kings and he mentions that it shouldn\'t be confused with Chinese science fiction due to his specific narrative, as he was writing Dandelion Dynasty series. Ken Liu described silkpunk as "a blend of science fiction and fantasy [that] draws inspiration from classical East Asian antiquity", with a "technology vocabulary (...) based on organic materials historically important to East Asia (bamboo, paper, silk) and seafaring cultures of the Pacific (coconut, feathers, coral)".[1] The aesthetic makes heavy use of pagodas, wooden/bamboo/paper mechanical objects (such as automata), similar to steampunk but more organic materials. Silkpunk inventions also include compasses and gunpowder.',
+    categories: [],
+    isVisible: true,
+    metadata: {
+      origins: {
+        otherNames: ['Sino-punk'],
+        decade: ['21th_century', '2010s'],
+        creator: ['Ken Liu'],
+      },
+      visualThemes: {
+        colours: ['gold', 'bronze', 'red'],
+      },
+      connections: {
+        related: ['steampunk'],
+      },
+      mediaCulture: {
+        media: ['Dandelion Dynasty series', 'Avatar the Last Airbender'],
+      },
+      timeline: {},
+    },
+  },
+  {
+    url: 'https://aesthetics.fandom.com/wiki/Solarpunk',
+    name: 'Solarpunk',
+    id: 'solarpunk',
+    imageUrl: 'https://static.wikia.nocookie.net/aesthetics/images/0/0d/Solarpunk_Paris.jpg',
+    description:
+      'Gained prevalence in the 2010s. Solarpunk futurism is not nihilistic like Cyberpunk and it avoids Steampunk\'s potentially quasi-reactionary tendencies: it is about ingenuity, generativity, independence, and community. At its core, Solarpunk is a vision of a future that embodies the best of what humanity can achieve: a post-scarcity, post-hierarchy, post-capitalistic world where humanity sees itself as part of nature and clean energy replaces fossil fuels. The Solarpunk Manifesto may be found here. A reference guide for all things Solarpunk may be found at this link, and more content may also be found at r/solarpunk and on solarpunks.net. In 2008, Solarpunk was coined in a blog called "From Steampunk to Solarpunk" by John Robert[2], detailing Steampunks philosophy but with practicality and ethics. Matt Stagg\'s "GreenPunk Manifesto" continued this philosophy adding ethical use of technology with ecological progress. But the aesthetic fully gained traction in 2014 with user Olivia Louise creating a concept art relating to aesthetic.',
+    categories: ['genre_fiction'],
+    isVisible: true,
+    metadata: {
+      origins: {
+        decade: ['21th_century', '2000s', '21th_century', '2010s'],
+        location: ['Brazil'],
+        creator: ['Matt Stagg', 'John Robert', 'Adam Flyn'],
+      },
+      visualThemes: {
+        motifs: [
+          'Stained glass solar panels',
+          'plant life',
+          'art noveau',
+          'cluttered visuals',
+          'African and Asian patterns.',
+        ],
+        colours: ['Green', 'yellow', 'blue', 'white'],
+        values: [
+          'Inclusion',
+          'community',
+          'environmental awareness',
+          'local businesses over corporations',
+          'renewable energy.',
+        ],
+      },
+      connections: {
+        related: [
+          'afrofuturism',
+          'art_nouveau',
+          'avant_apocalypse',
+          'biopunk',
+          'cottagecore',
+          'cyberprep',
+          'cyberpunk_contrastsfrutiger_aero',
+          'frutiger_eco',
+          'lunarpunk',
+          'technozen_naturecore',
+          'steampunk_contrastsindigenous_futurisms',
+        ],
+        overlaped: ['frutiger_eco'],
+      },
+      mediaCulture: {
+        figures: ['Luc Schuiten (architecture)', 'John Robert (coined the term)'],
+      },
+      timeline: {
+        preceded: ['cyberpunk', 'steampunk'],
+      },
+    },
+  },
+  {
+    url: 'https://aesthetics.fandom.com/wiki/Steampunk',
+    name: 'Steampunk',
+    id: 'steampunk',
+    imageUrl: 'https://static.wikia.nocookie.net/aesthetics/images/4/45/Steampunk_moodb.png',
+    description:
+      'While the term is modern, the roots of Steampunk can be traced to 19th-century scientific romance writers like Jules Verne and H.G. Wells, whose stories explored advanced technology through the lens of their time. These authors are considered foundational precursors, providing the seeds for the genre.[2] The visual aesthetic of modern Steampunk began to emerge in the mid-20th century, particularly in film and television that romanticized a Victorian vision of the future. The 1960s television series The Wild, Wild West is often cited as an early example of the blend of historical setting and futuristic technology that would define the aesthetic.[3] The literary genre was formally established in the 1980s. In 1987, author K.W. Jeter was looking for a collective term for the Victorian-era speculative fiction being written by himself (Infernal Devices), Tim Powers (The Anubis Gates), and James Blaylock. He jokingly suggested "steampunks" in a letter to Locus Magazine, and the name stuck.[1] The genre was further solidified with the publication of William Gibson and Bruce Sterling\'s 1990 novel The Difference Engine, which is considered a seminal work. Beginning in the mid-2000s, Steampunk grew from a literary genre into a broader subculture and maker movement, with a focus on fashion, crafting, music, and community events.[3] Steampunk\'s visual style is characterized by a combination of Victorian-era elegance and industrial functionality. The aesthetic heavily features materials like brass, copper, polished wood, leather, and glass, while avoiding plastics and other modern synthetics. Key motifs include exposed gears and cogs, analog clocks and dials, steam pipes, boilers, and intricate clockwork mechanisms. These elements are applied to everything from machinery and vehicles, such as airships and steam-powered automatons, to everyday objects.',
+    categories: ['genre_fiction', 'subcultures', 'fashion'],
+    isVisible: true,
+    metadata: {
+      origins: {
+        decade: ['20th_century', '1960s', '2000s', '2010s'],
+      },
+      visualThemes: {
+        motifs: [
+          'Victorian styles',
+          'gears',
+          'clocks',
+          'screws',
+          'coils',
+          'boilers',
+          'cogs',
+          'springs',
+          'steam engines',
+          'brass',
+          'top hats',
+          'waistcoats',
+          'crinoline',
+          'goggles',
+          'pipes',
+          'tubes',
+          'wheels',
+          'dials',
+        ],
+        colours: ['Bronze', 'brown', 'copper', 'golden', 'metallic'],
+        values: ['Craftsmanship', 'optimism', 'ingenuity', 'self-sufficiency', 'eclecticism'],
+      },
+      connections: {
+        related: [
+          'atompunk',
+          'art_nouveau',
+          'clockpunk',
+          'cyberpunk',
+          'dark_academia',
+          'dark_cabaret',
+          'decopunk',
+          'dieselpunk',
+          'gothic',
+          'lolita',
+          'new_romantic',
+          'post-apocalyptic',
+          'punk',
+          'raygun_gothic',
+          'retrofuturism',
+          'rococopunk',
+          'romantic_goth',
+          'silkpunk',
+          'victorian',
+          'victorian_goth',
+        ],
+      },
+      timeline: {},
+    },
+  },
+  {
+    url: 'https://aesthetics.fandom.com/wiki/Stonepunk',
+    name: 'Stonepunk',
+    id: 'stonepunk',
+    imageUrl: 'https://static.wikia.nocookie.net/aesthetics/images/5/59/Dinosaur_rider.jpg',
+    description:
+      "Stonepunk mixes prehistoric materials with “modern” technology, creating a Stone Age that looks oddly advanced.[1] It shows familiar objects and infrastructure (like cars, houses, appliances, and even computers) re‑imagined as if cave people built them from what they had on hand.[1][2] Common materials are rough stone blocks, carved menhirs, knapped flint, bone, antler, wood, leather, fur, woven reeds, and crude clay or mudbrick. Surfaces tend to look heavy, chipped, and handmade rather than smooth or machined, with visible rope lashings, wedges, and pegs instead of nails or bolts.[3][1] Everyday technology is “high concept, low materials”. In this case, wheels are stone discs, axles are wood, power often comes from muscle, water, wind, or there are tamed animals doing jobs we’d give to motors. You'd see things like animal-powered vehicles, rock or bone “computers” or control panels, mammoths as cranes, or dinosaurs doing the work of cars, dishwashers, or elevators.[2][1][3] Buildings are usually caves, cliff dwellings, stacked stone huts, timber frames infilled with hides or mud, and megastructures carved into rock faces. Settlements often sit in dramatic prehistoric landscapes with tools, fences, and totems made from skulls, tusks, and gigantic bones.[1] Characters typically wear loincloths, furs, leather wraps, bone jewelry, teeth and claw adornments, and simple woven pieces, sometimes mixed with surprising “advanced” items like goggles, armor plates, or mechanical prosthetics made from bone and scrap. War paint, tattoos, and tribal hairstyles reinforce the primal feel, even when characters are clearly clever engineers or inventors.[3][2] In lighter takes, devices parody modern life using creatures as living machines for humor. In more serious or post‑apocalyptic variations, themes and tropes like survival, ritual, and awe at rediscovered technology have a heavy emphasis (for example, tribal hunters with antler bows facing robot beasts in a ruined world).[1][3][2]",
+    categories: ['genre_fiction'],
+    isVisible: true,
+    metadata: {
+      origins: {
+        otherNames: ['Flintstone', 'Caveman tech', 'Prehistoric tech', 'Neolithic tech', 'Stone age technology'],
+        decade: ['21th_century', '2000s'],
+        creator: ['Frank Wu Wu'],
+      },
+      visualThemes: {
+        motifs: [
+          'Primitive technology',
+          'Tribal societies',
+          'Steampunk elements',
+          'Natural world',
+          'Exploration and discovery',
+          'Conflict and survival',
+          'Myth and legend',
+          'Innovation and ingenuity',
+        ],
+        colours: ['Earthy tones', 'Rustic reds', 'Charcoal grey', 'Mustard yellow', 'Earthy blues'],
+      },
+      connections: {
+        related: ['forestpunk'],
+      },
+      timeline: {},
+    },
+  },
+  {
+    url: 'https://aesthetics.fandom.com/wiki/Teslapunk',
+    name: 'Teslapunk',
+    id: 'teslapunk',
+    imageUrl: 'https://static.wikia.nocookie.net/aesthetics/images/2/28/Telsapunk.jpg',
+    description:
+      'CyberpunkDecopunkDieselpunkRetrofuturismSteampunkVictorian Teslapunk is a microgenre of speculative fiction similar to Steampunk, principally based around electricity. It is named after the scientist and inventor Nikola Tesla, as the stories and artworks are mainly inspired by the electricity and machines he developed,[1] and refers to fictional narratives or visual styles inspired by 18th, 19th, and early 20th century pioneers of electricity and electric devices. Some visuals prominent in Teslapunk include:',
+    categories: ['genre_fiction', 'historical'],
+    isVisible: true,
+    metadata: {
+      origins: {
+        decade: ['21th_century', '2000s'],
+      },
+      visualThemes: {
+        motifs: [
+          'Victorian style',
+          'electricity',
+          'teslacoils',
+          'screws',
+          'steam engines',
+          'brass',
+          'top hats',
+          'waistcoats',
+          'crinoline',
+          'goggles',
+          'electric power',
+        ],
+        colours: ['Light blue', 'bronze'],
+        values: [
+          'Consciously advocates  widely available cheap (or free)',
+          'clean',
+          'and often highly portable electrical energy to replace all previous energy sources',
+        ],
+      },
+      connections: {
+        related: ['atompunk', 'cyberpunk', 'decopunk', 'dieselpunk', 'retrofuturism', 'steampunk', 'victorian'],
+      },
+      timeline: {},
+    },
+  },
+];

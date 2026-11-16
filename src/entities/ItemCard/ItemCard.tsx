@@ -5,10 +5,31 @@ import InfoCircle, { InfoCircleVariant } from '@shared/components/InfoCircle';
 import type { ItemCardProps } from './ItemCard.types';
 import useWardrobe from '@shared/stores/wardrobe.store';
 import { EditOutlined } from '@ant-design/icons';
+import useUpcycling from '@shared/stores/upcucling.store';
+import { useCallback } from 'react';
 
-const ItemCard = ({ item }: ItemCardProps) => {
+const ItemCard = ({ item, type }: ItemCardProps) => {
   const { comment, url, name, toUpcycle, notOwned, category, subcategory } = item;
-  const { setCurrentItem, setIsModalOpened } = useWardrobe((state) => state);
+  const { setCurrentItem: setCurrentWardrobeItem, setIsModalOpened: setWardrobeModalOpen } = useWardrobe(
+    (state) => state,
+  );
+  const { setCurrentItem: setCurrentUpcyclingItem, setIsModalOpened: setUpcyclingeModalOpen } = useUpcycling(
+    (state) => state,
+  );
+  const onClickFunc = useCallback(() => {
+    switch (type) {
+      case 'wardrobe': {
+        setCurrentWardrobeItem(item);
+        setWardrobeModalOpen(true);
+        break;
+      }
+      case 'upcycling': {
+        setCurrentUpcyclingItem(item);
+        setUpcyclingeModalOpen(true);
+        break;
+      }
+    }
+  }, [type]);
   return (
     <StyledCard vertical>
       <Flex justify="space-between" align="center">
@@ -21,6 +42,7 @@ const ItemCard = ({ item }: ItemCardProps) => {
         </Flex>
       </Flex>
       <Image
+        preview={false}
         alt="basic image"
         width={300}
         height={300}
@@ -31,12 +53,11 @@ const ItemCard = ({ item }: ItemCardProps) => {
       <Flex justify="space-between">
         <Flex>
           <Tag color="blue-inverse">{category.name}</Tag>
-          <Tag color="geekblue">{subcategory.name}</Tag>
+          <Tag color="cyan">{subcategory.name}</Tag>
         </Flex>
         <Button
           onClick={() => {
-            setCurrentItem(item);
-            setIsModalOpened(true);
+            onClickFunc();
           }}
           shape="circle"
           icon={<EditOutlined />}

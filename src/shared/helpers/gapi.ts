@@ -33,13 +33,13 @@ export const uploadFileDirectly = async (file: File) => {
 
 // Где-то в начале, например, в useEffect или при загрузке страницы
 export const auth2 = await loadAuth2(
-  gapi, // или просто gapi, если он глобально загружен
-  'ТВОЙ_CLIENT_ID.apps.googleusercontent.com',
+  gapi,
+  import.meta.env.VITE_GOOGLE_CLIENT_ID,
   'https://www.googleapis.com/auth/drive.file', // или 'https://www.googleapis.com/auth/drive.readonly' если только просмотр
 );
 
 // Теперь у тебя есть объект auth2. Он нужен, чтобы войти:
-const isSignedIn = auth2.isSignedIn.get(); // true/false
+export const isSignedIn = auth2.isSignedIn.get(); // true/false
 if (!isSignedIn) {
   auth2.signIn(); // Показывает окно входа
 }

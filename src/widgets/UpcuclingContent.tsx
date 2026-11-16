@@ -18,7 +18,7 @@ const UpcuclingContent = () => {
       <Flex gap={16} wrap>
         {!items.length && <Empty />}
         {items.map((item) => (
-          <ItemCard item={item} />
+          <ItemCard item={item} type="upcycling" />
         ))}
       </Flex>
     </Flex>

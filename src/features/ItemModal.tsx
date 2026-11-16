@@ -14,6 +14,8 @@ import {
   type UploadProps,
   type DrawerProps,
   Modal,
+  Image,
+  Space,
 } from 'antd';
 
 import { LoadingOutlined, PlusOutlined } from '@ant-design/icons';
@@ -22,6 +24,7 @@ import { ModalVariants } from '../shared/types';
 import { CategoriesView } from '../shared/constants/labels';
 import { useState } from 'react';
 import useWardrobe from '@shared/stores/wardrobe.store';
+import ImagePreview from '@shared/components/ImagePreview/ImagePreview';
 
 export interface ItemModalProps {}
 
@@ -69,7 +72,6 @@ const ItemModal = ({}: ItemModalProps) => {
       return;
     }
     if (info.file.status === 'done') {
-      // Get this url from response in real world.
       getBase64(info.file.originFileObj as FileType, (url) => {
         setLoading(false);
         setImageUrl(url);
@@ -95,6 +97,8 @@ const ItemModal = ({}: ItemModalProps) => {
       {contextHolder}
 
       <Flex vertical gap={2}>
+        {currentItem && <ImagePreview urls={[currentItem.url]} />}
+
         <Upload
           name="avatar"
           listType="picture-card"

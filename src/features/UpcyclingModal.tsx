@@ -26,7 +26,7 @@ const UpcyclingModal = ({}: UpcyclingModalProps) => {
         key: step.key,
         label: <Input defaultValue={step.label} />,
         children: <div>dfdf</div>,
-        extra: genExtra(),
+        open: true,
       })),
     [steps],
   );
@@ -34,9 +34,6 @@ const UpcyclingModal = ({}: UpcyclingModalProps) => {
   return (
     <Modal title={''} open={isModalOpened} onCancel={() => setIsModalOpened(false)} closable={false} width={800}>
       <Flex gap={4} style={{ width: 800 }}>
-        <Flex vertical gap={2}>
-          <Collapse items={items} />
-        </Flex>
         <Flex vertical gap={2}>
           <Collapse items={items} />
         </Flex>
